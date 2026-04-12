@@ -1,0 +1,264 @@
+{
+  "tmdb_id": 456,
+  "title": "The Simpsons",
+  "network": "Fox",
+  "years": "1989-present",
+  "hero": "./images/simpsons/hero.jpg",
+  "backdrop": "./images/simpsons/backdrop.jpg",
+  "description": "The longest-running American animated series and primetime scripted TV series, following the dysfunctional Simpson family in Springfield. Created by Matt Groening.",
+  "total_episodes": 790,
+  "characters": [
+    {
+      "id": "homer",
+      "name": "Homer Simpson",
+      "portrait": "./images/simpsons/characters/homer.jpg"
+    },
+    {
+      "id": "marge",
+      "name": "Marge Simpson",
+      "portrait": "./images/simpsons/characters/marge.jpg"
+    },
+    {
+      "id": "bart",
+      "name": "Bart Simpson",
+      "portrait": "./images/simpsons/characters/bart.jpg"
+    },
+    {
+      "id": "lisa",
+      "name": "Lisa Simpson",
+      "portrait": "./images/simpsons/characters/lisa.jpg"
+    },
+    {
+      "id": "maggie",
+      "name": "Maggie Simpson",
+      "portrait": "./images/simpsons/characters/maggie.jpg"
+    },
+    {
+      "id": "grandpa",
+      "name": "Grampa Simpson",
+      "portrait": "./images/simpsons/characters/grandpa.jpg"
+    },
+    {
+      "id": "burns",
+      "name": "Mr. Burns",
+      "portrait": "./images/simpsons/characters/burns.jpg"
+    },
+    {
+      "id": "flanders",
+      "name": "Ned Flanders",
+      "portrait": "./images/simpsons/characters/flanders.jpg"
+    },
+    {
+      "id": "moe",
+      "name": "Moe Szyslak",
+      "portrait": "./images/simpsons/characters/moe.jpg"
+    },
+    {
+      "id": "milhouse",
+      "name": "Milhouse Van Houten",
+      "portrait": "./images/simpsons/characters/milhouse.jpg"
+    },
+    {
+      "id": "krusty",
+      "name": "Krusty the Clown",
+      "portrait": "./images/simpsons/characters/krusty.jpg"
+    },
+    {
+      "id": "sideshow_bob",
+      "name": "Sideshow Bob",
+      "portrait": "./images/simpsons/characters/sideshow_bob.jpg"
+    },
+    {
+      "id": "apu",
+      "name": "Apu Nahasapeemapetilon",
+      "portrait": "./images/simpsons/characters/apu.jpg"
+    },
+    {
+      "id": "barney",
+      "name": "Barney Gumble",
+      "portrait": "./images/simpsons/characters/barney.jpg"
+    },
+    {
+      "id": "wiggum",
+      "name": "Chief Wiggum",
+      "portrait": "./images/simpsons/characters/wiggum.jpg"
+    },
+    {
+      "id": "skinner",
+      "name": "Principal Skinner",
+      "portrait": "./images/simpsons/characters/skinner.jpg"
+    },
+    {
+      "id": "smithers",
+      "name": "Waylon Smithers",
+      "portrait": "./images/simpsons/characters/smithers.jpg"
+    },
+    {
+      "id": "ralph",
+      "name": "Ralph Wiggum",
+      "portrait": "./images/simpsons/characters/ralph.jpg"
+    },
+    {
+      "id": "nelson",
+      "name": "Nelson Muntz",
+      "portrait": "./images/simpsons/characters/nelson.jpg"
+    },
+    {
+      "id": "lenny_carl",
+      "name": "Lenny & Carl",
+      "portrait": "./images/simpsons/characters/lenny_carl.jpg"
+    },
+    {
+      "id": "fat_tony",
+      "name": "Fat Tony",
+      "portrait": "./images/simpsons/characters/fat_tony.jpg"
+    },
+    {
+      "id": "snake",
+      "name": "Snake Jailbird",
+      "portrait": "./images/simpsons/characters/snake.jpg"
+    },
+    {
+      "id": "comic_book_guy",
+      "name": "Comic Book Guy",
+      "portrait": "./images/simpsons/characters/comic_book_guy.jpg"
+    },
+    {
+      "id": "sideshow_mel",
+      "name": "Sideshow Mel",
+      "portrait": "./images/simpsons/characters/sideshow_mel.jpg"
+    },
+    {
+      "id": "patty_selma",
+      "name": "Patty & Selma",
+      "portrait": "./images/simpsons/characters/patty_selma.jpg"
+    },
+    {
+      "id": "lionel_hutz",
+      "name": "Lionel Hutz",
+      "portrait": "./images/simpsons/characters/lionel_hutz.jpg"
+    },
+    {
+      "id": "troy_mcclure",
+      "name": "Troy McClure",
+      "portrait": "./images/simpsons/characters/troy_mcclure.jpg"
+    },
+    {
+      "id": "chalmers",
+      "name": "Superintendent Chalmers",
+      "portrait": "./images/simpsons/characters/chalmers.jpg"
+    },
+    {
+      "id": "kent_brockman",
+      "name": "Kent Brockman",
+      "portrait": "./images/simpsons/characters/kent_brockman.jpg"
+    },
+    {
+      "id": "dr_nick",
+      "name": "Dr. Nick Riviera",
+      "portrait": "./images/simpsons/characters/dr_nick.jpg"
+    },
+    {
+      "id": "professor_frink",
+      "name": "Professor Frink",
+      "portrait": "./images/simpsons/characters/professor_frink.jpg"
+    },
+    {
+      "id": "cletus",
+      "name": "Cletus Spuckler",
+      "portrait": "./images/simpsons/characters/cletus.jpg"
+    },
+    {
+      "id": "dr_hibbert",
+      "name": "Dr. Hibbert",
+      "portrait": "./images/simpsons/characters/dr_hibbert.jpg"
+    },
+    {
+      "id": "mayor_quimby",
+      "name": "Mayor Quimby",
+      "portrait": "./images/simpsons/characters/mayor_quimby.jpg"
+    },
+    {
+      "id": "rainier_wolfcastle",
+      "name": "Rainier Wolfcastle",
+      "portrait": "./images/simpsons/characters/rainier_wolfcastle.jpg"
+    },
+    {
+      "id": "herbert_powell",
+      "name": "Herbert Powell",
+      "portrait": "./images/simpsons/characters/herbert_powell.jpg"
+    },
+    {
+      "id": "otto",
+      "name": "Otto Mann",
+      "portrait": "./images/simpsons/characters/otto.jpg"
+    },
+    {
+      "id": "willie",
+      "name": "Groundskeeper Willie",
+      "portrait": "./images/simpsons/characters/willie.jpg"
+    },
+    {
+      "id": "rod_todd",
+      "name": "Rod & Todd Flanders",
+      "portrait": "./images/simpsons/characters/rod_todd.jpg"
+    },
+    {
+      "id": "bleeding_gums",
+      "name": "Bleeding Gums Murphy",
+      "portrait": "./images/simpsons/characters/bleeding_gums.jpg"
+    }
+  ],
+  "eras": [
+    {
+      "id": "golden",
+      "label": "The Golden Age",
+      "seasons": "1-8",
+      "years": "1989-1997",
+      "episode_count": 178,
+      "description": "The untouchable era. From Homer's Odyssey to You Only Move Twice.",
+      "data_file": "simpsons_golden.json",
+      "available": true
+    },
+    {
+      "id": "classic",
+      "label": "The Classic Era",
+      "seasons": "9-12",
+      "years": "1997-2001",
+      "episode_count": 91,
+      "description": "Still unmissable, but the cracks begin. Homer's Enemy. Trash of the Titans.",
+      "data_file": "simpsons_classic.json",
+      "available": true
+    },
+    {
+      "id": "middle",
+      "label": "The Middle Years",
+      "seasons": "13-20",
+      "years": "2001-2009",
+      "episode_count": 172,
+      "description": "The show reinvents itself. Bolder experiments, bigger guests, and the Movie.",
+      "data_file": "simpsons_middle.json",
+      "available": true
+    },
+    {
+      "id": "modern_a",
+      "label": "The Modern Era",
+      "seasons": "21-28",
+      "years": "2009-2017",
+      "episode_count": 177,
+      "description": "The long run continues. Springfield keeps evolving with the times.",
+      "data_file": "simpsons_modern_a.json",
+      "available": true
+    },
+    {
+      "id": "modern_b",
+      "label": "The Modern Era",
+      "seasons": "29-37",
+      "years": "2017-present",
+      "episode_count": 172,
+      "description": "Springfield in the streaming age. Collection through Season 37.",
+      "data_file": "simpsons_modern_b.json",
+      "available": true
+    }
+  ]
+}

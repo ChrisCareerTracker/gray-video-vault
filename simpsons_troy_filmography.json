@@ -1,0 +1,207 @@
+{
+  "character": "Troy McClure",
+  "actor": "Phil Hartman",
+  "intro": "Hi, I'm Troy McClure! You may remember me from such",
+  "categories": [
+    {
+      "id": "films",
+      "label": "Films",
+      "icon": "🎬",
+      "items": [
+        "A Bridge Too Far",
+        "A Fish Taco Called Juanita",
+        "All the President's Monkeys",
+        "An American in Toronto",
+        "Android Beach Party",
+        "Astro-Heist: Gemini-3",
+        "Back to the Sequel",
+        "Butter: The Motion Picture",
+        "Calling All Lumberjacks",
+        "Calling All Quakers",
+        "Coffee, Tea, or Fiddle Dee Dee",
+        "Cry Yuma",
+        "Cut it Out: The Wacky Adventures of Jack the Ripper",
+        "Darling Beefeater",
+        "David vs. Super-Goliath",
+        "Dial M for Murderousness",
+        "Dracula's Disco-Studio Fifty Gore",
+        "Driving Mr. T",
+        "Duluth, I'll Grow On You",
+        "Eenie Meeni Miney, Die",
+        "Eeny-Meeny-Miney Murphreesborough",
+        "Fairbanks Needs Women",
+        "Freedonia: Gateway to Wichita",
+        "Give My Remains to Broadway",
+        "Gladys the Groovy Mule",
+        "Good-Time Slim, Uncle Doobie, and the Great Frisco Freak-Out",
+        "Hats Off To Fargo",
+        "Here Comes the Coast Guard",
+        "Hitler Doesn't Live Here Anymore",
+        "Human Fondue: Surviving the Wisconsin Dell's Cheese Factory Explosion",
+        "Hydro, the Man with the Hydraulic Arms",
+        "I Left My Soul In Sacramento",
+        "It's a Wonderful Belt",
+        "Jagged Attraction",
+        "Leper in the Backfield",
+        "Living, Loving and Lubbock",
+        "Look Who's Still Oinking",
+        "Make-Out King of Montana",
+        "Meet Joe Blow",
+        "P is for Psycho",
+        "Pinch Me, I'm In Boise",
+        "Preacher with a Shovel",
+        "Radioactive Man II: Bring On The Sequel",
+        "Radioactive Man III",
+        "Saturnforce000",
+        "Sleepless in Shelbyville",
+        "Smother Me In Shreveport",
+        "Space Mutants VII: Cry of the Space Mutant",
+        "Suddenly Tulsa",
+        "Suddenly, Last Supper",
+        "Swing, Swang, Swung",
+        "Tender Lovin' Newark",
+        "The Boatjacking of Supership 79",
+        "The Computer Wore Puka Shells",
+        "The Contrabulous Fabtraption of Professor Horatio Hufnagel",
+        "The Cougar and the Polka King",
+        "The Day Paul Bunyan Cried",
+        "The Electric Gigolo",
+        "The Erotic Adventures of Hercules",
+        "The Frontier Family Get Deer Ticks",
+        "The Greatest Story Ever Hulaed",
+        "The Mediocre Journey",
+        "The Muppets Go Medieval",
+        "The President's Neck is Missing!",
+        "The Pulverizer",
+        "The Revenge of Abe Lincoln",
+        "The Unbearable Moistness of Sweating",
+        "The Verdict Was Mail Fraud",
+        "The Wackiest Covered Wagon in the West",
+        "They Came to Burgle Carnegie Hall",
+        "Three Dames and a Dam",
+        "Three Men and a Bunsen Burner",
+        "Three Men and a Nuke",
+        "Today We Kill, Tomorrow We Die",
+        "Wake Up, Finnegan",
+        "Yuma: It's Seniorific"
+      ]
+    },
+    {
+      "id": "educational",
+      "label": "Educational Films & Self-Help Videos",
+      "icon": "📚",
+      "items": [
+        "Adjusting Your Self-O-Stat",
+        "Alice Doesn't Live Any More",
+        "Alice's Adventures Through the Windshield Glass",
+        "Birds: Our Fine Feathered Colleagues",
+        "The Decapitation of Larry Leadfoot",
+        "Designated Drivers: The Lifesaving Nerds",
+        "Dig Your Own Grave and Save",
+        "Earwigs, Ew!",
+        "Firecrackers: The Silent Killer",
+        "Fuzzy Bunny's Guide to You Know What",
+        "Get Confident, Stupid",
+        "The Half-Assed Approach to Foundation Repair",
+        "Here Comes the Metric System!",
+        "Lead Paint: Delicious But Deadly",
+        "Locker Room Towel Fight: The Blinding of Larry Driscoll",
+        "Man Versus Nature: The Road to Victory",
+        "Meat and You: Partners in Freedom",
+        "Mommy, What's Wrong With That Man's Face?",
+        "Mothballing Your Battleship",
+        "Phony Tornado Alerts Reduce Readiness",
+        "Shoplifters BEWARE",
+        "Smoke Yourself Thin",
+        "Someone's in the Kitchen with DNA!",
+        "The Juice Loosener",
+        "Two Minus Three Equals Negative Fun!",
+        "Welcome to Springfield Airport",
+        "Where's Nordstrom?",
+        "Young Jebediah Springfield"
+      ]
+    },
+    {
+      "id": "tv_specials",
+      "label": "TV Specials",
+      "icon": "📺",
+      "items": [
+        "Alien Nose Job",
+        "Carnival of the Stars",
+        "Five Fabulous Weeks of the Chevy Chase Show",
+        "Let's Save Tony Orlando's House",
+        "Out With Gout '88",
+        "Springfield Public Television Telethon",
+        "The Miss American Girl Pageant",
+        "The Simpsons 138th Episode Spectacular",
+        "The Simpsons Spin-Off Showcase",
+        "Troy and Company's Summertime Smile Factory",
+        "Troy McClure's Aloha from Louie's House of Shaved Ice"
+      ]
+    },
+    {
+      "id": "tv_series",
+      "label": "TV Series",
+      "icon": "🎞️",
+      "items": [
+        "AfterMannix",
+        "Antiques Rodeo",
+        "Barnum: The Animated Series",
+        "Buck Henderson, Union Buster",
+        "Chair Fancy",
+        "Handle with Care",
+        "I Can't Believe They Invented It!",
+        "Pimp My Armorie!",
+        "Son of Sanford and Son",
+        "Ten Is Too Many!",
+        "The Adventures of Achilles",
+        "Troy McClure's Pre-Teen Soul Machine",
+        "Troy McClure's TV Career Turning Point: Director's Chair or Elephant Graveyard"
+      ]
+    },
+    {
+      "id": "musicals",
+      "label": "Musicals",
+      "icon": "🎭",
+      "items": [
+        "Stop the Planet of the Apes, I Want to Get Off!"
+      ]
+    },
+    {
+      "id": "celebrity_funerals",
+      "label": "Celebrity Funerals",
+      "icon": "🌹",
+      "items": [
+        "André the Giant, We Hardly Knew Ye",
+        "Shemp Howard: Today We Mourn a Stooge"
+      ]
+    },
+    {
+      "id": "science_projects",
+      "label": "Science Projects",
+      "icon": "🔬",
+      "items": [
+        "Condos on Mars",
+        "Operation Lice"
+      ]
+    },
+    {
+      "id": "video_guides",
+      "label": "Video Guides",
+      "icon": "📼",
+      "items": [
+        "Video Tour Guide to Rancho Relaxo"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "And Much More",
+      "icon": "⭐",
+      "items": [
+        "HELLO, I'm SWM. You may remember me from such ads as 4bdrm w/frplc and Nova A/C, Pwr Str. Seeking Ichthyologist. Call 55-FISH WD9S",
+        "Muttonchops",
+        "Trucks"
+      ]
+    }
+  ]
+}

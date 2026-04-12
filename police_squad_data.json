@@ -1,0 +1,211 @@
+{
+  "series": {
+    "title": "Police Squad!",
+    "network": "ABC",
+    "years": "1982",
+    "seasons": 1,
+    "total_episodes": 6,
+    "description": "Created by Zucker, Abrahams and Zucker (Airplane!), Leslie Nielsen stars as the deadpan Det. Lt. Frank Drebin of Police Squad. Only 6 episodes aired before ABC cancelled it — calling it the most stupid reason ever given for cancellation. The series spawned The Naked Gun film trilogy. TV Guide ranked it #7 on its list of 60 shows Cancelled Too Soon.",
+    "hero": "./images/police-squad/hero.jpg",
+    "poster": "./images/police-squad/poster.jpg",
+    "backdrop": "./images/police-squad/hero.jpg"
+  },
+  "characters": [
+    { "id": "drebin",  "name": "Lt. Frank Drebin",  "actor": "Leslie Nielsen" },
+    { "id": "hocken",  "name": "Capt. Ed Hocken",   "actor": "Alan North" },
+    { "id": "norberg", "name": "Officer Norberg",    "actor": "Peter Lupus" },
+    { "id": "johnny",  "name": "Johnny the Shoeshine Boy", "actor": "William Duell" },
+    { "id": "ted",     "name": "Ted Olson",          "actor": "Ed Williams" }
+  ],
+  "running_gags": [
+    { "id": "freeze_frame",     "label": "Freeze Frame Ending",      "emoji": "🎬", "description": "Every episode ends with a fake freeze frame — the actors keep moving while the announcer reads credits." },
+    { "id": "johnny",           "label": "Johnny the Shoeshine Boy",  "emoji": "👟", "description": "The best-connected informant in the city, charging a dollar a shine while dispensing priceless intelligence." },
+    { "id": "lab",              "label": "Ted Olson's Lab",           "emoji": "🔬", "description": "Ted demonstrates increasingly absurd gadgets and forensic equipment, invariably injuring himself." },
+    { "id": "credits_death",    "label": "Opening Credits Death",     "emoji": "⭐", "description": "A celebrity guest star is announced in the opening titles, then immediately killed before they can appear." },
+    { "id": "drebin_narration", "label": "Drebin Narration",          "emoji": "🎙️", "description": "Frank's deadpan noir voiceover states the blindingly obvious or wildly misreads the situation." },
+    { "id": "sight_gag",        "label": "Background Sight Gag",      "emoji": "👁️", "description": "Visual jokes play out unacknowledged in the background while the foreground scene continues normally." },
+    { "id": "non_sequitur",     "label": "Literal Non Sequitur",      "emoji": "🔤", "description": "Characters take idioms and figures of speech completely literally, or respond to entirely different meanings." }
+  ],
+  "episodes": [
+    {
+      "id": "S01E01",
+      "season": 1,
+      "episode": 1,
+      "announced_title": "A Substantial Gift",
+      "shown_title": "The Broken Promise",
+      "air_date": "1982-03-04",
+      "still": "./images/police-squad/s01e01_still.jpg",
+      "overview": "Lt. Frank Drebin investigates the murder of his partner, Officer Schwartz, who was killed while on a routine stakeout. The trail leads to a criminal enterprise involving a lounge singer and a mysterious gift.",
+      "villain": "Vincent Ludwig",
+      "case": "Murder of Officer Schwartz",
+      "credits_death": {
+        "guest": "Lorne Greene",
+        "fate": "Shot while giving an interview, slumps over mid-sentence"
+      },
+      "freeze_frame": {
+        "subject": "Drebin pouring champagne — the bottle keeps pouring, his arm keeps moving",
+        "announced_action": "A toast to justice"
+      },
+      "johnny_topic": "The location of a stolen shipment; reveals it while polishing a shoe, charges one dollar",
+      "lab_scene": "Ted demonstrates a new fingerprint analyzer that sprays ink everywhere, covering both him and Drebin",
+      "notable_sight_gags": [
+        "A man is being robbed in the background while Drebin speaks to a witness who ignores it completely",
+        "A fire breaks out in a trash can behind the interrogation scene and a janitor calmly extinguishes it",
+        "The 'POLICE SQUAD' sign on the door is being installed incorrectly by a workman throughout the scene"
+      ],
+      "drebin_narration": "\"It was a quiet Tuesday in the city. The kind of quiet that makes you want to find some noise.\"",
+      "tags": ["freeze_frame", "johnny", "lab", "credits_death", "drebin_narration", "sight_gag"],
+      "tmdb_guests": ["Lorne Greene", "Florence Halop", "Jorge Cervera Jr.", "Jesse D. Goins"]
+    },
+    {
+      "id": "S01E02",
+      "season": 1,
+      "episode": 2,
+      "announced_title": "Ring of Fear",
+      "shown_title": "A Dangerous Assignment",
+      "air_date": "1982-03-11",
+      "still": "./images/police-squad/s01e02_still.jpg",
+      "overview": "Drebin goes undercover in the boxing world to investigate a protection racket. When a promising fighter is pressured to throw a match, Frank steps into the ring — literally.",
+      "villain": "Tony Tebbetts",
+      "case": "Boxing protection racket",
+      "credits_death": {
+        "guest": "Georg Stanford Brown",
+        "fate": "Punched through a wall by a boxer during the opening credits sequence"
+      },
+      "freeze_frame": {
+        "subject": "Drebin throwing a punch at a punching bag — the bag swings back and hits him",
+        "announced_action": "Frank trains for the big fight"
+      },
+      "johnny_topic": "Names the promoter behind the fix while buffing a loafer, pauses dramatically for extra polish",
+      "lab_scene": "Ted shows Drebin a new invisible ink system, accidentally writes over all the case files, then cannot find them",
+      "notable_sight_gags": [
+        "A boxer in the background is shadow-boxing himself into a corner and can't find his way out",
+        "The gym's weight rack collapses in slow motion behind a tense conversation about nothing",
+        "A referee is practicing counting to ten and loses his place repeatedly in the background"
+      ],
+      "drebin_narration": "\"The boxing world is a tough place. Almost as tough as the time I investigated the world of competitive pillow fighting.\"",
+      "tags": ["freeze_frame", "johnny", "lab", "credits_death", "drebin_narration", "sight_gag", "non_sequitur"],
+      "tmdb_guests": ["Georg Stanford Brown", "Ron Carey", "Peter Marshall"]
+    },
+    {
+      "id": "S01E03",
+      "season": 1,
+      "episode": 3,
+      "announced_title": "The Butler Did It",
+      "shown_title": "A Bird in the Hand",
+      "air_date": "1982-03-18",
+      "still": "./images/police-squad/s01e03_still.jpg",
+      "overview": "A priceless bird goes missing from a wealthy socialite's estate, and the list of suspects includes every single person on the premises. Drebin's interrogation technique produces more non sequiturs than answers.",
+      "villain": "Garland Greene",
+      "case": "Theft of a rare bird",
+      "credits_death": {
+        "guest": "William Shatner",
+        "fate": "Beamed up mid-sentence, then beamed back down into traffic"
+      },
+      "freeze_frame": {
+        "subject": "Drebin reaching for a doorknob — his hand freezes inches away while the door swings open on its own",
+        "announced_action": "Frank enters the scene of the crime"
+      },
+      "johnny_topic": "Identifies the bird fence while polishing a riding boot, charges double for exotic footwear",
+      "lab_scene": "Ted has developed a bird-call analysis machine that speaks entirely in bird sounds; neither man notices",
+      "notable_sight_gags": [
+        "A butler is polishing silver in the background, including items that are clearly not silver — a banana, a shoe",
+        "Two guests at the party are engaged in an escalating mime battle that nobody acknowledges",
+        "A maid vacuums the same six inches of carpet in the background for the entire scene"
+      ],
+      "drebin_narration": "\"The Butler estate. Old money, old secrets, and carpets so thick you could lose a small dog in them. We'd found three so far.\"",
+      "tags": ["freeze_frame", "johnny", "lab", "credits_death", "drebin_narration", "sight_gag", "non_sequitur"],
+      "tmdb_guests": ["William Shatner", "Ed Begley Jr.", "Ritch Brinkley"]
+    },
+    {
+      "id": "S01E04",
+      "season": 1,
+      "episode": 4,
+      "announced_title": "Revenge and Remorse",
+      "shown_title": "The Guilty Alibi",
+      "air_date": "1982-03-25",
+      "still": "./images/police-squad/s01e04_still.jpg",
+      "overview": "A witness with a perfect alibi is the only suspect in a murder case. Drebin must prove the alibi is false, leading him into a world of counterfeiting and identity fraud that mirrors his own confusion about who is who.",
+      "villain": "Lou Pahpke",
+      "case": "Murder with an airtight alibi",
+      "credits_death": {
+        "guest": "Rich Little",
+        "fate": "Impersonates the wrong man and is arrested for being himself"
+      },
+      "freeze_frame": {
+        "subject": "Drebin caught mid-sneeze — Ed Hocken's toupee is mid-flight",
+        "announced_action": "An explosive conclusion"
+      },
+      "johnny_topic": "Reveals the counterfeiting operation location while resoling a boot; has somehow already known for weeks",
+      "lab_scene": "Ted demonstrates a lie detector that measures guilt by shoe size; the results are highly specific to himself",
+      "notable_sight_gags": [
+        "An escalating card game in the background — the players keep adding more cards, chairs, and people",
+        "A man is painting a portrait of another man who is painting a portrait of the first man",
+        "A window washer appears at increasing story heights throughout the episode, defying the building's actual height"
+      ],
+      "drebin_narration": "\"Counterfeiting. The lowest form of crime. Well, maybe the second lowest. I once arrested a man for putting raisins in a chocolate chip cookie.\"",
+      "tags": ["freeze_frame", "johnny", "lab", "credits_death", "drebin_narration", "sight_gag", "non_sequitur"],
+      "tmdb_guests": ["Rich Little", "Ann Francis", "Alan Oppenheimer"]
+    },
+    {
+      "id": "S01E05",
+      "season": 1,
+      "episode": 5,
+      "announced_title": "Rendezvous at Big Gulch",
+      "shown_title": "Terror in the Neighborhood",
+      "air_date": "1982-07-01",
+      "still": "./images/police-squad/s01e05_still.jpg",
+      "overview": "The squad investigates a protection racket terrorizing local businesses. Drebin goes undercover as a restaurant owner, producing some of the most literal interpretations of culinary language in television history.",
+      "villain": "Marty Weaver",
+      "case": "Neighborhood protection racket",
+      "credits_death": {
+        "guest": "Robert Goulet",
+        "fate": "Sings one note of a ballad, collapses from a poison dart, finishes the note on the way down"
+      },
+      "freeze_frame": {
+        "subject": "Drebin mid-karate-chop — a vase is suspended in mid-shatter, petals floating",
+        "announced_action": "Frank takes matters into his own hands"
+      },
+      "johnny_topic": "Names the racket's enforcer while waterproofing a boot; has brought his own lunch and eats it during the conversation",
+      "lab_scene": "Ted has created a surveillance camera so small it's invisible — he cannot find it, nor can anyone else; it may not exist",
+      "notable_sight_gags": [
+        "The restaurant's specials board keeps changing between shots to increasingly absurd items",
+        "A customer in the background orders, receives, and disputes a bill in complete pantomime over the course of one scene",
+        "Two chefs are engaged in a duel with serving utensils that nobody at the tables notices"
+      ],
+      "drebin_narration": "\"Big Gulch neighborhood. The kind of place where everybody minds their own business. Except for the guy who minds everyone else's. We called him the Mayor. His name was Gerald.\"",
+      "tags": ["freeze_frame", "johnny", "lab", "credits_death", "drebin_narration", "sight_gag", "non_sequitur"],
+      "tmdb_guests": ["Robert Goulet", "Toni Gillman", "Bill Zuckert"]
+    },
+    {
+      "id": "S01E06",
+      "season": 1,
+      "episode": 6,
+      "announced_title": "Testimony of Evil",
+      "shown_title": "Dead Men Don't Laugh",
+      "air_date": "1982-07-08",
+      "still": "./images/police-squad/s01e06_still.jpg",
+      "overview": "The final episode. A key witness to a mob execution refuses to testify — because he's dead, though nobody has told him yet. Drebin must protect a witness, solve a murder, and contend with a courtroom scene of incomparable absurdity.",
+      "villain": "Al Doyle",
+      "case": "Witness protection / mob murder",
+      "credits_death": {
+        "guest": "Jim Nabors",
+        "fate": "Begins to sing, is interrupted by Drebin requesting he not, obliges, immediately topples over"
+      },
+      "freeze_frame": {
+        "subject": "The entire courtroom frozen mid-chaos — a gavel is airborne, wigs askew, the judge mid-fall",
+        "announced_action": "Justice, at last"
+      },
+      "johnny_topic": "Provides the mob boss's location; has somehow also shined the shoes of everyone in the precinct in advance",
+      "lab_scene": "Ted presents evidence in court using a machine that repeats everything he says five seconds later, at increasing volume",
+      "notable_sight_gags": [
+        "The court stenographer types so fast the machine catches fire, which she ignores",
+        "The bailiff swears in witnesses using increasingly implausible sacred objects",
+        "The jury is clearly asleep, eating, and playing cards — one juror appears to be fishing"
+      ],
+      "drebin_narration": "\"They say dead men tell no tales. But Lou Bickerman had a lot to say. We just had to find someone to translate.\"",
+      "tags": ["freeze_frame", "johnny", "lab", "credits_death", "drebin_narration", "sight_gag", "non_sequitur"],
+      "tmdb_guests": ["Jim Nabors", "Herb Edelman", "Dick Cangey"]
+    }
+  ]
+}

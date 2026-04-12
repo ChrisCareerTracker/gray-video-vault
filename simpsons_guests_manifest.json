@@ -1,0 +1,4382 @@
+[
+  {
+    "actor": "Pamela Hayden",
+    "file": "./images/simpsons/guests/pamela_hayden.jpg",
+    "eps": 390
+  },
+  {
+    "actor": "Tress MacNeille",
+    "file": "./images/simpsons/guests/tress_macneille.jpg",
+    "eps": 312
+  },
+  {
+    "actor": "Marcia Wallace",
+    "file": "./images/simpsons/guests/marcia_wallace.jpg",
+    "eps": 179
+  },
+  {
+    "actor": "Maggie Roswell",
+    "file": "./images/simpsons/guests/maggie_roswell.jpg",
+    "eps": 171
+  },
+  {
+    "actor": "Chris Edgerly",
+    "file": "./images/simpsons/guests/chris_edgerly.jpg",
+    "eps": 133
+  },
+  {
+    "actor": "Karl Wiedergott",
+    "file": "./images/simpsons/guests/karl_wiedergott.jpg",
+    "eps": 111
+  },
+  {
+    "actor": "Russi Taylor",
+    "file": "./images/simpsons/guests/russi_taylor.jpg",
+    "eps": 96
+  },
+  {
+    "actor": "Kevin Michael Richardson",
+    "file": "./images/simpsons/guests/kevin_michael_richardson.jpg",
+    "eps": 87
+  },
+  {
+    "actor": "Alex Désert",
+    "file": "./images/simpsons/guests/alex_d_sert.jpg",
+    "eps": 64
+  },
+  {
+    "actor": "Phil Hartman",
+    "file": "./images/simpsons/guests/phil_hartman.jpg",
+    "eps": 47
+  },
+  {
+    "actor": "Joe Mantegna",
+    "file": "./images/simpsons/guests/joe_mantegna.jpg",
+    "eps": 47
+  },
+  {
+    "actor": "Grey DeLisle",
+    "file": "./images/simpsons/guests/grey_delisle.jpg",
+    "eps": 44
+  },
+  {
+    "actor": "Dawnn Lewis",
+    "file": "./images/simpsons/guests/dawnn_lewis.jpg",
+    "eps": 26
+  },
+  {
+    "actor": "Kelsey Grammer",
+    "file": "./images/simpsons/guests/kelsey_grammer.jpg",
+    "eps": 25
+  },
+  {
+    "actor": "Maurice LaMarche",
+    "file": "./images/simpsons/guests/maurice_lamarche.jpg",
+    "eps": 25
+  },
+  {
+    "actor": "Jon Lovitz",
+    "file": "./images/simpsons/guests/jon_lovitz.jpg",
+    "eps": 19
+  },
+  {
+    "actor": "Jenny Yokobori",
+    "file": "./images/simpsons/guests/jenny_yokobori.jpg",
+    "eps": 14
+  },
+  {
+    "actor": "Glenn Close",
+    "file": "./images/simpsons/guests/glenn_close.jpg",
+    "eps": 13
+  },
+  {
+    "actor": "Jackie Mason",
+    "file": "./images/simpsons/guests/jackie_mason.jpg",
+    "eps": 12
+  },
+  {
+    "actor": "Kimberly Brooks",
+    "file": "./images/simpsons/guests/kimberly_brooks.jpg",
+    "eps": 12
+  },
+  {
+    "actor": "Albert Brooks",
+    "file": "./images/simpsons/guests/albert_brooks.jpg",
+    "eps": 11
+  },
+  {
+    "actor": "Marcia Mitzman Gaven",
+    "file": "./images/simpsons/guests/marcia_mitzman_gaven.jpg",
+    "eps": 11
+  },
+  {
+    "actor": "Jane Kaczmarek",
+    "file": "./images/simpsons/guests/jane_kaczmarek.jpg",
+    "eps": 10
+  },
+  {
+    "actor": "Jo Ann Harris",
+    "file": "./images/simpsons/guests/jo_ann_harris.jpg",
+    "eps": 8
+  },
+  {
+    "actor": "Kerry Washington",
+    "file": "./images/simpsons/guests/kerry_washington.jpg",
+    "eps": 8
+  },
+  {
+    "actor": "Frank Welker",
+    "file": "./images/simpsons/guests/frank_welker.jpg",
+    "eps": 7
+  },
+  {
+    "actor": "Jan Hooks",
+    "file": "./images/simpsons/guests/jan_hooks.jpg",
+    "eps": 7
+  },
+  {
+    "actor": "Valerie Harper",
+    "file": "./images/simpsons/guests/valerie_harper.jpg",
+    "eps": 7
+  },
+  {
+    "actor": "Stacy Keach",
+    "file": "./images/simpsons/guests/stacy_keach.jpg",
+    "eps": 6
+  },
+  {
+    "actor": "Dana Gould",
+    "file": "./images/simpsons/guests/dana_gould.jpg",
+    "eps": 6
+  },
+  {
+    "actor": "Michael York",
+    "file": "./images/simpsons/guests/michael_york.jpg",
+    "eps": 6
+  },
+  {
+    "actor": "Eric Lopez",
+    "file": "./images/simpsons/guests/eric_lopez.jpg",
+    "eps": 6
+  },
+  {
+    "actor": "George Takei",
+    "file": "./images/simpsons/guests/george_takei.jpg",
+    "eps": 5
+  },
+  {
+    "actor": "Stephen Hawking",
+    "file": "./images/simpsons/guests/stephen_hawking.jpg",
+    "eps": 5
+  },
+  {
+    "actor": "J.K. Simmons",
+    "file": "./images/simpsons/guests/j_k_simmons.jpg",
+    "eps": 5
+  },
+  {
+    "actor": "Megan Mullally",
+    "file": "./images/simpsons/guests/megan_mullally.jpg",
+    "eps": 5
+  },
+  {
+    "actor": "Christopher Collins",
+    "file": "./images/simpsons/guests/christopher_collins.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Danny DeVito",
+    "file": "./images/simpsons/guests/danny_devito.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Pamela Reed",
+    "file": "./images/simpsons/guests/pamela_reed.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Gary Coleman",
+    "file": "./images/simpsons/guests/gary_coleman.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Charles Napier",
+    "file": "./images/simpsons/guests/charles_napier.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Eric Idle",
+    "file": "./images/simpsons/guests/eric_idle.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Scott Thompson",
+    "file": "./images/simpsons/guests/scott_thompson.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Zooey Deschanel",
+    "file": "./images/simpsons/guests/zooey_deschanel.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Werner Herzog",
+    "file": "./images/simpsons/guests/werner_herzog.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Natasha Lyonne",
+    "file": "./images/simpsons/guests/natasha_lyonne.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Rachel Bloom",
+    "file": "./images/simpsons/guests/rachel_bloom.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Jonathan Lipow",
+    "file": "./images/simpsons/guests/jonathan_lipow.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "Jay Pharoah",
+    "file": "./images/simpsons/guests/jay_pharoah.jpg",
+    "eps": 4
+  },
+  {
+    "actor": "James Earl Jones",
+    "file": "./images/simpsons/guests/james_earl_jones.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Tony Bennett",
+    "file": "./images/simpsons/guests/tony_bennett.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Alex Rocco",
+    "file": "./images/simpsons/guests/alex_rocco.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Sab Shimono",
+    "file": "./images/simpsons/guests/sab_shimono.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Beverly D'Angelo",
+    "file": "./images/simpsons/guests/beverly_d_angelo.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Buzz Aldrin",
+    "file": "./images/simpsons/guests/buzz_aldrin.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "David Hyde Pierce",
+    "file": "./images/simpsons/guests/david_hyde_pierce.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "John Kassir",
+    "file": "./images/simpsons/guests/john_kassir.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Julia Louis-Dreyfus",
+    "file": "./images/simpsons/guests/julia_louis_dreyfus.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Stan Lee",
+    "file": "./images/simpsons/guests/stan_lee.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "'Weird Al' Yankovic",
+    "file": "./images/simpsons/guests/weird_al_yankovic.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Thomas Pynchon",
+    "file": "./images/simpsons/guests/thomas_pynchon.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Matt Groening",
+    "file": "./images/simpsons/guests/matt_groening.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "John DiMaggio",
+    "file": "./images/simpsons/guests/john_dimaggio.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Kiefer Sutherland",
+    "file": "./images/simpsons/guests/kiefer_sutherland.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Seth Rogen",
+    "file": "./images/simpsons/guests/seth_rogen.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Sarah Silverman",
+    "file": "./images/simpsons/guests/sarah_silverman.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Daniel Radcliffe",
+    "file": "./images/simpsons/guests/daniel_radcliffe.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Paul Rudd",
+    "file": "./images/simpsons/guests/paul_rudd.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Phil LaMarr",
+    "file": "./images/simpsons/guests/phil_lamarr.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Will Forte",
+    "file": "./images/simpsons/guests/will_forte.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Pete Holmes",
+    "file": "./images/simpsons/guests/pete_holmes.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Michael Rapaport",
+    "file": "./images/simpsons/guests/michael_rapaport.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "James Sie",
+    "file": "./images/simpsons/guests/james_sie.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Melanie Minichino",
+    "file": "./images/simpsons/guests/melanie_minichino.jpg",
+    "eps": 3
+  },
+  {
+    "actor": "Sam McMurray",
+    "file": "./images/simpsons/guests/sam_mcmurray.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Susan Blu",
+    "file": "./images/simpsons/guests/susan_blu.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Ron Taylor",
+    "file": "./images/simpsons/guests/ron_taylor.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Larry King",
+    "file": "./images/simpsons/guests/larry_king.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Joey Kramer",
+    "file": "./images/simpsons/guests/joey_kramer.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Mike Scioscia",
+    "file": "./images/simpsons/guests/mike_scioscia.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Steve Allen",
+    "file": "./images/simpsons/guests/steve_allen.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Michael McKean",
+    "file": "./images/simpsons/guests/michael_mckean.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Joe Frazier",
+    "file": "./images/simpsons/guests/joe_frazier.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Sara Gilbert",
+    "file": "./images/simpsons/guests/sara_gilbert.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Adam West",
+    "file": "./images/simpsons/guests/adam_west.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Elizabeth Taylor",
+    "file": "./images/simpsons/guests/elizabeth_taylor.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Leonard Nimoy",
+    "file": "./images/simpsons/guests/leonard_nimoy.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Barry White",
+    "file": "./images/simpsons/guests/barry_white.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "David Crosby",
+    "file": "./images/simpsons/guests/david_crosby.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Michelle Pfeiffer",
+    "file": "./images/simpsons/guests/michelle_pfeiffer.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Conan O'Brien",
+    "file": "./images/simpsons/guests/conan_o_brien.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "John Ratzenberger",
+    "file": "./images/simpsons/guests/john_ratzenberger.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Patrick Stewart",
+    "file": "./images/simpsons/guests/patrick_stewart.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Susan Sarandon",
+    "file": "./images/simpsons/guests/susan_sarandon.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Tito Puente",
+    "file": "./images/simpsons/guests/tito_puente.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Paul Anka",
+    "file": "./images/simpsons/guests/paul_anka.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "R. Lee Ermey",
+    "file": "./images/simpsons/guests/r_lee_ermey.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Tom Kite",
+    "file": "./images/simpsons/guests/tom_kite.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Paul Winfield",
+    "file": "./images/simpsons/guests/paul_winfield.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Dave Thomas",
+    "file": "./images/simpsons/guests/dave_thomas.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Gedde Watanabe",
+    "file": "./images/simpsons/guests/gedde_watanabe.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Karen Maruyama",
+    "file": "./images/simpsons/guests/karen_maruyama.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Denice Kumagai",
+    "file": "./images/simpsons/guests/denice_kumagai.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Willem Dafoe",
+    "file": "./images/simpsons/guests/willem_dafoe.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Joe Namath",
+    "file": "./images/simpsons/guests/joe_namath.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Alex Trebek",
+    "file": "./images/simpsons/guests/alex_trebek.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Janeane Garofalo",
+    "file": "./images/simpsons/guests/janeane_garofalo.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Jay Leno",
+    "file": "./images/simpsons/guests/jay_leno.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "William Daniels",
+    "file": "./images/simpsons/guests/william_daniels.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Brian Grazer",
+    "file": "./images/simpsons/guests/brian_grazer.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Ron Howard",
+    "file": "./images/simpsons/guests/ron_howard.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Alec Baldwin",
+    "file": "./images/simpsons/guests/alec_baldwin.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Joan Rivers",
+    "file": "./images/simpsons/guests/joan_rivers.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Rupert Murdoch",
+    "file": "./images/simpsons/guests/rupert_murdoch.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Ed Begley Jr.",
+    "file": "./images/simpsons/guests/ed_begley_jr.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Teller",
+    "file": "./images/simpsons/guests/teller.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Penn Jillette",
+    "file": "./images/simpsons/guests/penn_jillette.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Butch Patrick",
+    "file": "./images/simpsons/guests/butch_patrick.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Garry Marshall",
+    "file": "./images/simpsons/guests/garry_marshall.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Betty White",
+    "file": "./images/simpsons/guests/betty_white.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Drew Barrymore",
+    "file": "./images/simpsons/guests/drew_barrymore.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Edward Norton",
+    "file": "./images/simpsons/guests/edward_norton.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Michael Keaton",
+    "file": "./images/simpsons/guests/michael_keaton.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Trey Anastasio",
+    "file": "./images/simpsons/guests/trey_anastasio.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "James Lipton",
+    "file": "./images/simpsons/guests/james_lipton.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Steve Buscemi",
+    "file": "./images/simpsons/guests/steve_buscemi.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Simon Cowell",
+    "file": "./images/simpsons/guests/simon_cowell.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Sarah Michelle Gellar",
+    "file": "./images/simpsons/guests/sarah_michelle_gellar.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Kim Cattrall",
+    "file": "./images/simpsons/guests/kim_cattrall.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "David Silverman",
+    "file": "./images/simpsons/guests/david_silverman.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Amy Poehler",
+    "file": "./images/simpsons/guests/amy_poehler.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Jason Bateman",
+    "file": "./images/simpsons/guests/jason_bateman.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Ricky Gervais",
+    "file": "./images/simpsons/guests/ricky_gervais.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Natalie Portman",
+    "file": "./images/simpsons/guests/natalie_portman.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Ted Nugent",
+    "file": "./images/simpsons/guests/ted_nugent.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Dan Rather",
+    "file": "./images/simpsons/guests/dan_rather.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Topher Grace",
+    "file": "./images/simpsons/guests/topher_grace.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Terry Gross",
+    "file": "./images/simpsons/guests/terry_gross.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Drew Carey",
+    "file": "./images/simpsons/guests/drew_carey.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Anne Hathaway",
+    "file": "./images/simpsons/guests/anne_hathaway.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Kristen Wiig",
+    "file": "./images/simpsons/guests/kristen_wiig.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "David Copperfield",
+    "file": "./images/simpsons/guests/david_copperfield.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Kristen Schaal",
+    "file": "./images/simpsons/guests/kristen_schaal.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Jane Lynch",
+    "file": "./images/simpsons/guests/jane_lynch.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Mario Batali",
+    "file": "./images/simpsons/guests/mario_batali.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Neil Gaiman",
+    "file": "./images/simpsons/guests/neil_gaiman.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Bryan Cranston",
+    "file": "./images/simpsons/guests/bryan_cranston.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Patton Oswalt",
+    "file": "./images/simpsons/guests/patton_oswalt.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Fred Armisen",
+    "file": "./images/simpsons/guests/fred_armisen.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Benedict Cumberbatch",
+    "file": "./images/simpsons/guests/benedict_cumberbatch.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Bill Hader",
+    "file": "./images/simpsons/guests/bill_hader.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Nick Offerman",
+    "file": "./images/simpsons/guests/nick_offerman.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "David Herman",
+    "file": "./images/simpsons/guests/david_herman.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Kristen Bell",
+    "file": "./images/simpsons/guests/kristen_bell.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Keegan-Michael Key",
+    "file": "./images/simpsons/guests/keegan_michael_key.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Charles Barkley",
+    "file": "./images/simpsons/guests/charles_barkley.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Seth Green",
+    "file": "./images/simpsons/guests/seth_green.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "John Roberts",
+    "file": "./images/simpsons/guests/john_roberts.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Tracy Morgan",
+    "file": "./images/simpsons/guests/tracy_morgan.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Billy Eichner",
+    "file": "./images/simpsons/guests/billy_eichner.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Awkwafina",
+    "file": "./images/simpsons/guests/awkwafina.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Chelsea Peretti",
+    "file": "./images/simpsons/guests/chelsea_peretti.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "John Lithgow",
+    "file": "./images/simpsons/guests/john_lithgow.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Ken Burns",
+    "file": "./images/simpsons/guests/ken_burns.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "John Mulaney",
+    "file": "./images/simpsons/guests/john_mulaney.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Robin Atkin Downes",
+    "file": "./images/simpsons/guests/robin_atkin_downes.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Brian George",
+    "file": "./images/simpsons/guests/brian_george.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Susan Egan",
+    "file": "./images/simpsons/guests/susan_egan.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Jessica Paré",
+    "file": "./images/simpsons/guests/jessica_par.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Brian Cox",
+    "file": "./images/simpsons/guests/brian_cox.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Cristin Milioti",
+    "file": "./images/simpsons/guests/cristin_milioti.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Chris O'Dowd",
+    "file": "./images/simpsons/guests/chris_o_dowd.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Timothy Olyphant",
+    "file": "./images/simpsons/guests/timothy_olyphant.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Matthew Friend",
+    "file": "./images/simpsons/guests/matthew_friend.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Paul Brittain",
+    "file": "./images/simpsons/guests/paul_brittain.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Rosalie Chiang",
+    "file": "./images/simpsons/guests/rosalie_chiang.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Ike Barinholtz",
+    "file": "./images/simpsons/guests/ike_barinholtz.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Cole Escola",
+    "file": "./images/simpsons/guests/cole_escola.jpg",
+    "eps": 2
+  },
+  {
+    "actor": "Miriam Flynn",
+    "file": "./images/simpsons/guests/miriam_flynn.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "June Foray",
+    "file": "./images/simpsons/guests/june_foray.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Penny Marshall",
+    "file": "./images/simpsons/guests/penny_marshall.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Paul Willson",
+    "file": "./images/simpsons/guests/paul_willson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Harvey Fierstein",
+    "file": "./images/simpsons/guests/harvey_fierstein.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Poston",
+    "file": "./images/simpsons/guests/tom_poston.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Daryl Coley",
+    "file": "./images/simpsons/guests/daryl_coley.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ken Levine",
+    "file": "./images/simpsons/guests/ken_levine.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Greg Berg",
+    "file": "./images/simpsons/guests/greg_berg.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Diana Tanaka",
+    "file": "./images/simpsons/guests/diana_tanaka.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joey Miyashima",
+    "file": "./images/simpsons/guests/joey_miyashima.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tracey Ullman",
+    "file": "./images/simpsons/guests/tracey_ullman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Audrey Meadows",
+    "file": "./images/simpsons/guests/audrey_meadows.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ringo Starr",
+    "file": "./images/simpsons/guests/ringo_starr.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dustin Hoffman",
+    "file": "./images/simpsons/guests/dustin_hoffman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cloris Leachman",
+    "file": "./images/simpsons/guests/cloris_leachman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Daniel Stern",
+    "file": "./images/simpsons/guests/daniel_stern.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Jackson",
+    "file": "./images/simpsons/guests/michael_jackson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Neil Patrick Harris",
+    "file": "./images/simpsons/guests/neil_patrick_harris.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Magic Johnson",
+    "file": "./images/simpsons/guests/magic_johnson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Brad Whitford",
+    "file": "./images/simpsons/guests/brad_whitford.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Steven Tyler",
+    "file": "./images/simpsons/guests/steven_tyler.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Hamilton",
+    "file": "./images/simpsons/guests/tom_hamilton.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joe Perry",
+    "file": "./images/simpsons/guests/joe_perry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sting",
+    "file": "./images/simpsons/guests/sting.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Don Mattingly",
+    "file": "./images/simpsons/guests/don_mattingly.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ozzie Smith",
+    "file": "./images/simpsons/guests/ozzie_smith.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Wade Boggs",
+    "file": "./images/simpsons/guests/wade_boggs.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Roger Clemens",
+    "file": "./images/simpsons/guests/roger_clemens.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Christopher Guest",
+    "file": "./images/simpsons/guests/christopher_guest.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kimmy Robertson",
+    "file": "./images/simpsons/guests/kimmy_robertson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Hope",
+    "file": "./images/simpsons/guests/bob_hope.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Jones",
+    "file": "./images/simpsons/guests/tom_jones.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Linda Ronstadt",
+    "file": "./images/simpsons/guests/linda_ronstadt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joyce Brothers",
+    "file": "./images/simpsons/guests/joyce_brothers.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Brooke Shields",
+    "file": "./images/simpsons/guests/brooke_shields.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Luke Perry",
+    "file": "./images/simpsons/guests/luke_perry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Hugh Hefner",
+    "file": "./images/simpsons/guests/hugh_hefner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bette Midler",
+    "file": "./images/simpsons/guests/bette_midler.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Johnny Carson",
+    "file": "./images/simpsons/guests/johnny_carson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Anthony Kiedis",
+    "file": "./images/simpsons/guests/anthony_kiedis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Flea",
+    "file": "./images/simpsons/guests/flea.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chad Smith",
+    "file": "./images/simpsons/guests/chad_smith.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "George Harrison",
+    "file": "./images/simpsons/guests/george_harrison.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joey Ramone",
+    "file": "./images/simpsons/guests/joey_ramone.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Johnny Ramone",
+    "file": "./images/simpsons/guests/johnny_ramone.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Marky Ramone",
+    "file": "./images/simpsons/guests/marky_ramone.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James Brown",
+    "file": "./images/simpsons/guests/james_brown.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ernest Borgnine",
+    "file": "./images/simpsons/guests/ernest_borgnine.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Werner Klemperer",
+    "file": "./images/simpsons/guests/werner_klemperer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Goulet",
+    "file": "./images/simpsons/guests/robert_goulet.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sam Neill",
+    "file": "./images/simpsons/guests/sam_neill.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James Woods",
+    "file": "./images/simpsons/guests/james_woods.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kathleen Turner",
+    "file": "./images/simpsons/guests/kathleen_turner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James Taylor",
+    "file": "./images/simpsons/guests/james_taylor.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Winona Ryder",
+    "file": "./images/simpsons/guests/winona_ryder.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Henry Corden",
+    "file": "./images/simpsons/guests/henry_corden.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Barry Hansen",
+    "file": "./images/simpsons/guests/barry_hansen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Meryl Streep",
+    "file": "./images/simpsons/guests/meryl_streep.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dennis Franz",
+    "file": "./images/simpsons/guests/dennis_franz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Woody Harrelson",
+    "file": "./images/simpsons/guests/woody_harrelson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Anne Bancroft",
+    "file": "./images/simpsons/guests/anne_bancroft.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ted Danson",
+    "file": "./images/simpsons/guests/ted_danson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "George Wendt",
+    "file": "./images/simpsons/guests/george_wendt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rhea Perlman",
+    "file": "./images/simpsons/guests/rhea_perlman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robin Williams",
+    "file": "./images/simpsons/guests/robin_williams.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Johnny Unitas",
+    "file": "./images/simpsons/guests/johnny_unitas.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dick Cavett",
+    "file": "./images/simpsons/guests/dick_cavett.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mel Brooks",
+    "file": "./images/simpsons/guests/mel_brooks.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mandy Patinkin",
+    "file": "./images/simpsons/guests/mandy_patinkin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mickey Rooney",
+    "file": "./images/simpsons/guests/mickey_rooney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Paul McCartney",
+    "file": "./images/simpsons/guests/paul_mccartney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Linda McCartney",
+    "file": "./images/simpsons/guests/linda_mccartney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Harry Morgan",
+    "file": "./images/simpsons/guests/harry_morgan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lawrence Tierney",
+    "file": "./images/simpsons/guests/lawrence_tierney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Newhart",
+    "file": "./images/simpsons/guests/bob_newhart.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Donald Sutherland",
+    "file": "./images/simpsons/guests/donald_sutherland.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack Sheldon",
+    "file": "./images/simpsons/guests/jack_sheldon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Suzanne Somers",
+    "file": "./images/simpsons/guests/suzanne_somers.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kirk Douglas",
+    "file": "./images/simpsons/guests/kirk_douglas.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jeff Goldblum",
+    "file": "./images/simpsons/guests/jeff_goldblum.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jim Lau",
+    "file": "./images/simpsons/guests/jim_lau.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Billy Corgan",
+    "file": "./images/simpsons/guests/billy_corgan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jimmy Chamberlin",
+    "file": "./images/simpsons/guests/jimmy_chamberlin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "D'arcy Wretzky",
+    "file": "./images/simpsons/guests/d_arcy_wretzky.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James Iha",
+    "file": "./images/simpsons/guests/james_iha.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peter Frampton",
+    "file": "./images/simpsons/guests/peter_frampton.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Christina Ricci",
+    "file": "./images/simpsons/guests/christina_ricci.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Buffer",
+    "file": "./images/simpsons/guests/michael_buffer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rodney Dangerfield",
+    "file": "./images/simpsons/guests/rodney_dangerfield.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Johnny Cash",
+    "file": "./images/simpsons/guests/johnny_cash.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Gillian Anderson",
+    "file": "./images/simpsons/guests/gillian_anderson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "David Duchovny",
+    "file": "./images/simpsons/guests/david_duchovny.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack Lemmon",
+    "file": "./images/simpsons/guests/jack_lemmon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Waters",
+    "file": "./images/simpsons/guests/john_waters.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bret Hart",
+    "file": "./images/simpsons/guests/bret_hart.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tim Conway",
+    "file": "./images/simpsons/guests/tim_conway.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Gailard Sartain",
+    "file": "./images/simpsons/guests/gailard_sartain.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Martin Sheen",
+    "file": "./images/simpsons/guests/martin_sheen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Fyvush Finkel",
+    "file": "./images/simpsons/guests/fyvush_finkel.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Roy Firestone",
+    "file": "./images/simpsons/guests/roy_firestone.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mike Judge",
+    "file": "./images/simpsons/guests/mike_judge.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andrea Martin",
+    "file": "./images/simpsons/guests/andrea_martin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jim Varney",
+    "file": "./images/simpsons/guests/jim_varney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack Ong",
+    "file": "./images/simpsons/guests/jack_ong.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Steven Wright",
+    "file": "./images/simpsons/guests/steven_wright.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bobcat Goldthwait",
+    "file": "./images/simpsons/guests/bobcat_goldthwait.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Helen Hunt",
+    "file": "./images/simpsons/guests/helen_hunt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Denver",
+    "file": "./images/simpsons/guests/bob_denver.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rod Steiger",
+    "file": "./images/simpsons/guests/rod_steiger.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Steve Martin",
+    "file": "./images/simpsons/guests/steve_martin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bono",
+    "file": "./images/simpsons/guests/bono.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Adam Clayton",
+    "file": "./images/simpsons/guests/adam_clayton.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Larry Mullen Jr.",
+    "file": "./images/simpsons/guests/larry_mullen_jr.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "The Edge",
+    "file": "./images/simpsons/guests/the_edge.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Steven Weber",
+    "file": "./images/simpsons/guests/steven_weber.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Brendan Fraser",
+    "file": "./images/simpsons/guests/brendan_fraser.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lisa Kudrow",
+    "file": "./images/simpsons/guests/lisa_kudrow.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Regis Philbin",
+    "file": "./images/simpsons/guests/regis_philbin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kathie Lee Gifford",
+    "file": "./images/simpsons/guests/kathie_lee_gifford.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ed McMahon",
+    "file": "./images/simpsons/guests/ed_mcmahon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Englund",
+    "file": "./images/simpsons/guests/robert_englund.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jerry Springer",
+    "file": "./images/simpsons/guests/jerry_springer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kim Basinger",
+    "file": "./images/simpsons/guests/kim_basinger.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "George Carlin",
+    "file": "./images/simpsons/guests/george_carlin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Martin Mull",
+    "file": "./images/simpsons/guests/martin_mull.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mark Hamill",
+    "file": "./images/simpsons/guests/mark_hamill.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cyndi Lauper",
+    "file": "./images/simpsons/guests/cyndi_lauper.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dan Marino",
+    "file": "./images/simpsons/guests/dan_marino.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Fred Willard",
+    "file": "./images/simpsons/guests/fred_willard.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Troy Aikman",
+    "file": "./images/simpsons/guests/troy_aikman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rosey Grier",
+    "file": "./images/simpsons/guests/rosey_grier.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dolly Parton",
+    "file": "./images/simpsons/guests/dolly_parton.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Pat Summerall",
+    "file": "./images/simpsons/guests/pat_summerall.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elton John",
+    "file": "./images/simpsons/guests/elton_john.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Isabella Rossellini",
+    "file": "./images/simpsons/guests/isabella_rossellini.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack LaLanne",
+    "file": "./images/simpsons/guests/jack_lalanne.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Keone Young",
+    "file": "./images/simpsons/guests/keone_young.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack Burns",
+    "file": "./images/simpsons/guests/jack_burns.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mel Gibson",
+    "file": "./images/simpsons/guests/mel_gibson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ed Asner",
+    "file": "./images/simpsons/guests/ed_asner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Arnold",
+    "file": "./images/simpsons/guests/tom_arnold.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dick Clark",
+    "file": "./images/simpsons/guests/dick_clark.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lucy Lawless",
+    "file": "./images/simpsons/guests/lucy_lawless.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Pat O'Brien",
+    "file": "./images/simpsons/guests/pat_o_brien.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nancy O'Dell",
+    "file": "./images/simpsons/guests/nancy_o_dell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Goodman",
+    "file": "./images/simpsons/guests/john_goodman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Henry Winkler",
+    "file": "./images/simpsons/guests/henry_winkler.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jay North",
+    "file": "./images/simpsons/guests/jay_north.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tim Robbins",
+    "file": "./images/simpsons/guests/tim_robbins.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Clarence Clemons",
+    "file": "./images/simpsons/guests/clarence_clemons.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Don Cheadle",
+    "file": "./images/simpsons/guests/don_cheadle.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Britney Spears",
+    "file": "./images/simpsons/guests/britney_spears.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jim Cummings",
+    "file": "./images/simpsons/guests/jim_cummings.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Charles Frederick Turner",
+    "file": "./images/simpsons/guests/charles_frederick_turner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Randy Bachman",
+    "file": "./images/simpsons/guests/randy_bachman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Trevor Denman",
+    "file": "./images/simpsons/guests/trevor_denman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kid Rock",
+    "file": "./images/simpsons/guests/kid_rock.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Charlie Rose",
+    "file": "./images/simpsons/guests/charlie_rose.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Evans",
+    "file": "./images/simpsons/guests/robert_evans.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Diedrich Bader",
+    "file": "./images/simpsons/guests/diedrich_bader.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Parker Posey",
+    "file": "./images/simpsons/guests/parker_posey.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Willie Nelson",
+    "file": "./images/simpsons/guests/willie_nelson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Roger Daltrey",
+    "file": "./images/simpsons/guests/roger_daltrey.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Pete Townshend",
+    "file": "./images/simpsons/guests/pete_townshend.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Entwistle",
+    "file": "./images/simpsons/guests/john_entwistle.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Updike",
+    "file": "./images/simpsons/guests/john_updike.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephen King",
+    "file": "./images/simpsons/guests/stephen_king.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Amy Tan",
+    "file": "./images/simpsons/guests/amy_tan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jay Mohr",
+    "file": "./images/simpsons/guests/jay_mohr.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joshua Jackson",
+    "file": "./images/simpsons/guests/joshua_jackson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Leeza Gibbons",
+    "file": "./images/simpsons/guests/leeza_gibbons.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Patrick McGoohan",
+    "file": "./images/simpsons/guests/patrick_mcgoohan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bruce Vilanch",
+    "file": "./images/simpsons/guests/bruce_vilanch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Schimmel",
+    "file": "./images/simpsons/guests/robert_schimmel.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Savini",
+    "file": "./images/simpsons/guests/tom_savini.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Serena Williams",
+    "file": "./images/simpsons/guests/serena_williams.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andre Agassi",
+    "file": "./images/simpsons/guests/andre_agassi.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Venus Williams",
+    "file": "./images/simpsons/guests/venus_williams.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Pete Sampras",
+    "file": "./images/simpsons/guests/pete_sampras.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "JC Chasez",
+    "file": "./images/simpsons/guests/jc_chasez.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Justin Timberlake",
+    "file": "./images/simpsons/guests/justin_timberlake.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lance Bass",
+    "file": "./images/simpsons/guests/lance_bass.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joey Fatone",
+    "file": "./images/simpsons/guests/joey_fatone.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chris Kirkpatrick",
+    "file": "./images/simpsons/guests/chris_kirkpatrick.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kathy Griffin",
+    "file": "./images/simpsons/guests/kathy_griffin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Frankie Muniz",
+    "file": "./images/simpsons/guests/frankie_muniz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Matthew Perry",
+    "file": "./images/simpsons/guests/matthew_perry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Pierce Brosnan",
+    "file": "./images/simpsons/guests/pierce_brosnan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jess Harnell",
+    "file": "./images/simpsons/guests/jess_harnell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peter Buck",
+    "file": "./images/simpsons/guests/peter_buck.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mike Mills",
+    "file": "./images/simpsons/guests/mike_mills.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Stipe",
+    "file": "./images/simpsons/guests/michael_stipe.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bill Berry",
+    "file": "./images/simpsons/guests/bill_berry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Scott McCaughey",
+    "file": "./images/simpsons/guests/scott_mccaughey.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Paul Newman",
+    "file": "./images/simpsons/guests/paul_newman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Richard Gere",
+    "file": "./images/simpsons/guests/richard_gere.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Delroy Lindo",
+    "file": "./images/simpsons/guests/delroy_lindo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ben Stiller",
+    "file": "./images/simpsons/guests/ben_stiller.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Wolfgang Puck",
+    "file": "./images/simpsons/guests/wolfgang_puck.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Reese Witherspoon",
+    "file": "./images/simpsons/guests/reese_witherspoon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dennis Weaver",
+    "file": "./images/simpsons/guests/dennis_weaver.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Olympia Dukakis",
+    "file": "./images/simpsons/guests/olympia_dukakis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bill Saluga",
+    "file": "./images/simpsons/guests/bill_saluga.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jon Fishman",
+    "file": "./images/simpsons/guests/jon_fishman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Carmen Electra",
+    "file": "./images/simpsons/guests/carmen_electra.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Frances Sternhagen",
+    "file": "./images/simpsons/guests/frances_sternhagen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elvis Costello",
+    "file": "./images/simpsons/guests/elvis_costello.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Keith Richards",
+    "file": "./images/simpsons/guests/keith_richards.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lenny Kravitz",
+    "file": "./images/simpsons/guests/lenny_kravitz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mick Jagger",
+    "file": "./images/simpsons/guests/mick_jagger.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Petty",
+    "file": "./images/simpsons/guests/tom_petty.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Brian Setzer",
+    "file": "./images/simpsons/guests/brian_setzer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Burt Ward",
+    "file": "./images/simpsons/guests/burt_ward.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Larry Holmes",
+    "file": "./images/simpsons/guests/larry_holmes.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "David L. Lander",
+    "file": "./images/simpsons/guests/david_l_lander.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Little Richard",
+    "file": "./images/simpsons/guests/little_richard.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elliott Gould",
+    "file": "./images/simpsons/guests/elliott_gould.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lisa Leslie",
+    "file": "./images/simpsons/guests/lisa_leslie.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tony Hawk",
+    "file": "./images/simpsons/guests/tony_hawk.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mark Hoppus",
+    "file": "./images/simpsons/guests/mark_hoppus.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Travis Barker",
+    "file": "./images/simpsons/guests/travis_barker.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom DeLonge",
+    "file": "./images/simpsons/guests/tom_delonge.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "George Plimpton",
+    "file": "./images/simpsons/guests/george_plimpton.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Helen Fielding",
+    "file": "./images/simpsons/guests/helen_fielding.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James L. Brooks",
+    "file": "./images/simpsons/guests/james_l_brooks.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Marisa Tomei",
+    "file": "./images/simpsons/guests/marisa_tomei.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "David Byrne",
+    "file": "./images/simpsons/guests/david_byrne.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andy Serkis",
+    "file": "./images/simpsons/guests/andy_serkis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jonathan Taylor Thomas",
+    "file": "./images/simpsons/guests/jonathan_taylor_thomas.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jackson Browne",
+    "file": "./images/simpsons/guests/jackson_browne.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jerry Lewis",
+    "file": "./images/simpsons/guests/jerry_lewis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jennifer Garner",
+    "file": "./images/simpsons/guests/jennifer_garner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Oscar de la Hoya",
+    "file": "./images/simpsons/guests/oscar_de_la_hoya.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Moore",
+    "file": "./images/simpsons/guests/michael_moore.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ian McKellen",
+    "file": "./images/simpsons/guests/ian_mckellen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "J.K. Rowling",
+    "file": "./images/simpsons/guests/j_k_rowling.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jane Leeves",
+    "file": "./images/simpsons/guests/jane_leeves.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tony Blair",
+    "file": "./images/simpsons/guests/tony_blair.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mr. T",
+    "file": "./images/simpsons/guests/mr_t.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Clancy",
+    "file": "./images/simpsons/guests/tom_clancy.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ashley Olsen",
+    "file": "./images/simpsons/guests/ashley_olsen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mary-Kate Olsen",
+    "file": "./images/simpsons/guests/mary_kate_olsen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Isabel Sanford",
+    "file": "./images/simpsons/guests/isabel_sanford.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nick Bakay",
+    "file": "./images/simpsons/guests/nick_bakay.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nichelle Nichols",
+    "file": "./images/simpsons/guests/nichelle_nichols.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James Caan",
+    "file": "./images/simpsons/guests/james_caan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michelle Kwan",
+    "file": "./images/simpsons/guests/michelle_kwan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "LeBron James",
+    "file": "./images/simpsons/guests/lebron_james.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Yao Ming",
+    "file": "./images/simpsons/guests/yao_ming.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Brady",
+    "file": "./images/simpsons/guests/tom_brady.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Warren Sapp",
+    "file": "./images/simpsons/guests/warren_sapp.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "50 Cent",
+    "file": "./images/simpsons/guests/50_cent.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Gary Busey",
+    "file": "./images/simpsons/guests/gary_busey.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Wagner",
+    "file": "./images/simpsons/guests/robert_wagner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lucy Liu",
+    "file": "./images/simpsons/guests/lucy_liu.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ray Romano",
+    "file": "./images/simpsons/guests/ray_romano.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Fantasia Barrino",
+    "file": "./images/simpsons/guests/fantasia_barrino.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Liam Neeson",
+    "file": "./images/simpsons/guests/liam_neeson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dennis Rodman",
+    "file": "./images/simpsons/guests/dennis_rodman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Terry Bradshaw",
+    "file": "./images/simpsons/guests/terry_bradshaw.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lily Tomlin",
+    "file": "./images/simpsons/guests/lily_tomlin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Maria Grazia Cucinotta",
+    "file": "./images/simpsons/guests/maria_grazia_cucinotta.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "William H. Macy",
+    "file": "./images/simpsons/guests/william_h_macy.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Antonio Fargas",
+    "file": "./images/simpsons/guests/antonio_fargas.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Randy Johnson",
+    "file": "./images/simpsons/guests/randy_johnson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rob Reiner",
+    "file": "./images/simpsons/guests/rob_reiner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Carrington",
+    "file": "./images/simpsons/guests/michael_carrington.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Richard Dean Anderson",
+    "file": "./images/simpsons/guests/richard_dean_anderson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Frances McDormand",
+    "file": "./images/simpsons/guests/frances_mcdormand.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Larry Hagman",
+    "file": "./images/simpsons/guests/larry_hagman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Melanie Griffith",
+    "file": "./images/simpsons/guests/melanie_griffith.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mandy Moore",
+    "file": "./images/simpsons/guests/mandy_moore.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joe Pantoliano",
+    "file": "./images/simpsons/guests/joe_pantoliano.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Imperioli",
+    "file": "./images/simpsons/guests/michael_imperioli.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James Hetfield",
+    "file": "./images/simpsons/guests/james_hetfield.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lars Ulrich",
+    "file": "./images/simpsons/guests/lars_ulrich.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kirk Hammett",
+    "file": "./images/simpsons/guests/kirk_hammett.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack White",
+    "file": "./images/simpsons/guests/jack_white.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Meg White",
+    "file": "./images/simpsons/guests/meg_white.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Richard Lewis",
+    "file": "./images/simpsons/guests/richard_lewis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sir Mix-a-Lot",
+    "file": "./images/simpsons/guests/sir_mix_a_lot.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Fran Drescher",
+    "file": "./images/simpsons/guests/fran_drescher.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Phil McGraw",
+    "file": "./images/simpsons/guests/phil_mcgraw.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Gore Vidal",
+    "file": "./images/simpsons/guests/gore_vidal.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Chabon",
+    "file": "./images/simpsons/guests/michael_chabon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Wolfe",
+    "file": "./images/simpsons/guests/tom_wolfe.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephen Sondheim",
+    "file": "./images/simpsons/guests/stephen_sondheim.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "James Patterson",
+    "file": "./images/simpsons/guests/james_patterson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Meg Ryan",
+    "file": "./images/simpsons/guests/meg_ryan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peter Bogdanovich",
+    "file": "./images/simpsons/guests/peter_bogdanovich.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andy Dick",
+    "file": "./images/simpsons/guests/andy_dick.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rudolph Giuliani",
+    "file": "./images/simpsons/guests/rudolph_giuliani.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mary Lynn Rajskub",
+    "file": "./images/simpsons/guests/mary_lynn_rajskub.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ludacris",
+    "file": "./images/simpsons/guests/ludacris.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lionel Richie",
+    "file": "./images/simpsons/guests/lionel_richie.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephen Colbert",
+    "file": "./images/simpsons/guests/stephen_colbert.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Maya Rudolph",
+    "file": "./images/simpsons/guests/maya_rudolph.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Plácido Domingo",
+    "file": "./images/simpsons/guests/pl_cido_domingo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Matt Dillon",
+    "file": "./images/simpsons/guests/matt_dillon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Alan Moore",
+    "file": "./images/simpsons/guests/alan_moore.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack Black",
+    "file": "./images/simpsons/guests/jack_black.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Daniel Clowes",
+    "file": "./images/simpsons/guests/daniel_clowes.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Art Spiegelman",
+    "file": "./images/simpsons/guests/art_spiegelman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Keith Olbermann",
+    "file": "./images/simpsons/guests/keith_olbermann.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Mahoney",
+    "file": "./images/simpsons/guests/john_mahoney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jon Stewart",
+    "file": "./images/simpsons/guests/jon_stewart.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kurt Loder",
+    "file": "./images/simpsons/guests/kurt_loder.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John C. Reilly",
+    "file": "./images/simpsons/guests/john_c_reilly.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jim Jarmusch",
+    "file": "./images/simpsons/guests/jim_jarmusch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lance Armstrong",
+    "file": "./images/simpsons/guests/lance_armstrong.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Forster",
+    "file": "./images/simpsons/guests/robert_forster.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Denis Leary",
+    "file": "./images/simpsons/guests/denis_leary.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joe Montana",
+    "file": "./images/simpsons/guests/joe_montana.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Shohreh Aghdashloo",
+    "file": "./images/simpsons/guests/shohreh_aghdashloo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mark Cuban",
+    "file": "./images/simpsons/guests/mark_cuban.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Emily Blunt",
+    "file": "./images/simpsons/guests/emily_blunt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Glen Hansard",
+    "file": "./images/simpsons/guests/glen_hansard.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Markéta Irglová",
+    "file": "./images/simpsons/guests/mark_ta_irglov.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Colm Meaney",
+    "file": "./images/simpsons/guests/colm_meaney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elliot Page",
+    "file": "./images/simpsons/guests/elliot_page.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jodie Foster",
+    "file": "./images/simpsons/guests/jodie_foster.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chuck Liddell",
+    "file": "./images/simpsons/guests/chuck_liddell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jonah Hill",
+    "file": "./images/simpsons/guests/jonah_hill.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Neve Campbell",
+    "file": "./images/simpsons/guests/neve_campbell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peyton Manning",
+    "file": "./images/simpsons/guests/peyton_manning.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cooper Manning",
+    "file": "./images/simpsons/guests/cooper_manning.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Huell Howser",
+    "file": "./images/simpsons/guests/huell_howser.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jordan Nagai",
+    "file": "./images/simpsons/guests/jordan_nagai.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Eli Manning",
+    "file": "./images/simpsons/guests/eli_manning.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dick Smothers",
+    "file": "./images/simpsons/guests/dick_smothers.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Smothers",
+    "file": "./images/simpsons/guests/tom_smothers.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Eartha Kitt",
+    "file": "./images/simpsons/guests/eartha_kitt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Gary Larson",
+    "file": "./images/simpsons/guests/gary_larson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chris Martin",
+    "file": "./images/simpsons/guests/chris_martin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Costas",
+    "file": "./images/simpsons/guests/bob_costas.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Wren T. Brown",
+    "file": "./images/simpsons/guests/wren_t_brown.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Angela Bassett",
+    "file": "./images/simpsons/guests/angela_bassett.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sacha Baron Cohen",
+    "file": "./images/simpsons/guests/sacha_baron_cohen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Yaël Naïm",
+    "file": "./images/simpsons/guests/ya_l_na_m.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Eddie Izzard",
+    "file": "./images/simpsons/guests/eddie_izzard.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Don Pardo",
+    "file": "./images/simpsons/guests/don_pardo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ellen DeGeneres",
+    "file": "./images/simpsons/guests/ellen_degeneres.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Randy Jackson",
+    "file": "./images/simpsons/guests/randy_jackson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ryan Seacrest",
+    "file": "./images/simpsons/guests/ryan_seacrest.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jemaine Clement",
+    "file": "./images/simpsons/guests/jemaine_clement.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ira Glass",
+    "file": "./images/simpsons/guests/ira_glass.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bret McKenzie",
+    "file": "./images/simpsons/guests/bret_mckenzie.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lea Michele",
+    "file": "./images/simpsons/guests/lea_michele.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cory Monteith",
+    "file": "./images/simpsons/guests/cory_monteith.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Amber Riley",
+    "file": "./images/simpsons/guests/amber_riley.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Muhammad Yunus",
+    "file": "./images/simpsons/guests/muhammad_yunus.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chris Hansen",
+    "file": "./images/simpsons/guests/chris_hansen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mark Zuckerberg",
+    "file": "./images/simpsons/guests/mark_zuckerberg.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Hugh Laurie",
+    "file": "./images/simpsons/guests/hugh_laurie.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rachel Weisz",
+    "file": "./images/simpsons/guests/rachel_weisz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Danica Patrick",
+    "file": "./images/simpsons/guests/danica_patrick.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Martha Stewart",
+    "file": "./images/simpsons/guests/martha_stewart.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Katy Perry",
+    "file": "./images/simpsons/guests/katy_perry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jon Hamm",
+    "file": "./images/simpsons/guests/jon_hamm.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Alyson Hannigan",
+    "file": "./images/simpsons/guests/alyson_hannigan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Paul Chan",
+    "file": "./images/simpsons/guests/michael_paul_chan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "David Mamet",
+    "file": "./images/simpsons/guests/david_mamet.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nick Park",
+    "file": "./images/simpsons/guests/nick_park.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Russell Brand",
+    "file": "./images/simpsons/guests/russell_brand.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "JB Smoove",
+    "file": "./images/simpsons/guests/jb_smoove.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Halle Berry",
+    "file": "./images/simpsons/guests/halle_berry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cheech Marin",
+    "file": "./images/simpsons/guests/cheech_marin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tommy Chong",
+    "file": "./images/simpsons/guests/tommy_chong.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kareem Abdul-Jabbar",
+    "file": "./images/simpsons/guests/kareem_abdul_jabbar.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Martin Landau",
+    "file": "./images/simpsons/guests/martin_landau.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ricky Jay",
+    "file": "./images/simpsons/guests/ricky_jay.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jack McBrayer",
+    "file": "./images/simpsons/guests/jack_mcbrayer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Anthony Bourdain",
+    "file": "./images/simpsons/guests/anthony_bourdain.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tim Heidecker",
+    "file": "./images/simpsons/guests/tim_heidecker.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Gordon Ramsay",
+    "file": "./images/simpsons/guests/gordon_ramsay.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Eric Wareheim",
+    "file": "./images/simpsons/guests/eric_wareheim.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andy Garcia",
+    "file": "./images/simpsons/guests/andy_garcia.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Slattery",
+    "file": "./images/simpsons/guests/john_slattery.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Matthew Weiner",
+    "file": "./images/simpsons/guests/matthew_weiner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kevin Dillon",
+    "file": "./images/simpsons/guests/kevin_dillon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Armie Hammer",
+    "file": "./images/simpsons/guests/armie_hammer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "David Letterman",
+    "file": "./images/simpsons/guests/david_letterman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jeremy Irons",
+    "file": "./images/simpsons/guests/jeremy_irons.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Cera",
+    "file": "./images/simpsons/guests/michael_cera.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jamie Hyneman",
+    "file": "./images/simpsons/guests/jamie_hyneman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Adam Savage",
+    "file": "./images/simpsons/guests/adam_savage.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Julian Assange",
+    "file": "./images/simpsons/guests/julian_assange.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Shepard Fairey",
+    "file": "./images/simpsons/guests/shepard_fairey.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ron English",
+    "file": "./images/simpsons/guests/ron_english.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Brent Spiner",
+    "file": "./images/simpsons/guests/brent_spiner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Steve Coogan",
+    "file": "./images/simpsons/guests/steve_coogan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Treat Williams",
+    "file": "./images/simpsons/guests/treat_williams.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lady Gaga",
+    "file": "./images/simpsons/guests/lady_gaga.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jeff Gordon",
+    "file": "./images/simpsons/guests/jeff_gordon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Marvin Hamlisch",
+    "file": "./images/simpsons/guests/marvin_hamlisch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Anika Noni Rose",
+    "file": "./images/simpsons/guests/anika_noni_rose.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Steve Carell",
+    "file": "./images/simpsons/guests/steve_carell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Carrie Brownstein",
+    "file": "./images/simpsons/guests/carrie_brownstein.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Colin Meloy",
+    "file": "./images/simpsons/guests/colin_meloy.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Waits",
+    "file": "./images/simpsons/guests/tom_waits.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rashida Jones",
+    "file": "./images/simpsons/guests/rashida_jones.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Max Weinberg",
+    "file": "./images/simpsons/guests/max_weinberg.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Richard Dawkins",
+    "file": "./images/simpsons/guests/richard_dawkins.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tina Fey",
+    "file": "./images/simpsons/guests/tina_fey.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Janet Reno",
+    "file": "./images/simpsons/guests/janet_reno.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Wanda Sykes",
+    "file": "./images/simpsons/guests/wanda_sykes.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Aaron Paul",
+    "file": "./images/simpsons/guests/aaron_paul.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sonny Rollins",
+    "file": "./images/simpsons/guests/sonny_rollins.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Justin Bieber",
+    "file": "./images/simpsons/guests/justin_bieber.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jane Krakowski",
+    "file": "./images/simpsons/guests/jane_krakowski.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lisa Lampanelli",
+    "file": "./images/simpsons/guests/lisa_lampanelli.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Seth MacFarlane",
+    "file": "./images/simpsons/guests/seth_macfarlane.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rachel Maddow",
+    "file": "./images/simpsons/guests/rachel_maddow.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elisabeth Moss",
+    "file": "./images/simpsons/guests/elisabeth_moss.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Anderson Cooper",
+    "file": "./images/simpsons/guests/anderson_cooper.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Eva Longoria",
+    "file": "./images/simpsons/guests/eva_longoria.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Channing Tatum",
+    "file": "./images/simpsons/guests/channing_tatum.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Judd Apatow",
+    "file": "./images/simpsons/guests/judd_apatow.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Leslie Mann",
+    "file": "./images/simpsons/guests/leslie_mann.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rob Halford",
+    "file": "./images/simpsons/guests/rob_halford.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Will Arnett",
+    "file": "./images/simpsons/guests/will_arnett.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Harlan Ellison",
+    "file": "./images/simpsons/guests/harlan_ellison.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Will Lyman",
+    "file": "./images/simpsons/guests/will_lyman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Max von Sydow",
+    "file": "./images/simpsons/guests/max_von_sydow.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Zach Galifianakis",
+    "file": "./images/simpsons/guests/zach_galifianakis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tavi Gevinson",
+    "file": "./images/simpsons/guests/tavi_gevinson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Carl Kasell",
+    "file": "./images/simpsons/guests/carl_kasell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Oliver",
+    "file": "./images/simpsons/guests/john_oliver.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peter Sagal",
+    "file": "./images/simpsons/guests/peter_sagal.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Don Hertzfeldt",
+    "file": "./images/simpsons/guests/don_hertzfeldt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jeff Ross",
+    "file": "./images/simpsons/guests/jeff_ross.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jane Fonda",
+    "file": "./images/simpsons/guests/jane_fonda.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Siegel",
+    "file": "./images/simpsons/guests/robert_siegel.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Billy West",
+    "file": "./images/simpsons/guests/billy_west.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Katey Sagal",
+    "file": "./images/simpsons/guests/katey_sagal.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lauren Tom",
+    "file": "./images/simpsons/guests/lauren_tom.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sammy Hagar",
+    "file": "./images/simpsons/guests/sammy_hagar.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elon Musk",
+    "file": "./images/simpsons/guests/elon_musk.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Pharrell Williams",
+    "file": "./images/simpsons/guests/pharrell_williams.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Christopher Lloyd",
+    "file": "./images/simpsons/guests/christopher_lloyd.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rich Sommer",
+    "file": "./images/simpsons/guests/rich_sommer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Richard Branson",
+    "file": "./images/simpsons/guests/richard_branson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Yaya DaCosta",
+    "file": "./images/simpsons/guests/yaya_dacosta.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nathan Fielder",
+    "file": "./images/simpsons/guests/nathan_fielder.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cat Deeley",
+    "file": "./images/simpsons/guests/cat_deeley.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Carice van Houten",
+    "file": "./images/simpsons/guests/carice_van_houten.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Johnny Mathis",
+    "file": "./images/simpsons/guests/johnny_mathis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Justin Roiland",
+    "file": "./images/simpsons/guests/justin_roiland.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Allison Williams",
+    "file": "./images/simpsons/guests/allison_williams.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Adam Driver",
+    "file": "./images/simpsons/guests/adam_driver.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lena Dunham",
+    "file": "./images/simpsons/guests/lena_dunham.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Laura Ingraham",
+    "file": "./images/simpsons/guests/laura_ingraham.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jemima Kirke",
+    "file": "./images/simpsons/guests/jemima_kirke.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Zosia Mamet",
+    "file": "./images/simpsons/guests/zosia_mamet.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Alton Brown",
+    "file": "./images/simpsons/guests/alton_brown.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bobby Moynihan",
+    "file": "./images/simpsons/guests/bobby_moynihan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Edward James Olmos",
+    "file": "./images/simpsons/guests/edward_james_olmos.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ben Schwartz",
+    "file": "./images/simpsons/guests/ben_schwartz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Yo-Yo Ma",
+    "file": "./images/simpsons/guests/yo_yo_ma.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Blake Anderson",
+    "file": "./images/simpsons/guests/blake_anderson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nick Kroll",
+    "file": "./images/simpsons/guests/nick_kroll.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chris Wedge",
+    "file": "./images/simpsons/guests/chris_wedge.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephen Merchant",
+    "file": "./images/simpsons/guests/stephen_merchant.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kaitlin Olson",
+    "file": "./images/simpsons/guests/kaitlin_olson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sofía Vergara",
+    "file": "./images/simpsons/guests/sof_a_vergara.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Utkarsh Ambudkar",
+    "file": "./images/simpsons/guests/utkarsh_ambudkar.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Natalie Maines",
+    "file": "./images/simpsons/guests/natalie_maines.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kate McKinnon",
+    "file": "./images/simpsons/guests/kate_mckinnon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Boilen",
+    "file": "./images/simpsons/guests/bob_boilen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Scharpling",
+    "file": "./images/simpsons/guests/tom_scharpling.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jon Wurster",
+    "file": "./images/simpsons/guests/jon_wurster.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andrew Rannells",
+    "file": "./images/simpsons/guests/andrew_rannells.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Amy Schumer",
+    "file": "./images/simpsons/guests/amy_schumer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Pendleton Ward",
+    "file": "./images/simpsons/guests/pendleton_ward.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Allison Janney",
+    "file": "./images/simpsons/guests/allison_janney.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bill Burr",
+    "file": "./images/simpsons/guests/bill_burr.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Chiklis",
+    "file": "./images/simpsons/guests/michael_chiklis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rachel Dratch",
+    "file": "./images/simpsons/guests/rachel_dratch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Doris Kearns Goodwin",
+    "file": "./images/simpsons/guests/doris_kearns_goodwin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Donald Fagen",
+    "file": "./images/simpsons/guests/donald_fagen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Judith Owen",
+    "file": "./images/simpsons/guests/judith_owen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Matt Leinart",
+    "file": "./images/simpsons/guests/matt_leinart.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Wayne Gretzky",
+    "file": "./images/simpsons/guests/wayne_gretzky.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Theo Jansen",
+    "file": "./images/simpsons/guests/theo_jansen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joyce Carol Oates",
+    "file": "./images/simpsons/guests/joyce_carol_oates.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Common",
+    "file": "./images/simpsons/guests/common.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Taraji P. Henson",
+    "file": "./images/simpsons/guests/taraji_p_henson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "RZA",
+    "file": "./images/simpsons/guests/rza.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Snoop Dogg",
+    "file": "./images/simpsons/guests/snoop_dogg.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Magnus Carlsen",
+    "file": "./images/simpsons/guests/magnus_carlsen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lizzy Caplan",
+    "file": "./images/simpsons/guests/lizzy_caplan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Sheen",
+    "file": "./images/simpsons/guests/michael_sheen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephen Curry",
+    "file": "./images/simpsons/guests/stephen_curry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Earl Mann",
+    "file": "./images/simpsons/guests/earl_mann.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Vanessa Bayer",
+    "file": "./images/simpsons/guests/vanessa_bayer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Brian Posehn",
+    "file": "./images/simpsons/guests/brian_posehn.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rob Riggle",
+    "file": "./images/simpsons/guests/rob_riggle.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Adam Silver",
+    "file": "./images/simpsons/guests/adam_silver.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jason Alexander",
+    "file": "./images/simpsons/guests/jason_alexander.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ken Jennings",
+    "file": "./images/simpsons/guests/ken_jennings.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Suze Orman",
+    "file": "./images/simpsons/guests/suze_orman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Neil deGrasse Tyson",
+    "file": "./images/simpsons/guests/neil_degrasse_tyson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jennifer Saunders",
+    "file": "./images/simpsons/guests/jennifer_saunders.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nikolaj Coster-Waldau",
+    "file": "./images/simpsons/guests/nikolaj_coster_waldau.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Billy Boyd",
+    "file": "./images/simpsons/guests/billy_boyd.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Roz Chast",
+    "file": "./images/simpsons/guests/roz_chast.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dan Harmon",
+    "file": "./images/simpsons/guests/dan_harmon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Marjane Satrapi",
+    "file": "./images/simpsons/guests/marjane_satrapi.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Martin Short",
+    "file": "./images/simpsons/guests/martin_short.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ben Daniels",
+    "file": "./images/simpsons/guests/ben_daniels.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "William Friedkin",
+    "file": "./images/simpsons/guests/william_friedkin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kat Dennings",
+    "file": "./images/simpsons/guests/kat_dennings.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Norman Lear",
+    "file": "./images/simpsons/guests/norman_lear.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Shaquille O'Neal",
+    "file": "./images/simpsons/guests/shaquille_o_neal.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ed Sheeran",
+    "file": "./images/simpsons/guests/ed_sheeran.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cecily Strong",
+    "file": "./images/simpsons/guests/cecily_strong.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Baldessari",
+    "file": "./images/simpsons/guests/john_baldessari.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kevin Pollak",
+    "file": "./images/simpsons/guests/kevin_pollak.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andy Daly",
+    "file": "./images/simpsons/guests/andy_daly.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Damian Kulash",
+    "file": "./images/simpsons/guests/damian_kulash.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jimmy O. Yang",
+    "file": "./images/simpsons/guests/jimmy_o_yang.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ray Liotta",
+    "file": "./images/simpsons/guests/ray_liotta.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Debi Mazar",
+    "file": "./images/simpsons/guests/debi_mazar.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jonathan Schmock",
+    "file": "./images/simpsons/guests/jonathan_schmock.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Trombone Shorty",
+    "file": "./images/simpsons/guests/trombone_shorty.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sidse Babett Knudsen",
+    "file": "./images/simpsons/guests/sidse_babett_knudsen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Gal Gadot",
+    "file": "./images/simpsons/guests/gal_gadot.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dave Attell",
+    "file": "./images/simpsons/guests/dave_attell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Emily Deschanel",
+    "file": "./images/simpsons/guests/emily_deschanel.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jonathan Groff",
+    "file": "./images/simpsons/guests/jonathan_groff.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rhys Darby",
+    "file": "./images/simpsons/guests/rhys_darby.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "George Segal",
+    "file": "./images/simpsons/guests/george_segal.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "H. Jon Benjamin",
+    "file": "./images/simpsons/guests/h_jon_benjamin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dan Mintz",
+    "file": "./images/simpsons/guests/dan_mintz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Eugene Mirman",
+    "file": "./images/simpsons/guests/eugene_mirman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ksenia Solo",
+    "file": "./images/simpsons/guests/ksenia_solo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "RuPaul",
+    "file": "./images/simpsons/guests/rupaul.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Raja Gemini",
+    "file": "./images/simpsons/guests/raja_gemini.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peter Serafinowicz",
+    "file": "./images/simpsons/guests/peter_serafinowicz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bryan Batt",
+    "file": "./images/simpsons/guests/bryan_batt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bill de Blasio",
+    "file": "./images/simpsons/guests/bill_de_blasio.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lawrence O'Donnell",
+    "file": "./images/simpsons/guests/lawrence_o_donnell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Patti LuPone",
+    "file": "./images/simpsons/guests/patti_lupone.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ted Sarandos",
+    "file": "./images/simpsons/guests/ted_sarandos.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Marc Maron",
+    "file": "./images/simpsons/guests/marc_maron.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Guillermo del Toro",
+    "file": "./images/simpsons/guests/guillermo_del_toro.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Wallace Shawn",
+    "file": "./images/simpsons/guests/wallace_shawn.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ken Jeong",
+    "file": "./images/simpsons/guests/ken_jeong.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nicole Byer",
+    "file": "./images/simpsons/guests/nicole_byer.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dave Matthews",
+    "file": "./images/simpsons/guests/dave_matthews.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Josh Groban",
+    "file": "./images/simpsons/guests/josh_groban.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Judy Blume",
+    "file": "./images/simpsons/guests/judy_blume.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Liev Schreiber",
+    "file": "./images/simpsons/guests/liev_schreiber.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Illeana Douglas",
+    "file": "./images/simpsons/guests/illeana_douglas.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jenny Slate",
+    "file": "./images/simpsons/guests/jenny_slate.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Odenkirk",
+    "file": "./images/simpsons/guests/bob_odenkirk.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jason Momoa",
+    "file": "./images/simpsons/guests/jason_momoa.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jane Goodall",
+    "file": "./images/simpsons/guests/jane_goodall.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Asia Kate Dillon",
+    "file": "./images/simpsons/guests/asia_kate_dillon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Fortune Feimster",
+    "file": "./images/simpsons/guests/fortune_feimster.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Charlie Brooker",
+    "file": "./images/simpsons/guests/charlie_brooker.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Scott Bakula",
+    "file": "./images/simpsons/guests/scott_bakula.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Legend",
+    "file": "./images/simpsons/guests/john_legend.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chrissy Teigen",
+    "file": "./images/simpsons/guests/chrissy_teigen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Zach Woods",
+    "file": "./images/simpsons/guests/zach_woods.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Beanie Feldstein",
+    "file": "./images/simpsons/guests/beanie_feldstein.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ed Jones",
+    "file": "./images/simpsons/guests/ed_jones.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jim Parsons",
+    "file": "./images/simpsons/guests/jim_parsons.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kevin Feige",
+    "file": "./images/simpsons/guests/kevin_feige.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Taran Killam",
+    "file": "./images/simpsons/guests/taran_killam.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Anthony Russo",
+    "file": "./images/simpsons/guests/anthony_russo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joe Russo",
+    "file": "./images/simpsons/guests/joe_russo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cobie Smulders",
+    "file": "./images/simpsons/guests/cobie_smulders.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Drew Pinsky",
+    "file": "./images/simpsons/guests/drew_pinsky.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Billy Porter",
+    "file": "./images/simpsons/guests/billy_porter.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kevin Smith",
+    "file": "./images/simpsons/guests/kevin_smith.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lili Reinhart",
+    "file": "./images/simpsons/guests/lili_reinhart.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joey King",
+    "file": "./images/simpsons/guests/joey_king.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Madelaine Petsch",
+    "file": "./images/simpsons/guests/madelaine_petsch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lilly Singh",
+    "file": "./images/simpsons/guests/lilly_singh.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Camila Mendes",
+    "file": "./images/simpsons/guests/camila_mendes.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rivers Cuomo",
+    "file": "./images/simpsons/guests/rivers_cuomo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Patrick Wilson",
+    "file": "./images/simpsons/guests/patrick_wilson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Scott Shriner",
+    "file": "./images/simpsons/guests/scott_shriner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Brian Bell",
+    "file": "./images/simpsons/guests/brian_bell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Cate Blanchett",
+    "file": "./images/simpsons/guests/cate_blanchett.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "David Harbour",
+    "file": "./images/simpsons/guests/david_harbour.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Phil Rosenthal",
+    "file": "./images/simpsons/guests/phil_rosenthal.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Michael Palin",
+    "file": "./images/simpsons/guests/michael_palin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ben Mankiewicz",
+    "file": "./images/simpsons/guests/ben_mankiewicz.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Olivia Colman",
+    "file": "./images/simpsons/guests/olivia_colman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Morgan Fairchild",
+    "file": "./images/simpsons/guests/morgan_fairchild.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stellan Skarsgård",
+    "file": "./images/simpsons/guests/stellan_skarsg_rd.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ben Platt",
+    "file": "./images/simpsons/guests/ben_platt.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Hannibal Buress",
+    "file": "./images/simpsons/guests/hannibal_buress.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ellie Kemper",
+    "file": "./images/simpsons/guests/ellie_kemper.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chris Parnell",
+    "file": "./images/simpsons/guests/chris_parnell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Richard Kind",
+    "file": "./images/simpsons/guests/richard_kind.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dan Aykroyd",
+    "file": "./images/simpsons/guests/dan_aykroyd.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Balaban",
+    "file": "./images/simpsons/guests/bob_balaban.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephen Root",
+    "file": "./images/simpsons/guests/stephen_root.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Greg Grunberg",
+    "file": "./images/simpsons/guests/greg_grunberg.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "J.J. Abrams",
+    "file": "./images/simpsons/guests/j_j_abrams.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob Seger",
+    "file": "./images/simpsons/guests/bob_seger.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tiya Sircar",
+    "file": "./images/simpsons/guests/tiya_sircar.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Natasha Rothwell",
+    "file": "./images/simpsons/guests/natasha_rothwell.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "George Stephanopoulos",
+    "file": "./images/simpsons/guests/george_stephanopoulos.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nate Silver",
+    "file": "./images/simpsons/guests/nate_silver.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephen Fry",
+    "file": "./images/simpsons/guests/stephen_fry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ian McShane",
+    "file": "./images/simpsons/guests/ian_mcshane.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sara Chase",
+    "file": "./images/simpsons/guests/sara_chase.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elisabeth Kiernan Averick",
+    "file": "./images/simpsons/guests/elisabeth_kiernan_averick.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Alan Cumming",
+    "file": "./images/simpsons/guests/alan_cumming.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Alex Hirsch",
+    "file": "./images/simpsons/guests/alex_hirsch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joel H. Cohen",
+    "file": "./images/simpsons/guests/joel_h_cohen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Christine Baranski",
+    "file": "./images/simpsons/guests/christine_baranski.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Victor Garber",
+    "file": "./images/simpsons/guests/victor_garber.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Christian Siriano",
+    "file": "./images/simpsons/guests/christian_siriano.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Beck Bennett",
+    "file": "./images/simpsons/guests/beck_bennett.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Adam Schefter",
+    "file": "./images/simpsons/guests/adam_schefter.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kumail Nanjiani",
+    "file": "./images/simpsons/guests/kumail_nanjiani.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "The Weeknd",
+    "file": "./images/simpsons/guests/the_weeknd.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Autry II",
+    "file": "./images/simpsons/guests/john_autry_ii.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chris Redd",
+    "file": "./images/simpsons/guests/chris_redd.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Krysten Ritter",
+    "file": "./images/simpsons/guests/krysten_ritter.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Nicholas Braun",
+    "file": "./images/simpsons/guests/nicholas_braun.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Paul F. Tompkins",
+    "file": "./images/simpsons/guests/paul_f_tompkins.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Charli D'Amelio",
+    "file": "./images/simpsons/guests/charli_d_amelio.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Edi Patterson",
+    "file": "./images/simpsons/guests/edi_patterson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Hugh Jackman",
+    "file": "./images/simpsons/guests/hugh_jackman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Reich",
+    "file": "./images/simpsons/guests/robert_reich.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Anna Faris",
+    "file": "./images/simpsons/guests/anna_faris.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Aubrey Plaza",
+    "file": "./images/simpsons/guests/aubrey_plaza.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Melissa McCarthy",
+    "file": "./images/simpsons/guests/melissa_mccarthy.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Carol Kane",
+    "file": "./images/simpsons/guests/carol_kane.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Simu Liu",
+    "file": "./images/simpsons/guests/simu_liu.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Montse Hernandez",
+    "file": "./images/simpsons/guests/montse_hernandez.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bob the Drag Queen",
+    "file": "./images/simpsons/guests/bob_the_drag_queen.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Monét X Change",
+    "file": "./images/simpsons/guests/mon_t_x_change.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Henry Louis Gates, Jr.",
+    "file": "./images/simpsons/guests/henry_louis_gates_jr.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jade Novah",
+    "file": "./images/simpsons/guests/jade_novah.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rob Lowe",
+    "file": "./images/simpsons/guests/rob_lowe.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Lizzo",
+    "file": "./images/simpsons/guests/lizzo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tim Robinson",
+    "file": "./images/simpsons/guests/tim_robinson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Bowen Yang",
+    "file": "./images/simpsons/guests/bowen_yang.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dick Van Dyke",
+    "file": "./images/simpsons/guests/dick_van_dyke.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Elizabeth Banks",
+    "file": "./images/simpsons/guests/elizabeth_banks.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kara Swisher",
+    "file": "./images/simpsons/guests/kara_swisher.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Christiane Amanpour",
+    "file": "./images/simpsons/guests/christiane_amanpour.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peter Jackson",
+    "file": "./images/simpsons/guests/peter_jackson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andrew Ross Sorkin",
+    "file": "./images/simpsons/guests/andrew_ross_sorkin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Peter Coyote",
+    "file": "./images/simpsons/guests/peter_coyote.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kylie Jenner",
+    "file": "./images/simpsons/guests/kylie_jenner.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Paul Higgins",
+    "file": "./images/simpsons/guests/paul_higgins.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Karen Gillan",
+    "file": "./images/simpsons/guests/karen_gillan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "David Tennant",
+    "file": "./images/simpsons/guests/david_tennant.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stuart Murdoch",
+    "file": "./images/simpsons/guests/stuart_murdoch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stevie Jackson",
+    "file": "./images/simpsons/guests/stevie_jackson.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Taika Waititi",
+    "file": "./images/simpsons/guests/taika_waititi.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Dan Patrick",
+    "file": "./images/simpsons/guests/dan_patrick.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Ken Marino",
+    "file": "./images/simpsons/guests/ken_marino.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Amanda Seyfried",
+    "file": "./images/simpsons/guests/amanda_seyfried.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Matt Berry",
+    "file": "./images/simpsons/guests/matt_berry.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jason Mantzoukas",
+    "file": "./images/simpsons/guests/jason_mantzoukas.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kyle Gordon",
+    "file": "./images/simpsons/guests/kyle_gordon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tom Hanks",
+    "file": "./images/simpsons/guests/tom_hanks.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Cena",
+    "file": "./images/simpsons/guests/john_cena.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Joel McHale",
+    "file": "./images/simpsons/guests/joel_mchale.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Mark Proksch",
+    "file": "./images/simpsons/guests/mark_proksch.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Amy Sedaris",
+    "file": "./images/simpsons/guests/amy_sedaris.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chloe Fineman",
+    "file": "./images/simpsons/guests/chloe_fineman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Richard E. Grant",
+    "file": "./images/simpsons/guests/richard_e_grant.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tracy Letts",
+    "file": "./images/simpsons/guests/tracy_letts.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Molly Shannon",
+    "file": "./images/simpsons/guests/molly_shannon.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Griffin Dunne",
+    "file": "./images/simpsons/guests/griffin_dunne.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jorge R. Gutierrez",
+    "file": "./images/simpsons/guests/jorge_r_gutierrez.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rob LaZebnik",
+    "file": "./images/simpsons/guests/rob_lazebnik.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Early",
+    "file": "./images/simpsons/guests/john_early.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "John Pirruccello",
+    "file": "./images/simpsons/guests/john_pirruccello.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Susie Essman",
+    "file": "./images/simpsons/guests/susie_essman.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Fiona Shaw",
+    "file": "./images/simpsons/guests/fiona_shaw.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Tim Meadows",
+    "file": "./images/simpsons/guests/tim_meadows.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Jamie Demetriou",
+    "file": "./images/simpsons/guests/jamie_demetriou.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Kevin Millar",
+    "file": "./images/simpsons/guests/kevin_millar.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Chris Rock",
+    "file": "./images/simpsons/guests/chris_rock.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Danny Trejo",
+    "file": "./images/simpsons/guests/danny_trejo.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Blake Griffin",
+    "file": "./images/simpsons/guests/blake_griffin.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Andrew Luck",
+    "file": "./images/simpsons/guests/andrew_luck.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Megan Rapinoe",
+    "file": "./images/simpsons/guests/megan_rapinoe.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Robert Smigel",
+    "file": "./images/simpsons/guests/robert_smigel.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Rick Steves",
+    "file": "./images/simpsons/guests/rick_steves.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Max Greenfield",
+    "file": "./images/simpsons/guests/max_greenfield.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Sarah McLachlan",
+    "file": "./images/simpsons/guests/sarah_mclachlan.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Stephanie Hsu",
+    "file": "./images/simpsons/guests/stephanie_hsu.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Adam Pally",
+    "file": "./images/simpsons/guests/adam_pally.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Viola Davis",
+    "file": "./images/simpsons/guests/viola_davis.jpg",
+    "eps": 1
+  },
+  {
+    "actor": "Idris Elba",
+    "file": "./images/simpsons/guests/idris_elba.jpg",
+    "eps": 1
+  }
+]

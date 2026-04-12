@@ -1,0 +1,3036 @@
+{
+  "series": {
+    "title": "Key & Peele",
+    "network": "Comedy Central",
+    "years": "2012–2015",
+    "seasons": 5,
+    "total_episodes": 53,
+    "description": "Key & Peele is an American sketch comedy television show. It stars Keegan-Michael Key and Jordan Peele, both former cast members of MADtv. Each episode of the show consists of several pre-taped sketches starring the two actors, introduced by Key and Peele in front of a live studio audience.",
+    "hero": "./images/kp/hero.jpg"
+  },
+  "season_meta": {
+    "1": {
+      "poster": "./images/kp/season1_poster.jpg",
+      "overview": "",
+      "air_date": "2012-01-31",
+      "ep_count": 8,
+      "format": "live_audience",
+      "format_desc": "Live studio audience with standup intros"
+    },
+    "2": {
+      "poster": "./images/kp/season2_poster.jpg",
+      "overview": "",
+      "air_date": "2012-09-26",
+      "ep_count": 10,
+      "format": "live_audience",
+      "format_desc": "Live studio audience with standup intros"
+    },
+    "3": {
+      "poster": "./images/kp/season3_poster.jpg",
+      "overview": "",
+      "air_date": "2013-09-18",
+      "ep_count": 13,
+      "format": "live_audience",
+      "format_desc": "Live studio audience with standup intros"
+    },
+    "4": {
+      "poster": "./images/kp/season4_poster.jpg",
+      "overview": "",
+      "air_date": "2014-09-24",
+      "ep_count": 11,
+      "format": "car_conversation",
+      "format_desc": "Car conversation cold opens, no studio audience"
+    },
+    "5": {
+      "poster": "./images/kp/season5_poster.jpg",
+      "overview": "",
+      "air_date": "2015-07-08",
+      "ep_count": 11,
+      "format": "car_conversation",
+      "format_desc": "Car conversation cold opens, no studio audience"
+    }
+  },
+  "sketch_series": {
+    "obama_luther": "Obama & Luther — President Obama with his anger translator Luther",
+    "substitute_teacher": "Substitute Teacher — Mr. Garvey butchers students' names (A-A-Ron, Jay-Quellin, etc.)",
+    "east_west_bowl": "East/West Bowl — college football player introductions with absurd names",
+    "the_valets": "The Valets — two valets from Berkshire Restaurant obsess over celebrities (Liam Neesons, etc.)",
+    "wendell": "Wendell — sad, neurotic consumer character",
+    "meegan_andre": "Meegan & André — toxic on-again off-again couple",
+    "metta_world_news": "Metta World News — NBA player Metta World Peace delivers bizarre news",
+    "levi_cedric": "Levi & Cedric — two inner-city friends, Levi constantly joins new trends",
+    "black_republicans": "Black Republicans — group of black men trying to recruit other Black voters to the GOP"
+  },
+  "episodes": [
+    {
+      "id": "S01E01",
+      "season": 1,
+      "episode": 1,
+      "title": "Bitch",
+      "air_date": "2012-01-31",
+      "overview": "Key & Peele airs Wednesdays on Comedy Central. Jordan Peele and Keegan-Michael Key attempt to say a forbidden word in regards to their women, Lil Wayne adjusts to life behind bars, and President Obama expresses how he really feels - with the help of his anger translator.",
+      "still": "./images/kp/s01e01_still.jpg",
+      "still_tmdb": "/ahpMe8jtCPKGaRnb6kMc7bcYhGp.jpg",
+      "sketches": [
+        {
+          "title": "Phone Call",
+          "series": null,
+          "description": "Key and Peele struggle to say the word 'bitch' when referring to their girlfriends during a phone conversation."
+        },
+        {
+          "title": "Obama & Luther",
+          "series": "obama_luther",
+          "description": "President Obama gives a measured response about current events while his anger translator Luther expresses his true feelings."
+        },
+        {
+          "title": "Lil Wayne in Prison",
+          "series": null,
+          "description": "Lil Wayne tries to adjust to prison life but his wealthy lifestyle and celebrity status make it difficult to fit in."
+        },
+        {
+          "title": "Gay Wedding Advice",
+          "series": null,
+          "description": "A man seeks relationship advice from his friends about his upcoming gay wedding."
+        },
+        {
+          "title": "Auction Block",
+          "series": null,
+          "description": "A slave auction is conducted like a modern day auction house with sophisticated bidding procedures."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Matt Jones"
+      ],
+      "tmdb_guests": [
+        "Marc Evan Jackson",
+        "Matt Jones",
+        "Jim Turner",
+        "Christina Anthony",
+        "Cynthia Blaise",
+        "Mars Crain",
+        "Nyima Funk",
+        "Reatha Grey",
+        "Cale Hartmann",
+        "Lily Holleman",
+        "Jean Villepique",
+        "Casey Washington",
+        "Dana Woods"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S01E02",
+      "season": 1,
+      "episode": 2,
+      "title": "Black Hawk Up",
+      "air_date": "2012-02-07",
+      "overview": "President Obama rap battles, and a traffic reporter has some trouble flying.",
+      "still": "./images/kp/s01e02_still.jpg",
+      "still_tmdb": "/7OcWhOW32USN6p4RkMUaHew4GP7.jpg",
+      "sketches": [
+        {
+          "title": "Obama's Anger Translator - Rap Battle",
+          "series": "obama_luther",
+          "description": "President Obama and his anger translator Luther engage in a rap battle scenario. This features Obama needing Luther to express his more aggressive thoughts through hip-hop."
+        },
+        {
+          "title": "Martin Luther King vs. Malcolm X",
+          "series": null,
+          "description": "Two amateur actors portraying MLK and Malcolm X compete for the affection of a community theater audience, escalating their performances to absurd extremes."
+        },
+        {
+          "title": "Black Hawk Up",
+          "series": null,
+          "description": "A traffic reporter experiences problems while flying in a helicopter, likely dealing with technical difficulties or mishaps during a live broadcast."
+        },
+        {
+          "title": "Dueling Hats",
+          "series": null,
+          "description": "Two men engage in an escalating fashion competition using increasingly elaborate hats."
+        },
+        {
+          "title": "Scarface Parody",
+          "series": null,
+          "description": "A parody of the classic gangster film Scarface with Key and Peele's comedic twist on the iconic scenes."
+        },
+        {
+          "title": "Gay Wedding Advice",
+          "series": null,
+          "description": "A sketch involving characters giving advice about gay weddings, likely featuring misunderstandings or awkward social situations."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Colton Dunn"
+      ],
+      "tmdb_guests": [
+        "Lance Barber",
+        "Colton Dunn",
+        "Edward Fordham, Jr.",
+        "Guy Stevenson",
+        "Jason Ishmael Echols"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S01E03",
+      "season": 1,
+      "episode": 3,
+      "title": "Das Negros",
+      "air_date": "2012-02-14",
+      "overview": "Jordan and Keegan are masters of disguise in Nazi Germany, and two slaves are accused of bigotry.",
+      "still": "./images/kp/s01e03_still.jpg",
+      "still_tmdb": "/9DmSFEg0ofD34DUgBBb9UmmFWJV.jpg",
+      "sketches": [
+        {
+          "title": "Das Negros",
+          "series": null,
+          "description": "Jordan and Keegan pose as masters of disguise infiltrating Nazi Germany. Their attempts at blending in with German soldiers lead to increasingly absurd situations."
+        },
+        {
+          "title": "Racist Zombies",
+          "series": null,
+          "description": "Two slaves encounter zombies who are accused of being bigoted even in their undead state. The sketch explores how prejudice persists even during an apocalypse."
+        },
+        {
+          "title": "Obama's Anger Translator",
+          "series": "obama_luther",
+          "description": "President Obama delivers a measured speech while Luther translates his true feelings with uncensored anger and frustration."
+        },
+        {
+          "title": "Gay Wedding Advice",
+          "series": null,
+          "description": "A couple seeks advice for their wedding planning, but the situation becomes complicated by assumptions and misunderstandings about relationships."
+        },
+        {
+          "title": "Manly Tear",
+          "series": null,
+          "description": "Men struggle with expressing emotion appropriately, leading to exaggerated displays of what they consider acceptable masculine crying."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "horror_parody"
+      ],
+      "notable_guests": [
+        "Ty Burrell"
+      ],
+      "tmdb_guests": [
+        "Ty Burrell",
+        "Larry Joe Campbell",
+        "Drew Droege",
+        "Josh Fadem",
+        "Joshua Funk",
+        "Alex Berg",
+        "Todd Fasen",
+        "Billy Merritt",
+        "Emily Maya Mills",
+        "Ron West"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S01E04",
+      "season": 1,
+      "episode": 4,
+      "title": "The Branding",
+      "air_date": "2012-02-21",
+      "overview": "Luther, President Obama's anger translator, reminds everyone who killed Osama bin Laden.",
+      "still": "./images/kp/s01e04_still.jpg",
+      "still_tmdb": "/9dTmay3mKlCLazkzamwhVdntWJK.jpg",
+      "sketches": [
+        {
+          "title": "Obama's Anger Translator - Bin Laden",
+          "series": "obama_luther",
+          "description": "Luther reminds everyone that President Obama was responsible for killing Osama bin Laden. Obama tries to remain diplomatic while Luther aggressively takes credit for the accomplishment."
+        },
+        {
+          "title": "The Branding",
+          "series": null,
+          "description": "A corporate meeting about branding goes awry with absurd marketing suggestions. The sketch likely involves over-the-top corporate speak and ridiculous product positioning."
+        },
+        {
+          "title": "Inner City Wizard School",
+          "series": null,
+          "description": "A parody of Harry Potter where a magical school exists in an urban setting. The sketch plays with the contrast between fantasy tropes and inner-city culture."
+        },
+        {
+          "title": "Fronthand Backhand",
+          "series": null,
+          "description": "A game show or competition sketch involving physical comedy. Contestants likely face increasingly ridiculous challenges or demonstrations."
+        },
+        {
+          "title": "Dying Wife",
+          "series": null,
+          "description": "A dark comedy sketch about a man dealing with his terminally ill wife. The humor comes from inappropriate reactions or misplaced priorities during a serious situation."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture",
+        "celebrity_guest"
+      ],
+      "notable_guests": [
+        "Anders Holm",
+        "Rob Delaney",
+        "Cedric Yarbrough"
+      ],
+      "tmdb_guests": [
+        "Jordan Black",
+        "Daniele Gaither",
+        "Anders Holm",
+        "Jerry Minor",
+        "Cedric Yarbrough",
+        "Rob Delaney",
+        "Colton Dunn",
+        "Ace Gibson",
+        "James Pumphrey",
+        "Brian Shortall",
+        "Alex Fernie"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S01E05",
+      "season": 1,
+      "episode": 5,
+      "title": "Dueling Magical Negroes",
+      "air_date": "2012-02-28",
+      "overview": "Commitment looms for Jordan and Keegan after gay marriage is finally legalized.",
+      "still": "./images/kp/s01e05_still.jpg",
+      "still_tmdb": "/gwgFCIb6PkrtAdhmXurqmPGEqGC.jpg",
+      "sketches": [
+        {
+          "title": "Gay Marriage Legalized",
+          "series": null,
+          "description": "Jordan and Keegan face pressure to get married now that gay marriage has been legalized, despite not actually being gay or in a relationship."
+        },
+        {
+          "title": "Dueling Magical Negroes",
+          "series": null,
+          "description": "Two magical negro characters compete to help the same white protagonist, leading to escalating supernatural assistance."
+        },
+        {
+          "title": "Obama's Anger Translator",
+          "series": "obama_luther",
+          "description": "President Obama delivers a measured speech while Luther translates his true angry feelings about current political issues."
+        },
+        {
+          "title": "Racist Zombie",
+          "series": null,
+          "description": "A zombie apocalypse survivor discovers that even the undead maintain their racial prejudices."
+        },
+        {
+          "title": "Continental Breakfast",
+          "series": null,
+          "description": "A hotel guest becomes increasingly frustrated and obsessive about the quality and presentation of a continental breakfast."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "horror_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Anna Maria Horsford",
+        "Paul F. Tompkins"
+      ],
+      "tmdb_guests": [
+        "Anna Maria Horsford",
+        "Paul F. Tompkins",
+        "Christian S. Anderson",
+        "Erin Gibson",
+        "Joe Hartzler",
+        "Madison Mason",
+        "Brad Morris"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S01E06",
+      "season": 1,
+      "episode": 6,
+      "title": "Flicker",
+      "air_date": "2012-03-06",
+      "overview": "Jordan and Keegan engage in an epic flicker match, and a flash mob goes terribly wrong.",
+      "still": "./images/kp/s01e06_still.jpg",
+      "still_tmdb": "/doYIVYnnVLf5F9Z82DC6h0Yw5c9.jpg",
+      "sketches": [
+        {
+          "title": "Flicker",
+          "series": null,
+          "description": "Jordan and Keegan engage in an intense flicker fight that escalates into an epic battle. The simple childhood game becomes increasingly dramatic and competitive."
+        },
+        {
+          "title": "Flash Mob",
+          "series": null,
+          "description": "A flash mob performance goes horribly wrong when participants misunderstand the choreography. What should be a coordinated dance becomes chaotic and embarrassing."
+        },
+        {
+          "title": "Auction Block",
+          "series": null,
+          "description": "A sketch dealing with slavery and historical racial themes. Features commentary on America's history with slavery presented through Key & Peele's comedic lens."
+        },
+        {
+          "title": "Gay Wedding Advice",
+          "series": null,
+          "description": "A sketch about wedding planning and relationship dynamics. Features characters navigating social situations around weddings and giving advice."
+        },
+        {
+          "title": "Telemarketer",
+          "series": null,
+          "description": "A telemarketer tries to sell products but encounters increasingly bizarre obstacles. The sales call becomes more surreal as it progresses."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Ken Marino",
+        "Ryan Hansen"
+      ],
+      "tmdb_guests": [
+        "Stephanie Allynne",
+        "Carla Gallo",
+        "Ryan Hansen",
+        "Ken Marino",
+        "Jay Martel",
+        "Ian Roberts"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S01E07",
+      "season": 1,
+      "episode": 7,
+      "title": "Soul Food",
+      "air_date": "2012-03-13",
+      "overview": "Jordan and Keegan debate who is blacker, and Bobby McFerrin duels Michael Winslow.",
+      "still": "./images/kp/s01e07_still.jpg",
+      "still_tmdb": "/qsTJmETUQ0Hd3ju8xRj2qkAoJwW.jpg",
+      "sketches": [
+        {
+          "title": "Who's Blacker?",
+          "series": null,
+          "description": "Jordan and Keegan engage in a heated debate over who is more authentically black, competing through various cultural references and experiences."
+        },
+        {
+          "title": "Bobby McFerrin vs Michael Winslow",
+          "series": null,
+          "description": "A musical duel between the famous beatboxer Bobby McFerrin and sound effects master Michael Winslow in an epic vocal battle."
+        },
+        {
+          "title": "Soul Food Restaurant",
+          "series": null,
+          "description": "A sketch centered around a soul food restaurant where cultural authenticity and food quality become points of comedy."
+        },
+        {
+          "title": "Workplace Microaggressions",
+          "series": null,
+          "description": "Office workers navigate uncomfortable racial dynamics and subtle prejudices in a corporate environment."
+        },
+        {
+          "title": "Dating Profile Honesty",
+          "series": null,
+          "description": "A man's brutally honest online dating profile reveals uncomfortable truths about modern dating expectations."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "celebrity_guest",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Matt Besser",
+        "Michelle Buteau",
+        "Rob Delaney",
+        "Janet Varney"
+      ],
+      "tmdb_guests": [
+        "Matt Besser",
+        "Michelle Buteau",
+        "Jeremy Rowley",
+        "Rob Delaney",
+        "Janet Varney",
+        "David Babbitt",
+        "Matthew Craig",
+        "Cristen Coppen",
+        "Annie Ruby",
+        "Diane Sellers"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S01E08",
+      "season": 1,
+      "episode": 8,
+      "title": "Landlord",
+      "air_date": "2012-03-20",
+      "overview": "President Obama doesn't get special treatment, and a young Forest Whitaker terrifies his babysitter.",
+      "still": "./images/kp/s01e08_still.jpg",
+      "still_tmdb": "/7C2dvFmNKG32P9IIAZfj4GDqVe9.jpg",
+      "sketches": [
+        {
+          "title": "Obama's Special Treatment",
+          "series": "obama_luther",
+          "description": "President Obama deals with not getting special treatment in everyday situations while Luther expresses his frustration."
+        },
+        {
+          "title": "Young Forest Whitaker",
+          "series": null,
+          "description": "A young Forest Whitaker terrorizes his babysitter with his intense stare and unsettling behavior."
+        },
+        {
+          "title": "Landlord",
+          "series": null,
+          "description": "A sketch involving landlord-tenant dynamics with Key & Peele's comedic take on rental situations."
+        },
+        {
+          "title": "Fronthand Backhand",
+          "series": null,
+          "description": "A parody of compliments that sound like insults or vice versa in social situations."
+        },
+        {
+          "title": "Pizza Order",
+          "series": null,
+          "description": "A phone conversation ordering pizza goes awry due to miscommunication and assumptions."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture",
+        "celebrity_guest"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Jamie Denbo",
+        "Peter Grosz",
+        "Andy Pessoa",
+        "Chelsea Cook",
+        "Charlie Sanders",
+        "Julian Gant",
+        "Kimleigh Smith",
+        "Jacob Womack"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E01",
+      "season": 2,
+      "episode": 1,
+      "title": "Obama College Years",
+      "air_date": "2012-09-26",
+      "overview": "A young Barack Obama discovers how inspirational a party can be, and two hitmen get sidetracked.",
+      "still": "./images/kp/s02e01_still.jpg",
+      "still_tmdb": "/sKYcRVEaOqVpoKEy34M2KsM02Ih.jpg",
+      "sketches": [
+        {
+          "title": "Obama College Years",
+          "series": null,
+          "description": "A young Barack Obama at college discovers the inspirational power of partying and having fun. The sketch explores Obama's journey from serious student to someone who learns to embrace the social side of college life."
+        },
+        {
+          "title": "Sidetracked Hitmen",
+          "series": null,
+          "description": "Two professional assassins keep getting distracted from their job by various mundane conversations and situations. Their inability to stay focused leads to increasingly absurd delays in completing their mission."
+        },
+        {
+          "title": "Luther's Anger Translator Origins",
+          "series": "obama_luther",
+          "description": "The backstory of how young Obama first met Luther, his future anger translator. This sketch establishes their relationship during Obama's early political career."
+        },
+        {
+          "title": "Text Message Confusion",
+          "series": null,
+          "description": "A miscommunication via text messages escalates into an increasingly complicated and awkward situation. The sketch plays on how digital communication can lead to misunderstandings."
+        },
+        {
+          "title": "Job Interview",
+          "series": null,
+          "description": "A job candidate's interview goes sideways due to cultural misunderstandings and assumptions. The sketch examines workplace dynamics and racial expectations in professional settings."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Michaela Watkins",
+        "Mark Moses",
+        "Maribeth Monroe"
+      ],
+      "tmdb_guests": [
+        "Michaela Watkins",
+        "Mark Moses",
+        "Maribeth Monroe",
+        "Jordan Black",
+        "Mel Cowan"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E02",
+      "season": 2,
+      "episode": 2,
+      "title": "Dubstep",
+      "air_date": "2012-10-03",
+      "overview": "Two friends encounter a racist dog in the park, the flamboyant players of the East/West Collegiate Bowl introduce themselves and a dubstep track derails moving day.",
+      "still": "./images/kp/s02e02_still.jpg",
+      "still_tmdb": "/zWy7LSoYyww82QbxbnMiVgWefbi.jpg",
+      "sketches": [
+        {
+          "title": "Racist Dog",
+          "series": null,
+          "description": "Two friends encounter a dog in the park that seems to behave aggressively only toward Black people, leading to an uncomfortable realization about the dog's training."
+        },
+        {
+          "title": "East/West Collegiate Bowl 2",
+          "series": "east_west_bowl",
+          "description": "College football players with increasingly outrageous and elaborate names introduce themselves with flamboyant personalities and backstories."
+        },
+        {
+          "title": "Dubstep Moving Day",
+          "series": null,
+          "description": "Two men trying to move furniture are constantly interrupted and distracted by an infectious dubstep track that makes them drop everything to dance."
+        },
+        {
+          "title": "Gay Wedding Advice",
+          "series": null,
+          "description": "A straight couple seeks advice from their gay friends about wedding planning, but the dynamic becomes unexpectedly awkward."
+        },
+        {
+          "title": "Continental Breakfast",
+          "series": null,
+          "description": "A hotel continental breakfast becomes the setting for an over-the-top dramatic confrontation between guests over food items."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "sports_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Bill Seward",
+        "Brett Johnson",
+        "Melissa Stephens"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E03",
+      "season": 2,
+      "episode": 3,
+      "title": "Puppy Dog Ice-T",
+      "air_date": "2012-10-10",
+      "overview": "A rescue dog displays a troubling attitude, and Luther provides presidential debate zingers.",
+      "still": "./images/kp/s02e03_still.jpg",
+      "still_tmdb": "/2wKoMPdDO7hoDx541kudOdMouSi.jpg",
+      "sketches": [
+        {
+          "title": "Puppy Dog Ice-T",
+          "series": null,
+          "description": "A rescue dog adopted by a family speaks and behaves exactly like rapper Ice-T, complete with his distinctive voice and tough attitude."
+        },
+        {
+          "title": "Obama's Debate Zingers",
+          "series": "obama_luther",
+          "description": "Luther helps President Obama come up with zingers for an upcoming presidential debate, translating his mild responses into more aggressive comebacks."
+        },
+        {
+          "title": "Darius Rucker",
+          "series": null,
+          "description": "A parody focusing on country singer Darius Rucker (formerly of Hootie & the Blowfish) and the racial dynamics of his crossover to country music."
+        },
+        {
+          "title": "Retirement Home",
+          "series": null,
+          "description": "Elderly residents at a retirement home engage in surprisingly aggressive and street-smart behavior despite their advanced age."
+        },
+        {
+          "title": "Phone Call",
+          "series": null,
+          "description": "A sketch exploring miscommunication and assumptions during a phone conversation between two characters."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Denise Boutte"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E04",
+      "season": 2,
+      "episode": 4,
+      "title": "I'm Retired",
+      "air_date": "2012-10-17",
+      "overview": "A biracial boy has penis concerns, and an inner-city substitute teacher takes roll call.",
+      "still": "./images/kp/s02e04_still.jpg",
+      "still_tmdb": "/uefypZTC2mGwrTnSFRSdh8n2Lwq.jpg",
+      "sketches": [
+        {
+          "title": "Substitute Teacher",
+          "series": "substitute_teacher",
+          "description": "Mr. Garvey, an inner-city substitute teacher, mispronounces students' names in increasingly ridiculous ways during roll call."
+        },
+        {
+          "title": "Biracial Penis",
+          "series": null,
+          "description": "A biracial teenager has concerns about his mixed-race heritage affecting his anatomy and seeks advice."
+        },
+        {
+          "title": "I'm Retired",
+          "series": null,
+          "description": "A man repeatedly declares he's retired from various mundane activities and situations."
+        },
+        {
+          "title": "Aerobics Meltdown",
+          "series": null,
+          "description": "An overly intense aerobics instructor takes his workout class to disturbing extremes."
+        },
+        {
+          "title": "Phone Call",
+          "series": null,
+          "description": "A phone conversation goes awry due to miscommunication and escalating misunderstandings."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Shelby Fero",
+        "Zack Pearlman",
+        "Julian Sergi",
+        "Carlson Young",
+        "Nicole Randall Johnson",
+        "Frederick Lawrence",
+        "Will McLaughlin",
+        "Eric Price",
+        "Nic Wegener"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E05",
+      "season": 2,
+      "episode": 5,
+      "title": "Bone Thugs-n-Homeless",
+      "air_date": "2012-10-24",
+      "overview": "Why are there no more rap groups? Keegan and Jordan have an answer.",
+      "still": "./images/kp/s02e05_still.jpg",
+      "still_tmdb": "/2Rn8L5wmTvL9TB743ptvEeH6bYM.jpg",
+      "sketches": [
+        {
+          "title": "Rap Group Therapy",
+          "series": null,
+          "description": "A therapist helps former rap group members work through their issues and trauma from the music industry. The sketch explores why rap groups from the 90s disbanded and disappeared."
+        },
+        {
+          "title": "Bone Thugs-n-Homeless",
+          "series": null,
+          "description": "A parody of the rap group Bone Thugs-N-Harmony where the members are now homeless and performing their signature rapid-fire style on the streets. They maintain their musical chemistry despite their circumstances."
+        },
+        {
+          "title": "Les Twins",
+          "series": null,
+          "description": "Two French hip-hop dancers perform an elaborate routine but their movements become increasingly ridiculous and over-the-top. A parody of pretentious dance performances."
+        },
+        {
+          "title": "Prepared for Terries",
+          "series": null,
+          "description": "Two men on an airplane discuss their preparedness for potential terrorists ('terries') with increasingly absurd and violent hypothetical scenarios. They use coded language and aggressive posturing."
+        },
+        {
+          "title": "Gay Wedding Advice",
+          "series": null,
+          "description": "A straight man gives unsolicited and inappropriate advice to a gay couple planning their wedding. The sketch satirizes awkward allyship and well-meaning but misguided support."
+        }
+      ],
+      "tags": [
+        "pop_culture",
+        "race_politics"
+      ],
+      "notable_guests": [
+        "Jerry Minor"
+      ],
+      "tmdb_guests": [
+        "Justin Hires",
+        "David Haley",
+        "Nana Gbewonyo",
+        "Danielle Nicolet",
+        "Mekia Cox",
+        "Jason Ishmael Echols",
+        "Jerry Minor",
+        "O.J. Knighten"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E06",
+      "season": 2,
+      "episode": 6,
+      "title": "Michael Jackson Halloween",
+      "air_date": "2012-10-31",
+      "overview": "Noah really gets into his Halloween costume, and white zombies attack.",
+      "still": "./images/kp/s02e06_still.jpg",
+      "still_tmdb": "/ksHHUouLz5VDql1HbK128M6wSCP.jpg",
+      "sketches": [
+        {
+          "title": "Michael Jackson Halloween",
+          "series": null,
+          "description": "Noah gets too into his Michael Jackson Halloween costume, channeling the pop star's mannerisms and behaviors at a party."
+        },
+        {
+          "title": "White Zombies",
+          "series": null,
+          "description": "A horror parody where white zombies attack, playing on racial dynamics in zombie movie scenarios."
+        },
+        {
+          "title": "Obama & Luther - Halloween",
+          "series": "obama_luther",
+          "description": "President Obama and his anger translator Luther deal with Halloween-related political issues."
+        },
+        {
+          "title": "The Valets - Celebrity Obsession",
+          "series": "the_valets",
+          "description": "The two valets discuss their latest celebrity obsessions with their characteristic mispronunciations and enthusiasm."
+        },
+        {
+          "title": "Substitute Teacher - Halloween Names",
+          "series": "substitute_teacher",
+          "description": "Mr. Garvey encounters students with Halloween-themed or costume-related name confusion in his classroom."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "horror_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Kevin Sorbo",
+        "Wayne Brady"
+      ],
+      "tmdb_guests": [
+        "Kevin Sorbo",
+        "Wayne Brady",
+        "Edward Fordham, Jr.",
+        "Rick Hall",
+        "Brendan Hunt",
+        "Robin Thede",
+        "Adolphus Ward"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E07",
+      "season": 2,
+      "episode": 7,
+      "title": "Victory",
+      "air_date": "2012-11-07",
+      "overview": "Luther informs Mitt Romney who won the election, and a non-stop party refuses to stop.",
+      "still": "./images/kp/s02e07_still.jpg",
+      "still_tmdb": "/tFYMEvxW6StYMYHR8Y2mqI5U5Kv.jpg",
+      "sketches": [
+        {
+          "title": "Obama's Anger Translator - Election Results",
+          "series": "obama_luther",
+          "description": "Luther informs President Obama about Mitt Romney winning the election. Luther struggles to deliver the disappointing news while Obama tries to maintain composure."
+        },
+        {
+          "title": "Non-Stop Party",
+          "series": null,
+          "description": "A house party that has been going on for an extended period refuses to end. The partygoers are exhausted but can't seem to stop the festivities."
+        },
+        {
+          "title": "Proud Family",
+          "series": null,
+          "description": "A parody of overly dramatic family moments where emotions and reactions are taken to extreme levels."
+        },
+        {
+          "title": "Pizza Order",
+          "series": null,
+          "description": "A simple pizza order becomes complicated due to cultural misunderstandings and assumptions between the customer and pizza shop employee."
+        },
+        {
+          "title": "Auction Block",
+          "series": null,
+          "description": "A darkly comedic sketch that uses historical context to examine modern situations and racial dynamics."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Tommy Lister Jr.",
+        "Andre Royo"
+      ],
+      "tmdb_guests": [
+        "Tommy Lister Jr.",
+        "Andre Royo",
+        "Alie Ward"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E08",
+      "season": 2,
+      "episode": 8,
+      "title": "Manly Tears",
+      "air_date": "2012-11-14",
+      "overview": "A tough guy cries in front of his crew, and substitute teacher Mr. Nostrand does not play.",
+      "still": "./images/kp/s02e08_still.jpg",
+      "still_tmdb": "/yevgV7IWMurybGHk0YTIG2Oybmd.jpg",
+      "sketches": [
+        {
+          "title": "Manly Tears",
+          "series": null,
+          "description": "A tough guy breaks down crying in front of his crew, leading to awkward reactions from his masculine friends."
+        },
+        {
+          "title": "Mr. Nostrand",
+          "series": "substitute_teacher",
+          "description": "A new substitute teacher continues the tradition of butchering student names with his own unique pronunciation style."
+        },
+        {
+          "title": "Obama's Prayer",
+          "series": "obama_luther",
+          "description": "President Obama tries to pray while Luther translates his true feelings about political frustrations."
+        },
+        {
+          "title": "Gay Wedding Advice",
+          "series": null,
+          "description": "A straight man gives increasingly inappropriate advice to his gay friends planning their wedding."
+        },
+        {
+          "title": "Dungeons & Dragons",
+          "series": null,
+          "description": "A D&D game becomes uncomfortably real when players start acting out their characters' personalities in disturbing ways."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics"
+      ],
+      "notable_guests": [
+        "Dean Norris"
+      ],
+      "tmdb_guests": [
+        "Matt Corboy",
+        "Dean Norris",
+        "Joe Nuñez"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E09",
+      "season": 2,
+      "episode": 9,
+      "title": "Gangsta Standoff",
+      "air_date": "2012-11-21",
+      "overview": "Two gang rivals get inside each other's heads, and a police officer hones his act.",
+      "still": "./images/kp/s02e09_still.jpg",
+      "still_tmdb": "/2LE8M6qiEAHMOCDw5eeIbCFKmxz.jpg",
+      "sketches": [
+        {
+          "title": "Gangsta Standoff",
+          "series": null,
+          "description": "Two gang rivals engage in an intense psychological standoff, getting deep inside each other's heads with increasingly personal observations."
+        },
+        {
+          "title": "Police Officer Comedy Act",
+          "series": null,
+          "description": "A police officer practices and refines his stand-up comedy routine, working on his material and delivery."
+        },
+        {
+          "title": "Das Negros",
+          "series": null,
+          "description": "A parody of Nazi propaganda films featuring African American characters in a twisted historical alternate reality."
+        },
+        {
+          "title": "MC Mom",
+          "series": null,
+          "description": "A suburban mother tries to connect with her teenage son by adopting hip-hop culture and rap persona."
+        },
+        {
+          "title": "Pussy on the Chainwax",
+          "series": null,
+          "description": "A man confidently uses what he thinks is cool street slang, but the phrase makes no sense to anyone else."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Rob Delaney",
+        "Rob Huebel",
+        "Kristanna Loken"
+      ],
+      "tmdb_guests": [
+        "Matt Wheeler",
+        "Charlie Sanders",
+        "Amrapali Ambegaokar",
+        "Lindsay Ames",
+        "Cass Buggé",
+        "Frank Caeti",
+        "Rob Delaney",
+        "Rob Huebel",
+        "Todd Christian Hunter",
+        "Kristanna Loken",
+        "Amber Ruffin",
+        "Brenda Song"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S02E10",
+      "season": 2,
+      "episode": 10,
+      "title": "Dueling Hats",
+      "air_date": "2012-11-28",
+      "overview": "One man's bikini-clad woman is another man's mystery, and two friends step up their hat game.",
+      "still": "./images/kp/s02e10_still.jpg",
+      "still_tmdb": "/5Zs2SU2zgZq9ZPC82ypfosR01t1.jpg",
+      "sketches": [
+        {
+          "title": "Dueling Hats",
+          "series": null,
+          "description": "Two friends engage in an escalating competition to outdo each other with increasingly elaborate and ridiculous hats."
+        },
+        {
+          "title": "Mystery Woman",
+          "series": null,
+          "description": "A man becomes obsessed with a bikini-clad woman he sees, leading to misunderstandings and comedic confusion."
+        },
+        {
+          "title": "Lando Calrissian",
+          "series": null,
+          "description": "A parody sketch featuring the smooth-talking Star Wars character Lando Calrissian in an unexpected situation."
+        },
+        {
+          "title": "Magic Show",
+          "series": null,
+          "description": "A magician's performance goes awry with unexpected audience reactions and comedic mishaps."
+        },
+        {
+          "title": "Fighting Meerkats",
+          "series": null,
+          "description": "A nature documentary parody about meerkats with ridiculous commentary and staged animal behavior."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Billy Dee Williams"
+      ],
+      "tmdb_guests": [
+        "Cynthia Blaise",
+        "Colton Dunn",
+        "Brian Shortall",
+        "Billy Dee Williams"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E01",
+      "season": 3,
+      "episode": 1,
+      "title": "Les Mis",
+      "air_date": "2013-09-18",
+      "overview": "A woman confronts her husband on his web surfing habits, a rapper grapples with his hyperactive hype man, and the villain of an epic musical can't get a word in.",
+      "still": "./images/kp/s03e01_still.jpg",
+      "still_tmdb": "/hCgb61X4LUHBhdjJNA7B5lzhMbT.jpg",
+      "sketches": [
+        {
+          "title": "Web Browsing Confrontation",
+          "series": null,
+          "description": "A woman confronts her husband about his questionable internet browsing habits in an uncomfortable domestic scene."
+        },
+        {
+          "title": "Hyperactive Hype Man",
+          "series": null,
+          "description": "A rapper struggles to deal with his overly enthusiastic and disruptive hype man during a recording session."
+        },
+        {
+          "title": "Les Misérables Villain",
+          "series": null,
+          "description": "The villain in an epic musical production keeps getting interrupted and can't deliver his important lines or songs."
+        },
+        {
+          "title": "Auction Block",
+          "series": null,
+          "description": "A sketch dealing with slavery and historical racial dynamics presented through Key & Peele's satirical lens."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Thomas Middleditch",
+        "Nicole Parker"
+      ],
+      "tmdb_guests": [
+        "Lloyd Ahlquist",
+        "Nicole Parker",
+        "Thomas Middleditch",
+        "Collin Baja",
+        "Michelle Buteau",
+        "Patrick Carlyle",
+        "Rebecca Drysdale",
+        "Eric Edelstein",
+        "Shelby Fero",
+        "Gabriel Freilich",
+        "Justin Hires",
+        "Metta Sandiford-Artest",
+        "Zack Pearlman",
+        "Julian Sergi",
+        "Greg Tuculescu",
+        "Carlson Young"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E02",
+      "season": 3,
+      "episode": 2,
+      "title": "East/West Bowl Rap",
+      "air_date": "2013-09-25",
+      "overview": "Two women prepare to fight outside a club, and the Valets wonder why people mess with the Batmans.",
+      "still": "./images/kp/s03e02_still.jpg",
+      "still_tmdb": "/llDNyW7RdyIYB2ZHb5AbZu0Dg22.jpg",
+      "sketches": [
+        {
+          "title": "East/West Bowl Rap",
+          "series": "east_west_bowl",
+          "description": "College football players with ridiculous names now perform rap songs to introduce themselves instead of just stating their names."
+        },
+        {
+          "title": "Women Fighting Outside Club",
+          "series": null,
+          "description": "Two women prepare for a physical altercation outside a nightclub, likely escalating from a minor dispute."
+        },
+        {
+          "title": "The Valets - Batman",
+          "series": "the_valets",
+          "description": "The valets discuss why people would mess with Batman, expressing their confusion about anyone challenging the Dark Knight."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "Metta World Peace delivers his uniquely bizarre and confusing take on current events and news stories."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "sports_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest",
+        "Rebecca Mader"
+      ],
+      "tmdb_guests": [
+        "Metta Sandiford-Artest",
+        "Bianca Buck",
+        "Tayler Buck",
+        "Brett Johnson",
+        "Rebecca Mader"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E03",
+      "season": 3,
+      "episode": 3,
+      "title": "Slap-Ass",
+      "air_date": "2013-10-02",
+      "overview": "Two slaves try to find a way out of fighting to the death, and a member of a Latin gang proves his toughness.",
+      "still": "./images/kp/s03e03_still.jpg",
+      "still_tmdb": "/9ObrN7PCHr3ejAPn0yacg2Gs8Kp.jpg",
+      "sketches": [
+        {
+          "title": "Slap-Ass",
+          "series": null,
+          "description": "A baseball player's enthusiastic butt-slapping gets increasingly inappropriate and makes his teammates uncomfortable."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "NBA player Metta World Peace delivers bizarre and confusing news reports with his unique perspective."
+        },
+        {
+          "title": "Slave Fighting",
+          "series": null,
+          "description": "Two slaves forced to fight to the death try to find a creative way to avoid actually harming each other."
+        },
+        {
+          "title": "Vato",
+          "series": null,
+          "description": "A member of a Latin gang tries to prove his toughness and street credibility to his fellow gang members."
+        },
+        {
+          "title": "Dueling Hats",
+          "series": null,
+          "description": "A sketch involving competitive or confrontational behavior centered around hats or headwear."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "sports_parody"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest",
+        "Jack McBrayer",
+        "Malcolm-Jamal Warner"
+      ],
+      "tmdb_guests": [
+        "Metta Sandiford-Artest",
+        "Luis Moncada",
+        "Eugene Cordero",
+        "Joshua Funk",
+        "Adrian Gonzalez",
+        "Jon Huertas",
+        "Jack McBrayer",
+        "James Pumphrey",
+        "Zach Steel",
+        "Malcolm-Jamal Warner"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E04",
+      "season": 3,
+      "episode": 4,
+      "title": "Boarding Group One",
+      "air_date": "2013-10-09",
+      "overview": "A passenger finds out that he's far from the first to board, and some breakdancers keep it nooice.",
+      "still": "./images/kp/s03e04_still.jpg",
+      "still_tmdb": "/gbWQ23OIYdxhX4dikwKoRAr8T.jpg",
+      "sketches": [
+        {
+          "title": "Boarding Group One",
+          "series": null,
+          "description": "A passenger becomes increasingly frustrated when he discovers he's not actually in the first boarding group despite his ticket saying so."
+        },
+        {
+          "title": "Nooice Breakdancers",
+          "series": null,
+          "description": "A group of breakdancers repeatedly say 'nooice' while performing their dance moves."
+        },
+        {
+          "title": "Obama & Luther",
+          "series": "obama_luther",
+          "description": "President Obama discusses current events while his anger translator Luther expresses his true feelings."
+        },
+        {
+          "title": "Pizza Order",
+          "series": null,
+          "description": "A simple pizza order becomes complicated when cultural assumptions and miscommunications arise."
+        },
+        {
+          "title": "Dicknanigans",
+          "series": null,
+          "description": "Office workers engage in increasingly elaborate pranks and shenanigans involving inappropriate behavior."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Jason Schwartzman"
+      ],
+      "tmdb_guests": [
+        "Jason Schwartzman",
+        "Matt Wheeler",
+        "Charlie Sanders",
+        "Ronnie Adrian",
+        "Edward Fordham, Jr.",
+        "Buddy Daniels Friedman",
+        "Joshua Funk",
+        "Julian Gant",
+        "Bonnie-Jill Laflin"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E05",
+      "season": 3,
+      "episode": 5,
+      "title": "Obama Shutdown",
+      "air_date": "2013-10-16",
+      "overview": "The Obamas get intimate, the founding fathers talk gun control, and Metta World Peace makes a wish.",
+      "still": "./images/kp/s03e05_still.jpg",
+      "still_tmdb": "/8tZaobRBNQXvlKRmk7U8I0vXZNU.jpg",
+      "sketches": [
+        {
+          "title": "Obama Shutdown",
+          "series": "obama_luther",
+          "description": "President Obama and Luther deal with the government shutdown crisis. Luther expresses Obama's frustrations about Republican obstruction."
+        },
+        {
+          "title": "Obama Marriage Counseling",
+          "series": null,
+          "description": "Barack and Michelle Obama attend couples therapy to work through their relationship issues. The session gets unexpectedly intimate and personal."
+        },
+        {
+          "title": "Founding Fathers Gun Control",
+          "series": null,
+          "description": "The founding fathers debate modern gun control laws and are horrified by how their Second Amendment has been interpreted. They realize their musket-era thinking doesn't apply to modern weapons."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "Metta World Peace delivers bizarre and nonsensical news updates. He makes strange wishes and commentary on current events."
+        },
+        {
+          "title": "School Bully",
+          "series": null,
+          "description": "A grown man confronts his childhood bully years later. The encounter reveals unexpected truths about their past relationship and current lives."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest",
+        "Keke Palmer"
+      ],
+      "tmdb_guests": [
+        "Metta Sandiford-Artest",
+        "Larry Joe Campbell",
+        "Mekia Cox",
+        "Brendan Hunt",
+        "Nicole Randall Johnson",
+        "Madison Mason",
+        "Keke Palmer"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E06",
+      "season": 3,
+      "episode": 6,
+      "title": "Cunnilingus Class",
+      "air_date": "2013-10-23",
+      "overview": "Homies learn how to pleasure a lady, and MVP Ozamataz Buckshank rocks a post-game interview.",
+      "still": "./images/kp/s03e06_still.jpg",
+      "still_tmdb": "/uYzFjlUwv4zm8gs2qcyTtFt1UhE.jpg",
+      "sketches": [
+        {
+          "title": "Cunnilingus Class",
+          "series": null,
+          "description": "A group of men attend an educational class to learn proper techniques for pleasuring women. The sketch plays on awkward sexual education scenarios with Key & Peele's signature absurdist humor."
+        },
+        {
+          "title": "MVP Interview",
+          "series": "east_west_bowl",
+          "description": "Ozamataz Buckshank gives a bizarre post-game interview filled with nonsensical statements and outrageous personality quirks. This continues the East/West Bowl series of football players with ridiculous names and behavior."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "Metta World Peace delivers strange and confusing news segments with his characteristic eccentric delivery. The sketch parodies traditional news broadcasts through his unique perspective."
+        },
+        {
+          "title": "Hoodie",
+          "series": null,
+          "description": "A sketch exploring racial profiling and stereotypes through the lens of wearing hoodies. The premise likely involves misunderstandings or assumptions based on appearance."
+        },
+        {
+          "title": "Phone Call",
+          "series": null,
+          "description": "A miscommunication sketch involving a phone conversation that escalates due to misunderstandings. Key & Peele often use phone calls to explore cultural differences and communication breakdowns."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "sports_parody",
+        "race_politics"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest",
+        "Kate Micucci"
+      ],
+      "tmdb_guests": [
+        "Paul Walter Hauser",
+        "Metta Sandiford-Artest",
+        "April Barnett",
+        "Nyima Funk",
+        "Daniele Gaither",
+        "Lara Ingraham",
+        "Kate Micucci",
+        "Nicole Yvonne"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E07",
+      "season": 3,
+      "episode": 7,
+      "title": "Sexy Vampires",
+      "air_date": "2013-10-30",
+      "overview": "A hotel guest is blown away by the Continental breakfast, and a psycho's victims stay positive.",
+      "still": "./images/kp/s03e07_still.jpg",
+      "still_tmdb": "/alSapiLdeYY5LZxv78nO63vfOtw.jpg",
+      "sketches": [
+        {
+          "title": "Continental Breakfast",
+          "series": null,
+          "description": "A hotel guest becomes extremely enthusiastic and amazed by the simple offerings at a Continental breakfast buffet."
+        },
+        {
+          "title": "Positive Murder Victims",
+          "series": null,
+          "description": "Victims of a psychotic killer maintain upbeat, optimistic attitudes even while being murdered."
+        },
+        {
+          "title": "Sexy Vampires",
+          "series": null,
+          "description": "A parody of vampire movies and TV shows focusing on overly sexualized vampire characters and their dramatic interactions."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "NBA player Metta World Peace delivers offbeat and bizarre news stories in his own unique style."
+        },
+        {
+          "title": "Phone Call",
+          "series": null,
+          "description": "A miscommunication or misunderstanding occurs during a phone conversation between two characters."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "horror_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest",
+        "David Giuntoli",
+        "Marc Evan Jackson",
+        "Brendan Hunt"
+      ],
+      "tmdb_guests": [
+        "Metta Sandiford-Artest",
+        "Reggie De Leon",
+        "Connor Del Rio",
+        "David Giuntoli",
+        "Royce Herron",
+        "Brendan Hunt",
+        "Marc Evan Jackson",
+        "Nick Krause",
+        "Olivia Norman",
+        "Caitlin O'Connor",
+        "Aaron Perilo",
+        "Jeremy Rowley",
+        "Milana Vayntrub",
+        "Jennifer Wenger",
+        "Freddie Wong"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E08",
+      "season": 3,
+      "episode": 8,
+      "title": "High on Potenuse",
+      "air_date": "2013-11-06",
+      "overview": "A guy learns how to buy drugs in public, and an executive tests a speech for political correctness.",
+      "still": "./images/kp/s03e08_still.jpg",
+      "still_tmdb": "/z8cQTvTAaoMtQ1D03sAGbtmuvPv.jpg",
+      "sketches": [
+        {
+          "title": "Drug Deal",
+          "series": null,
+          "description": "A man learns the proper etiquette and code words for buying drugs in public places from an experienced dealer."
+        },
+        {
+          "title": "PC Principal",
+          "series": null,
+          "description": "A corporate executive runs his speech through increasingly absurd political correctness tests to avoid offending anyone."
+        },
+        {
+          "title": "High on Potenuse",
+          "series": null,
+          "description": "A substitute teacher becomes extremely excited and high-energy when a student makes a math joke about being 'high on potenuse.'"
+        },
+        {
+          "title": "Telemarketer Boss",
+          "series": null,
+          "description": "A telemarketing supervisor gives an overly intense motivational speech to his employees about selling products."
+        },
+        {
+          "title": "Georgina and Esther",
+          "series": null,
+          "description": "Two proper ladies discuss their romantic interests while using increasingly explicit sexual euphemisms disguised as polite conversation."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "James Callis",
+        "Gabriel Iglesias"
+      ],
+      "tmdb_guests": [
+        "Ithamar Enriquez",
+        "Matt Wheeler",
+        "Brad Abrell",
+        "Maria Blasucci",
+        "Frank Caeti",
+        "James Callis",
+        "Heather Anne Campbell",
+        "Crista Flanagan",
+        "Gabriel Iglesias",
+        "Jerry Lambert",
+        "Charlie Sanders",
+        "Jeff Sanders",
+        "Bill Seward"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E09",
+      "season": 3,
+      "episode": 9,
+      "title": "Tackle & Grapple",
+      "air_date": "2013-11-13",
+      "overview": "Meegan gets Andre in trouble, and sensei Doug Duggart teaches self-defense for the ladies.",
+      "still": "./images/kp/s03e09_still.jpg",
+      "still_tmdb": "/iJQbc02HIOYXf2yWyIrQQQFLBKI.jpg",
+      "sketches": [
+        {
+          "title": "Meegan & André - Getting in Trouble",
+          "series": "meegan_andre",
+          "description": "Meegan gets André in trouble with her dramatic behavior and manipulation tactics."
+        },
+        {
+          "title": "Sensei Doug Duggart's Self-Defense",
+          "series": null,
+          "description": "An overly enthusiastic martial arts instructor teaches self-defense classes specifically for women."
+        },
+        {
+          "title": "Tackle & Grapple",
+          "series": null,
+          "description": "A parody sketch likely involving physical comedy around wrestling or fighting techniques."
+        },
+        {
+          "title": "Restaurant Situation",
+          "series": null,
+          "description": "A sketch set in a restaurant or dining establishment with escalating social awkwardness."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "sports_parody"
+      ],
+      "notable_guests": [
+        "Leslie David Baker",
+        "James Hong"
+      ],
+      "tmdb_guests": [
+        "Leslie David Baker",
+        "Matt Wheeler",
+        "Helena Barrett",
+        "Rell Battle",
+        "Jean-Emmanuel Casséus",
+        "Mars Crain",
+        "Rogelio Douglas Jr.",
+        "Nyima Funk",
+        "James Hong",
+        "Patrick Hume",
+        "Echo Kellum",
+        "Stevie Nelson",
+        "Ayesha Orange",
+        "Courtney Pauroso",
+        "D.C. Pierson",
+        "Keith Raskin",
+        "Melissa Stephens",
+        "Gary Anthony Williams"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E10",
+      "season": 3,
+      "episode": 10,
+      "title": "Black Ice",
+      "air_date": "2013-11-20",
+      "overview": "Local news anchors warn viewers about the dangers of \"black ice,\" Lando Calrissian deals with an admirer, and Metta World Peace gives tips to homemakers.",
+      "still": "./images/kp/s03e10_still.jpg",
+      "still_tmdb": "/onynwjs7t1DqBYV51vmK7eTr5xu.jpg",
+      "sketches": [
+        {
+          "title": "Black Ice",
+          "series": null,
+          "description": "Local news anchors treat black ice as if it's a dangerous criminal element, using racially charged language to describe the weather phenomenon."
+        },
+        {
+          "title": "Lando Calrissian",
+          "series": null,
+          "description": "Lando Calrissian from Star Wars deals with an overly enthusiastic fan who won't leave him alone."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "NBA player Metta World Peace delivers bizarre homemaking tips and lifestyle advice in his signature eccentric style."
+        },
+        {
+          "title": "Pizza Order",
+          "series": null,
+          "description": "A routine pizza delivery turns into an awkward encounter with misunderstandings and social tensions."
+        },
+        {
+          "title": "Dicknanigans",
+          "series": null,
+          "description": "Two friends engage in increasingly elaborate pranks involving male anatomy jokes and juvenile behavior."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture",
+        "sports_parody"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest",
+        "Jon Daly",
+        "Arden Myrin"
+      ],
+      "tmdb_guests": [
+        "Metta Sandiford-Artest",
+        "Ronnie Adrian",
+        "Jacob Bruce",
+        "Jon Daly",
+        "Laird Macintosh",
+        "Arden Myrin",
+        "Trevor Ware"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E11",
+      "season": 3,
+      "episode": 11,
+      "title": "The Power of Wings",
+      "air_date": "2013-11-27",
+      "overview": "A pawn shop customer asks after some suspicious items, Wendell makes a vanity video, and Karim and Jahar go to the gym.",
+      "still": "./images/kp/s03e11_still.jpg",
+      "still_tmdb": "/tAYgdhwnRbJxJdAKbf0tuXjZKgw.jpg",
+      "sketches": [
+        {
+          "title": "Pawn Shop Weapons",
+          "series": null,
+          "description": "A customer inquires about suspicious and dangerous items at a pawn shop, making the clerk increasingly uncomfortable."
+        },
+        {
+          "title": "Wendell's Vanity Video",
+          "series": "wendell",
+          "description": "Wendell creates a self-promotional video showcasing his sad, awkward personality and questionable life choices."
+        },
+        {
+          "title": "Karim and Jahar at the Gym",
+          "series": null,
+          "description": "Two friends with Middle Eastern names navigate awkward situations and misunderstandings while working out at a gym."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "NBA player Metta World Peace delivers bizarre and nonsensical news reports with his characteristic eccentric style."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "sports_parody"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest",
+        "Colin Hanks",
+        "Natasha Leggero",
+        "Janet Varney"
+      ],
+      "tmdb_guests": [
+        "Metta Sandiford-Artest",
+        "Michael Busch",
+        "Colin Hanks",
+        "Todd Christian Hunter",
+        "Natasha Leggero",
+        "Melissa Stetten",
+        "Janet Varney"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E12",
+      "season": 3,
+      "episode": 12,
+      "title": "East/West Bowl 2",
+      "air_date": "2013-12-11",
+      "overview": "The players in the 2013 East/West Bowl introduce themselves, a suspect landlord searches a tenant's apartment, and Metta World Peace explores his physical limitations.",
+      "still": "./images/kp/s03e12_still.jpg",
+      "still_tmdb": "/r6x4eclj2ORe8BHq2terRzhVvec.jpg",
+      "sketches": [
+        {
+          "title": "East/West Bowl 2",
+          "series": "east_west_bowl",
+          "description": "The 2013 East/West Bowl college football players introduce themselves with increasingly ridiculous and elaborate names."
+        },
+        {
+          "title": "Landlord Search",
+          "series": null,
+          "description": "A suspicious landlord conducts an invasive search of his tenant's apartment under questionable pretenses."
+        },
+        {
+          "title": "Metta World News",
+          "series": "metta_world_news",
+          "description": "Metta World Peace delivers bizarre news segments while exploring his own physical limitations and quirks."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "sports_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Metta Sandiford-Artest"
+      ],
+      "tmdb_guests": [
+        "Dylan Booth",
+        "John Gemberling",
+        "Selwyn Emerson Miller",
+        "Metta Sandiford-Artest",
+        "Charles Robinson",
+        "Scott Rodgers",
+        "Bill Seward",
+        "Brian Shortall"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S03E13",
+      "season": 3,
+      "episode": 13,
+      "title": "Pussy on the Chainwax",
+      "air_date": "2013-12-18",
+      "overview": "Some friends argue over whether a new slang phrase is a \"thing,\" a man learns the truth about his father's Hollywood past, and the valets come to Anne Hathaway's defense.",
+      "still": "./images/kp/s03e13_still.jpg",
+      "still_tmdb": "/jj71ea9wHKLnlhidGJTIfuv7GpZ.jpg",
+      "sketches": [
+        {
+          "title": "Pussy on the Chainwax",
+          "series": null,
+          "description": "A group of friends argue over whether 'pussy on the chainwax' is actually a real slang phrase, with one person insisting it's a thing while others are confused."
+        },
+        {
+          "title": "The Valets Defend Anne Hathaway",
+          "series": "the_valets",
+          "description": "The two valets passionately defend Anne Hathaway against criticism, discussing her talent and career with their trademark intensity."
+        },
+        {
+          "title": "Dad's Hollywood Secret",
+          "series": null,
+          "description": "A man discovers surprising and possibly embarrassing details about his father's past career in Hollywood."
+        },
+        {
+          "title": "Text Message Confusion",
+          "series": null,
+          "description": "A sketch involving miscommunication or misunderstanding through text messaging between characters."
+        },
+        {
+          "title": "Slap-Ass",
+          "series": null,
+          "description": "A workplace comedy about inappropriate behavior and boundaries in a professional setting."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Paul Walter Hauser",
+        "Robert Ben Garant",
+        "Thomas Lennon",
+        "David Wain"
+      ],
+      "tmdb_guests": [
+        "Paul Walter Hauser",
+        "Tone Bell",
+        "Cynthia Blaise",
+        "Josh Fadem",
+        "Robert Ben Garant",
+        "Toby Huss",
+        "Thomas Lennon",
+        "Ian Roberts",
+        "Johnny A. Sanchez",
+        "David Wain",
+        "Reggie Watkins"
+      ],
+      "format": "live_audience"
+    },
+    {
+      "id": "S04E01",
+      "season": 4,
+      "episode": 1,
+      "title": "Alien Imposters",
+      "air_date": "2014-09-24",
+      "overview": "The survivors of an alien invasion find out whom they can trust, a family comes to terms with a relative's gay wedding, a couple of racists express some surprising views, a drill sergeant sings an unconventional marching song, and a pop sensation answers questions from her fans.",
+      "still": "./images/kp/s04e01_still.jpg",
+      "still_tmdb": "/eBamj8pPvLPhO78NndG7IK8JAIO.jpg",
+      "sketches": [
+        {
+          "title": "Alien Imposters",
+          "series": null,
+          "description": "Survivors of an alien invasion try to determine who among them can be trusted, likely involving paranoia and body-snatching themes."
+        },
+        {
+          "title": "Gay Wedding Family",
+          "series": null,
+          "description": "A family struggles to come to terms with attending a relative's gay wedding, exploring family dynamics and acceptance."
+        },
+        {
+          "title": "Surprising Racists",
+          "series": null,
+          "description": "A couple of racists express unexpectedly progressive or contradictory views, subverting expectations about prejudice."
+        },
+        {
+          "title": "Drill Sergeant Marching Song",
+          "series": null,
+          "description": "A military drill sergeant leads troops in an unconventional and likely inappropriate marching song."
+        },
+        {
+          "title": "Pop Star Fan Q&A",
+          "series": null,
+          "description": "A pop sensation answers questions from her fans, probably with awkward or unexpected responses."
+        }
+      ],
+      "tags": [
+        "horror_parody",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Craig Anton",
+        "Aja Bair",
+        "Frank Birney",
+        "Laura Brunkala",
+        "Owen Burke",
+        "Matt Corboy",
+        "Eugene Cordero",
+        "Marissa Cuevas",
+        "Reggie De Leon",
+        "Ron G.",
+        "Daniele Gaither",
+        "Joey Kern",
+        "Holly Laurent",
+        "Victor Samuel Lopez",
+        "Romany Malco",
+        "Brooklyn McLinn",
+        "Eli Newell",
+        "Courtney Pauroso",
+        "Damion Poitier",
+        "Esther Povitsky",
+        "Lance Reddick",
+        "John Ruby",
+        "Cedric Sanders",
+        "Brenda Vivian",
+        "Vernee Watson",
+        "Kyle Weishaar",
+        "Gary Anthony Williams",
+        "Mark Anthony Williams"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E02",
+      "season": 4,
+      "episode": 2,
+      "title": "Parole Officer Puppet",
+      "air_date": "2014-10-01",
+      "overview": "A parole officer uses a puppet to connect with convicts, a man in a neck brace attempts to party down, a Nazi officer tells the story of the time he saw Hitler, and Levi goes steampunk.",
+      "still": "./images/kp/s04e02_still.jpg",
+      "still_tmdb": "/9xD03b9UHCahckgKpd3WakKqgwo.jpg",
+      "sketches": [
+        {
+          "title": "Parole Officer Puppet",
+          "series": null,
+          "description": "A parole officer uses a puppet to communicate with and relate to his convicts in an unconventional therapy approach."
+        },
+        {
+          "title": "Neck Brace Party",
+          "series": null,
+          "description": "A man wearing a neck brace tries to party and dance despite his medical restriction, leading to awkward situations."
+        },
+        {
+          "title": "Nazi Officer Hitler Story",
+          "series": null,
+          "description": "A Nazi officer recounts an encounter with Hitler in what appears to be a dark comedy sketch about historical events."
+        },
+        {
+          "title": "Levi Goes Steampunk",
+          "series": "levi_cedric",
+          "description": "Levi embraces the steampunk subculture as his latest trend while Cedric reacts to his friend's new obsession."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Ty Burrell",
+        "Baron Vaughn"
+      ],
+      "tmdb_guests": [
+        "Ty Burrell",
+        "Aalyrah Caldwell",
+        "Mickey Cassidy",
+        "Greg Hess",
+        "Meagan Holder",
+        "Omar Nazel",
+        "Baron Vaughn",
+        "Paul Welsh",
+        "Matt Wheeler",
+        "Catherine Worth"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E03",
+      "season": 4,
+      "episode": 3,
+      "title": "Georgina and Esther and Satan",
+      "air_date": "2014-10-08",
+      "overview": "Two old women battle with Satan, things go awry when a man goes mattress shopping, and dance club patrons are forced to face the truth about themselves.",
+      "still": "./images/kp/s04e03_still.jpg",
+      "still_tmdb": "/kyfSy1hIhcWAytJFgbHa9uMN80b.jpg",
+      "sketches": [
+        {
+          "title": "Georgina and Esther and Satan",
+          "series": null,
+          "description": "Two elderly women encounter and battle with Satan in a supernatural horror comedy sketch."
+        },
+        {
+          "title": "Mattress Shopping",
+          "series": null,
+          "description": "A man's simple trip to buy a mattress goes horribly wrong with unexpected complications."
+        },
+        {
+          "title": "Dance Club Truth",
+          "series": null,
+          "description": "Patrons at a dance club are confronted with uncomfortable truths about themselves and their behavior."
+        },
+        {
+          "title": "Text Message Confusion",
+          "series": null,
+          "description": "Miscommunication and misunderstandings arise from text message exchanges between characters."
+        }
+      ],
+      "tags": [
+        "horror_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Nadege August",
+        "Dylan Ballard",
+        "Sawyer Ever",
+        "Evan Fung",
+        "Joshua Funk",
+        "Madison Horcher",
+        "Rachel Montez Collins"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E04",
+      "season": 4,
+      "episode": 4,
+      "title": "Slap-Ass: In Recovery",
+      "air_date": "2014-10-15",
+      "overview": "A mobster seeking vengeance on someone who wronged him, a baseball player fighting an addiction to unwanted bodily contact, and Family Matters' Steve Urkel driving a man insane.",
+      "still": "./images/kp/s04e04_still.jpg",
+      "still_tmdb": "/b231bpD642AOcDYcnqCJ9lWbZP9.jpg",
+      "sketches": [
+        {
+          "title": "Slap-Ass: In Recovery",
+          "series": null,
+          "description": "A former baseball player attends a support group to overcome his addiction to slapping teammates' butts. He struggles with withdrawal and the temptation to slap-ass in everyday situations."
+        },
+        {
+          "title": "The Heist",
+          "series": null,
+          "description": "A mobster seeks revenge on someone who double-crossed him in an elaborate scheme. The plan becomes increasingly convoluted and over-the-top."
+        },
+        {
+          "title": "Steve Urkel Stalker",
+          "series": null,
+          "description": "A man becomes obsessed with Family Matters character Steve Urkel to the point where it drives him completely insane. Urkel's mannerisms and catchphrases torment him relentlessly."
+        },
+        {
+          "title": "Gambling Addicts",
+          "series": null,
+          "description": "A support group for gambling addicts gets sidetracked when members start making bets about everything during their therapy session."
+        },
+        {
+          "title": "Laron Can't Laugh",
+          "series": null,
+          "description": "A man discovers he has lost his ability to laugh naturally and must fake it in social situations. His attempts become increasingly awkward and forced."
+        }
+      ],
+      "tags": [
+        "sports_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Cedric Yarbrough",
+        "Tyler James Williams"
+      ],
+      "tmdb_guests": [
+        "Cedric Yarbrough",
+        "Mekia Cox",
+        "Tyler James Williams",
+        "Bert Belasco",
+        "Michael McLafferty"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E05",
+      "season": 4,
+      "episode": 5,
+      "title": "Quarterback Concussion",
+      "air_date": "2014-10-22",
+      "overview": "A concussed football player cheering his team on, a man accusing his wife of being unfaithful, and a restaurateur scaring away his customers.",
+      "still": "./images/kp/s04e05_still.jpg",
+      "still_tmdb": "/nuMaotSu8LaZL153gibYL6Eppeq.jpg",
+      "sketches": [
+        {
+          "title": "Concussed Quarterback",
+          "series": null,
+          "description": "A football player with a severe concussion continues cheering on his team while making increasingly nonsensical statements due to his brain injury."
+        },
+        {
+          "title": "Suspicious Husband",
+          "series": null,
+          "description": "A paranoid man becomes convinced his wife is having an affair and confronts her with increasingly absurd accusations and evidence."
+        },
+        {
+          "title": "Restaurant Owner",
+          "series": null,
+          "description": "An overly intense restaurateur drives away potential customers with his aggressive and frightening behavior while trying to promote his establishment."
+        },
+        {
+          "title": "Text Message Confusion",
+          "series": null,
+          "description": "A misunderstanding over text messages escalates into an absurd situation due to miscommunication and assumptions."
+        },
+        {
+          "title": "Job Interview",
+          "series": null,
+          "description": "A job interview goes awry when cultural differences and expectations clash in unexpected ways."
+        }
+      ],
+      "tags": [
+        "sports_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Rashida Jones",
+        "Jason Ritter"
+      ],
+      "tmdb_guests": [
+        "Yassir Lester",
+        "Justin Hires",
+        "Omar Nazel",
+        "Shad Gaspard",
+        "Rashida Jones",
+        "Danielle Nicolet",
+        "Jason Ritter"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E06",
+      "season": 4,
+      "episode": 6,
+      "title": "Scariest Movie Ever",
+      "air_date": "2014-10-29",
+      "overview": "Sketches include a vampire revealing himself, the thwarting of a serial killer, and a child getting his wish.",
+      "still": "./images/kp/s04e06_still.jpg",
+      "still_tmdb": "/cCJ1la0Gz9CIiB99QECQOtHaY8r.jpg",
+      "sketches": [
+        {
+          "title": "Vampire Reveal",
+          "series": null,
+          "description": "A vampire attempts to dramatically reveal his true nature but the revelation doesn't go as planned."
+        },
+        {
+          "title": "Serial Killer Thwarted",
+          "series": null,
+          "description": "A would-be serial killer's murderous plans are unexpectedly foiled by circumstances beyond his control."
+        },
+        {
+          "title": "Child's Wish",
+          "series": null,
+          "description": "A child finally gets what he's been wishing for, but the outcome takes an unexpected turn."
+        },
+        {
+          "title": "Scariest Movie Ever",
+          "series": null,
+          "description": "A parody of horror movie tropes and the quest to create the ultimate scary film experience."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "horror_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Kumail Nanjiani",
+        "Lauren Lapkus"
+      ],
+      "tmdb_guests": [
+        "Lauren Lapkus",
+        "Madison Mason",
+        "Kumail Nanjiani",
+        "Nick Rutherford",
+        "Joel Spence"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E07",
+      "season": 4,
+      "episode": 7,
+      "title": "Sex Detective",
+      "air_date": "2014-11-05",
+      "overview": "A detective puts himself in the mind of a perpetrator, a retro action hero infiltrates a villain's compound, and President Obama addresses the critics within his party.",
+      "still": "./images/kp/s04e07_still.jpg",
+      "still_tmdb": "/jimTnu4KxxQ1cbtm4IBodjtO9KX.jpg",
+      "sketches": [
+        {
+          "title": "Sex Detective",
+          "series": null,
+          "description": "A detective puts himself in the mind of a sex crime perpetrator in an overly dramatic procedural parody."
+        },
+        {
+          "title": "Obama's Democratic Critics",
+          "series": "obama_luther",
+          "description": "President Obama addresses critics within his own party with Luther translating his true feelings."
+        },
+        {
+          "title": "Action Movie Hero",
+          "series": null,
+          "description": "A retro action hero infiltrates a villain's compound in a parody of 80s action films."
+        },
+        {
+          "title": "Dating Game Show",
+          "series": null,
+          "description": "A dating game show takes an uncomfortable turn with awkward contestants and bizarre questions."
+        },
+        {
+          "title": "Dojo Training",
+          "series": null,
+          "description": "A martial arts training session becomes increasingly ridiculous with over-the-top techniques."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Paget Brewster",
+        "Anna Camp",
+        "Malcolm-Jamal Warner"
+      ],
+      "tmdb_guests": [
+        "Louisa Abernathy",
+        "Paget Brewster",
+        "Anna Camp",
+        "Michael Derek",
+        "Brendan Hunt",
+        "Russell Pitts",
+        "Malcolm-Jamal Warner"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E08",
+      "season": 4,
+      "episode": 8,
+      "title": "Terrible Henchman",
+      "air_date": "2014-11-12",
+      "overview": "A henchman keeps interrupting his boss's torture session, a speaker at a school assembly discusses his colorful life, and a man tries to prove he's all grown up.",
+      "still": "./images/kp/s04e08_still.jpg",
+      "still_tmdb": "/hsO4k1OzOZn87W9tFLJkaWac316.jpg",
+      "sketches": [
+        {
+          "title": "Terrible Henchman",
+          "series": null,
+          "description": "A bumbling henchman constantly interrupts his villain boss during a torture session with unhelpful comments and questions."
+        },
+        {
+          "title": "School Assembly Speaker",
+          "series": null,
+          "description": "A motivational speaker at a school assembly shares inappropriately detailed stories about his wild and colorful past life."
+        },
+        {
+          "title": "All Grown Up",
+          "series": null,
+          "description": "A man desperately tries to convince others that he's mature and responsible despite his childish behavior and circumstances."
+        },
+        {
+          "title": "Gangster Movie Parody",
+          "series": null,
+          "description": "A parody of classic gangster films with Key & Peele's comedic twist on mob movie tropes."
+        }
+      ],
+      "tags": [
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Hayes MacArthur"
+      ],
+      "tmdb_guests": [
+        "Randy Blekitas",
+        "Sandra Kate Burck",
+        "Hayes MacArthur"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E09",
+      "season": 4,
+      "episode": 9,
+      "title": "Aerobics Meltdown",
+      "air_date": "2014-11-19",
+      "overview": "Sketches include Stan Lee pitching new superheroes, a man losing his street cred, and a man creating a mnemonic device to remember a parking spot.",
+      "still": "./images/kp/s04e09_still.jpg",
+      "still_tmdb": "/cKJsP7dMys4mudMa0VVGblUsAOV.jpg",
+      "sketches": [
+        {
+          "title": "Stan Lee's Rejected Superheroes",
+          "series": null,
+          "description": "Stan Lee pitches increasingly ridiculous and inappropriate superhero concepts to executives."
+        },
+        {
+          "title": "Street Cred Lost",
+          "series": null,
+          "description": "A man gradually loses his street credibility through a series of embarrassing situations."
+        },
+        {
+          "title": "Parking Spot Mnemonic",
+          "series": null,
+          "description": "A man creates an elaborate mnemonic device to remember where he parked his car."
+        },
+        {
+          "title": "Aerobics Meltdown",
+          "series": null,
+          "description": "An aerobics instructor has an emotional breakdown during a fitness class."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Clint Howard"
+      ],
+      "tmdb_guests": [
+        "Erika L. Holmes",
+        "Lindsay Ames",
+        "Hayden Faraday",
+        "Clint Howard",
+        "Phil Augusta Jackson",
+        "Hal Rudnick",
+        "Michael Shaun Sandy"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E10",
+      "season": 4,
+      "episode": 10,
+      "title": "Sex Addict Wendell",
+      "air_date": "2014-12-03",
+      "overview": "Wendell attends a support group for sex addicts, a teacher has trouble calming down a class clown, and two jazz musicians have a scat battle.",
+      "still": "./images/kp/s04e10_still.jpg",
+      "still_tmdb": "/8BbR0EuSqr9GdRyLieXZdGTz5WX.jpg",
+      "sketches": [
+        {
+          "title": "Sex Addict Wendell",
+          "series": "wendell",
+          "description": "Wendell attends a support group for sex addicts and makes everyone uncomfortable with his neurotic behavior and inappropriate sharing."
+        },
+        {
+          "title": "Class Clown",
+          "series": null,
+          "description": "A teacher struggles to maintain control of her classroom when dealing with an unstoppable class clown student."
+        },
+        {
+          "title": "Scat Battle",
+          "series": null,
+          "description": "Two jazz musicians engage in an intense scat singing battle that escalates beyond normal musical competition."
+        },
+        {
+          "title": "Continental Breakfast",
+          "series": null,
+          "description": "A hotel continental breakfast scenario turns absurd with overly elaborate presentation and commentary."
+        },
+        {
+          "title": "Poker Face",
+          "series": null,
+          "description": "A poker game where one player's terrible poker face leads to increasingly ridiculous tells and reactions."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Neil Flynn",
+        "Chelsea Peretti"
+      ],
+      "tmdb_guests": [
+        "Cale Hartmann",
+        "Rebecca Drysdale",
+        "Ithamar Enriquez",
+        "Neil Flynn",
+        "Fiona Gubelmann",
+        "Ethan Herisse",
+        "Bryce Hurless",
+        "Hari Leigh",
+        "Seth Morris",
+        "Chelsea Peretti",
+        "Caroline Pho",
+        "Retta",
+        "Richard Schiff",
+        "Trevor Ware"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S04E11",
+      "season": 4,
+      "episode": 11,
+      "title": "Terrorist Meeting",
+      "air_date": "2014-12-10",
+      "overview": "A group of terrorists decries the TSA, Carlito tries to prove he's the loco-est member of his gang, and Meegan has trouble finding her seat at a movie theater.",
+      "still": "./images/kp/s04e11_still.jpg",
+      "still_tmdb": "/dr837ZIURiNns3UyBv3l2wKdrZG.jpg",
+      "sketches": [
+        {
+          "title": "Terrorist Meeting",
+          "series": null,
+          "description": "A group of terrorists complain about TSA security procedures and airport inconveniences during their meeting."
+        },
+        {
+          "title": "Carlito",
+          "series": null,
+          "description": "Carlito desperately tries to prove he's the craziest and most dangerous member of his gang through increasingly absurd attempts."
+        },
+        {
+          "title": "Meegan at the Movies",
+          "series": "meegan_andre",
+          "description": "Meegan causes a disruption at a movie theater while trying to find her seat, likely dragging André into the chaos."
+        },
+        {
+          "title": "Continental Breakfast",
+          "series": null,
+          "description": "A sketch likely involving the awkward social dynamics around a hotel continental breakfast setup."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Julia Duffy",
+        "Ernie Hudson",
+        "David Krumholtz"
+      ],
+      "tmdb_guests": [
+        "Satya Bhabha",
+        "Richard Cabral",
+        "Julia Duffy",
+        "Ernie Hudson",
+        "Camille Knox",
+        "David Krumholtz",
+        "Luis Moncada",
+        "Emory Ogletree II",
+        "Joe Wengert"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E01",
+      "season": 5,
+      "episode": 1,
+      "title": "Y'all Ready For This?",
+      "air_date": "2015-07-08",
+      "overview": "Season 5 premiere sketches include a football team getting psyched up before a game; President Obama and Luther meeting Hillary Clinton; two men discussing potential threats on a flight; a band of pirates singing a chantey. Also: a trigger-happy cop.",
+      "still": "./images/kp/s05e01_still.jpg",
+      "still_tmdb": "/wU85kTZNPwm849i6DRz1fwbu22f.jpg",
+      "sketches": [
+        {
+          "title": "Football Hype Squad",
+          "series": null,
+          "description": "A football team gets pumped up before a game with increasingly absurd motivational tactics."
+        },
+        {
+          "title": "Obama Meets Hillary",
+          "series": "obama_luther",
+          "description": "President Obama and his anger translator Luther have a meeting with Hillary Clinton."
+        },
+        {
+          "title": "Flight Threat Assessment",
+          "series": null,
+          "description": "Two men on an airplane discuss what they perceive as potential security threats during their flight."
+        },
+        {
+          "title": "Pirate Chantey",
+          "series": null,
+          "description": "A band of pirates sing a traditional sea chantey with unexpected twists."
+        },
+        {
+          "title": "Trigger-Happy Cop",
+          "series": null,
+          "description": "A police officer with an itchy trigger finger creates chaos in routine situations."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "sports_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Malcolm Barrett"
+      ],
+      "tmdb_guests": [
+        "Malcolm Barrett",
+        "Kate Burton",
+        "Stig Eldred",
+        "Joshua Funk",
+        "Justin Hires",
+        "Brendan Hunt",
+        "Phil Augusta Jackson",
+        "Davey Johnson",
+        "Devon Libran",
+        "Damion Poitier",
+        "James Pumphrey",
+        "Rebecca Romijn",
+        "Will Sasso",
+        "Stephnie Weir",
+        "Gary Anthony Williams"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E02",
+      "season": 5,
+      "episode": 2,
+      "title": "Airplane Showdown",
+      "air_date": "2015-07-15",
+      "overview": "An airline passenger has a standoff with a flight attendant, Shaboots and T-Ray deliver a lecture on women's periods, and a prayer group receives a visit from God.",
+      "still": "./images/kp/s05e02_still.jpg",
+      "still_tmdb": "/5Jb4Ug48ysSX8iAH12UKFtprf2a.jpg",
+      "sketches": [
+        {
+          "title": "Airplane Showdown",
+          "series": null,
+          "description": "An airline passenger gets into an escalating confrontation with a flight attendant over airline policies and procedures."
+        },
+        {
+          "title": "Shaboots & T-Ray on Periods",
+          "series": null,
+          "description": "Two street-wise characters named Shaboots and T-Ray attempt to educate people about women's menstrual cycles in their own unique style."
+        },
+        {
+          "title": "Prayer Group Visits God",
+          "series": null,
+          "description": "A religious prayer group receives an unexpected visit from God himself, leading to awkward and comedic interactions."
+        },
+        {
+          "title": "Text Message Confusion",
+          "series": null,
+          "description": "A misunderstanding over text messages leads to escalating confusion and miscommunication between friends."
+        },
+        {
+          "title": "Job Interview",
+          "series": null,
+          "description": "A job interview goes awry when cultural differences and assumptions create uncomfortable situations between interviewer and candidate."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Regina Hall"
+      ],
+      "tmdb_guests": [
+        "Carson Bolde",
+        "Larry Joe Campbell",
+        "Cynthia Blaise",
+        "Ginger Gonzaga",
+        "Regina Hall",
+        "Danielle Nicolet",
+        "Matt Knudsen"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E03",
+      "season": 5,
+      "episode": 3,
+      "title": "A Cappella Club",
+      "air_date": "2015-07-22",
+      "overview": "Two black students compete for a cappella supremacy, Andre and Meegan go on their first date, and would-be terrorists get caught up in the food truck business.",
+      "still": "./images/kp/s05e03_still.jpg",
+      "still_tmdb": "/a8mcqTl4fzqheRariaWh2lW2wg0.jpg",
+      "sketches": [
+        {
+          "title": "A Cappella Club",
+          "series": null,
+          "description": "Two black students engage in an intense competition for dominance in their college a cappella group, escalating their rivalry through increasingly elaborate vocal performances."
+        },
+        {
+          "title": "Meegan & André First Date",
+          "series": "meegan_andre",
+          "description": "The toxic couple Meegan and André go on their very first date, with Meegan's dramatic and manipulative behavior already showing early warning signs."
+        },
+        {
+          "title": "Terrorist Food Truck",
+          "series": null,
+          "description": "Would-be terrorists attempt to carry out their plans but get completely distracted and absorbed by running a food truck business instead."
+        },
+        {
+          "title": "Proud Family",
+          "series": null,
+          "description": "A parody sketch involving family dynamics and cultural expectations within the black community."
+        },
+        {
+          "title": "Job Interview",
+          "series": null,
+          "description": "A workplace comedy sketch focusing on the awkwardness and racial dynamics of a professional job interview situation."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Bo Burnham"
+      ],
+      "tmdb_guests": [
+        "Zac Oyama",
+        "Satya Bhabha",
+        "Bo Burnham",
+        "Myles Cranford",
+        "Anthony Gioe",
+        "Titus Makin Jr.",
+        "Eric Price",
+        "Adolphus Ward",
+        "Jacob Wysocki"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E04",
+      "season": 5,
+      "episode": 4,
+      "title": "Severed Head Showcase",
+      "air_date": "2015-07-29",
+      "overview": "A gospel group must practice without its coach, a group of warriors celebrate a beheading, a prisoner tries to trick his guard, a young man is confronted for only speaking in catchphrases.",
+      "still": "./images/kp/s05e04_still.jpg",
+      "still_tmdb": "/gJthrPFosECfu0YGBZv9GZRS1Th.jpg",
+      "sketches": [
+        {
+          "title": "Gospel Group Practice",
+          "series": null,
+          "description": "A gospel group struggles to practice their songs without their coach present, leading to comedic mishaps and confusion."
+        },
+        {
+          "title": "Warrior Celebration",
+          "series": null,
+          "description": "A group of ancient warriors celebrate and showcase a severed head after a successful beheading, treating it as a trophy."
+        },
+        {
+          "title": "Prison Guard Trick",
+          "series": null,
+          "description": "A clever prisoner attempts to outsmart and trick his prison guard through various schemes and manipulations."
+        },
+        {
+          "title": "Catchphrase Kid",
+          "series": null,
+          "description": "A young man who only communicates through popular catchphrases is confronted about his annoying speech habits by frustrated friends or family."
+        }
+      ],
+      "tags": [
+        "horror_parody",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Utkarsh Ambudkar"
+      ],
+      "tmdb_guests": [
+        "Victor Bell",
+        "Utkarsh Ambudkar",
+        "Carlease Burke",
+        "Gokor Chivichyan",
+        "Esteban Cueto",
+        "Alex Fernie",
+        "Nyima Funk",
+        "Michael McCafferty",
+        "Pam Murphy",
+        "Debra Olson-Tolar",
+        "Shawn Kenji Pearlman",
+        "Errol Sack",
+        "Aden Stay",
+        "Ptosha Storey"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E05",
+      "season": 5,
+      "episode": 5,
+      "title": "Killer Concept Album",
+      "air_date": "2015-08-05",
+      "overview": "A politician denies sending lewd photos; a detective interrogates a rapper; Cedric and Levi find lightning in a bottle; two Southern gentlemen compliment women; Jordan runs into an old friend; a cop takes things literally.",
+      "still": "./images/kp/s05e05_still.jpg",
+      "still_tmdb": "/3W2KRGMmctX8Hzb5Lb9jaT1QgE2.jpg",
+      "sketches": [
+        {
+          "title": "Politician Photo Denial",
+          "series": null,
+          "description": "A politician vehemently denies sending lewd photos despite overwhelming evidence."
+        },
+        {
+          "title": "Rapper Interrogation",
+          "series": null,
+          "description": "A detective interrogates a rapper, leading to confusion over hip-hop terminology and street slang."
+        },
+        {
+          "title": "Lightning in a Bottle",
+          "series": "levi_cedric",
+          "description": "Cedric and Levi stumble upon capturing literal lightning in a bottle and debate what to do with it."
+        },
+        {
+          "title": "Southern Gentlemen",
+          "series": null,
+          "description": "Two overly polite Southern gentlemen offer increasingly elaborate and flowery compliments to women they encounter."
+        },
+        {
+          "title": "Old Friend Encounter",
+          "series": null,
+          "description": "Jordan runs into an old friend, leading to an awkward social interaction with unexpected complications."
+        },
+        {
+          "title": "Literal Cop",
+          "series": null,
+          "description": "A police officer takes everything completely literally, causing confusion and misunderstandings during routine duties."
+        },
+        {
+          "title": "Kobe Beef Burger",
+          "series": null,
+          "description": "A man becomes increasingly unhinged and euphoric describing his transcendent experience eating a Kobe beef wagyu burger, unable to find words adequate to express its perfection."
+        }
+      ],
+      "tags": [
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Rex Linn",
+        "Kim Rhodes",
+        "Jessica St. Clair"
+      ],
+      "tmdb_guests": [
+        "Leslie L. Miller",
+        "Jon Barinholtz",
+        "Rex Linn",
+        "Noro Otitigbe",
+        "Kim Rhodes",
+        "Jessica St. Clair"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E06",
+      "season": 5,
+      "episode": 6,
+      "title": "The Job Interview",
+      "air_date": "2015-08-12",
+      "overview": "Judge Jessie has a new show; a man waits for his job interview; two ladies catch up over drinks; the valets discuss Val Kilmer; a retired military specialist is briefed on a new project; a woman introduces her fiancé to her parents.",
+      "still": "./images/kp/s05e06_still.jpg",
+      "still_tmdb": "/l3tQKAN4YUHZBs6vnybltCBqlw7.jpg",
+      "sketches": [
+        {
+          "title": "Judge Jessie",
+          "series": null,
+          "description": "A parody of daytime court shows featuring an over-the-top judge character dealing with bizarre cases."
+        },
+        {
+          "title": "The Job Interview",
+          "series": null,
+          "description": "A man waits nervously for his job interview, likely with escalating anxiety and awkward situations."
+        },
+        {
+          "title": "Ladies Catching Up",
+          "series": null,
+          "description": "Two women have drinks and catch up, probably revealing increasingly personal or uncomfortable information."
+        },
+        {
+          "title": "The Valets Discuss Val Kilmer",
+          "series": "the_valets",
+          "description": "The valets from Berkshire Restaurant obsess over and discuss actor Val Kilmer in their typical over-the-top manner."
+        },
+        {
+          "title": "Military Briefing",
+          "series": null,
+          "description": "A retired military specialist receives a briefing about a new project that likely takes an unexpected or absurd turn."
+        },
+        {
+          "title": "Meeting the Parents",
+          "series": null,
+          "description": "A woman introduces her fiancé to her parents, leading to awkward or uncomfortable family dynamics."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Tricia Helfer",
+        "Melanie Lynskey",
+        "Adam Pally"
+      ],
+      "tmdb_guests": [
+        "Bonnie Bartlett",
+        "Jimmy Chhiu",
+        "Terrence Colby Clemons",
+        "Georgie Guinane",
+        "Tricia Helfer",
+        "Art LaFleur",
+        "Will Leong",
+        "Melanie Lynskey",
+        "Adam Pally",
+        "Mike Rosenstein",
+        "Jason Ruiz"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E07",
+      "season": 5,
+      "episode": 7,
+      "title": "MC Mom",
+      "air_date": "2015-08-19",
+      "overview": "A gangster participates in a drive-by; a mom writes a song for her son; two scam artists compete with each other; an “Undercover Boss” reveals himself; Big Boi runs into André 3000; two guys get into a car accident.",
+      "still": "./images/kp/s05e07_still.jpg",
+      "still_tmdb": "/6egn2KdYH8DLV0RbO6Ay4X8LB0n.jpg",
+      "sketches": [
+        {
+          "title": "Drive-By Shooting",
+          "series": null,
+          "description": "A gangster participates in a drive-by shooting with unexpected comedic results."
+        },
+        {
+          "title": "MC Mom",
+          "series": null,
+          "description": "A well-meaning mother writes and performs an embarrassing rap song for her son."
+        },
+        {
+          "title": "Scam Artists",
+          "series": null,
+          "description": "Two competing scam artists try to out-con each other in an escalating battle of deception."
+        },
+        {
+          "title": "Undercover Boss Parody",
+          "series": null,
+          "description": "An undercover boss reveals his identity to employees in a parody of the reality TV show."
+        },
+        {
+          "title": "OutKast Reunion",
+          "series": null,
+          "description": "Big Boi encounters André 3000 and attempts to reconnect with his former OutKast partner."
+        },
+        {
+          "title": "Car Accident",
+          "series": null,
+          "description": "Two men get into a fender bender that escalates into an absurd confrontation."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Andrew Bachelor"
+      ],
+      "tmdb_guests": [
+        "Sarah Baker",
+        "Andrew Bachelor",
+        "Kathryn Burns",
+        "Alphonso McAuley",
+        "Johnny Ray Meeks",
+        "Katie O'Brien",
+        "Jah Shams",
+        "Reggie Watkins",
+        "Claudia Michelle Wallace",
+        "Dani Woodson"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E08",
+      "season": 5,
+      "episode": 8,
+      "title": "Hollywood Sequel Doctor",
+      "air_date": "2015-08-26",
+      "overview": "A tickle game between two friends gets a little strange; brainstorming for \"Gremlins 2\"; a man deals with an unruly office janitor; two thugs suspect their friend snitched; Keegan and Jordan discuss Africa at a party.",
+      "still": "./images/kp/s05e08_still.jpg",
+      "still_tmdb": "/nV5VS7qCfyYiFPj7HF6iQSRbBe3.jpg",
+      "sketches": [
+        {
+          "title": "Tickle Game",
+          "series": null,
+          "description": "A tickle game between two friends escalates and becomes increasingly strange and uncomfortable."
+        },
+        {
+          "title": "Gremlins 2 Brainstorm",
+          "series": null,
+          "description": "Hollywood executives brainstorm ideas for the sequel to Gremlins, likely with absurd suggestions."
+        },
+        {
+          "title": "Unruly Office Janitor",
+          "series": null,
+          "description": "A man struggles to deal with an office janitor who behaves inappropriately or disruptively."
+        },
+        {
+          "title": "Snitch Suspicion",
+          "series": null,
+          "description": "Two thugs become paranoid that their friend has informed on them to authorities."
+        },
+        {
+          "title": "Africa Discussion",
+          "series": null,
+          "description": "Keegan and Jordan have an awkward conversation about Africa while at a party."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Tatyana Ali",
+        "Mekhi Phifer",
+        "Rob Riggle",
+        "Jasika Nicole"
+      ],
+      "tmdb_guests": [
+        "Tatyana Ali",
+        "Granville Ames",
+        "Heather Anne Campbell",
+        "Cale Hartmann",
+        "Eric Moneypenny",
+        "Omar Nazel",
+        "Jasika Nicole",
+        "Mekhi Phifer",
+        "Rob Riggle",
+        "Alex Rubens",
+        "Hal Rudnick",
+        "Jeff Sloniker",
+        "Nic Wegener"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E09",
+      "season": 5,
+      "episode": 9,
+      "title": "The 420 Special",
+      "air_date": "2015-09-02",
+      "overview": "Neil deGrasse Tyson relaxes at home; Keegan endures a job interview; a tailor has a gassy client; the valets discuss \"Game of Thrones\"; a new strategy for telemarketing.",
+      "still": "./images/kp/s05e09_still.jpg",
+      "still_tmdb": "/1BXRz9UpzL35Z3OZ20BEqf4odBF.jpg",
+      "sketches": [
+        {
+          "title": "Neil deGrasse Tyson at Home",
+          "series": null,
+          "description": "Astrophysicist Neil deGrasse Tyson relaxes at home and gets high, leading to cosmic observations about everyday situations."
+        },
+        {
+          "title": "Job Interview",
+          "series": null,
+          "description": "Keegan endures an uncomfortable and awkward job interview that goes increasingly wrong."
+        },
+        {
+          "title": "Gassy Tailor Client",
+          "series": null,
+          "description": "A tailor tries to professionally measure and fit a client who keeps passing gas during the appointment."
+        },
+        {
+          "title": "Valets Discuss Game of Thrones",
+          "series": "the_valets",
+          "description": "The two valets from Berkshire Restaurant obsess over and discuss the TV show Game of Thrones in their characteristic style."
+        },
+        {
+          "title": "Telemarketing Strategy",
+          "series": null,
+          "description": "Telemarketers implement a new strategy to improve their sales calls and customer interactions."
+        }
+      ],
+      "tags": [
+        "pop_culture"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Zac Oyama"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E10",
+      "season": 5,
+      "episode": 10,
+      "title": "Meegan & Andre Break Up",
+      "air_date": "2015-09-09",
+      "overview": "Two friends get into an argument at a club; Meegan and André talk about their relationship; a rapper walks out of an interview; Conrad flies business select; Keegan has a new mustache.",
+      "still": "./images/kp/s05e10_still.jpg",
+      "still_tmdb": "/bflXbBTXJsQJkvQvhy6Ja9E7Qya.jpg",
+      "sketches": [
+        {
+          "title": "Club Argument",
+          "series": null,
+          "description": "Two friends get into an escalating argument at a nightclub over something trivial."
+        },
+        {
+          "title": "Meegan & Andre Break Up",
+          "series": "meegan_andre",
+          "description": "The toxic couple Meegan and André have another dramatic confrontation about their dysfunctional relationship."
+        },
+        {
+          "title": "Rapper Interview Walkout",
+          "series": null,
+          "description": "A rapper becomes offended during an interview and storms out in dramatic fashion."
+        },
+        {
+          "title": "Conrad Business Select",
+          "series": null,
+          "description": "Conrad enjoys the perks and privileges of flying business class on an airline."
+        },
+        {
+          "title": "Keegan's Mustache",
+          "series": null,
+          "description": "Keegan shows off his new mustache and deals with people's reactions to his facial hair choice."
+        }
+      ],
+      "tags": [
+        "pop_culture"
+      ],
+      "notable_guests": [],
+      "tmdb_guests": [
+        "Houston Alexander",
+        "Derek Mears",
+        "Jeff Sloniker"
+      ],
+      "format": "car_conversation"
+    },
+    {
+      "id": "S05E11",
+      "season": 5,
+      "episode": 11,
+      "title": "The End",
+      "air_date": "2015-09-09",
+      "overview": "Ray Parker Jr. has some new songs; a man can't stop saying \"deez nuts\"; Keegan has to call 911; a young man learns about Negrotown.",
+      "still": "./images/kp/s05e11_still.jpg",
+      "still_tmdb": "/cerlkqYBhAe4UGIHemSzU6A4TrQ.jpg",
+      "sketches": [
+        {
+          "title": "Ray Parker Jr. New Songs",
+          "series": null,
+          "description": "Ray Parker Jr. presents new songs in the style of his famous 'Ghostbusters' theme song. Each song follows the same musical formula but for different topics."
+        },
+        {
+          "title": "Deez Nuts",
+          "series": null,
+          "description": "A man becomes obsessed with the 'deez nuts' internet meme and can't stop working it into every conversation. His compulsion begins affecting his daily life and relationships."
+        },
+        {
+          "title": "911 Emergency",
+          "series": null,
+          "description": "Keegan calls 911 for an emergency but the situation becomes increasingly absurd. The sketch parodies emergency call scenarios with typical Key & Peele escalation."
+        },
+        {
+          "title": "Negrotown",
+          "series": null,
+          "description": "A young Black man is transported to a magical place called Negrotown where racism doesn't exist. The sketch is presented as a musical fantasy sequence exploring racial dynamics."
+        }
+      ],
+      "tags": [
+        "celebrity_guest",
+        "race_politics",
+        "pop_culture"
+      ],
+      "notable_guests": [
+        "Malcolm Barrett",
+        "Colton Dunn"
+      ],
+      "tmdb_guests": [
+        "Mecca Vazie Andrews",
+        "K.D. Aubert",
+        "Malcolm Barrett",
+        "Anthony Carr",
+        "Colton Dunn",
+        "Pete Humphrey",
+        "Dominique Kelley",
+        "Vicky Lambert",
+        "Micah Moch",
+        "Gakenia Muigai",
+        "Stefan Raulston",
+        "Charles Robinson",
+        "Nick Searcy",
+        "Melissa Stephens",
+        "Kevin Wilson",
+        "Marcel Wilson"
+      ],
+      "format": "car_conversation"
+    }
+  ]
+}

@@ -1,0 +1,3555 @@
+{
+  "era": "classic",
+  "era_label": "The Classic Era",
+  "seasons": "9–12",
+  "years": "1997–2001",
+  "description": "Still unmissable, but the cracks begin. Homer's Enemy. Trash of the Titans. The Principal and the Pauper.",
+  "episode_count": 91,
+  "episodes": [
+    {
+      "season": 9,
+      "episode": 1,
+      "title": "The City of New York vs. Homer Simpson",
+      "air_date": "1997-09-21",
+      "description": "Designated driver Barney absconds to Manhattan in Homer's car and leaves it there. But when the family journeys to the Big Apple to retrieve their property, Homer discovers his car has been booted.",
+      "still": "./images/simpsons/s09e01_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/2MBShJiJbR2SAakfL6wdhn1vhWk.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Joan Kenley",
+          "character": "Woman on Phone (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which is actually a street bench, and they get mugged by a man who steals the bench.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "barney"
+      ],
+      "notes": "This episode was pulled from syndication and streaming for years after 9/11 due to its prominent depiction of the World Trade Center towers, making it one of the most censored episodes in TV history.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 2,
+      "title": "The Principal and the Pauper",
+      "air_date": "1997-09-28",
+      "description": "Unmasked as an impostor, Principal Skinner flees to Capital City to reclaim his former life as a shiftless good-for-nothing. The people of Springfield gain a newfound appreciation for him and form a plan to bring him back.",
+      "still": "./images/simpsons/s09e02_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/7u1EAzK2x92P9qPyWntmXMbUBzw.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Martin Sheen",
+          "character": "Real Seymour Skinner (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "skinner",
+        "chalmers",
+        "milhouse",
+        "flanders"
+      ],
+      "notes": "Often cited as the most controversial episode in the series' history, this installment permanently altered a beloved character's backstory by revealing Principal Skinner was actually an impostor named Armin Tamzarian. The episode sparked fierce debate among fans and writers about whether long-running shows should drastically revise established character histories.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 3,
+      "title": "Lisa's Sax",
+      "air_date": "1997-10-19",
+      "description": "After Lisa’s saxophone is destroyed, the Simpsons reminisce about how she originally got the instrument. On the hottest day of the year, Homer must decide whether to buy an air conditioner or replace Lisa’s sax.",
+      "still": "./images/simpsons/s09e03_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/9yWqeSSIA0jeZhQv84fwC8kEGy7.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Fyvush Finkel",
+          "character": "Fyvush Finkel (voice)"
+        },
+        {
+          "actor": "Doris Grau",
+          "character": "Ice cream lady (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets bounced high into the air, then crashes back down.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": false,
+      "parody_of": null,
+      "classic": true,
+      "characters": [
+        "lisa",
+        "homer",
+        "marge",
+        "flanders"
+      ],
+      "notes": "This flashback episode revealed that Lisa first got her saxophone in 1990 when Marge was pregnant with Maggie, establishing crucial Simpson family timeline and explaining Lisa's musical passion through her connection with bleeding gums Murphy.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 4,
+      "title": "Treehouse of Horror VIII",
+      "air_date": "1997-10-26",
+      "description": "In “The Homega Man,” Homer faces a post-apocalyptic Springfield. Next, Bart attempts to become Superfly in \"Fly vs. Fly.\" In “Easy-Bake Coven,” amidst a witch hunt in 1649, Marge and her sisters invent trick-or-treating.",
+      "still": "./images/simpsons/s09e04_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/tHwFPX4nFbB54tFNsKkcSChmF5E.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets crushed by a giant foot in a Monty Python reference.",
+      "treehouse_of_horror": true,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Omega Man, The Fly, Salem witch trials",
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "flanders",
+        "milhouse",
+        "patty_selma"
+      ],
+      "notes": "This episode marks the first time a Treehouse of Horror segment is set in historical times rather than contemporary Springfield, with \"Easy-Bake Coven\" taking place in 1649 colonial America.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 5,
+      "title": "The Cartridge Family",
+      "air_date": "1997-11-02",
+      "description": "Alarmed by a soccer riot, Homer buys a handgun. His reckless behavior drives Marge and the kids out of the house, and even his new gun club buddies desert him.",
+      "still": "./images/simpsons/s09e05_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/9HP2HQ03HIqw6XOcqbFDokZtmo7.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions one by one.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "wiggum",
+        "apu",
+        "moe",
+        "lenny_carl",
+        "barney"
+      ],
+      "notes": "This episode introduced the NRA-parodying gun club and Homer's memorable line \"Guns are for family protection, hunting dangerous or delicious animals, and keeping the King of England out of your face,\" which became one of the series' most quoted pro-gun satire moments.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 6,
+      "title": "Bart Star",
+      "air_date": "1997-11-09",
+      "description": "When Homer becomes the coach of a peewee football team, he replaces star quarterback Nelson with the less talented Bart. Facing his teammates’ scorn, Bart looks for a way out but finds a better way to show his team spirit.",
+      "still": "./images/simpsons/s09e06_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/d0YCBcmfwXdpDpwcALJiTEbfZQs.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Roy Firestone",
+          "character": "Roy Firestone (voice)"
+        },
+        {
+          "actor": "Mike Judge",
+          "character": "Hank Hill (voice)"
+        },
+        {
+          "actor": "Joe Namath",
+          "character": "Joe Namath (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a monster's mouth that swallows them whole.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Any Given Sunday and general sports movie tropes",
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "nelson",
+        "milhouse"
+      ],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 7,
+      "title": "The Two Mrs. Nahasapeemapetilons",
+      "air_date": "1997-11-16",
+      "description": "Trying to escape his arranged marriage, Apu asks Marge to pose as his wife during his mother’s visit. When the ruse fails, Homer makes a last-ditch attempt to intervene, but Apu is smitten with his new bride Manjula.",
+      "still": "./images/simpsons/s09e07_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/dgHd8p3UeLRO9j6ZEczV2sORvDQ.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jan Hooks",
+          "character": "Manjula Nahasapeemapetilon (voice)"
+        },
+        {
+          "actor": "Andrea Martin",
+          "character": "Apu's Mother (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets crushed by a foot, revealing they are tiny figures in a snow globe held by a giant Maggie.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "marge",
+        "homer",
+        "apu"
+      ],
+      "notes": "This episode introduces Manjula Nahasapeemapetilon, Apu's wife, who would become a recurring character and the mother of octuplets in later episodes.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 8,
+      "title": "Lisa the Skeptic",
+      "air_date": "1997-11-23",
+      "description": "When a skeleton is unearthed at the site of a future shopping mall, all Springfield is convinced it is the skeleton of an angel – except Lisa.",
+      "still": "./images/simpsons/s09e08_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/7tFVM21s4lmgQultuHNW9hHk9cE.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Stephen Jay Gould",
+          "character": "Stephen Jay Gould (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a wooden bench in a jail cell.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Religious hysteria and archaeological discovery stories",
+      "classic": true,
+      "characters": [
+        "lisa",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "kent_brockman",
+        "dr_hibbert",
+        "mayor_quimby"
+      ],
+      "notes": "This episode marked one of the earliest mainstream TV treatments of intelligent design debates, airing months before the concept gained widespread political attention in the late 1990s.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 9,
+      "title": "Realty Bites",
+      "air_date": "1997-12-07",
+      "description": "When Marge gets her real estate license, she learns to put a positive spin on the flaws of the houses she’s selling. But when the Flanders buy the Murder House, she realizes she has to tell the truth.",
+      "still": "./images/simpsons/s09e09_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/opQZb5PztKSAtbBL36dQ6Bw7i5u.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions, then shot out through the back.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "marge",
+        "flanders"
+      ],
+      "notes": "This episode features one of the series' most memorable throwaway gags when Marge describes a house as having a \"possum problem\" while a family of possums casually walks by in the background. The Murder House subplot became a recurring location reference in later episodes, though it rarely appeared on screen again.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 10,
+      "title": "Miracle on Evergreen Terrace",
+      "air_date": "1997-12-21",
+      "description": "After accidentally ruining the family’s Christmas tree and presents, Bart buries the evidence and claims a burglar stole everything. When Kent Brockman does a human interest story on the family’s tragic loss, the townspeople shower the family with generosity… until the truth comes out.",
+      "still": "./images/simpsons/s09e10_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/pkCfsDqeEJTf82TF0X5QeIV4FtL.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Alex Trebek",
+          "character": "Alex Trebek (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Rod Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch as normal, but then the couch and family are revealed to be a snow globe being shaken.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "It's a Wonderful Life",
+      "classic": false,
+      "characters": [],
+      "notes": "This episode marked one of the first times The Simpsons directly addressed the show's growing reputation for cynicism, as the townspeople's initial generosity turns to mob-like vengeance when Bart's deception is revealed.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 11,
+      "title": "All Singing, All Dancing",
+      "air_date": "1998-01-04",
+      "description": "Homer rents a Clint Eastwood movie and is dismayed to find it's a musical. Using clips from past episodes, the rest of the family reminds him about the many times he and other members of the family and town have broken into song and dance.",
+      "still": "./images/simpsons/s09e11_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/6JfR7bcsycX3e8wNHe4sc1H10VY.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch and it transforms into a player piano with the family bouncing up and down to the music.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": true,
+      "parody_of": "Musical films and clip shows",
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "burns",
+        "flanders",
+        "moe",
+        "krusty",
+        "sideshow_bob",
+        "apu",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "nelson",
+        "lenny_carl",
+        "grandpa",
+        "snake",
+        "patty_selma",
+        "chalmers",
+        "kent_brockman",
+        "dr_hibbert",
+        "mayor_quimby"
+      ],
+      "notes": "The first full musical episode of The Simpsons, featuring 13 songs compiled from previous episodes to create a cohesive clip show format. This experimental structure would influence later musical episodes like \"Simpsoncalifragilisticexpiala(Annoyed Grunt)cious\" and the Emmy-winning \"We Put the Spring in Springfield",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 12,
+      "title": "Bart Carny",
+      "air_date": "1998-01-11",
+      "description": "When the carnival comes to town, Homer and Bart wind up working the ring toss. A father-son team of grifters shows them the downside of the “carny code,” but the Simpsons beat them at their own game.",
+      "still": "./images/simpsons/s09e12_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/wuBmfre0yoO94voQmy9u9UXWJna.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jim Varney",
+          "character": "Cooder (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions like quicksand.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "wiggum"
+      ],
+      "notes": "This episode introduced the carny code philosophy \"You gotta play to win, but you also gotta win to play,\" which became a memorable Simpsons catchphrase among fans. The carnival setting allowed the show to explore the seedier side of traveling entertainment while showcasing Homer and Bart working together as unlikely con artists.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 13,
+      "title": "The Joy of Sect",
+      "air_date": "1998-02-08",
+      "description": "A cult lures in most of Springfield to toil for “The Leader.” After Marge escapes and has the family deprogrammed, Homer exposes the man behind the spaceship.",
+      "still": "./images/simpsons/s09e13_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/6ba836HtQrNtJtWYmkOaiMn4uh6.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which turns into a monster and swallows them, then burps.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Cults and cult deprogramming, particularly referencing Heaven's Gate and Scientology",
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "flanders",
+        "apu",
+        "barney",
+        "wiggum",
+        "skinner",
+        "lenny_carl",
+        "kent_brockman",
+        "troy_mcclure"
+      ],
+      "notes": "This episode aired just one year after the Heaven's Gate cult's mass suicide, making it one of the most topically immediate parodies in Simpsons history.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 14,
+      "title": "Das Bus",
+      "air_date": "1998-02-15",
+      "description": "When Otto drives the school bus off a bridge, the kids wind up on a deserted island, fending for themselves in a “Lord of the Flies” parody. Back in Springfield, Homer takes on Bill Gates.",
+      "still": "./images/simpsons/s09e14_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/wU2veVuixvSX9zswxPgVjt5rFbS.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "James Earl Jones",
+          "character": "Narrator (voice)"
+        },
+        {
+          "actor": "Phil Hartman",
+          "character": "Troy McClure (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Wendell / Sherri / Terri / Lewis / Martin (voice)"
+        },
+        {
+          "actor": "Jack Ong",
+          "character": "Chinese Fisherman (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Lewis (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into a whirlpool that appears in the living room floor.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Lord of the Flies",
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "milhouse",
+        "nelson",
+        "troy_mcclure"
+      ],
+      "notes": "The Bill Gates subplot features one of the show's most prescient tech industry parodies, with Gates portrayed as a ruthless monopolist years before Microsoft's major antitrust battles",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 15,
+      "title": "The Last Temptation of Krust",
+      "air_date": "1998-02-22",
+      "description": "Krusty bombs at a charity comedy event and feels like a tired old hack. With the Simpsons’ support, Krusty takes his act in a fresh new direction… but in the end, his true nature asserts itself.",
+      "still": "./images/simpsons/s09e15_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/yUTPaVR1HsPcNdNroPOCmDMsvha.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Steven Wright",
+          "character": "Steven Wright (voice)"
+        },
+        {
+          "actor": "Janeane Garofalo",
+          "character": "Janeane Garofalo (voice)"
+        },
+        {
+          "actor": "Bobcat Goldthwait",
+          "character": "Bobcat Goldthwait (voice)"
+        },
+        {
+          "actor": "Hank Williams, Jr.",
+          "character": "Canyonero Singer (voice)"
+        },
+        {
+          "actor": "Jay Leno",
+          "character": "Jay Leno (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions one by one until only their eyes are visible.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Stand-up comedy culture and alternative comedy movement of the 1990s",
+      "classic": false,
+      "characters": [
+        "krusty",
+        "sideshow_mel"
+      ],
+      "notes": "This episode marked one of the earliest mainstream TV parodies of the alternative comedy movement, predicting the real-world backlash against \"anti-comedy\" performers who would later face similar sellout accusations.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 16,
+      "title": "Dumbbell Indemnity",
+      "air_date": "1998-03-01",
+      "description": "Moe goes broke trying to wine and dine a new girlfriend. Desperate for money, he cooks up an insurance scam with Homer.",
+      "still": "./images/simpsons/s09e16_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/m7Kas9BIR3CRl9KqCPHjdi9qXIR.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Helen Hunt",
+          "character": "Renee (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions one by one.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Double Indemnity",
+      "classic": false,
+      "characters": [
+        "homer",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "wiggum"
+      ],
+      "notes": "This episode marks one of the few times The Simpsons directly parodied a classic film noir, with the title and plot structure closely following Billy Wilder's 1944 masterpiece \"Double Indemnity.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 17,
+      "title": "Lisa the Simpson",
+      "air_date": "1998-03-08",
+      "description": "Lisa struggles with solving a simple puzzle and fears that the \"Simpson gene” is suddenly wiping out her intelligence. Homer stages a family reunion in hopes of introducing Lisa to some Simpsons she can respect.",
+      "still": "./images/simpsons/s09e17_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/5auNDVI25QeEiIX7F1JXGVTCA5U.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions one by one.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": true,
+      "characters": [
+        "lisa",
+        "homer",
+        "grandpa",
+        "troy_mcclure"
+      ],
+      "notes": "This episode established the canonical explanation that the \"Simpson gene\" only affects male descendants, revealing that Simpson women like Lisa retain their intelligence while the men become progressively dumber with age.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 18,
+      "title": "This Little Wiggy",
+      "air_date": "1998-03-22",
+      "description": "At Marge’s insistence, Bart has a “play date” with Ralph. Bart suddenly sees the upside of this friendship when he discovers Chief Wiggum’s “master key” and goes to explore Springfield’s abandoned prison.",
+      "still": "./images/simpsons/s09e18_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/3kU5f1gZ8vEebiWeCrSLRNwz1A2.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which turns into a monster and swallows them.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "bart",
+        "marge",
+        "ralph",
+        "wiggum",
+        "troy_mcclure"
+      ],
+      "notes": "Features one of Ralph Wiggum's most quoted lines when he declares \"I bent my Wookiee\" while playing with action figures, which became a popular internet meme years later.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 19,
+      "title": "Simpson Tide",
+      "air_date": "1998-03-29",
+      "description": "When Homer joins the Naval Reserve, a captain takes a liking to him and leaves him in charge of a nuclear submarine.",
+      "still": "./images/simpsons/s09e19_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/ugsvr8BIVwMu608c4uliM64Ho23.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Bob Denver",
+          "character": "Bob Denver (voice)"
+        },
+        {
+          "actor": "Rod Steiger",
+          "character": "Captain Tenille (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which turns into a wooden boat that sails across a stormy sea.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Hunt for Red October",
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "barney",
+        "moe",
+        "lenny_carl"
+      ],
+      "notes": "This episode features one of the series' most elaborate parodies of *The Hunt for Red October*, complete with detailed submarine sequences that required extensive research into naval procedures and terminology.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 20,
+      "title": "The Trouble with Trillions",
+      "air_date": "1998-04-05",
+      "description": "Facing an IRS audit, Homer agrees to help the feds bust Mr. Burns for a missing trillion-dollar bill. When Burns makes an anti-government stand, Homer flees with him to Cuba.",
+      "still": "./images/simpsons/s09e20_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/9muA2Gqn8lQLLLZe2Mo05329C0P.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Paul Winfield",
+          "character": "Lucius Sweet (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the TV, appearing in various shows including a nature documentary where they're eaten by cheetahs.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Government conspiracy thrillers and Cold War spy films",
+      "classic": false,
+      "characters": [
+        "homer",
+        "burns",
+        "smithers",
+        "troy_mcclure"
+      ],
+      "notes": "This episode features one of the series' most absurd premises, with Homer literally helping Mr. Burns steal a trillion-dollar bill and flee to Cuba to meet Fidel Castro. The Castro scenes were among the most politically charged moments in the show's history, airing during the height of U.S.-Cuba tensions.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 21,
+      "title": "Girly Edition",
+      "air_date": "1998-04-19",
+      "description": "Lisa becomes the anchor of a kids’ news program but is upstaged by Bart’s treacly human interest stories. At home, Homer corrupts a helper monkey.",
+      "still": "./images/simpsons/s09e21_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/kLnxZoMV9MqOJ3g1Lfkk2YvtCFO.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and sinks into it like quicksand, with only their eyes visible above the cushions.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "children's news programs and human interest journalism",
+      "classic": false,
+      "characters": [],
+      "notes": "This episode introduced Mojo, the helper monkey who becomes corrupted by Homer's lazy lifestyle, in what became one of the series' most memorable animal character storylines.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 22,
+      "title": "Trash of the Titans",
+      "air_date": "1998-04-26",
+      "description": "Homer feuds with the Springfield garbage men and decides to run for Sanitation Commissioner. After winning the election with a sleazy campaign, Homer can’t keep the extravagant promises he made to the town.",
+      "still": "./images/simpsons/s09e22_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/jUQXxdsYRsU3VOYUoHrx9qVMfZb.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Steve Martin",
+          "character": "Ray Patterson (voice)"
+        },
+        {
+          "actor": "Bono",
+          "character": "Bono (voice)"
+        },
+        {
+          "actor": "Adam Clayton",
+          "character": "Adam Clayton (voice)"
+        },
+        {
+          "actor": "Larry Mullen Jr.",
+          "character": "Larry Mullen (voice)"
+        },
+        {
+          "actor": "The Edge",
+          "character": "The Edge (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the TV, where they appear in various shows including a nature documentary.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": false,
+      "parody_of": null,
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "mayor_quimby",
+        "kent_brockman"
+      ],
+      "notes": "The episode's campaign song \"Can't Someone Else Do It?\" became one of the show's most memorable political satire moments, perfectly encapsulating Homer's lazy populism. This marked one of the rare times Homer actually wins an election and faces the consequences of his unrealistic campaign promises.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 23,
+      "title": "King of the Hill",
+      "air_date": "1998-05-03",
+      "description": "After Rainier Wolfcastle helps Homer get in shape, Homer accepts a challenge to climb the Murderhorn, the tallest mountain in Springfield.",
+      "still": "./images/simpsons/s09e23_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/15GSxZMvDZiF4W7M5V1pdU0r1hz.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Steven Weber",
+          "character": "Neil (voice)"
+        },
+        {
+          "actor": "Brendan Fraser",
+          "character": "Brad (voice)"
+        },
+        {
+          "actor": "Joe Mantegna",
+          "character": "Fat Tony (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Mountain climbing films and Cliffhanger",
+      "classic": false,
+      "characters": [
+        "homer",
+        "rainier_wolfcastle",
+        "fat_tony"
+      ],
+      "notes": "Rainier Wolfcastle's first major role outside of McBain action movie parodies, establishing him as a fully-realized character rather than just a film-within-show joke.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 24,
+      "title": "Lost Our Lisa",
+      "air_date": "1998-05-10",
+      "description": "Bart’s latest stunt thwarts Lisa’s plan to attend a museum exhibit. When she tries to go alone and takes the wrong bus, Homer sets out to find her.",
+      "still": "./images/simpsons/s09e24_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/yKUgkZNLU3gKYYNpHuwmsqKEJcF.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions, then shot out through the back.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": true,
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "skinner"
+      ],
+      "notes": "This episode features one of the series' most touching father-daughter moments when Homer tells Lisa \"You make me proud,\" marking a rare instance of pure emotional sincerity from Homer without comedic undercut.",
+      "_chars_v2": true
+    },
+    {
+      "season": 9,
+      "episode": 25,
+      "title": "Natural Born Kissers",
+      "air_date": "1998-05-17",
+      "description": "Homer and Marge try to spice up their love life and are caught baring it all in public. Bart and Lisa discover an alternate ending to Casablanca.",
+      "still": "./images/simpsons/s09e25_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/anwDWp1G4BTJ1XS7KzPcEar2Dij.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which turns into a monster and swallows them.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Casablanca",
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ],
+      "notes": "This episode features one of the most extensive public nudity sequences in Simpsons history, with Homer and Marge's naked adventure spanning multiple locations including a hot air balloon ride over Springfield Stadium during a football game.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 1,
+      "title": "Lard of the Dance",
+      "air_date": "1998-08-23",
+      "description": "Homer and Bart try to make money by selling used grease. Meanwhile, Lisa organizes a school dance but feels alienated when a new classmate and her friends try to act like adults.",
+      "still": "./images/simpsons/s10e01_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/5BX92Gq0mYyXYjC0zADInMmVgBI.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Lisa Kudrow",
+          "character": "Alex Whitney (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince / Sherri / Terri (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Lewis / Nurse (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten / Janey Powell / Wendell (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a toaster that launches them into the air as burnt toast.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "milhouse",
+        "skinner"
+      ],
+      "notes": "This episode marked the first time The Simpsons directly addressed the trend of children trying to act older than their age, with Lisa's storyline reflecting growing concerns about kids growing up too fast in the late 1990s.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 2,
+      "title": "The Wizard of Evergreen Terrace",
+      "air_date": "1998-09-20",
+      "description": "A midlife crisis prompts Homer to quit his job and become an inventor.",
+      "still": "./images/simpsons/s10e02_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/edvDcVLoszXlBFHTL3RuOiO5mqL.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "William Daniels",
+          "character": "KITT (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions one by one.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Thomas Edison and famous inventors",
+      "classic": true,
+      "characters": [
+        "homer",
+        "flanders",
+        "lenny_carl",
+        "professor_frink"
+      ],
+      "notes": "Homer's makeshift electric hammer accidentally anticipates the design of a modern cordless drill, making this one of the few times his incompetence accidentally predicted real technology.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 3,
+      "title": "Bart the Mother",
+      "air_date": "1998-09-27",
+      "description": "Under Nelson's bad influence, Bart shoots a bird with a BB gun. Stricken with remorse, he tries to nurture the eggs from the bird's nest, which hatch into a species of lizard outlawed in Springfield.",
+      "still": "./images/simpsons/s10e03_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/ttST6vuFm9rwIjHYJSs8C9aMocg.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Phil Hartman",
+          "character": "Troy McClure (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Billy (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Librarian (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions one by one.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "bart",
+        "nelson",
+        "milhouse",
+        "troy_mcclure"
+      ],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 4,
+      "title": "Treehouse of Horror IX",
+      "air_date": "1998-10-25",
+      "description": "In \"Hell Toupée,\" Snake is sent to the electric chair, and his hair is transplanted onto Homer. In \"The Terror of Tiny Toon,\" Bart and Lisa become cartoon characters in an episode of Itchy & Scratchy. In \"Starship Poopers,\" a growth spurt casts doubt on Maggie's paternity, and the family goes on the Jerry Springer show.",
+      "still": "./images/simpsons/s10e04_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/dwicl3ahKPqKdyXvvpJav3fgPb7.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Regis Philbin",
+          "character": "Regis Philbin"
+        },
+        {
+          "actor": "Kathie Lee Gifford",
+          "character": "Kathie Lee Gifford"
+        },
+        {
+          "actor": "Ed McMahon",
+          "character": "Ed McMahon (voice)"
+        },
+        {
+          "actor": "Robert Englund",
+          "character": "Freddy Krueger (voice)"
+        },
+        {
+          "actor": "Jerry Springer",
+          "character": "Jerry Springer (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Lady in Audience (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch as normal, but then the camera pulls back to reveal they're inside a snow globe being shaken by an alien.",
+      "treehouse_of_horror": true,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Multiple parodies: horror films, Itchy & Scratchy cartoons, Jerry Springer Show, and alien abduction stories",
+      "classic": true,
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "maggie",
+        "snake"
+      ],
+      "notes": "The Jerry Springer parody segment marked one of the first times The Simpsons directly lampooned a contemporary daytime talk show, complete with Springer himself providing his own voice for the alien tribunal finale.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 5,
+      "title": "When You Dish Upon a Star",
+      "air_date": "1998-11-08",
+      "description": "After a chance encounter with Hollywood celebrities secretly living in Springfield, Homer becomes their friend and gofer... until he spills the beans to the gang at Moe's.",
+      "still": "./images/simpsons/s10e05_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/hPGIv42kRJVT5VyerB1GKrRllPw.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Brian Grazer",
+          "character": "Brian Grazer (voice)"
+        },
+        {
+          "actor": "Kim Basinger",
+          "character": "Kim Basinger (voice)"
+        },
+        {
+          "actor": "Ron Howard",
+          "character": "Ron Howard (voice)"
+        },
+        {
+          "actor": "Alec Baldwin",
+          "character": "Alec Baldwin (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the TV, appearing as guests on various TV shows.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Hollywood celebrity culture and tabloid journalism",
+      "classic": false,
+      "characters": [],
+      "notes": "Features real Hollywood celebrities Alec Baldwin, Kim Basinger, and Ron Howard playing themselves, marking one of the few times A-list stars appeared as themselves rather than fictional characters on The Simpsons.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 6,
+      "title": "D'oh-in' in the Wind",
+      "air_date": "1998-11-15",
+      "description": "In a quest to learn Homer's middle name, Homer and Grandpa travel to his mother's old commune, where Homer embraces the hippie life.",
+      "still": "./images/simpsons/s10e06_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/phnfWakOvuULtPb9ebY2F4N8LKK.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "George Carlin",
+          "character": "Munchie (voice)"
+        },
+        {
+          "actor": "Martin Mull",
+          "character": "Seth (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a spider that wraps them up in a web.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "1960s hippie counterculture and commune lifestyle",
+      "classic": false,
+      "characters": [
+        "homer",
+        "grandpa"
+      ],
+      "notes": "This episode reveals Homer's middle name as Jay, finally answering a question that had lingered since the show's early seasons.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 7,
+      "title": "Lisa Gets an 'A'",
+      "air_date": "1998-11-22",
+      "description": "Stuck at home with a cold, Lisa gets addicted to a video game and neglects her homework. Her A+++ on a test wins the school a grant, but when she confesses that she cheated, Skinner covers it up. Meanwhile, Homer raises a lobster.",
+      "still": "./images/simpsons/s10e07_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/cbWaF8owl8wD5yyo5K7gOSESdQ7.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Gavin's Mom / Miss Hoover / Helen Lovejoy (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Gavin / Saleswoman (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions like quicksand.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "lisa",
+        "homer",
+        "skinner",
+        "milhouse"
+      ],
+      "notes": "This episode marks the first time a main Simpson family member is shown explicitly cheating academically, representing a notable moral complexity rarely explored with Lisa's character.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 8,
+      "title": "Homer Simpson in: 'Kidney Trouble'",
+      "air_date": "1998-12-06",
+      "description": "When Grandpa needs a new kidney, Homer agrees to donate one, but then chickens out.",
+      "still": "./images/simpsons/s10e08_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/oJ0CDChfmUc94Bnap2ZLLgI0W9i.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "grandpa",
+        "dr_hibbert",
+        "dr_nick"
+      ],
+      "notes": "This episode marks one of the few times Homer's cowardice has genuine moral consequences, as his failure to donate a kidney to his own father represents a darker turn for the character than typical sitcom selfishness.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 9,
+      "title": "Mayored to the Mob",
+      "air_date": "1998-12-20",
+      "description": "After a riot at a sci-fi convention, Mayor Quimby hires Homer as his bodyguard, and Homer witnesses the rampant corruption in town politics. When Homer takes a stand, he runs afoul of the Springfield mafia.",
+      "still": "./images/simpsons/s10e09_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/8suiIlNl3DJ64zQfBfU9OnuhUOn.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Mark Hamill",
+          "character": "Mark Hamill / Leavelle (voice)"
+        },
+        {
+          "actor": "Dick Tufeld",
+          "character": "Robot B-9 (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Joe Mantegna",
+          "character": "Fat Tony (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Uter (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Clarice (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Comic Book Lady (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which sinks into the floor, then rises back up as a whack-a-mole game where each family member gets bonked on the head.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Bodyguard and various mafia/crime films",
+      "classic": false,
+      "characters": [
+        "homer",
+        "mayor_quimby",
+        "fat_tony",
+        "milhouse",
+        "comic_book_guy"
+      ],
+      "notes": "Features the first major appearance of Fat Tony's Springfield mafia operation as central antagonists, establishing the crime family dynamic that would recur throughout the series.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 10,
+      "title": "Viva Ned Flanders",
+      "air_date": "1999-01-10",
+      "description": "When clean-living Ned Flanders wants to experience a new side of life, Homer takes him to Las Vegas. After a drunken binge, they marry a pair of cocktail waitresses.",
+      "still": "./images/simpsons/s10e10_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/M3F2x4JJuOfBapvqcgy448lNgr.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Joan Rivers",
+          "character": "Annie Dubinsky (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Rod Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets crushed by a giant foot from Monty Python's Flying Circus.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "flanders"
+      ],
+      "notes": "Ned Flanders reveals he's actually 60 years old, having lived an extremely sheltered life that kept him youthful. This episode marks one of the few times the show explicitly states a main character's age, creating continuity issues that fans still debate today.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 11,
+      "title": "Wild Barts Can't Be Broken",
+      "air_date": "1999-01-17",
+      "description": "Scapegoated for the vandalism of drunken Isotopes fans, the children of Springfield wage war on the adults by broadcasting their secrets on the radio.",
+      "still": "./images/simpsons/s10e11_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/ruM6TsJuR77iqMktO4a4o01dLKe.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Cyndi Lauper",
+          "character": "Cyndi Lauper (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets bounced high into the air, then fall back down in their underwear.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "bart",
+        "lisa",
+        "wiggum",
+        "skinner",
+        "milhouse",
+        "nelson",
+        "ralph"
+      ],
+      "notes": "This episode features one of the series' most memorable musical numbers with \"We Are the Children,\" a parody of \"We Are the World\" that showcases the show's ability to blend social commentary with catchy songwriting.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 12,
+      "title": "Sunday, Cruddy Sunday",
+      "air_date": "1999-01-31",
+      "description": "Homer and his friends charter a bus to the Super Bowl, only to find that their tickets are fake. Misadventures ensue.",
+      "still": "./images/simpsons/s10e12_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/h70ZgNWe0VPdK0MkdYagpuXGtYP.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Dan Marino",
+          "character": "Dan Marino (voice)"
+        },
+        {
+          "actor": "Rupert Murdoch",
+          "character": "Rupert Murdoch (voice)"
+        },
+        {
+          "actor": "Fred Willard",
+          "character": "Wally Kogen (voice)"
+        },
+        {
+          "actor": "Troy Aikman",
+          "character": "Troy Aikman (voice)"
+        },
+        {
+          "actor": "Rosey Grier",
+          "character": "Rosey Grier (voice)"
+        },
+        {
+          "actor": "Dolly Parton",
+          "character": "Dolly Parton (voice)"
+        },
+        {
+          "actor": "Pat Summerall",
+          "character": "Pat Summerall (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a street bench, and they get soaked by a street cleaner truck.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "barney",
+        "lenny_carl",
+        "moe"
+      ],
+      "notes": "This Super Bowl episode featured an unprecedented number of celebrity cameos including Dolly Parton, Dan Marino, and Rosey Grier, making it one of the most guest-heavy episodes in the series' history.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 13,
+      "title": "Homer to the Max",
+      "air_date": "1999-02-07",
+      "description": "A new TV series features a suave and debonair character named Homer Simpson. Homer capitalizes on his new namesake, until the character is rewritten to be a bumbling fool. Trying to recapture the positive attention he enjoyed, Homer changes his name to \"Max Power.\"",
+      "still": "./images/simpsons/s10e13_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/hXysSwnlvgbKk6W1mmyr3tY0NPC.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Ed Begley Jr.",
+          "character": "Ed Begley Jr. (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch normally, but then the couch and family are sucked into the floor like a drain.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Police drama TV shows and celebrity culture",
+      "classic": false,
+      "characters": [
+        "homer",
+        "flanders"
+      ],
+      "notes": "The episode introduced Homer's alter ego \"Max Power,\" a name that became a recurring gag and catchphrase throughout the series. This marked one of the show's most direct parodies of celebrity culture and the fickleness of fame in Hollywood.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 14,
+      "title": "I'm with Cupid",
+      "air_date": "1999-02-14",
+      "description": "Apu is making the husbands of Springfield look bad with his extravagent Valentine's Day efforts for Manjula. When the men try to sabotage Apu's grand gesture, they accidentally wind up benefiting from it.",
+      "still": "./images/simpsons/s10e14_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/8mRrWC78fzzI9faI1lFlIvYvmP4.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jan Hooks",
+          "character": "Manjula Nahasapeemapetilon (voice)"
+        },
+        {
+          "actor": "Elton John",
+          "character": "Elton John (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "apu",
+        "flanders",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "wiggum",
+        "skinner"
+      ],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 15,
+      "title": "Marge Simpson in: 'Screaming Yellow Honkers'",
+      "air_date": "1999-02-21",
+      "description": "A new Canyonero SUV turns timid Marge into an aggressive driver, and her road rage lands her in traffic school. But when a stampede occurs at the zoo, the town looks to Marge to save the day.",
+      "still": "./images/simpsons/s10e15_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/7bE3BmgQi105cicYgJwb0qQeC3T.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Hank Williams, Jr.",
+          "character": "Canyonero Singer (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "John Kassir",
+          "character": "Possum (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "marge",
+        "wiggum"
+      ],
+      "notes": "The episode introduced the Canyonero, a parody of oversized SUVs that became one of the show's most enduring vehicle gags, complete with a memorable country jingle sung by Hank Williams Jr.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 16,
+      "title": "Make Room for Lisa",
+      "air_date": "1999-02-28",
+      "description": "Indebted from a mishap at the Smithsonian, Homer lets a cell phone company put a transmitter in the house. Forced to share a room with Bart, Lisa resents Homer until a New Age experience gives her empathy.",
+      "still": "./images/simpsons/s10e16_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/8f1SPiOpJ3zFLRMN5ftSgoRmTt2.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Rod Flanders (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [],
+      "notes": "This episode marked one of the earliest mainstream television portrayals of concerns about cell phone radiation and health effects, airing during the initial wave of public anxiety about the technology's safety.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 17,
+      "title": "Maximum Homerdrive",
+      "air_date": "1999-03-28",
+      "description": "After beating Homer in a steak-eating competition, a trucker dies; Homer and Bart take over his rig to complete his shipment.",
+      "still": "./images/simpsons/s10e17_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/4FqLumseC0jODcnuBWTzwTHnqum.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch, which is actually a street bench, and they get soaked by a bus driving through a puddle.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Trucker/road movies and trucking culture",
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "moe"
+      ],
+      "notes": "This episode features the first appearance of the truck stop waitress who calls Homer \"Big Daddy,\" and includes one of the series' most elaborate trucker culture parodies with authentic CB radio slang throughout.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 18,
+      "title": "Simpsons Bible Stories",
+      "air_date": "1999-04-04",
+      "description": "When Reverend Lovejoy subjects the congregation to an extended Bible reading, the Simpsons fall asleep and have dreams based on Bible stories.",
+      "still": "./images/simpsons/s10e18_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/bbRCNCZDS7roqzlx8kD95ouyjaO.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin / Sherri / Kids (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Gary the Unicorn / Kids / Crowd (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten / Moses / Kids (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Groundhog / Egyptian / Guard #2 / Crowd (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets folded into a greeting card that says 'Greetings from the Simpsons.'",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Biblical stories/Bible",
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "milhouse"
+      ],
+      "notes": "This anthology episode marked one of the few times The Simpsons directly parodied religious content, drawing criticism from some Christian groups while being praised by others for its respectful treatment of Biblical narratives.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 19,
+      "title": "Mom and Pop Art",
+      "air_date": "1999-04-11",
+      "description": "Homer's failed do-it-yourself project gets mistaken for \"outsider art.\" Suddenly in the limelight, Homer must come up with new \"works\" to impress the art world.",
+      "still": "./images/simpsons/s10e19_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/cOR05yNHBtc55RjDR2e6Zjoq6Ba.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jasper Johns",
+          "character": "Jasper Johns (voice)"
+        },
+        {
+          "actor": "Isabella Rossellini",
+          "character": "Astrid Weller (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Rod Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch normally, but then the couch and family are revealed to be a painting in an art gallery.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The art world and outsider art movement",
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "flanders"
+      ],
+      "notes": "Features Jasper Johns as himself, marking one of the few times a major contemporary artist appeared on The Simpsons to comment on the art world being satirized.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 20,
+      "title": "The Old Man and the 'C' Student",
+      "air_date": "1999-04-25",
+      "description": "When Bart ruins Springfield's chance to host the Olympics, the kids are sentenced to community service work at the retirement home. To help the residents recapture their youth, Bart takes them on an ill-fated boat ride.",
+      "still": "./images/simpsons/s10e20_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/vHryWyGO7IJ0jgzPbtPnSrg8EM6.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jack LaLanne",
+          "character": "Jack LaLanne (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "bart",
+        "milhouse",
+        "grandpa"
+      ],
+      "notes": "This episode features one of the series' most devastating endings, with multiple elderly characters drowning in a boat accident that Bart directly caused, marking an unusually dark turn even for later-season Simpsons.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 21,
+      "title": "Monty Can't Buy Me Love",
+      "air_date": "1999-05-02",
+      "description": "A new mogul wins the hearts of the townspeople with a shower of cash. Jealous, Mr. Burns asks Homer to help make him a beloved billionaire too, and they hatch a plan to bring the Loch Ness Monster to Springfield.",
+      "still": "./images/simpsons/s10e21_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/3Dot0HpOw1nwG6jToauOa2TzCNU.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Michael McKean",
+          "character": "Jerry Rude (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "burns",
+        "smithers",
+        "flanders"
+      ],
+      "notes": "This episode marks the only appearance of Arthur Fortune, the billionaire rival who showers Springfield with money, establishing him as one of the show's most memorable one-off antagonists to Mr. Burns.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 22,
+      "title": "They Saved Lisa's Brain",
+      "air_date": "1999-05-09",
+      "description": "Mayor Quimby flees Springfield, leaving the town chapter of Mensa in charge. As the group's new power goes to their heads, they take their utopian plans too far and the townspeople revolt.",
+      "still": "./images/simpsons/s10e22_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/dpzT6y1hbyEHTp7xJD9RiTFWEo5.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Stephen Hawking",
+          "character": "Stephen Hawking (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into cushions, then shot out through the back as cubes.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Utopian literature and intellectual dystopias like Brave New World",
+      "classic": true,
+      "characters": [
+        "lisa",
+        "mayor_quimby",
+        "comic_book_guy",
+        "professor_frink",
+        "dr_hibbert"
+      ],
+      "notes": "Features Stephen Hawking's first and only appearance on The Simpsons, where he delivers the famous line \"Your theory of a donut-shaped universe is intriguing, Homer. I may have to steal it.",
+      "_chars_v2": true
+    },
+    {
+      "season": 10,
+      "episode": 23,
+      "title": "Thirty Minutes Over Tokyo",
+      "air_date": "1999-05-16",
+      "description": "After their bank account is drained at a cyber-cafe, the Simpsons go on a disastrous low-budget trip to Japan, where they wind up as contestants on a humiliating game show.",
+      "still": "./images/simpsons/s10e23_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/iMb8agwFq0gLqjZYuWllkpGlH9V.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Keone Young",
+          "character": "Fish (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "(voice)"
+        },
+        {
+          "actor": "Karen Maruyama",
+          "character": "Japanese Stewardess (voice)"
+        },
+        {
+          "actor": "George Takei",
+          "character": "Wink - The Game Show Host (voice)"
+        },
+        {
+          "actor": "Denice Kumagai",
+          "character": "Japanese Mother (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Canadian Wife / Maude Flanders (voice)"
+        },
+        {
+          "actor": "Gedde Watanabe",
+          "character": "Cartoon Squid / Japanese Father (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Mr. Monopoly / Woody Allen (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the TV, channel surfing through various shows.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Japanese game shows and travel culture",
+      "classic": false,
+      "characters": [],
+      "notes": "This episode marked The Simpsons' first extended international setting outside of brief vacation scenes, requiring extensive research into Japanese culture and customs. The show's parody of bizarre Japanese game shows helped introduce American audiences to the concept years before such programs gained mainstream Western popularity.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 1,
+      "title": "Beyond Blunderdome",
+      "air_date": "1999-09-26",
+      "description": "Homer befriends Mel Gibson just as Mel is completing a remake of Mr. Smith Goes To Washington. Homer convinces Mel to make the film more violent, with disastrous results.",
+      "still": "./images/simpsons/s11e01_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/hvKW8cHFcsVgfeYV3aEOBbGcoy1.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jack Burns",
+          "character": "Edward Christian (voice)"
+        },
+        {
+          "actor": "Mel Gibson",
+          "character": "Mel Gibson (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets crushed by a large foot in a Monty Python-style animation.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Mr. Smith Goes to Washington",
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ],
+      "notes": "Mel Gibson voiced himself in what would become one of his final major mainstream media appearances before his career controversies, making this a time capsule of late 90s Hollywood celebrity culture.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 2,
+      "title": "Brother's Little Helper",
+      "air_date": "1999-10-03",
+      "description": "When Bart commits an extremely destructive prank, he is given Focusyn, a pill to help him concentrate in school. At first the results are impressive, and then Bart starts believing in a conspiracy involving spy satellites and major league baseball.",
+      "still": "./images/simpsons/s11e02_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/tAQGR5iivfi20SAGaSG9o2yaiov.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Mark McGwire",
+          "character": "Mark McGwire (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders #1 (voice)"
+        },
+        {
+          "actor": "Marcia Mitzman Gaven",
+          "character": "Maude Flanders #2 (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince / Sherri (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Pharmacist (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten / Rod Flanders / Jimbo Jones (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Stage Manager (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets folded into the couch which transforms into a foosball table.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "A Beautiful Mind and conspiracy thriller films",
+      "classic": false,
+      "characters": [],
+      "notes": "This episode marked one of the earliest mainstream TV critiques of ADHD medication in children, airing during the height of Ritalin controversies in the late 1990s.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 3,
+      "title": "Guess Who's Coming to Criticize Dinner?",
+      "air_date": "1999-10-24",
+      "description": "With Lisa's help, Homer uses his vast knowledge of food to become the town's leading restaurant critic. But when he gets petty and vindictive in his criticisms, all the other chefs in town try to kill him.",
+      "still": "./images/simpsons/s11e03_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/cvzUZz5xTMsKXZDI9ANNG3xmwyM.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Ed Asner",
+          "character": "Editor (voice)"
+        },
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions, then shot out through the back.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "lisa",
+        "flanders",
+        "moe",
+        "apu",
+        "kent_brockman"
+      ],
+      "notes": "Features Homer's memorable food critic catchphrase \"So good!\" which became a running gag throughout his brief culinary journalism career.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 4,
+      "title": "Treehouse of Horror X",
+      "air_date": "1999-10-31",
+      "description": "In \"I Know What You Diddily-Iddly-Did\" the Simpsons fear they have killed Ned Flanders. \"Desperately Xeeking Xena\" satirizes superheroes of yore with \"Stretch Dude\" Bart and \"Clobber Girl\" Lisa. And \"Life's A Glitch, Then You Die\" depicts the upcoming horror of Y2K.",
+      "still": "./images/simpsons/s11e04_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/k4azXLZCuz4SqfqHO5yZ5S0MAS.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Tom Arnold",
+          "character": "Tom Arnold (voice)"
+        },
+        {
+          "actor": "Dick Clark",
+          "character": "Dick Clark (voice)"
+        },
+        {
+          "actor": "Lucy Lawless",
+          "character": "Lucy Lawless (voice)"
+        },
+        {
+          "actor": "Marcia Mitzman Gaven",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which is actually the tongue of a giant monster that swallows them.",
+      "treehouse_of_horror": true,
+      "musical": false,
+      "parody": true,
+      "parody_of": "I Know What You Did Last Summer, X-Men/superheroes, Y2K panic",
+      "classic": true,
+      "characters": [
+        "bart",
+        "lisa",
+        "flanders",
+        "burns",
+        "smithers",
+        "kent_brockman"
+      ],
+      "notes": "This marked the first Treehouse of Horror to air in the new millennium and was the show's direct commentary on Y2K hysteria, featuring one of the series' most topical segments that captured the genuine cultural panic of late 1999.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 5,
+      "title": "E-I-E-I-(Annoyed Grunt)",
+      "air_date": "1999-11-07",
+      "description": "Fleeing from a duel, Homer takes his family to live on a farm. There he discovers that by mixing tomatoes, tobacco and radioactivity from the nuclear plant, he can create a dangerously delicious new substance.",
+      "still": "./images/simpsons/s11e05_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/y0W2UfJaHwl9ouMfUFvUkqIh0g4.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Maggie Roswell",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a slot machine that spins them around before they land back in place.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": true,
+      "parody_of": "Green Acres",
+      "classic": false,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "flanders"
+      ],
+      "notes": "This episode introduces \"tomacco,\" a fictional hybrid crop that became one of The Simpsons' most memorable running gags and was later actually created by real-life botanist Rob Baur in 2003.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 6,
+      "title": "Hello Gutter, Hello Fadder",
+      "air_date": "1999-11-14",
+      "description": "Homer bowls a perfect 300 game, then concludes that the greatest accomplishment of his life is behind him. He reconnects with the world by bonding with baby Maggie.",
+      "still": "./images/simpsons/s11e06_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/y9pQb9CsD7HTpm9LVZXGAprV7Rb.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Pat O'Brien",
+          "character": "Pat O'Brien (voice)"
+        },
+        {
+          "actor": "Nancy O'Dell",
+          "character": "Nancy O'Dell (voice)"
+        },
+        {
+          "actor": "Ron Howard",
+          "character": "Ron Howard (voice)"
+        },
+        {
+          "actor": "Teller",
+          "character": "Teller (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten / Jimbo Jones (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Sherri / Ron Howard's Son (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Dolph / Swimming Instructor (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Happy Little Elf #2 (voice)"
+        },
+        {
+          "actor": "Penn Jillette",
+          "character": "Penn Jilette (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch normally, but then the couch and family slide backward through the wall and end up in the neighbor's living room where Ned Flanders is watching TV.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "maggie",
+        "moe",
+        "milhouse",
+        "lenny_carl"
+      ],
+      "notes": "This episode marks one of the rare times Homer achieves genuine athletic excellence, as his perfect 300 bowling game represents the highest possible score in the sport. The storyline explores Homer's midlife crisis through the lens of peak achievement, making it one of the more introspective character studies in the series.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 7,
+      "title": "Eight Misbehavin'",
+      "air_date": "1999-11-21",
+      "description": "Due to overuse of fertility medication, Apu and wife Manjula give birth to octuplets. Desperate for money, Apu loans the babies to an unscrupulous carny promoter, then needs Homer's help to get them back.",
+      "still": "./images/simpsons/s11e07_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/nWgnITT1ok5tPVTqBkjj4U4fouY.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jan Hooks",
+          "character": "Manjula Nahasapeemapetilon (voice)"
+        },
+        {
+          "actor": "Butch Patrick",
+          "character": "Butch Patrick (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Garry Marshall",
+          "character": "Larry Kidkill (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "apu"
+      ],
+      "notes": "This episode introduced Apu and Manjula's octuplets, who would become recurring characters throughout the series' run. The babies were named after classic American brands: Lincoln, Freedom, Govt, Cory, Q*bert, Morgan, IKEA, and Nabendu.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 8,
+      "title": "Take My Wife, Sleaze",
+      "air_date": "1999-11-28",
+      "description": "After winning a motorcycle at a dance contest, Homer becomes part of a motorcycle gang. But when he puts Marge's photo in a biker magazine, a much tougher gang takes her, and he must win her back.",
+      "still": "./images/simpsons/s11e08_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/cr4eSWmbag0XBteqdDLNs5n50Uw.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jan Hooks",
+          "character": "Manjula Nahasapeemapetilon (voice)"
+        },
+        {
+          "actor": "John Goodman",
+          "character": "Meathook (voice)"
+        },
+        {
+          "actor": "Henry Winkler",
+          "character": "Ramrod (voice)"
+        },
+        {
+          "actor": "Jay North",
+          "character": "Jay North (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse / Rod Flanders (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Mother (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Attendant (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets folded into the couch which turns into a pull-out bed.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Biker gang movies and motorcycle culture",
+      "classic": false,
+      "characters": [],
+      "notes": "This episode features Homer's motorcycle gang \"Hell's Satans,\" whose name became a recurring joke in later seasons whenever the show referenced amateur or wannabe biker culture.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 9,
+      "title": "Grift of the Magi",
+      "air_date": "1999-12-19",
+      "description": "In this Christmas-themed episode, the students of Springfield Elementary are unwittingly used as a focus group to test new toys. The product of their labors, a cuddly doll named Funzo, is a lot more sinister than he appears.",
+      "still": "./images/simpsons/s11e09_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/zSUtveL8zZZRK1GOyD7fiXsFCm0.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Gary Coleman",
+          "character": "Gary Coleman (voice)"
+        },
+        {
+          "actor": "Tim Robbins",
+          "character": "Jim Hope (voice)"
+        },
+        {
+          "actor": "Clarence Clemons",
+          "character": "Narrator (voice)"
+        },
+        {
+          "actor": "Joe Mantegna",
+          "character": "Fat Tony (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince / Sherri / Terri (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Plaintiff / Lindsey Naegle / Teacher (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Crowd (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch as normal, but then the couch and family are revealed to be a dollhouse being played with by a giant Maggie.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": true,
+      "parody_of": "How the Grinch Stole Christmas",
+      "classic": false,
+      "characters": [],
+      "notes": "This Christmas episode features Tim Robbins as the villainous toy company executive Jim Hope, delivering one of the most memorable guest performances of Season 11. The episode's climactic scene parodies How the Grinch Stole Christmas with Bart destroying the Funzo dolls in a sequence that mirrors the Grinch's change of heart.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 10,
+      "title": "Little Big Mom",
+      "air_date": "2000-01-09",
+      "description": "When Marge leaves the house to recuperate from a skating injury, everything goes to hell - until Lisa convinces Homer and Bart they have leprosy.",
+      "still": "./images/simpsons/s11e10_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/hgvHujp0qecHzF0PzL8KfqQtva9.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Elwood Edwards",
+          "character": "Virtual Doctor (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Marcia Mitzman Gaven",
+          "character": "Maude Flanders (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Rick (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets vacuumed up by a giant vacuum cleaner.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Parent Trap",
+      "classic": false,
+      "characters": [
+        "lisa",
+        "dr_hibbert"
+      ],
+      "notes": "Lisa's elaborate deception using fake medical books and staged symptoms marks one of the few times a Simpson child successfully manipulates the entire family for their own good.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 11,
+      "title": "Faith Off",
+      "air_date": "2000-01-16",
+      "description": "Homer gets a bucket stuck on his head, and when it is removed the town is convinced that Bart has the powers of a faith healer. Then mobster Fat Tony tries to turn the boy's spiritual abilities into more sinister directions.",
+      "still": "./images/simpsons/s11e11_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/tyz0nQrGSP84qxfF4i85txqR9sU.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Don Cheadle",
+          "character": "Brother Faith (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Joe Mantegna",
+          "character": "Fat Tony (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Sherri / Terri (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "faith healing televangelists and religious revival meetings",
+      "classic": false,
+      "characters": [],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 12,
+      "title": "The Mansion Family",
+      "air_date": "2000-01-23",
+      "description": "Worried about his health, Mr. Burns visits the Mayo Clinic. He lets Homer housesit his mansion, which leads of course to an offshore knife fight and an attack by Chinese pirates.",
+      "still": "./images/simpsons/s11e12_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/gPDy5074E7oIRRgrJTNGQhBnyvY.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Britney Spears",
+          "character": "Britney Spears (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Nurse (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "burns",
+        "smithers"
+      ],
+      "notes": "Mr. Burns' medical examination reveals he has every disease known to man, but they're all perfectly balanced in a state he calls \"Three Stooges Syndrome\" — creating one of the show's most memorable medical gags.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 13,
+      "title": "Saddlesore Galactica",
+      "air_date": "2000-02-06",
+      "description": "Homer and Bart befriend a diving horse at a county fair. They turn it into a racehorse with an attitude, whose success runs them afoul of mysterious, tree-dwelling jockeys.",
+      "still": "./images/simpsons/s11e13_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/lokGUjObk99SE9pU3mkRMe0P6Xi.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jim Cummings",
+          "character": "Dunkin (voice)"
+        },
+        {
+          "actor": "Charles Frederick Turner",
+          "character": "Charles Frederick Turner (voice)"
+        },
+        {
+          "actor": "Randy Bachman",
+          "character": "Randy Bachman (voice)"
+        },
+        {
+          "actor": "Trevor Denman",
+          "character": "Trevor Denman (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Mrs. Vanderbilt (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Horse racing films and fantasy adventure stories",
+      "classic": false,
+      "characters": [],
+      "notes": "This episode marked one of the most polarizing moments in Simpsons history when it abruptly shifted from horse racing satire to fantasy adventure with magical jockey creatures, widely cited by fans as an early example of the show's creative decline.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 14,
+      "title": "Alone Again, Natura-Diddily",
+      "air_date": "2000-02-13",
+      "description": "Ned's wife Maude is inadvertently killed by a T-shirt accident at an auto race. Homer and his family try to help Ned cope.",
+      "still": "./images/simpsons/s11e14_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/vfXgzd9BydzFQqzz182tRZX5ugA.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Shawn Colvin",
+          "character": "Rachel Jordan (voice)"
+        },
+        {
+          "actor": "Marcia Mitzman Gaven",
+          "character": "Maude Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the TV, where they appear on various channels.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "flanders"
+      ],
+      "notes": "The shocking death of Maude Flanders was written into the show because voice actress Maggie Roswell was in a pay dispute and couldn't continue recording from her home in Denver.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 15,
+      "title": "Missionary: Impossible",
+      "air_date": "2000-02-20",
+      "description": "When Homer fails to give money he promised over the phone, he is forced by PBS stars to flee the country. He becomes a missionary on a small tropical island, where he introduces the natives to casino gambling.",
+      "still": "./images/simpsons/s11e15_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/wsJzx71TGN58gPYGc4vDivqY6IP.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Betty White",
+          "character": "Betty White (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch which is actually a wooden bench, and they're revealed to be in a church confessional booth.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Missionary films and South Pacific tropical island stories",
+      "classic": false,
+      "characters": [
+        "homer",
+        "kent_brockman"
+      ],
+      "notes": "This episode served as the season finale and fundraising special for FOX, breaking the fourth wall when actual PBS stars like Betty White and Big Bird chase Homer, blending real public television with the show's fictional world.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 16,
+      "title": "Pygmoelian",
+      "air_date": "2000-02-27",
+      "description": "Plastic surgery gives Moe the bartender a handsome new face and a whole new life as a soap opera star.",
+      "still": "./images/simpsons/s11e16_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/5EHDsfkDZs7XFglFCoy6JG5JdWm.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets absorbed into the cushions, then ejected back out.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "soap operas and celebrity culture",
+      "classic": false,
+      "characters": [
+        "moe",
+        "dr_nick",
+        "lenny_carl",
+        "barney"
+      ],
+      "notes": "The episode's title \"Pygmoelian\" is a clever portmanteau of \"Pygmalion\" (the Greek myth about transforming someone's appearance) and Moe's name, representing one of the series' most linguistically creative episode titles.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 17,
+      "title": "Bart to the Future",
+      "air_date": "2000-03-19",
+      "description": "We see a possible future in which Bart is a grown-up slacker, living with Ralph Wiggum, while Lisa is no less than President of the United States.",
+      "still": "./images/simpsons/s11e17_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/4XUiaQZiGkQqa03WRt6WUOgvTrY.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch, which turns into a slot machine that spins and shows different combinations of the family members.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "bart",
+        "lisa",
+        "ralph",
+        "milhouse"
+      ],
+      "notes": "This episode famously predicted that Donald Trump would become President of the United States, with Lisa referencing inheriting \"quite a budget crunch from President Trump\" — a joke that became reality 16 years later.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 18,
+      "title": "Days of Wine and D'oh'ses",
+      "air_date": "2000-04-09",
+      "description": "After being embarrassed by a drunken video of himself, Barney vows to sober up. Newly clean, he gets work as a helicopter pilot.",
+      "still": "./images/simpsons/s11e18_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/kAm7ar3blpaHNnGyTKY6JNFlWwa.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Days of Wine and Roses",
+      "classic": false,
+      "characters": [
+        "barney",
+        "moe",
+        "homer"
+      ],
+      "notes": "This episode marked Barney's most significant character development, transforming him from town drunk to responsible helicopter pilot in a rare moment of genuine growth for a secondary character.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 19,
+      "title": "Kill the Alligator and Run",
+      "air_date": "2000-04-30",
+      "description": "After a terrible bout with insomnia, Homer takes the family to Florida during spring break. There, they kill a beloved alligator and are sentenced to a chain gang.",
+      "still": "./images/simpsons/s11e19_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/9nUs5q49wUNgt2plBLTgy35Ystl.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Kid Rock",
+          "character": "Kid Rock (voice)"
+        },
+        {
+          "actor": "Joe C.",
+          "character": "Joe C. (voice)"
+        },
+        {
+          "actor": "Charlie Rose",
+          "character": "Charlie Rose (voice)"
+        },
+        {
+          "actor": "Robert Evans",
+          "character": "Robert Evans (voice)"
+        },
+        {
+          "actor": "Diedrich Bader",
+          "character": "Officer (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a cardboard cutout that falls over backwards.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Cool Hand Luke and chain gang prison films",
+      "classic": false,
+      "characters": [
+        "homer"
+      ],
+      "notes": "This episode marks the first time the entire Simpson family was arrested together and sentenced to hard labor, featuring an unusually dark turn even by later-season standards.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 20,
+      "title": "Last Tap Dance in Springfield",
+      "air_date": "2000-05-07",
+      "description": "Lisa enters a tap dancing academy, where the teacher is a child star who never quite grew up. Meanwhile, Homer gets laser eye surgery.",
+      "still": "./images/simpsons/s11e20_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/difS8F5CskQWrllLExJp0ABJO2m.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch as normal, but then the couch and family slide backward through the wall and outside the house.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": true,
+      "parody_of": "Fame and child star culture",
+      "classic": false,
+      "characters": [
+        "homer",
+        "lisa",
+        "marge",
+        "bart",
+        "dr_hibbert",
+        "milhouse"
+      ],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 21,
+      "title": "It's a Mad, Mad, Mad, Mad Marge",
+      "air_date": "2000-05-14",
+      "description": "Otto's girlfriend seems to be usurping Marge's role when she moves in with the family after a dispute over heavy metal.",
+      "still": "./images/simpsons/s11e21_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/tynAJOBn9Wde2kCnOOczhZxKvJ3.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Parker Posey",
+          "character": "Becky (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Marc Wilmore",
+          "character": "Drummer (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Sherri / Terri / Water Girl / Psychologist #3 (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Psychologist #2 (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Single White Female",
+      "classic": false,
+      "characters": [
+        "marge",
+        "milhouse"
+      ],
+      "notes": "This episode marks the only appearance of Becky, Otto's psychotic girlfriend who infiltrates the Simpson household in a parody of the 1992 thriller \"Single White Female.",
+      "_chars_v2": true
+    },
+    {
+      "season": 11,
+      "episode": 22,
+      "title": "Behind the Laughter",
+      "air_date": "2000-05-21",
+      "description": "A \"Behind the Music\"-style look at the Simpsons, narrated by VH1's Jim Forbes, shows their rise to stardom--and the \"private hell\" that followed.",
+      "still": "./images/simpsons/s11e22_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/qDhpIx4K1hIu9N7REXVEAOsLMiA.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Buzz Aldrin",
+          "character": "Buzz Aldrin (voice)"
+        },
+        {
+          "actor": "Tom Kite",
+          "character": "Tom Kite (voice)"
+        },
+        {
+          "actor": "Willie Nelson",
+          "character": "Willie Nelson (voice)"
+        },
+        {
+          "actor": "Stephen Hawking",
+          "character": "Stephen Hawking (voice)"
+        },
+        {
+          "actor": "Gary Coleman",
+          "character": "Gary Coleman (voice)"
+        },
+        {
+          "actor": "Butch Patrick",
+          "character": "Butch Patrick (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "VH1's Behind the Music",
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ],
+      "notes": "This mockumentary format broke the fourth wall more completely than any previous Simpsons episode, with the actual VH1 narrator Jim Forbes providing commentary on the fictional Simpson family as if they were real celebrities.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 1,
+      "title": "Treehouse of Horror XI",
+      "air_date": "2000-11-01",
+      "description": "This year's Halloween story sees The Simpsons as \"The Munsters\" (with everyone except Lisa getting killed), Homer as a wandering spirit on the hunt for a good deed in \"G-G-Ghost D-D-Dad,\" Bart and Lisa as peasants in a fairy tale forest in \"Scary Tales Can Come True,\" and Lisa inadvertently dooming mankind by rescuing a dolphin in \"Night of the Dolphin.\"",
+      "still": "./images/simpsons/s12e01_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/w5WbT0dzggTabsPM9fTqzxvJIQA.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch as skeletons, then their flesh grows back onto their bones.",
+      "treehouse_of_horror": true,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Munsters, fairy tales, and nature revenge films",
+      "classic": true,
+      "characters": [
+        "homer",
+        "bart",
+        "lisa"
+      ],
+      "notes": "The dolphin segment's climactic scene where dolphins emerge from the ocean en masse was one of the most expensive animation sequences in Treehouse of Horror history, requiring extensive crowd animation techniques typically reserved for feature films.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 2,
+      "title": "A Tale of Two Springfields",
+      "air_date": "2000-11-05",
+      "description": "While calling Animal Control over a badger taking residence in Santa's Little Helper's doghouse, Homer discovers that Springfield has two different area codes–and ends up leading a revolt that splits the town in two.",
+      "still": "./images/simpsons/s12e02_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/7KqfXGaCAvTVRne3nMxDdGSQqKS.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Gary Coleman",
+          "character": "Gary Coleman (voice)"
+        },
+        {
+          "actor": "Roger Daltrey",
+          "character": "Roger Daltrey (voice)"
+        },
+        {
+          "actor": "Pete Townshend",
+          "character": "Pete Townshend (voice)"
+        },
+        {
+          "actor": "John Entwistle",
+          "character": "John Entwistle (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets crushed by a giant foot in a Monty Python-style animation.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": true,
+      "parody_of": "West Side Story",
+      "classic": false,
+      "characters": [
+        "homer",
+        "moe",
+        "apu",
+        "wiggum",
+        "lenny_carl",
+        "barney"
+      ],
+      "notes": "This episode features one of the series' most elaborate musical sequences, with a full West Side Story parody complete with choreographed dance numbers that required significantly more animation resources than typical episodes.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 3,
+      "title": "Insane Clown Poppy",
+      "air_date": "2000-11-12",
+      "description": "Krusty takes parenting lessons from Homer when, during an outdoor book fair, a girl tells Krusty that she is his long-lost daughter from a one-night stand with a female soldier who fought during the first Gulf War.",
+      "still": "./images/simpsons/s12e03_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/eVB8FoLCUQOJXPl9uIrSwILUH3.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "John Updike",
+          "character": "John Updike (voice)"
+        },
+        {
+          "actor": "Stephen King",
+          "character": "Stephen King (voice)"
+        },
+        {
+          "actor": "Amy Tan",
+          "character": "Amy Tan (voice)"
+        },
+        {
+          "actor": "Jay Mohr",
+          "character": "Christopher Walken (voice)"
+        },
+        {
+          "actor": "Joe Mantegna",
+          "character": "Fat Tony (voice)"
+        },
+        {
+          "actor": "Drew Barrymore",
+          "character": "Sophie (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch as normal, but then the couch and family slide backward through the wall and end up outside behind the house.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "krusty",
+        "fat_tony"
+      ],
+      "notes": "First appearance of Sophie, Krusty's daughter, who would become a recurring character representing his attempts at genuine fatherhood throughout the series.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 4,
+      "title": "Lisa the Tree Hugger",
+      "air_date": "2000-11-19",
+      "description": "Lisa falls for the teenaged leader of a militant environmentalist group and tries to impress him by living in Springfield's oldest tree in order to keep it from being cut down.",
+      "still": "./images/simpsons/s12e04_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/fHmxaDYvXCmsZqs6WulMamdu9Wi.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Joshua Jackson",
+          "character": "Jesse Grass (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "GameStation 252 / Female Activists (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Caleb (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and sinks into it as if it were quicksand.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "lisa",
+        "milhouse"
+      ],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 5,
+      "title": "Homer vs. Dignity",
+      "air_date": "2000-11-26",
+      "description": "When the Simpsons once again have financial problems, Mr. Burns pays Homer to play pranks on others and humiliate himself in public. Meanwhile, Smithers creates a Malibu Stacy-themed musical.",
+      "still": "./images/simpsons/s12e05_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/lAOtgJtTADRrr5gxNdh4kEuepD5.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Leeza Gibbons",
+          "character": "Leeza Gibbons (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "burns",
+        "smithers"
+      ],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 6,
+      "title": "The Computer Wore Menace Shoes",
+      "air_date": "2000-12-03",
+      "description": "Homer decides to buy a computer after turning up to the Plant to find it closed by e-mail. He then creates his own website and it eventually gains attention when he posts gossip. Homer dubs himself as \"Mr. X\" to conceal his identity. When he reveals that he is Mr. X, he becomes drugged into a mysterious island where people who know too much are imprisoned after Homer starts writing conspiracy theories such as flu shots.",
+      "still": "./images/simpsons/s12e06_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/gjBbpzQ3b3E7fHb5gkMCHsOImFQ.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Patrick McGoohan",
+          "character": "Number 6 (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a giant hand that closes around them.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Prisoner",
+      "classic": false,
+      "characters": [
+        "homer",
+        "burns",
+        "smithers",
+        "lenny_carl"
+      ],
+      "notes": "This episode marked one of the earliest mainstream TV depictions of internet blogging and conspiracy theory websites, predating the social media age by several years.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 7,
+      "title": "The Great Money Caper",
+      "air_date": "2000-12-10",
+      "description": "Homer and Bart become father–son con artists (after Bart is given money out of pity when Homer decided to not take him home), but soon find that they are the ones being had.",
+      "still": "./images/simpsons/s12e07_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/7BGkc4yGkjdTxo4L3d4JvqotGcQ.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Edward Norton",
+          "character": "Devon Bradley (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a giant hand that grabs them.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Sting and con artist films",
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "wiggum",
+        "fat_tony"
+      ],
+      "notes": "The episode features an elaborate con artist plot structure that directly homages \"The Sting,\" complete with multiple fake-outs and reveals that the marks were actually running a larger scheme all along.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 8,
+      "title": "Skinner's Sense of Snow",
+      "air_date": "2000-12-17",
+      "description": "A snowstorm traps the students of Springfield Elementary inside, with them overthrowing Principal Skinner when he uses his Army skills to control them. Meanwhile, Homer tries to rescue the children–using Flanders' car.",
+      "still": "./images/simpsons/s12e08_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/2vWqXNMikshPX9dVqKAT3qupqup.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince / Sherri / Terri / Uter (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Wolf 1 (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Little Bo Peep (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions one by one.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Lord of the Flies",
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "skinner",
+        "flanders",
+        "milhouse"
+      ],
+      "notes": "This episode features one of the series' most elaborate Lord of the Flies parodies, with Bart leading a student rebellion that transforms the school into a primitive society complete with tribal face paint and spear-wielding guards.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 9,
+      "title": "HOMЯ",
+      "air_date": "2001-01-07",
+      "description": "While working as a human guinea pig (to pay off the family's lost savings after making a bad investment), Homer discovers the root cause of his subnormal intelligence: a crayon that was lodged in his brain ever since he was a boy. He decides to have it removed to increase his IQ, but discovers that being smart does not necessarily equal being happy.",
+      "still": "./images/simpsons/s12e09_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/hTNbbl8uipbVoDIZ8OgtCkZnYAL.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch and gets sucked into the cushions, then shot out through the back.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Flowers for Algernon",
+      "classic": true,
+      "characters": [
+        "homer",
+        "marge",
+        "lisa",
+        "dr_hibbert",
+        "professor_frink",
+        "lenny_carl",
+        "moe",
+        "barney"
+      ],
+      "notes": "This episode's title uses the Cyrillic letter \"Я\" (ya) instead of \"R\" to spell \"HOMЯ,\" making it one of the few Simpsons episodes to use non-Latin characters in its title.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 10,
+      "title": "Pokey Mom",
+      "air_date": "2001-01-14",
+      "description": "Marge tries to rehabilitate a convict with remarkable artistic talent. Meanwhile, Homer uses a trash can to fix people's spines.",
+      "still": "./images/simpsons/s12e10_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/s5lvq1sIdICOqX0kKzdAWUQNdCT.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Michael Keaton",
+          "character": "Jack Crowley (voice)"
+        },
+        {
+          "actor": "Bruce Vilanch",
+          "character": "Bruce Vilanch (voice)"
+        },
+        {
+          "actor": "Charles Napier",
+          "character": "Warden (voice)"
+        },
+        {
+          "actor": "Robert Schimmel",
+          "character": "Prisoner (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into the TV, where they appear in various shows including a nature documentary.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "marge",
+        "homer",
+        "skinner"
+      ],
+      "notes": "The episode introduces Jack Crowley, a one-time convict character whose artistic talents and tragic backstory made him one of the most memorable single-episode guest characters in the series' middle years.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 11,
+      "title": "Worst Episode Ever",
+      "air_date": "2001-02-04",
+      "description": "Bart and Milhouse are banned from The Android Dungeon after stopping Comic Book Guy from buying a box of priceless Star Wars memorabilia for $5, but are hired as his replacements when Comic Book Guy has a heart attack and is advised to leave his job in order to make friends.",
+      "still": "./images/simpsons/s12e11_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/u7nlutZgBVe7QbSsNrYbGa30a8x.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Tom Savini",
+          "character": "Tom Savini (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a player piano that plays a tune while the family bounces up and down.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "bart",
+        "milhouse",
+        "comic_book_guy"
+      ],
+      "notes": "The episode's title became an ironic rallying cry among fans who felt the show's quality was declining in later seasons, making it one of the most meta-textually referenced episode titles in Simpsons history.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 12,
+      "title": "Tennis the Menace",
+      "air_date": "2001-02-11",
+      "description": "While making funeral arrangements for Grampa's future, the funeral planner pitches the idea of a mausoleum that uses the same amount of cement as a full-sized tennis court. This prompts Homer to instead build a tennis court in his backyard, initially mistaking the sport for \"Foxy Boxing\". The tennis court makes Marge and Homer popular in town, but it turns out that this is only because Homer's inferior tennis ability makes them an easy target. Bart on the other hand, shines as a natural.",
+      "still": "./images/simpsons/s12e12_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/zPO8DEthCIGNpWErs3bvRuT4emQ.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Serena Williams",
+          "character": "Serena Williams (voice)"
+        },
+        {
+          "actor": "Andre Agassi",
+          "character": "Andre Agassi (voice)"
+        },
+        {
+          "actor": "Venus Williams",
+          "character": "Venus Williams (voice)"
+        },
+        {
+          "actor": "Pete Sampras",
+          "character": "Pete Sampras (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Marcia Mitzman Gaven",
+          "character": "Helen Lovejoy (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 13,
+      "title": "Day of the Jackanapes",
+      "air_date": "2001-02-18",
+      "description": "Krusty announces his retirement due to interference from network executives and the growing popularity of the big-money game show \"Me Wantee\", but when Krusty reveals to Sideshow Bob that all of the episodes featuring him have been erased, Sideshow Bob uses Krusty's biggest fan (Bart) to murder him during Krusty's farewell show.",
+      "still": "./images/simpsons/s12e13_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/p2zf41UdmgoPBXS0xSrIMldqOFq.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Gary Coleman",
+          "character": "Gary Coleman (voice)"
+        },
+        {
+          "actor": "Kelsey Grammer",
+          "character": "Sideshow Bob (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets sucked into a black hole that appears in the center cushion.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "The Manchurian Candidate",
+      "classic": true,
+      "characters": [
+        "bart",
+        "krusty",
+        "sideshow_bob"
+      ],
+      "notes": "This episode marked Sideshow Bob's return after a four-season absence, with Kelsey Grammer reprising his role for what many consider the character's final truly menacing appearance before becoming more of a comic figure.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 14,
+      "title": "New Kids on the Blecch",
+      "air_date": "2001-02-25",
+      "description": "A music producer selects Bart, Nelson, Milhouse and Ralph to be members of the next hit boy band, who record subliminal songs about joining the Navy.",
+      "still": "./images/simpsons/s12e14_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/9MTd6DWjQccIztGqN3IXd3wZ4v0.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "JC Chasez",
+          "character": "JC Chasez (voice)"
+        },
+        {
+          "actor": "Justin Timberlake",
+          "character": "Justin Timberlake (voice)"
+        },
+        {
+          "actor": "Lance Bass",
+          "character": "Lance Bass (voice)"
+        },
+        {
+          "actor": "Joey Fatone",
+          "character": "Joey Fatone (voice)"
+        },
+        {
+          "actor": "Chris Kirkpatrick",
+          "character": "Chris Kirkpatrick (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch as normal, but then the couch and family are revealed to be a dollhouse being played with by a giant Maggie.",
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": true,
+      "parody_of": "Boy bands like *NSYNC and Backstreet Boys",
+      "classic": false,
+      "characters": [
+        "bart",
+        "nelson",
+        "milhouse",
+        "ralph"
+      ],
+      "notes": "The boy band \"Party Posse\" featured guest voices from *NSYNC members Justin Timberlake, JC Chasez, Chris Kirkpatrick, and Joey Fatone as themselves. This marked one of the first times a major pop group appeared on The Simpsons during the height of their fame, just as the boy band craze was peaking.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 15,
+      "title": "Hungry, Hungry Homer",
+      "air_date": "2001-03-04",
+      "description": "Homer becomes a Good Samaritan after discovering the simple joys of helping people in need–which is put to the test when he goes on a hunger strike after the owner of the Springfield Isotopes attempts to discredit him when Homer stumbles on his plot to discreetly move the team to Albuquerque, New Mexico.",
+      "still": "./images/simpsons/s12e15_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/qWzLc6ln1aGwtPGu6NcUpQwYkx0.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Stacy Keach",
+          "character": "Howard Duff (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Sherri (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Boy in Blockoland Commercial / Aide (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch, which is actually a giant sandwich that gets eaten by a larger Homer.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Gandhi and hunger strike protest movements",
+      "classic": false,
+      "characters": [
+        "homer",
+        "milhouse"
+      ],
+      "notes": "This episode features Homer's most sustained act of civil disobedience, with his hunger strike lasting longer than any previous protest in the series. The Albuquerque Isotopes later became the name of a real minor league baseball team, making this one of the few times The Simpsons directly inspired a professional sports franchise.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 16,
+      "title": "Bye Bye Nerdie",
+      "air_date": "2001-03-11",
+      "description": "When Lisa becomes the target of a female bully, Lisa discovers a scientific reason as to why bullies pick on nerds. Meanwhile, Homer goes into the baby-proofing business, which is threatening the businesses of pediatricians and greeting card salesmen.",
+      "still": "./images/simpsons/s12e16_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/9jlTs2EYzfgGG86kzO82jLnk9Qu.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Jan Hooks",
+          "character": "Manjula Nahasapeemapetilon (voice)"
+        },
+        {
+          "actor": "Kathy Griffin",
+          "character": "Francine (voice)"
+        },
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Dolph (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince / Wendell / Sherri / Terri (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "I'm afraid (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten / Jimbo Jones / Janey Powell (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 17,
+      "title": "Simpson Safari",
+      "air_date": "2001-04-01",
+      "description": "When the Simpsons run out of food thanks to a bag boy strike (caused by Homer), the family finds an old box of animal crackers with a sweepstakes that sends The Simpsons to Africa.",
+      "still": "./images/simpsons/s12e17_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/2muVedvhUd87ZFWmEfnS9Y8WT1d.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch which is actually a giant slice of bread, and they become part of a sandwich as another slice comes down from above.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "African safari adventure films and nature documentaries",
+      "classic": false,
+      "characters": [],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 18,
+      "title": "Trilogy of Error",
+      "air_date": "2001-04-29",
+      "description": "Homer's rush to the hospital to reattach his thumb, Lisa's rush to school to win the science fair, and Bart's run-in with an illegal fireworks scheme are interconnected in a parody of Go and Run Lola Run.",
+      "still": "./images/simpsons/s12e18_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/kpim0dcnloaTJW5iAIdFVV9RyV3.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Frankie Muniz",
+          "character": "Thelonious (voice)"
+        },
+        {
+          "actor": "Russi Taylor",
+          "character": "Martin Prince (voice)"
+        },
+        {
+          "actor": "Joe Mantegna",
+          "character": "Fat Tony (voice)"
+        },
+        {
+          "actor": "Tress MacNeille",
+          "character": "Agnes Skinner (voice)"
+        },
+        {
+          "actor": "Marcia Mitzman Gaven",
+          "character": "Miss Hoover (voice)"
+        },
+        {
+          "actor": "Karl Wiedergott",
+          "character": "Spooked Soldier / Legs (voice)"
+        },
+        {
+          "actor": "Pamela Hayden",
+          "character": "Milhouse Van Houten / Rod Flanders (voice)"
+        }
+      ],
+      "couch_gag": "The family sits on the couch and gets crushed flat by a giant foot from Monty Python's Flying Circus.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Go and Run Lola Run",
+      "classic": true,
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "fat_tony",
+        "skinner",
+        "milhouse"
+      ],
+      "notes": "This groundbreaking episode was the first Simpsons story told from multiple interconnected perspectives, directly parodying the innovative narrative structure of German film \"Run Lola Run\" and influencing later animated shows to experiment with non-linear storytelling.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 19,
+      "title": "I'm Goin' to Praiseland",
+      "air_date": "2001-05-06",
+      "description": "After finding a sketchbook belonging to his late wife Maude, Ned Flanders opens a Bible-themed amusement park to honor her memory.",
+      "still": "./images/simpsons/s12e19_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/2Bay9dWHz1uW3gE2hwZsjeQQ6bl.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        },
+        {
+          "actor": "Shawn Colvin",
+          "character": "Rachel Jordan (voice)"
+        },
+        {
+          "actor": "Marcia Mitzman Gaven",
+          "character": "Helen Lovejoy (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": true,
+      "parody_of": "Christian theme parks and religious entertainment venues",
+      "classic": false,
+      "characters": [
+        "flanders"
+      ],
+      "notes": "This episode marks the final major storyline centered around Maude Flanders' death, providing closure to the character arc that began when Maggie Roswell left the show due to a salary dispute.",
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 20,
+      "title": "Children of a Lesser Clod",
+      "air_date": "2001-05-13",
+      "description": "After spraining his knee during a basketball game, Homer begins taking care of the neighborhood kids to cure his boredom, prompting jealousy from Bart and Lisa, who feel that Homer is giving the kids the attention they never had.",
+      "still": "./images/simpsons/s12e20_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/kYNauorldGvl55Vx0x6E7mbP9Gy.jpg",
+      "era": "classic",
+      "guests": [],
+      "couch_gag": "The family sits on the couch and gets sucked into a black hole that appears in the center cushion.",
+      "treehouse_of_horror": false,
+      "musical": false,
+      "parody": false,
+      "parody_of": null,
+      "classic": false,
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "marge",
+        "flanders",
+        "milhouse",
+        "ralph",
+        "wiggum",
+        "dr_hibbert",
+        "lenny_carl"
+      ],
+      "notes": null,
+      "_chars_v2": true
+    },
+    {
+      "season": 12,
+      "episode": 21,
+      "title": "Simpsons Tall Tales",
+      "air_date": "2001-05-20",
+      "description": "When Homer refuses to pay a five dollar airport tax to fly to Delaware, the family is forced to ride in a livestock car of a train instead. There they meet a singing hobo who tells three tall tales:  Homer as Paul Bunyan.  Lisa as Connie Appleseed, a parody of Johnny Appleseed.  Bart as Tom Sawyer with Nelson as Huckleberry Finn.",
+      "still": "./images/simpsons/s12e21_still.jpg",
+      "still_tmdb": "https://image.tmdb.org/t/p/w500/lNcBNNaPp3Uk14iIJuQkpIjNfJM.jpg",
+      "era": "classic",
+      "guests": [
+        {
+          "actor": "Marcia Wallace",
+          "character": "Edna Krabappel (voice)"
+        }
+      ],
+      "couch_gag": null,
+      "treehouse_of_horror": false,
+      "musical": true,
+      "parody": true,
+      "parody_of": "American tall tales and folk legends",
+      "classic": false,
+      "characters": [],
+      "notes": "Features the first and only appearance of the singing hobo character, voiced by Hank Azaria, who serves as the episode's narrator and performs original folk songs between each tall tale segment.",
+      "_chars_v2": true
+    }
+  ]
+}
