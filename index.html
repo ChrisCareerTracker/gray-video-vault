@@ -2311,7 +2311,7 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
   position: absolute;
   bottom: 60px;
   left: 60px;
-  right: 60px;
+  max-width: 620px;
   z-index: 2;
 }
 .mst-hub-eyebrow {
@@ -4610,6 +4610,7 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
   <div class="sp-char-section">
     <div class="sp-section-label">Browse by Character</div>
     <div class="sp-char-row" id="sp-char-row"></div>
+    <div class="sp-guest-spotlight" id="sp-guest-spotlight"></div>
   </div>
 
   <div class="sp-ghof-card" onclick="openSpGhof()">
@@ -7656,7 +7657,8 @@ function openMSTHub() {
 
   loadMSTData(function(data) {
     buildMSTSeasonBands(data);
-    document.getElementById('mst-hub-count').textContent = data.episodes.length + ' episodes';
+    var total = data.seasons.reduce(function(t,s){ return t + s.episodes.length; }, 0);
+    document.getElementById('mst-hub-count').textContent = total + ' episodes';
   });
 }
 
@@ -7678,12 +7680,9 @@ function buildMSTSeasonBands(data) {
   var container = document.getElementById('mst-season-bands');
   container.innerHTML = '';
 
-  var seasonNums = Object.keys(data.season_meta).map(Number).sort(function(a,b){return a-b;});
-  seasonNums.forEach(function(snum) {
-    var meta = data.season_meta[String(snum)];
-    var eps = data.episodes.filter(function(e){ return e.season === snum; });
-    var isKTMA = snum === 0;
-
+  data.seasons.forEach(function(season) {
+    var isKTMA = season.num === 0;
+    var eps = season.episodes;
     var joelEps = eps.filter(function(e){ return e.host === 'Joel'; }).length;
     var mikeEps = eps.filter(function(e){ return e.host === 'Mike'; }).length;
     var hostLabel = joelEps > 0 && mikeEps > 0 ? 'both' : (joelEps > 0 ? 'joel' : 'mike');
@@ -7700,15 +7699,15 @@ function buildMSTSeasonBands(data) {
       return '<img class="mst-band-still" src="' + url + '" loading="lazy" alt="">';
     }).join('');
 
-    var seasonLabel = isKTMA ? 'THE KTMA SEASON' : 'SEASON ' + snum;
-    var collNote = meta.collection_note
-      ? '<span style="font-family:DM Mono,monospace;font-size:8px;letter-spacing:2px;color:var(--gold3);border:1px solid rgba(201,168,76,0.4);padding:2px 8px;">' + meta.collection_note.toUpperCase() + '</span>'
+    var seasonLabel = isKTMA ? 'THE KTMA SEASON' : 'SEASON ' + season.num;
+    var collNote = season.collectionNote
+      ? '<span style="font-family:DM Mono,monospace;font-size:8px;letter-spacing:2px;color:var(--gold3);border:1px solid rgba(201,168,76,0.4);padding:2px 8px;">' + season.collectionNote.toUpperCase() + '</span>'
       : '';
 
     var band = document.createElement('div');
     band.className = 'mst-season-band' + (isKTMA ? ' ktma-band' : '');
-    band.setAttribute('data-season', snum);
-    band.onclick = function() { openMSTSeason(snum); };
+    band.setAttribute('data-season', season.num);
+    band.onclick = function() { openMSTSeason(season.num); };
 
     if (isKTMA) {
       band.style.borderColor = 'rgba(201,168,76,0.3)';
@@ -7722,12 +7721,12 @@ function buildMSTSeasonBands(data) {
       '<div class="mst-band-content">' +
         '<div class="mst-band-season" style="' + (isKTMA ? 'font-size:52px;' : '') + '">' + seasonLabel + '</div>' +
         '<div class="mst-band-info">' +
-          '<div class="mst-band-count">' + eps.length + ' Episodes &nbsp;&middot;&nbsp; ' + meta.year + ' &nbsp;' + collNote + '</div>' +
+          '<div class="mst-band-count">' + eps.length + ' Episodes &nbsp;&middot;&nbsp; ' + season.year + ' &nbsp;' + collNote + '</div>' +
           '<div class="mst-band-meta">' +
             '<span class="mst-band-host ' + hostLabel + '">' + hostText + '</span>' +
-            '<span class="mst-band-network">' + meta.network + '</span>' +
+            '<span class="mst-band-network">' + season.network + '</span>' +
           '</div>' +
-          '<div class="mst-band-tagline">' + (meta.tagline || '') + '</div>' +
+          '<div class="mst-band-tagline">' + (season.tagline || '') + '</div>' +
         '</div>' +
       '</div>' +
       '<div class="mst-band-browse">Browse ' + eps.length + ' Experiments ›</div>';
@@ -7753,30 +7752,33 @@ function filterMSTHub(query) {
   var filterShort = mstActiveFilters.short;
   var isFiltering = q || filterJoel || filterMike || filterShort;
 
+  // Collect matching episodes
   var matches = [];
-  mstData.episodes.forEach(function(ep) {
-    var searchStr = (
-      ep.title + ' ' +
-      ep.host + ' ' +
-      (ep.shorts || []).join(' ') + ' ' +
-      (ep.overview || '')
-    ).toLowerCase();
+  mstData.seasons.forEach(function(season) {
+    season.episodes.forEach(function(ep) {
+      var searchStr = (
+        ep.title + ' ' +
+        ep.host + ' ' +
+        (ep.shorts || []).join(' ') + ' ' +
+        (ep.desc || '')
+      ).toLowerCase();
 
-    var textMatch = !q || searchStr.indexOf(q) > -1;
-    var hostMatch = (!filterJoel && !filterMike) ||
-      (filterJoel && ep.host === 'Joel') ||
-      (filterMike && ep.host === 'Mike');
-    var shortMatch = !filterShort || ep.has_short;
+      var textMatch = !q || searchStr.indexOf(q) > -1;
+      var hostMatch = (!filterJoel && !filterMike) ||
+        (filterJoel && ep.host === 'Joel') ||
+        (filterMike && ep.host === 'Mike');
+      var shortMatch = !filterShort || ep.has_short;
 
-    if (textMatch && hostMatch && shortMatch) {
-      matches.push(ep);
-    }
+      if (textMatch && hostMatch && shortMatch) {
+        matches.push({ season: season.num, ep: ep });
+      }
+    });
   });
 
   document.getElementById('mst-hub-count').textContent =
     isFiltering
       ? matches.length + ' episode' + (matches.length !== 1 ? 's' : '') + ' matching'
-      : mstData.episodes.length + ' episodes';
+      : mstData.seasons.reduce(function(t,s){ return t + s.episodes.length; }, 0) + ' episodes';
 
   var bandsEl  = document.getElementById('mst-season-bands');
   var labelEl  = document.getElementById('mst-seasons-label');
@@ -7798,8 +7800,8 @@ function filterMSTHub(query) {
   }
 
   var gridHtml = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;">' +
-    matches.map(function(ep) {
-      return buildMSTCard(ep.season, ep, q);
+    matches.map(function(m) {
+      return buildMSTCard(m.season, m.ep, q);
     }).join('') +
   '</div>';
 
@@ -7811,21 +7813,20 @@ function filterMSTHub(query) {
 function openMSTSeason(seasonNum) {
   if (!mstData) return;
   mstCurrentSeason = seasonNum;
-  var meta = mstData.season_meta[String(seasonNum)];
-  if (!meta) return;
-  var eps = mstData.episodes.filter(function(e){ return e.season === seasonNum; });
+  var season = mstData.seasons.find(function(s){ return s.num === seasonNum; });
+  if (!season) return;
 
   var view = document.getElementById('mst-season-view');
-  var heroBg = (eps[0] && eps[0].still) || '';
+  var heroBg = (season.episodes[0] && season.episodes[0].still) || '';
   var bgStyle = heroBg ? 'background-image:url(' + heroBg + ')' : 'background:var(--surface2)';
 
-  var joelCount = eps.filter(function(e){ return e.host === 'Joel'; }).length;
-  var mikeCount = eps.filter(function(e){ return e.host === 'Mike'; }).length;
+  var joelCount = season.episodes.filter(function(e){ return e.host === 'Joel'; }).length;
+  var mikeCount = season.episodes.filter(function(e){ return e.host === 'Mike'; }).length;
   var hostStr = joelCount > 0 && mikeCount > 0
     ? 'Joel (' + joelCount + ') & Mike (' + mikeCount + ')'
     : (joelCount > 0 ? 'Host: Joel' : 'Host: Mike');
 
-  var gridHtml = eps.map(function(ep) {
+  var gridHtml = season.episodes.map(function(ep) {
     return buildMSTCard(seasonNum, ep, '');
   }).join('');
 
@@ -7835,9 +7836,9 @@ function openMSTSeason(seasonNum) {
       '<div class="mst-season-hero-vignette"></div>' +
       '<div class="mst-season-back" onclick="closeMSTSeason()">All Seasons</div>' +
       '<div class="mst-season-hero-content">' +
-        '<div class="mst-season-eyebrow">Mystery Science Theater 3000 &nbsp;&middot;&nbsp; ' + meta.network + (meta.collection_note ? ' &nbsp;&middot;&nbsp; <span style="color:var(--gold3)">' + meta.collection_note + '</span>' : '') + '</div>' +
-        '<div class="mst-season-title">' + (seasonNum === 0 ? 'THE KTMA SEASON' : 'SEASON ' + seasonNum) + '</div>' +
-        '<div class="mst-season-meta">' + meta.year + ' &nbsp;&middot;&nbsp; ' + eps.length + ' Episodes &nbsp;&middot;&nbsp; ' + hostStr + '</div>' +
+        '<div class="mst-season-eyebrow">Mystery Science Theater 3000 &nbsp;&middot;&nbsp; ' + season.network + (season.collectionNote ? ' &nbsp;&middot;&nbsp; <span style="color:var(--gold3)">' + season.collectionNote + '</span>' : '') + '</div>' +
+        '<div class="mst-season-title">' + (season.num === 0 ? 'THE KTMA SEASON' : 'SEASON ' + seasonNum) + '</div>' +
+        '<div class="mst-season-meta">' + season.year + ' &nbsp;&middot;&nbsp; ' + season.episodes.length + ' Episodes &nbsp;&middot;&nbsp; ' + hostStr + '</div>' +
       '</div>' +
     '</div>' +
     '<div class="mst-season-controls">' +
@@ -7868,7 +7869,7 @@ function filterMSTSeason(query) {
 // ── Episode card builder (shared by season view + search results) ──
 
 function buildMSTCard(seasonNum, ep, highlightQuery) {
-  var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(ep.episode).padStart(2,'0');
+  var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(ep.num).padStart(2,'0');
   var stillHtml = ep.still
     ? '<img class="mst-ep-still" src="' + ep.still + '" loading="lazy" alt="">'
     : '<div class="mst-ep-still-fallback">' + code + '</div>';
@@ -7877,7 +7878,8 @@ function buildMSTCard(seasonNum, ep, highlightQuery) {
     ? '<span class="mst-ep-short-badge">+ Short</span>'
     : '';
 
-  var movieTitle = ep.title || ('Episode ' + ep.episode);
+  var movieTitle = ep.title || ('Episode ' + ep.num);
+  // Highlight search term in movie title if searching
   if (highlightQuery && movieTitle.toLowerCase().indexOf(highlightQuery) > -1) {
     var idx = movieTitle.toLowerCase().indexOf(highlightQuery);
     movieTitle =
@@ -7888,10 +7890,10 @@ function buildMSTCard(seasonNum, ep, highlightQuery) {
 
   var searchStr = (
     code + ' ' + ep.title + ' ' + ep.host + ' ' +
-    (ep.shorts || []).join(' ') + ' ' + ep.air_date + ' ' + (ep.overview || '')
+    (ep.shorts || []).join(' ') + ' ' + ep.airdate + ' ' + (ep.desc || '')
   ).toLowerCase();
 
-  return '<div class="mst-ep-card" data-search="' + searchStr.replace(/"/g,'') + '" onclick="openMSTEpisode(' + seasonNum + ',' + ep.episode + ')">' +
+  return '<div class="mst-ep-card" data-search="' + searchStr.replace(/"/g,'') + '" onclick="openMSTEpisode(' + seasonNum + ',' + ep.num + ')">' +
     stillHtml +
     '<div class="mst-ep-info">' +
       '<div class="mst-ep-code">' + code + '</div>' +
@@ -7908,9 +7910,10 @@ function buildMSTCard(seasonNum, ep, highlightQuery) {
 
 function openMSTEpisode(seasonNum, epNum) {
   if (!mstData) return;
-  var ep = mstData.episodes.find(function(e){ return e.season === seasonNum && e.episode === epNum; });
+  var season = mstData.seasons.find(function(s){ return s.num === seasonNum; });
+  if (!season) return;
+  var ep = season.episodes.find(function(e){ return e.num === epNum; });
   if (!ep) return;
-  var meta = mstData.season_meta[String(seasonNum)];
 
   var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(epNum).padStart(2,'0');
   var stillHtml = ep.still
@@ -7935,11 +7938,11 @@ function openMSTEpisode(seasonNum, epNum) {
       '<div class="mst-ep-modal-movie">' + (ep.title || ('Episode ' + epNum)) + '</div>' +
       '<div class="mst-ep-modal-meta">' +
         '<span class="mst-ep-modal-host ' + ep.host.toLowerCase() + '">Host: ' + ep.host + '</span>' +
-        '<span class="mst-ep-modal-date">' + (ep.air_date || '') + '</span>' +
-        (meta ? '<span class="mst-ep-modal-date">' + meta.network + '</span>' : '') +
+        '<span class="mst-ep-modal-date">' + (ep.airdate || '') + '</span>' +
+        '<span class="mst-ep-modal-date">' + season.network + '</span>' +
       '</div>' +
       shortsHtml +
-      (ep.overview ? '<div class="mst-ep-modal-section">About This Experiment</div><div class="mst-ep-modal-desc">' + ep.overview + '</div>' : '') +
+      (ep.desc ? '<div class="mst-ep-modal-section">About This Experiment</div><div class="mst-ep-modal-desc">' + ep.desc + '</div>' : '') +
     '</div>';
 
   document.getElementById('mst-ep-modal').classList.add('open');
@@ -8009,10 +8012,10 @@ function spLoadEra(eraId, cb){
   fetch(def.file).then(function(r){return r.json();}).then(function(d){
     SP_ERA_CACHE[eraId]=d;
     d.episodes.forEach(function(ep){ ep._eraId=eraId; });
-    // Rebuild master list
+    // Rebuild master list from all cached eras
     SP_ALL_EPISODES = [];
     SP_ERA_DEFS.forEach(function(era){
-      if(SP_ERA_CACHE[era.id]){ SP_ALL_EPISODES = SP_ALL_EPISODES.concat(SP_ERA_CACHE[era.id].episodes); }
+      if(SP_ERA_CACHE[era.id]) SP_ALL_EPISODES = SP_ALL_EPISODES.concat(SP_ERA_CACHE[era.id].episodes);
     });
     cb(d);
   }).catch(function(e){ console.error('Failed to load '+def.file,e); cb(null); });
@@ -8032,7 +8035,6 @@ function openSpHub(){
   });
   window.scrollTo(0,0);
 }
-
 function closeSpHub(){
   document.getElementById('sp-hub').style.display='none';
   SP_ACTIVE_FILTERS.clear(); SP_ACTIVE_CHAR=null; SP_ACTIVE_GUEST=null;
@@ -8425,7 +8427,14 @@ function spApplyFilters(){
     unloaded.forEach(function(era){
       spLoadEra(era.id, function(){
         pending--;
-        if(pending===0) spApplyFilters(); // re-run once all loaded
+        if(pending===0){
+          // All done — rebuild master list once then re-run
+          SP_ALL_EPISODES = [];
+          SP_ERA_DEFS.forEach(function(e){
+            if(SP_ERA_CACHE[e.id]) SP_ALL_EPISODES = SP_ALL_EPISODES.concat(SP_ERA_CACHE[e.id].episodes);
+          });
+          spApplyFilters();
+        }
       });
     });
     // Show loading state while fetching
