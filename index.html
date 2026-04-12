@@ -7349,14 +7349,7 @@ function closeLTCharView() {
 var liData = null;
 var liCurrentSeason = null;
 
-var LI_SEASON_TAGLINES = {
-  1: "The debut season that shocked America — 14 wild episodes that launched a revolution.",
-  2: "Richard Nixon says \'Sock it to me\' — and Laugh-In hits its stride with 26 episodes.",
-  3: "The Monkees, Ringo Starr, and a galaxy of guests across 26 episodes.",
-  4: "Art Carney, Orson Welles, Zero Mostel — 26 episodes at the peak of the craze.",
-  5: "Liza Minnelli, Carroll O\'Connor, and Joe Namath in 24 episodes of pure variety.",
-  6: "The farewell season — Carol Burnett, Jack Benny, and Sammy Davis Jr. bid goodbye."
-};
+
 
 function loadLIData(cb) {
   if (liData) { cb(liData); return; }
@@ -7393,9 +7386,11 @@ function buildLISeasonBands(data) {
   var container = document.getElementById('li-season-bands');
   container.innerHTML = '';
 
-  data.seasons.forEach(function(season) {
-    var eps = season.episodes;
-    var tagline = LI_SEASON_TAGLINES[season.num] || '';
+  var seasonNums = Object.keys(data.season_meta).map(Number).sort(function(a,b){return a-b;});
+  seasonNums.forEach(function(snum) {
+    var meta = data.season_meta[String(snum)];
+    var eps = data.episodes.filter(function(e){ return e.season === snum; });
+    var tagline = meta.tagline || '';
 
     // Build mosaic from episode stills
     var stills = eps.filter(function(e){ return e.still; }).map(function(e){ return e.still; });
@@ -7409,15 +7404,15 @@ function buildLISeasonBands(data) {
 
     var band = document.createElement('div');
     band.className = 'li-season-band';
-    band.setAttribute('data-season', season.num);
-    band.onclick = function() { openLISeason(season.num); };
+    band.setAttribute('data-season', snum);
+    band.onclick = function() { openLISeason(snum); };
     band.innerHTML =
       '<div class="li-band-mosaic">' + mosaicHtml + mosaicHtml + '</div>' +
       '<div class="li-band-overlay"></div>' +
       '<div class="li-band-content">' +
-        '<div class="li-band-season">SEASON ' + season.num + '</div>' +
+        '<div class="li-band-season">SEASON ' + snum + '</div>' +
         '<div class="li-band-info">' +
-          '<div class="li-band-count">' + eps.length + ' Episodes &nbsp;&middot;&nbsp; ' + season.year + '</div>' +
+          '<div class="li-band-count">' + eps.length + ' Episodes &nbsp;&middot;&nbsp; ' + meta.year + '</div>' +
           '<div class="li-band-tagline">' + tagline + '</div>' +
         '</div>' +
       '</div>' +
@@ -7432,30 +7427,31 @@ function buildLISeasonBands(data) {
 function openLISeason(seasonNum) {
   if (!liData) return;
   liCurrentSeason = seasonNum;
-  var season = liData.seasons.find(function(s){ return s.num === seasonNum; });
-  if (!season) return;
+  var meta = liData.season_meta[String(seasonNum)];
+  if (!meta) return;
+  var eps = liData.episodes.filter(function(e){ return e.season === seasonNum; });
 
   var view = document.getElementById('li-season-view');
 
-  // Hero — use first episode still as backdrop
-  var heroBg = season.poster || (season.episodes[0] && season.episodes[0].still) || '';
+  // Hero — use season poster or first episode still
+  var heroBg = meta.poster || (eps[0] && eps[0].still) || '';
   var bgStyle = heroBg ? 'background-image:url(' + heroBg + ')' : 'background:var(--surface2)';
 
   // Build episode grid
-  var gridHtml = season.episodes.map(function(ep) {
-    var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(ep.num).padStart(2,'0');
+  var gridHtml = eps.map(function(ep) {
+    var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(ep.episode).padStart(2,'0');
     var stillHtml = ep.still
       ? '<img class="li-ep-still" src="' + ep.still + '" loading="lazy" alt="">'
       : '<div class="li-ep-still-fallback">' + code + '</div>';
     var guestPreview = (ep.guests || []).slice(0, 4).join(', ');
-    var searchStr = (code + ' ' + ep.title + ' ' + (ep.guests || []).join(' ') + ' ' + ep.airdate).toLowerCase();
+    var searchStr = (code + ' ' + ep.title + ' ' + (ep.guests || []).join(' ') + ' ' + ep.air_date + ' ' + (ep.overview || '')).toLowerCase();
 
-    return '<div class="li-ep-card" data-search="' + searchStr.replace(/"/g,'') + '" onclick="openLIEpisode(' + seasonNum + ',' + ep.num + ')">' +
+    return '<div class="li-ep-card" data-search="' + searchStr.replace(/"/g,'') + '" onclick="openLIEpisode(' + seasonNum + ',' + ep.episode + ')">' +
       stillHtml +
       '<div class="li-ep-info">' +
         '<div class="li-ep-code">' + code + '</div>' +
-        '<div class="li-ep-title">' + (ep.title || ('Episode ' + ep.num)) + '</div>' +
-        '<div class="li-ep-date">' + (ep.airdate || '') + '</div>' +
+        '<div class="li-ep-title">' + (ep.title || ('Episode ' + ep.episode)) + '</div>' +
+        '<div class="li-ep-date">' + (ep.air_date || '') + '</div>' +
         (guestPreview ? '<div class="li-ep-guests">' + guestPreview + (ep.guests.length > 4 ? ' +' + (ep.guests.length - 4) + ' more' : '') + '</div>' : '') +
       '</div>' +
     '</div>';
@@ -7469,7 +7465,7 @@ function openLISeason(seasonNum) {
       '<div class="li-season-hero-content">' +
         '<div class="li-season-eyebrow">Rowan &amp; Martin\'s Laugh-In &nbsp;&middot;&nbsp; NBC</div>' +
         '<div class="li-season-title">SEASON ' + seasonNum + '</div>' +
-        '<div class="li-season-meta">' + season.year + ' &nbsp;&middot;&nbsp; ' + season.episodes.length + ' Episodes</div>' +
+        '<div class="li-season-meta">' + meta.year + ' &nbsp;&middot;&nbsp; ' + eps.length + ' Episodes</div>' +
       '</div>' +
     '</div>' +
     '<div class="li-season-search-wrap">' +
@@ -7501,9 +7497,7 @@ function filterLISeason(query) {
 
 function openLIEpisode(seasonNum, epNum) {
   if (!liData) return;
-  var season = liData.seasons.find(function(s){ return s.num === seasonNum; });
-  if (!season) return;
-  var ep = season.episodes.find(function(e){ return e.num === epNum; });
+  var ep = liData.episodes.find(function(e){ return e.season === seasonNum && e.episode === epNum; });
   if (!ep) return;
 
   var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(epNum).padStart(2,'0');
@@ -7522,8 +7516,8 @@ function openLIEpisode(seasonNum, epNum) {
     '<div class="li-ep-modal-body">' +
       '<div class="li-ep-modal-code">Rowan &amp; Martin\'s Laugh-In &nbsp;&middot;&nbsp; ' + code + '</div>' +
       '<div class="li-ep-modal-title">' + (ep.title || ('Episode ' + epNum)) + '</div>' +
-      '<div class="li-ep-modal-date">' + (ep.airdate || '') + '</div>' +
-      (ep.desc ? '<div class="li-ep-modal-section">Description</div><div class="li-ep-modal-desc">' + ep.desc + '</div>' : '') +
+      '<div class="li-ep-modal-date">' + (ep.air_date || '') + '</div>' +
+      (ep.overview ? '<div class="li-ep-modal-section">Description</div><div class="li-ep-modal-desc">' + ep.overview + '</div>' : '') +
       (guestsHtml ? '<div class="li-ep-modal-section">Guest Stars</div><div class="li-ep-modal-guests">' + guestsHtml + '</div>' : '') +
     '</div>';
 
@@ -7544,17 +7538,14 @@ function closeLIEpisode() {
 function filterLIHub(query) {
   if (!liData) return;
   var q = query.toLowerCase().trim();
-  var total = 0;
+  var total = liData.episodes.length;
   var matches = [];
 
-  liData.seasons.forEach(function(season) {
-    season.episodes.forEach(function(ep) {
-      total++;
-      var searchStr = (ep.title + ' ' + (ep.guests || []).join(' ') + ' ' + ep.airdate + ' ' + (ep.desc || '')).toLowerCase();
-      if (!q || searchStr.indexOf(q) > -1) {
-        matches.push({ season: season.num, ep: ep });
-      }
-    });
+  liData.episodes.forEach(function(ep) {
+    var searchStr = (ep.title + ' ' + (ep.guests || []).join(' ') + ' ' + ep.air_date + ' ' + (ep.overview || '')).toLowerCase();
+    if (!q || searchStr.indexOf(q) > -1) {
+      matches.push(ep);
+    }
   });
 
   document.getElementById('li-hub-search-count').textContent = q
@@ -7585,29 +7576,26 @@ function filterLIHub(query) {
   }
 
   var gridHtml = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;">' +
-    matches.map(function(m) {
-      var ep = m.ep;
-      var snum = m.season;
-      var code = 'S' + String(snum).padStart(2,'0') + 'E' + String(ep.num).padStart(2,'0');
+    matches.map(function(ep) {
+      var snum = ep.season;
+      var code = 'S' + String(snum).padStart(2,'0') + 'E' + String(ep.episode).padStart(2,'0');
       var stillHtml = ep.still
         ? '<img class="li-ep-still" src="' + ep.still + '" loading="lazy" alt="">'
         : '<div class="li-ep-still-fallback">' + code + '</div>';
-      var guestPreview = (ep.guests || []).slice(0,4).join(', ');
-      // Highlight the matching guest
+      var guestPreview = (ep.guests || []);
       if (q) {
-        guestPreview = (ep.guests || [])
-          .map(function(g) {
-            return g.toLowerCase().indexOf(q) > -1 ? '<strong style="color:var(--gold)">' + g + '</strong>' : g;
-          })
-          .slice(0,6).join(', ');
+        guestPreview = guestPreview.map(function(g) {
+          return g.toLowerCase().indexOf(q) > -1 ? '<strong style="color:var(--gold)">' + g + '</strong>' : g;
+        });
       }
-      return '<div class="li-ep-card" onclick="openLIEpisode(' + snum + ',' + ep.num + ')">' +
+      var guestStr = guestPreview.slice(0,6).join(', ');
+      return '<div class="li-ep-card" onclick="openLIEpisode(' + snum + ',' + ep.episode + ')">' +
         stillHtml +
         '<div class="li-ep-info">' +
           '<div class="li-ep-code">' + code + '</div>' +
-          '<div class="li-ep-title">' + (ep.title || ('Episode ' + ep.num)) + '</div>' +
-          '<div class="li-ep-date">' + (ep.airdate || '') + '</div>' +
-          (guestPreview ? '<div class="li-ep-guests">' + guestPreview + (ep.guests && ep.guests.length > 6 ? ' +' + (ep.guests.length - 6) + ' more' : '') + '</div>' : '') +
+          '<div class="li-ep-title">' + (ep.title || ('Episode ' + ep.episode)) + '</div>' +
+          '<div class="li-ep-date">' + (ep.air_date || '') + '</div>' +
+          (guestStr ? '<div class="li-ep-guests">' + guestStr + (ep.guests && ep.guests.length > 6 ? ' +' + (ep.guests.length - 6) + ' more' : '') + '</div>' : '') +
         '</div>' +
       '</div>';
     }).join('') +
