@@ -388,6 +388,11 @@
           "title": "Telemarketer",
           "series": null,
           "description": "A telemarketer tries to sell products but encounters increasingly bizarre obstacles. The sales call becomes more surreal as it progresses."
+        },
+        {
+          "title": "Kobe Beef Burger",
+          "series": null,
+          "description": "A man becomes increasingly unhinged and euphoric describing his transcendent experience eating a Kobe beef wagyu burger, unable to find words adequate to express its perfection."
         }
       ],
       "tags": [
@@ -2663,11 +2668,6 @@
           "title": "Literal Cop",
           "series": null,
           "description": "A police officer takes everything completely literally, causing confusion and misunderstandings during routine duties."
-        },
-        {
-          "title": "Kobe Beef Burger",
-          "series": null,
-          "description": "A man becomes increasingly unhinged and euphoric describing his transcendent experience eating a Kobe beef wagyu burger, unable to find words adequate to express its perfection."
         }
       ],
       "tags": [
