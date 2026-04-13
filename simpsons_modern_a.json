@@ -50,8 +50,14 @@
       "classic": false,
       "characters": [
         "homer",
-        "comic_book_guy",
-        "milhouse"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "skinner",
+        "smithers",
+        "rainier_wolfcastle"
       ],
       "notes": null,
       "_chars_v2": true
@@ -77,7 +83,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "ralph",
+        "nelson",
+        "skinner",
+        "chalmers",
+        "wiggum"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -127,9 +145,19 @@
       "parody_of": "Mixed Martial Arts/UFC",
       "classic": false,
       "characters": [
+        "homer",
         "marge",
-        "milhouse",
-        "dr_hibbert"
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "lenny_carl",
+        "patty_selma",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "This episode marks one of the first major animated TV parodies of the then-exploding UFC phenomenon, airing just months after UFC 100 broke pay-per-view records and brought mixed martial arts into mainstream American culture.",
       "_chars_v2": true
@@ -171,7 +199,18 @@
       "parody": true,
       "parody_of": "Alfred Hitchcock films, zombie movies, Sweeney Todd",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "moe",
+        "krusty",
+        "wiggum",
+        "barney",
+        "lenny_carl"
+      ],
       "notes": "This marked the twentieth Treehouse of Horror episode, making it the longest-running horror anthology segment in animated television history.",
       "_chars_v2": true
     },
@@ -215,10 +254,19 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
         "lenny_carl",
-        "milhouse",
+        "wiggum",
         "skinner",
-        "dr_hibbert"
+        "smithers",
+        "kent_brockman",
+        "moe",
+        "barney",
+        "apu",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -260,7 +308,18 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "milhouse",
+        "nelson",
+        "wiggum",
+        "chalmers"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -286,9 +345,22 @@
       "parody_of": "The Blair Witch Project and rural/redneck stereotypes",
       "classic": false,
       "characters": [
-        "lisa",
         "homer",
-        "cletus"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "skinner",
+        "cletus",
+        "flanders",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "apu",
+        "krusty",
+        "kent_brockman",
+        "dr_hibbert"
       ],
       "notes": "This episode marks one of the few times Lisa's religious exploration extends beyond Buddhism, as she temporarily embraces Wiccan practices before ultimately rejecting them. The Blair Witch Project parody elements made it one of the more contemporary pop culture references for Season 21, though the film was already a decade old by the episode's air date.",
       "_chars_v2": true
@@ -354,7 +426,13 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie"
+      ],
       "notes": "This episode marks the first time in the series that Bart actively seeks out a sibling relationship, exploring his role as the only Simpson son through his visit to the Springfield Orphanage.",
       "_chars_v2": true
     },
@@ -396,9 +474,13 @@
       "parody_of": "Tuesdays with Morrie",
       "classic": false,
       "characters": [
-        "homer",
         "grandpa",
-        "milhouse"
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "kent_brockman"
       ],
       "notes": "Features the real Mitch Albom as himself, author of the bestselling memoir \"Tuesdays with Morrie\" that this episode parodies.",
       "_chars_v2": true
@@ -458,11 +540,19 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "krusty",
         "milhouse",
+        "lenny_carl",
         "burns",
-        "lenny_carl"
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "kent_brockman"
       ],
       "notes": "Anne Hathaway guest starred as Princess Penelope, marking one of her few animated voice acting roles during her rise to A-list stardom.",
       "_chars_v2": true
@@ -495,7 +585,17 @@
       "characters": [
         "homer",
         "marge",
-        "bart"
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "lenny_carl",
+        "moe",
+        "barney",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "krusty"
       ],
       "notes": null,
       "_chars_v2": true
@@ -524,7 +624,17 @@
       "characters": [
         "homer",
         "marge",
-        "lisa"
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "apu",
+        "barney",
+        "skinner",
+        "flanders",
+        "rod_todd",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": "Real NBC sportscaster Bob Costas guest starred as himself, providing Olympic commentary for Team Springfield's curling matches at the 2010 Vancouver Winter Olympics.",
       "_chars_v2": true
@@ -567,8 +677,17 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
-        "milhouse"
+        "maggie",
+        "grandpa",
+        "skinner",
+        "milhouse",
+        "ralph",
+        "nelson",
+        "patty_selma"
       ],
       "notes": "This episode marked one of the few times The Simpsons directly addressed slavery and the Underground Railroad, making it one of the show's most serious historical explorations outside of anthology segments.",
       "_chars_v2": true
@@ -598,6 +717,7 @@
         "homer",
         "marge",
         "bart",
+        "lisa",
         "skinner"
       ],
       "notes": null,
@@ -629,10 +749,18 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
+        "grandpa",
         "skinner",
-        "grandpa"
+        "milhouse",
+        "nelson",
+        "ralph",
+        "wiggum",
+        "chalmers"
       ],
       "notes": "First Lady Michelle Obama guest starred as herself, making this one of the rare times a sitting First Lady appeared on The Simpsons.",
       "_chars_v2": true
@@ -664,7 +792,12 @@
       "classic": false,
       "characters": [
         "homer",
-        "flanders"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "rod_todd"
       ],
       "notes": "This episode marked one of the few times The Simpsons directly engaged with Middle Eastern politics and religion, airing during a period of heightened sensitivity around depictions of religious figures in animated television.",
       "_chars_v2": true
@@ -707,13 +840,22 @@
       "parody_of": "Prison break films and TV shows",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
         "burns",
         "smithers",
-        "homer",
-        "fat_tony",
-        "milhouse",
         "wiggum",
-        "lenny_carl"
+        "barney",
+        "lenny_carl",
+        "fat_tony",
+        "snake",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "apu",
+        "moe"
       ],
       "notes": null,
       "_chars_v2": true
@@ -765,11 +907,18 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
         "wiggum",
-        "milhouse",
+        "moe",
+        "barney",
         "fat_tony",
-        "skinner"
+        "snake",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -790,7 +939,21 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby",
+        "burns",
+        "smithers"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -819,7 +982,28 @@
       "parody": true,
       "parody_of": "post-9/11 surveillance state and security theater",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "wiggum",
+        "willie",
+        "flanders",
+        "burns",
+        "barney",
+        "moe",
+        "skinner",
+        "kent_brockman",
+        "mayor_quimby",
+        "milhouse",
+        "lenny_carl",
+        "sideshow_mel",
+        "patty_selma",
+        "apu",
+        "chalmers",
+        "ralph"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -847,8 +1031,17 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "moe",
-        "apu"
+        "apu",
+        "flanders",
+        "barney",
+        "wiggum",
+        "skinner",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -879,10 +1072,15 @@
       "parody_of": "Cape Fear",
       "classic": false,
       "characters": [
-        "bart",
+        "homer",
         "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "sideshow_bob",
-        "milhouse"
+        "wiggum",
+        "skinner",
+        "chalmers"
       ],
       "notes": "This episode features the most elaborate Sideshow Bob plot twist in the series, revealing that Bob surgically switched faces with his cellmate Walt Warren to escape prison. The face-swap concept pushed the show's cartoon logic to new extremes, even by Sideshow Bob episode standards.",
       "_chars_v2": true
@@ -978,8 +1176,13 @@
       "parody_of": "High School Musical and Glee",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
-        "marge"
+        "maggie",
+        "skinner",
+        "chalmers"
       ],
       "notes": "This Season 22 premiere marked The Simpsons' entry into the musical comedy trend popularized by High School Musical and Glee, featuring elaborate song-and-dance numbers that parodied the Disney Channel phenomenon.",
       "_chars_v2": true
@@ -1014,9 +1217,15 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
+        "maggie",
+        "grandpa",
         "nelson",
-        "grandpa"
+        "wiggum",
+        "milhouse"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1043,9 +1252,17 @@
       "parody_of": "Moneyball",
       "classic": false,
       "characters": [
-        "lisa",
+        "homer",
+        "marge",
         "bart",
-        "marge"
+        "lisa",
+        "maggie",
+        "milhouse",
+        "ralph",
+        "nelson",
+        "wiggum",
+        "skinner",
+        "chalmers"
       ],
       "notes": "Mike Scioscia guest starred as himself, marking one of the few times a real MLB manager appeared on The Simpsons to give actual baseball advice rather than serve as comedic fodder.",
       "_chars_v2": true
@@ -1101,7 +1318,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "nelson",
+        "milhouse",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "ralph"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -1122,13 +1351,20 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "burns",
-        "bart",
         "homer",
         "marge",
+        "bart",
         "lisa",
+        "maggie",
+        "burns",
         "smithers",
-        "dr_hibbert"
+        "wiggum",
+        "kent_brockman",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "skinner",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1162,7 +1398,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "moe",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -1191,7 +1439,33 @@
       "parody": true,
       "parody_of": "The Nutcracker and various Christmas specials",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "flanders",
+        "rod_todd",
+        "krusty",
+        "burns",
+        "smithers",
+        "skinner",
+        "wiggum",
+        "barney",
+        "moe",
+        "apu",
+        "milhouse",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "kent_brockman",
+        "sideshow_mel",
+        "patty_selma",
+        "chalmers",
+        "mayor_quimby"
+      ],
       "notes": "This anthology-style Christmas special features four distinct animation styles including stop-motion puppetry and anime sequences, making it one of the most visually experimental episodes in the series' history.",
       "_chars_v2": true
     },
@@ -1222,9 +1496,18 @@
       "classic": false,
       "characters": [
         "homer",
-        "fat_tony",
+        "marge",
+        "bart",
+        "lisa",
         "wiggum",
-        "snake"
+        "fat_tony",
+        "burns",
+        "smithers",
+        "snake",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1250,7 +1533,15 @@
       "parody": true,
       "parody_of": "The Hangover",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "marge",
+        "bart",
+        "lisa",
+        "homer",
+        "maggie",
+        "milhouse",
+        "nelson"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -1284,9 +1575,20 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "burns",
         "moe",
+        "barney",
         "smithers",
-        "skinner"
+        "skinner",
+        "lenny_carl",
+        "wiggum",
+        "apu",
+        "milhouse",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1324,7 +1626,13 @@
       "parody": true,
       "parody_of": "Leave It to Beaver and 1950s family sitcoms",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie"
+      ],
       "notes": "James Lipton appears as himself interviewing the fictional 1950s sitcom family from \"Leave It to Beaver,\" marking one of the few times a real TV personality has appeared on The Simpsons to discuss fictional characters from another show.",
       "_chars_v2": true
     },
@@ -1350,8 +1658,21 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
         "marge",
-        "moe"
+        "bart",
+        "lisa",
+        "maggie",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "patty_selma",
+        "wiggum",
+        "skinner",
+        "burns",
+        "smithers",
+        "flanders",
+        "rod_todd"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1410,8 +1731,30 @@
       "parody_of": "Independent filmmaking and award season culture",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
-        "homer"
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "krusty",
+        "apu",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "lenny_carl",
+        "fat_tony",
+        "comic_book_guy",
+        "sideshow_mel",
+        "patty_selma",
+        "kent_brockman",
+        "chalmers",
+        "mayor_quimby",
+        "rainier_wolfcastle"
       ],
       "notes": "Bart's animated web series \"Angry Dad\" becomes the first internet-based creation to win an Academy Award in the Simpsons universe, marking the show's prescient commentary on digital content competing with traditional Hollywood filmmaking.",
       "_chars_v2": true
@@ -1453,7 +1796,22 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "ralph",
+        "milhouse",
+        "nelson",
+        "lenny_carl",
+        "otto"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -1485,7 +1843,14 @@
       "characters": [
         "homer",
         "marge",
-        "skinner"
+        "bart",
+        "lisa",
+        "skinner",
+        "wiggum",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "krusty"
       ],
       "notes": "Cheech and Chong appeared as themselves in their first animated TV guest roles together, marking a rare instance of the legendary comedy duo performing scripted material outside their standup acts.",
       "_chars_v2": true
@@ -1523,7 +1888,20 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "nelson",
+        "milhouse",
+        "ralph",
+        "lenny_carl"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -1569,7 +1947,14 @@
       "parody_of": "Magic and illusionist culture",
       "classic": false,
       "characters": [
-        "lisa"
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1596,9 +1981,21 @@
       "parody_of": "The Real Housewives reality TV franchise",
       "classic": false,
       "characters": [
-        "fat_tony",
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "patty_selma",
-        "bart"
+        "fat_tony",
+        "burns",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "moe",
+        "barney",
+        "kent_brockman",
+        "chalmers"
       ],
       "notes": "Marks one of the few times a Bouvier sister gets married on screen, with Selma's union to Fat Tony lasting only one episode before his death.",
       "_chars_v2": true
@@ -1644,7 +2041,21 @@
       "parody": true,
       "parody_of": "Edward Scissorhands",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "lenny_carl"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -1670,8 +2081,17 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
-        "skinner"
+        "maggie",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "ralph",
+        "milhouse",
+        "nelson"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1702,9 +2122,20 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
         "flanders",
+        "wiggum",
         "skinner",
-        "chalmers"
+        "chalmers",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "apu",
+        "kent_brockman",
+        "krusty"
       ],
       "notes": "This episode establishes the romantic relationship between Ned Flanders and Edna Krabappel that would continue throughout the series until Marcia Wallace's death in 2013. The storyline was partly inspired by fan speculation about these two widowed characters finding companionship together.",
       "_chars_v2": true
@@ -1741,9 +2172,17 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
         "smithers",
-        "lenny_carl"
+        "wiggum",
+        "skinner",
+        "lenny_carl",
+        "moe",
+        "barney",
+        "kent_brockman"
       ],
       "notes": "This Season 23 premiere marked the show's transition to HD production after 22 seasons in standard definition, fundamentally changing The Simpsons' visual presentation for the modern era.",
       "_chars_v2": true
@@ -1770,11 +2209,18 @@
       "parody_of": "Dead Poets Society",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "chalmers",
         "skinner",
+        "wiggum",
         "milhouse",
-        "nelson"
+        "nelson",
+        "ralph",
+        "kent_brockman"
       ],
       "notes": "This episode marks one of the few times Superintendent Chalmers receives a sympathetic portrayal and serves as the central heroic figure, departing from his usual role as Skinner's demanding superior.",
       "_chars_v2": true
@@ -1802,10 +2248,28 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "flanders",
         "milhouse",
-        "krusty"
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "burns",
+        "smithers",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "krusty",
+        "grandpa",
+        "apu",
+        "comic_book_guy",
+        "sideshow_mel",
+        "nelson",
+        "ralph",
+        "kent_brockman"
       ],
       "notes": "The \"Avatar\" parody segment marks one of the fastest movie-to-Simpsons parodies in the show's history, airing just under two years after James Cameron's film hit theaters.",
       "_chars_v2": true
@@ -1831,7 +2295,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "burns",
+        "smithers",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "milhouse",
+        "kent_brockman"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -1872,7 +2348,16 @@
       "parody": true,
       "parody_of": "food blogging culture and celebrity chef shows",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "skinner",
+        "chalmers"
+      ],
       "notes": "This episode marked one of the earliest mainstream TV parodies of food blogging culture, predating the peak of Instagram food culture by several years.",
       "_chars_v2": true
     },
@@ -1903,10 +2388,16 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
-        "moe",
-        "patty_selma"
+        "maggie",
+        "burns",
+        "skinner",
+        "smithers",
+        "chalmers",
+        "kent_brockman",
+        "lenny_carl"
       ],
       "notes": "Neil Gaiman guest starred as himself, marking one of the few times a major contemporary author appeared on The Simpsons to parody the publishing industry's formulaic approach to young adult fiction.",
       "_chars_v2": true
@@ -1954,10 +2445,20 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "burns",
         "krusty",
-        "milhouse"
+        "smithers",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1996,8 +2497,20 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
         "krusty",
-        "sideshow_mel"
+        "burns",
+        "smithers",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "sideshow_mel",
+        "kent_brockman",
+        "wiggum",
+        "skinner"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2029,7 +2542,8 @@
         "bart",
         "lisa",
         "maggie",
-        "flanders"
+        "grandpa",
+        "patty_selma"
       ],
       "notes": "This Christmas-themed flash-forward episode became the first Simpsons episode to show the Simpson family's grandchildren, establishing Bart as having two sons and Lisa as having a daughter named Zia.",
       "_chars_v2": true
@@ -2062,8 +2576,16 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
         "lisa",
-        "kent_brockman"
+        "kent_brockman",
+        "burns",
+        "wiggum",
+        "skinner",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "krusty"
       ],
       "notes": "Ted Nugent guest-starred as himself in one of his rare animated TV appearances, endorsing his own fictional presidential campaign alongside Homer's pundit character.",
       "_chars_v2": true
@@ -2094,8 +2616,28 @@
       "parody_of": "The Social Network",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
-        "patty_selma"
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby",
+        "patty_selma",
+        "lenny_carl",
+        "apu",
+        "barney",
+        "milhouse",
+        "ralph",
+        "nelson",
+        "comic_book_guy",
+        "sideshow_mel"
       ],
       "notes": "This marks the first time Lisa creates her own social media platform, predating real-world concerns about teen entrepreneurs and social media's impact on communities by several years.",
       "_chars_v2": true
@@ -2133,7 +2675,16 @@
       "parody": true,
       "parody_of": "Forrest Gump and historical epic storytelling",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "moe",
+        "milhouse",
+        "barney",
+        "lenny_carl"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2182,7 +2733,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "milhouse",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "ralph",
+        "nelson",
+        "comic_book_guy"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2220,8 +2783,18 @@
         "marge",
         "bart",
         "lisa",
-        "sideshow_bob",
-        "krusty"
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "lenny_carl",
+        "fat_tony",
+        "patty_selma",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "This episode marked the first time in the series' history that the Simpson family was permanently exiled from Springfield, making it a rare status quo-breaking storyline that lasted multiple episodes.",
       "_chars_v2": true
@@ -2256,9 +2829,25 @@
       "parody_of": "Exit Through the Gift Shop and street art culture",
       "classic": false,
       "characters": [
-        "bart",
         "homer",
-        "apu"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "apu",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "milhouse",
+        "comic_book_guy",
+        "krusty",
+        "ralph",
+        "nelson",
+        "flanders"
       ],
       "notes": "This episode marks one of the few times The Simpsons directly parodied a contemporary documentary, spoofing Banksy's Oscar-nominated \"Exit Through the Gift Shop\" just two years after its release.",
       "_chars_v2": true
@@ -2289,7 +2878,15 @@
         "marge",
         "bart",
         "lisa",
-        "grandpa"
+        "maggie",
+        "grandpa",
+        "flanders",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "krusty"
       ],
       "notes": "The episode's dream-within-a-dream structure directly parodies Christopher Nolan's \"Inception,\" complete with multiple dream layers and the concept of \"limbo.\" This marked one of the most elaborate movie parodies in the series' later seasons, requiring complex animation sequences to mirror the film's shifting reality levels.",
       "_chars_v2": true
@@ -2327,7 +2924,24 @@
       "parody": true,
       "parody_of": "I, Robot and robot uprising films",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "smithers",
+        "wiggum",
+        "skinner",
+        "lenny_carl",
+        "barney",
+        "apu",
+        "flanders",
+        "moe",
+        "kent_brockman",
+        "mayor_quimby"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2349,9 +2963,14 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
         "nelson",
-        "milhouse"
+        "wiggum",
+        "skinner"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2390,8 +3009,11 @@
       "parody_of": "Cruise ship vacation movies and disaster films",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
-        "milhouse"
+        "lisa",
+        "maggie"
       ],
       "notes": "This episode marks one of the rare instances where Bart successfully manipulates an entire cruise ship through elaborate deception, faking a pandemic to extend his vacation indefinitely. The cruise ship setting allowed for extensive parodies of both luxury vacation commercials and disaster movie tropes in a single episode.",
       "_chars_v2": true
@@ -2425,7 +3047,18 @@
       "parody": true,
       "parody_of": "James Bond spy films",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "smithers",
+        "wiggum",
+        "moe",
+        "barney"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2451,10 +3084,15 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
         "marge",
-        "flanders",
         "bart",
+        "lisa",
+        "maggie",
+        "flanders",
         "skinner",
+        "wiggum",
+        "rod_todd",
         "chalmers"
       ],
       "notes": "This episode addresses the controversial off-screen marriage of Ned Flanders and Edna Krabappel that occurred during the Season 22 finale, which many fans felt was rushed and unexplored. The reception storyline served as the writers' attempt to give proper attention to this major character development that had been largely glossed over.",
@@ -2486,12 +3124,18 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
+        "maggie",
+        "milhouse",
+        "ralph",
+        "nelson",
         "skinner",
         "chalmers",
-        "milhouse",
-        "nelson",
-        "ralph"
+        "wiggum",
+        "kent_brockman"
       ],
       "notes": "Lady Gaga's appearance marked one of the most polarizing celebrity cameos in Simpsons history, with many longtime fans citing it as a symbol of the show's departure from its original spirit.",
       "_chars_v2": true
@@ -2530,9 +3174,17 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "milhouse",
-        "cletus"
+        "nelson",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "krusty"
       ],
       "notes": "This season 24 premiere marked the series' transition to permanent HD production after 23 seasons in standard definition. The episode reunited Bart with multiple past love interests including Jessica Lovejoy, making it one of the few episodes to extensively callback to the show's romantic subplot history.",
       "_chars_v2": true
@@ -2561,7 +3213,24 @@
       "characters": [
         "homer",
         "marge",
-        "bart"
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "krusty",
+        "kent_brockman",
+        "professor_frink",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "apu",
+        "patty_selma",
+        "grandpa",
+        "chalmers",
+        "sideshow_bob"
       ],
       "notes": "This marked the 24th Treehouse of Horror episode, making The Simpsons the longest-running primetime animated series to maintain an annual Halloween anthology tradition.",
       "_chars_v2": true
@@ -2588,10 +3257,16 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "marge",
         "homer",
+        "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie",
+        "milhouse",
+        "nelson",
+        "skinner",
+        "chalmers",
+        "wiggum"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2621,7 +3296,21 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "moe",
+        "barney",
+        "kent_brockman",
+        "patty_selma"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2656,8 +3345,22 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
         "lisa",
-        "fat_tony"
+        "maggie",
+        "moe",
+        "fat_tony",
+        "wiggum",
+        "lenny_carl",
+        "barney",
+        "burns",
+        "smithers",
+        "krusty",
+        "skinner",
+        "chalmers",
+        "flanders",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2689,8 +3392,18 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "flanders",
-        "sideshow_bob"
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "lenny_carl",
+        "moe",
+        "patty_selma"
       ],
       "notes": "Steve Mobbs marked one of the show's most direct celebrity parodies, airing just over a year after Steve Jobs' death in October 2011. The episode's Apple product satire came during the height of iPad popularity, making it one of the most topically relevant tech parodies in the series.",
       "_chars_v2": true
@@ -2735,7 +3448,11 @@
       "characters": [
         "homer",
         "marge",
-        "skinner"
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "wiggum"
       ],
       "notes": "This episode marked one of the show's most direct satires of Portland hipster culture, airing during the peak popularity of \"Portlandia\" and the national conversation about gentrification.",
       "_chars_v2": true
@@ -2756,7 +3473,14 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2785,7 +3509,15 @@
         "homer",
         "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie",
+        "wiggum",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "flanders",
+        "skinner",
+        "chalmers"
       ],
       "notes": "This episode marked one of the first major network TV parodies of the doomsday prepper phenomenon, airing just one month after National Geographic's \"Doomsday Preppers\" reached peak popularity in late 2012.",
       "_chars_v2": true
@@ -2816,10 +3548,19 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "bart",
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
         "skinner",
-        "chalmers"
+        "chalmers",
+        "wiggum",
+        "ralph",
+        "milhouse",
+        "lenny_carl",
+        "patty_selma"
       ],
       "notes": "This episode marked one of the later instances where Bart's academic performance became central to Springfield Elementary's institutional survival, a plot device that had become increasingly rare by Season 24.",
       "_chars_v2": true
@@ -2858,6 +3599,12 @@
         "marge",
         "bart",
         "lisa",
+        "maggie",
+        "grandpa",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
         "patty_selma"
       ],
       "notes": null,
@@ -2896,7 +3643,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "krusty"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2917,8 +3676,16 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
-        "milhouse"
+        "lisa",
+        "maggie",
+        "milhouse",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "lenny_carl"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2941,6 +3708,10 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "grandpa"
       ],
       "notes": null,
@@ -2977,8 +3748,14 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
         "lisa",
-        "flanders"
+        "maggie",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3005,10 +3782,19 @@
       "parody_of": "Batman and courtroom dramas",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
         "burns",
-        "skinner"
+        "wiggum",
+        "skinner",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "kent_brockman",
+        "chalmers",
+        "comic_book_guy"
       ],
       "notes": "Former U.S. Attorney General Janet Reno guest starred as herself, presiding over Bart's student court trial in one of the show's most unusual celebrity cameos by a government official.",
       "_chars_v2": true
@@ -3074,7 +3860,17 @@
       "parody": true,
       "parody_of": "A Streetcar Named Desire",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "skinner",
+        "kent_brockman",
+        "wiggum"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3099,7 +3895,24 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "rod_todd",
+        "krusty",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "apu",
+        "barney",
+        "moe",
+        "lenny_carl",
+        "patty_selma"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3133,10 +3946,13 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "moe",
-        "grandpa",
+        "homer",
+        "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "grandpa",
+        "moe",
+        "bleeding_gums"
       ],
       "notes": "Jazz legend Sonny Rollins appears as himself, marking one of the most prestigious musical guest appearances in the show's later seasons.",
       "_chars_v2": true
@@ -3177,7 +3993,11 @@
       "characters": [
         "homer",
         "marge",
-        "bart"
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3209,8 +4029,14 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
         "moe",
-        "lenny_carl"
+        "lenny_carl",
+        "barney",
+        "wiggum",
+        "flanders"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3240,7 +4066,20 @@
       "parody": true,
       "parody_of": "British television shows and train romance films",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "milhouse",
+        "burns",
+        "smithers"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3283,8 +4122,20 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
         "lisa",
-        "milhouse"
+        "maggie",
+        "burns",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "kent_brockman",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "flanders",
+        "patty_selma"
       ],
       "notes": "This marked the first time The Simpsons directly parodied a premium cable drama, with Kristen Wiig's FBI agent Annie Crawford serving as a clear analog to Homeland's Carrie Mathison.",
       "_chars_v2": true
@@ -3310,7 +4161,26 @@
       "parody": true,
       "parody_of": "Multiple horror films and franchises including Dr. Seuss, Freaks, and Fat in the Hat",
       "classic": true,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "lenny_carl",
+        "barney",
+        "apu",
+        "kent_brockman",
+        "mayor_quimby"
+      ],
       "notes": "Academy Award-winning director Guillermo del Toro created an elaborate opening sequence featuring dozens of horror movie references and classic monsters, marking the first time a renowned filmmaker directed content specifically for the series.",
       "_chars_v2": true
     },
@@ -3343,7 +4213,26 @@
       "parody": true,
       "parody_of": "A Christmas Carol",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "kent_brockman",
+        "burns",
+        "smithers",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "wiggum",
+        "flanders",
+        "skinner",
+        "chalmers",
+        "patty_selma",
+        "apu",
+        "krusty"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3388,7 +4277,18 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "milhouse",
+        "wiggum"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3415,7 +4315,14 @@
       "classic": false,
       "characters": [
         "homer",
-        "lisa"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3461,7 +4368,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "nelson",
+        "milhouse",
+        "wiggum"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3499,11 +4418,20 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
         "skinner",
         "krusty",
-        "milhouse"
+        "milhouse",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "wiggum",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3525,12 +4453,23 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
         "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
-        "flanders",
+        "smithers",
         "wiggum",
+        "flanders",
+        "rod_todd",
+        "kent_brockman",
+        "mayor_quimby",
+        "moe",
+        "barney",
         "lenny_carl",
-        "patty_selma"
+        "skinner",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3586,8 +4525,23 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
-        "wiggum"
+        "lisa",
+        "maggie",
+        "wiggum",
+        "krusty",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "milhouse",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "burns",
+        "smithers",
+        "comic_book_guy",
+        "flanders"
       ],
       "notes": "This episode marked one of The Simpsons' most direct engagements with contemporary digital piracy issues, airing during the height of illegal downloading debates in the mid-2010s.",
       "_chars_v2": true
@@ -3635,8 +4589,7 @@
       "classic": false,
       "characters": [
         "homer",
-        "comic_book_guy",
-        "milhouse"
+        "comic_book_guy"
       ],
       "notes": "Comic Book Guy finally finds love with Kumiko, a Japanese manga artist who becomes his wife and a recurring character in future episodes.",
       "_chars_v2": true
@@ -3682,8 +4635,13 @@
         "homer",
         "marge",
         "bart",
+        "lisa",
+        "maggie",
         "nelson",
-        "milhouse"
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": "This episode marked The Simpsons' first major parody of Google Glass, airing just two years after the wearable technology's initial release and during the height of public fascination with augmented reality devices.",
       "_chars_v2": true
@@ -3710,10 +4668,14 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
-        "nelson",
+        "lisa",
         "milhouse",
-        "skinner"
+        "nelson",
+        "skinner",
+        "wiggum"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3744,9 +4706,14 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "lisa",
+        "homer",
         "marge",
-        "sideshow_bob"
+        "bart",
+        "lisa",
+        "maggie",
+        "sideshow_bob",
+        "skinner",
+        "chalmers"
       ],
       "notes": "This marks Sideshow Bob's first appearance in over four seasons, breaking the longest gap between his episodes since the character's introduction in 1990.",
       "_chars_v2": true
@@ -3788,7 +4755,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "nelson",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "milhouse"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3814,8 +4793,11 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
         "marge",
+        "bart",
         "lisa",
+        "maggie",
         "milhouse"
       ],
       "notes": null,
@@ -3844,7 +4826,14 @@
       "classic": false,
       "characters": [
         "homer",
-        "lisa"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "fat_tony"
       ],
       "notes": "This marks the Simpsons' second trip to Brazil, following their visit in \"Blame It on Lisa\" (2002), making Brazil one of the few countries the family has visited twice in the series.",
       "_chars_v2": true
@@ -3871,9 +4860,16 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "lisa",
+        "homer",
+        "marge",
         "bart",
-        "snake"
+        "lisa",
+        "maggie",
+        "wiggum",
+        "snake",
+        "skinner",
+        "chalmers",
+        "krusty"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3899,7 +4895,14 @@
       "parody": true,
       "parody_of": "Days of Future Past",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "milhouse",
+        "maggie",
+        "marge"
+      ],
       "notes": "This marks the second futuristic Simpsons episode to explore the adult lives of Bart and Lisa, following the acclaimed \"Lisa's Wedding\" from 1995, but with a much darker sci-fi twist involving cloning and zombification.",
       "_chars_v2": true
     },
@@ -3929,8 +4932,24 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
-        "fat_tony"
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "ralph",
+        "milhouse",
+        "nelson",
+        "krusty",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "apu",
+        "dr_hibbert",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3951,7 +4970,32 @@
       "parody": true,
       "parody_of": "The Lego Movie",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "milhouse",
+        "krusty",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "barney",
+        "apu",
+        "comic_book_guy",
+        "sideshow_mel",
+        "patty_selma",
+        "kent_brockman",
+        "chalmers",
+        "mayor_quimby"
+      ],
       "notes": "This marked the first time The Simpsons was entirely animated in a different style, with every character and object rendered as LEGO bricks to parody The Lego Movie.",
       "_chars_v2": true
     },
@@ -3984,7 +5028,13 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4014,11 +5064,17 @@
       "parody_of": "The Red Badge of Courage",
       "classic": false,
       "characters": [
-        "bart",
         "homer",
-        "nelson",
+        "marge",
+        "bart",
+        "lisa",
         "milhouse",
-        "skinner"
+        "nelson",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4066,9 +5122,19 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
         "lisa",
+        "maggie",
         "krusty",
-        "sideshow_bob"
+        "wiggum",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "sideshow_mel",
+        "kent_brockman",
+        "rainier_wolfcastle",
+        "patty_selma"
       ],
       "notes": "This episode marked the death of Krusty's father Rabbi Hyman Krustofsky, with Jackie Mason reprising his Emmy-winning role for the final time.",
       "_chars_v2": true
@@ -4094,7 +5160,21 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "lenny_carl",
+        "barney",
+        "wiggum",
+        "skinner",
+        "kent_brockman"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4115,8 +5195,19 @@
       "parody_of": "Fast food franchise industry and business competition",
       "classic": false,
       "characters": [
+        "homer",
         "marge",
-        "skinner"
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "lenny_carl",
+        "patty_selma",
+        "wiggum",
+        "apu",
+        "krusty",
+        "milhouse"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4143,11 +5234,32 @@
       "parody_of": "A Clockwork Orange, The Others, and general horror/supernatural themes",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
         "moe",
-        "homer",
-        "marge"
+        "wiggum",
+        "burns",
+        "flanders",
+        "krusty",
+        "apu",
+        "barney",
+        "lenny_carl",
+        "sideshow_bob",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby",
+        "fat_tony",
+        "snake",
+        "comic_book_guy",
+        "sideshow_mel",
+        "patty_selma",
+        "ralph",
+        "nelson",
+        "milhouse"
       ],
       "notes": "The final segment marked the first time the original crude Tracey Ullman Show versions of the Simpson family appeared in a regular episode, serving as a meta-commentary on the show's 27-year evolution.",
       "_chars_v2": true
@@ -4186,9 +5298,18 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
+        "maggie",
         "burns",
-        "milhouse"
+        "flanders",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4255,7 +5376,31 @@
       "parody_of": "Futurama",
       "classic": false,
       "characters": [
-        "milhouse"
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "milhouse",
+        "krusty",
+        "apu",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "lenny_carl",
+        "fat_tony",
+        "snake",
+        "comic_book_guy",
+        "patty_selma",
+        "kent_brockman",
+        "professor_frink",
+        "mayor_quimby"
       ],
       "notes": "This marked the first official crossover between The Simpsons and Futurama, with Matt Groening's two animated series sharing the screen after years of fan speculation about a potential meeting.",
       "_chars_v2": true
@@ -4285,7 +5430,19 @@
       "parody": true,
       "parody_of": "Burning Man festival",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "milhouse",
+        "nelson",
+        "ralph",
+        "wiggum"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4316,7 +5473,19 @@
       "classic": false,
       "characters": [
         "homer",
-        "apu"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "apu",
+        "moe",
+        "barney",
+        "flanders",
+        "lenny_carl",
+        "skinner",
+        "wiggum",
+        "kent_brockman",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4340,9 +5509,19 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "moe",
         "barney",
-        "lenny_carl"
+        "flanders",
+        "wiggum",
+        "milhouse",
+        "lenny_carl",
+        "apu",
+        "skinner",
+        "kent_brockman",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4363,7 +5542,13 @@
       "parody": true,
       "parody_of": "Disney theme parks and science fiction alien abduction stories",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie"
+      ],
       "notes": "This marked the first regular-series appearance of Kang and Kodos outside of the annual Treehouse of Horror anthology episodes, breaking the show's long-standing tradition of confining the aliens to Halloween specials.",
       "_chars_v2": true
     },
@@ -4388,7 +5573,15 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "wiggum"
+      ],
       "notes": "This episode was written by Judd Apatow, marking the comedy filmmaker's only contribution to The Simpsons after previously pitching ideas to the show in the 1990s.",
       "_chars_v2": true
     },
@@ -4427,8 +5620,21 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
-        "milhouse"
+        "smithers",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "flanders",
+        "milhouse",
+        "chalmers",
+        "kent_brockman",
+        "lenny_carl"
       ],
       "notes": "Elon Musk guest starred as himself, making him one of the few real-world tech billionaires to appear on the show during the height of his public profile.",
       "_chars_v2": true
@@ -4472,8 +5678,22 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
         "lisa",
-        "milhouse"
+        "maggie",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "wiggum",
+        "mayor_quimby",
+        "flanders",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "apu",
+        "comic_book_guy",
+        "krusty"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4504,11 +5724,17 @@
       "parody_of": "My Fair Lady",
       "classic": false,
       "characters": [
-        "marge",
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "moe",
         "burns",
-        "smithers"
+        "smithers",
+        "barney",
+        "lenny_carl",
+        "wiggum"
       ],
       "notes": "This episode marked one of the first major TV series to directly reference the rise of ride-sharing apps like Uber and Lyft, positioning The Simpsons as an early commentator on the gig economy phenomenon.",
       "_chars_v2": true
@@ -4560,8 +5786,16 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
         "burns",
-        "smithers"
+        "smithers",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4588,8 +5822,21 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "wiggum",
-        "marge"
+        "flanders",
+        "skinner",
+        "chalmers",
+        "moe",
+        "lenny_carl",
+        "barney",
+        "patty_selma",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4629,9 +5876,18 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
         "moe",
         "barney",
-        "lenny_carl"
+        "wiggum",
+        "skinner",
+        "lenny_carl",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "Stacy Keach's casting as Duffman marked the character's first major speaking role with a celebrity voice actor, as previous appearances featured standard voice cast members.",
       "_chars_v2": true
@@ -4652,7 +5908,17 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "wiggum",
+        "milhouse",
+        "skinner"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4677,7 +5943,7 @@
         "marge",
         "bart",
         "lisa",
-        "patty_selma"
+        "maggie"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4711,7 +5977,22 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "milhouse",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "patty_selma"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4744,7 +6025,20 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby",
+        "nelson",
+        "milhouse"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4781,7 +6075,20 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "nelson",
+        "willie",
+        "professor_frink"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4837,7 +6144,16 @@
       "characters": [
         "homer",
         "marge",
-        "patty_selma"
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "moe",
+        "barney",
+        "lenny_carl"
       ],
       "notes": "This season 27 premiere marked the first time in the show's history that Homer and Marge actually separated and filed for divorce, rather than just threatening it.",
       "_chars_v2": true
@@ -4883,7 +6199,23 @@
       "parody": true,
       "parody_of": "Food Network cooking competition shows",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "moe",
+        "lenny_carl",
+        "apu",
+        "barney",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "comic_book_guy",
+        "cletus"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -4927,8 +6259,9 @@
       "characters": [
         "homer",
         "marge",
-        "patty_selma",
-        "cletus"
+        "bart",
+        "lisa",
+        "patty_selma"
       ],
       "notes": null,
       "_chars_v2": true
@@ -4968,8 +6301,12 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
         "lisa",
-        "krusty"
+        "maggie",
+        "krusty",
+        "wiggum"
       ],
       "notes": "This marked the first time The Simpsons aired a non-anthology Halloween episode outside of the annual Treehouse of Horror format, breaking a 26-year tradition.",
       "_chars_v2": true
@@ -5013,8 +6350,10 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
         "milhouse",
         "sideshow_bob"
       ],
@@ -5051,9 +6390,15 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "lisa",
         "homer",
-        "milhouse"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "skinner",
+        "chalmers",
+        "ralph"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5077,8 +6422,9 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
         "lisa",
-        "moe"
+        "maggie"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5117,6 +6463,12 @@
         "marge",
         "bart",
         "lisa",
+        "maggie",
+        "wiggum",
+        "skinner",
+        "ralph",
+        "nelson",
+        "lenny_carl",
         "milhouse"
       ],
       "notes": null,
@@ -5152,10 +6504,16 @@
       "parody_of": "Boyhood",
       "classic": false,
       "characters": [
-        "bart",
         "homer",
+        "marge",
+        "bart",
         "lisa",
-        "milhouse"
+        "maggie",
+        "milhouse",
+        "nelson",
+        "skinner",
+        "wiggum",
+        "ralph"
       ],
       "notes": "This ambitious parody of Richard Linklater's \"Boyhood\" was filmed over several years to authentically capture the aging of Bart's voice actor Nancy Cartwright, making it one of the most technically complex episodes in the series' history.",
       "_chars_v2": true
@@ -5196,8 +6554,19 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
         "lisa",
-        "milhouse"
+        "maggie",
+        "burns",
+        "skinner",
+        "smithers",
+        "chalmers",
+        "kent_brockman",
+        "professor_frink",
+        "lenny_carl",
+        "moe",
+        "comic_book_guy",
+        "barney"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5233,10 +6602,18 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
         "milhouse",
-        "skinner"
+        "skinner",
+        "chalmers",
+        "ralph",
+        "nelson",
+        "wiggum",
+        "lenny_carl",
+        "patty_selma"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5268,9 +6645,16 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "apu",
-        "milhouse"
+        "wiggum",
+        "moe",
+        "skinner",
+        "chalmers",
+        "lenny_carl"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5301,11 +6685,16 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "professor_frink",
+        "homer",
         "marge",
         "bart",
         "lisa",
-        "grandpa"
+        "maggie",
+        "grandpa",
+        "professor_frink",
+        "moe",
+        "wiggum",
+        "dr_nick"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5348,11 +6737,15 @@
       "parody_of": "Folk music culture and musician biographies",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
-        "homer",
-        "sideshow_bob",
-        "milhouse"
+        "maggie",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5383,9 +6776,15 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "lisa",
+        "homer",
         "marge",
-        "milhouse"
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "dr_hibbert",
+        "ralph"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5416,9 +6815,15 @@
       "parody_of": "Mars One mission and space colonization programs",
       "classic": false,
       "characters": [
+        "homer",
         "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "wiggum"
       ],
       "notes": "This episode parodies the real Mars One project, which was actively recruiting civilian volunteers for a one-way trip to Mars when the episode aired, making it one of the show's most timely science fiction parodies.",
       "_chars_v2": true
@@ -5457,10 +6862,17 @@
       "parody_of": "Casablanca",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
         "smithers",
         "milhouse",
-        "lisa"
+        "skinner",
+        "chalmers",
+        "wiggum"
       ],
       "notes": "This episode marked the first time Smithers' romantic feelings for Mr. Burns were explicitly acknowledged and explored as a central plot, definitively confirming his sexual orientation after decades of hints and subtext.",
       "_chars_v2": true
@@ -5490,7 +6902,13 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -5519,7 +6937,15 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "rod_todd"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -5551,7 +6977,12 @@
       "characters": [
         "homer",
         "marge",
-        "milhouse"
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "snake",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5581,7 +7012,15 @@
         "homer",
         "marge",
         "bart",
-        "milhouse"
+        "lisa",
+        "burns",
+        "lenny_carl",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "kent_brockman"
       ],
       "notes": "The first and only time Homer Simpson appeared live on television, with Dan Castellaneta performing unscripted dialogue in real-time for both East and West Coast broadcasts during the episode's final three minutes.",
       "_chars_v2": true
@@ -5608,9 +7047,22 @@
       "parody_of": "Orange is the New Black",
       "classic": false,
       "characters": [
+        "homer",
         "marge",
         "bart",
-        "wiggum"
+        "lisa",
+        "maggie",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "nelson",
+        "milhouse",
+        "kent_brockman",
+        "mayor_quimby",
+        "patty_selma",
+        "flanders",
+        "rod_todd"
       ],
       "notes": "This episode marked The Simpsons' first parody of a Netflix original series, reflecting the streaming platform's growing cultural dominance in 2016.",
       "_chars_v2": true
@@ -5644,7 +7096,32 @@
       "parody": true,
       "parody_of": "variety shows and circus entertainment",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "barney",
+        "krusty",
+        "kent_brockman",
+        "mayor_quimby",
+        "apu",
+        "patty_selma",
+        "lenny_carl",
+        "comic_book_guy",
+        "milhouse",
+        "nelson",
+        "ralph",
+        "chalmers",
+        "dr_hibbert"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -5673,7 +7150,15 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "smithers"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -5718,7 +7203,13 @@
       "parody": true,
       "parody_of": "Boston sports culture and New England stereotypes",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -5764,9 +7255,33 @@
       "parody_of": "The Hunger Games, Westworld, BFG",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "milhouse",
+        "krusty",
         "sideshow_bob",
-        "milhouse"
+        "apu",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "fat_tony",
+        "snake",
+        "comic_book_guy",
+        "sideshow_mel",
+        "patty_selma",
+        "kent_brockman",
+        "mayor_quimby",
+        "rainier_wolfcastle"
       ],
       "notes": "This marks the first time a Treehouse of Horror episode directly parodied a contemporary blockbuster franchise still actively releasing films, with The Hunger Games trilogy having concluded just one year prior in 2015.",
       "_chars_v2": true
@@ -5801,9 +7316,10 @@
         "marge",
         "bart",
         "lisa",
+        "burns",
         "krusty",
         "kent_brockman",
-        "milhouse"
+        "smithers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5824,7 +7340,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "bart",
+        "lisa",
+        "maggie",
+        "marge",
+        "milhouse",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "nelson"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -5857,7 +7385,15 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "dr_hibbert"
+      ],
       "notes": "This episode aired just eight days after Donald Trump's election victory, making it one of the first TV shows to depict Cuba during a period of uncertain U.S.-Cuba relations following the Obama administration's diplomatic thaw.",
       "_chars_v2": true
     },
@@ -5888,9 +7424,11 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
-        "grandpa",
-        "milhouse"
+        "lisa",
+        "maggie",
+        "grandpa"
       ],
       "notes": "The episode introduces an app-based parenting service that predates the real-world boom in AI-powered childcare and family management apps by several years, showing The Simpsons' continued ability to anticipate technological trends.",
       "_chars_v2": true
@@ -5914,12 +7452,13 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
         "lisa",
+        "maggie",
         "burns",
         "smithers",
-        "skinner",
-        "chalmers",
-        "dr_hibbert"
+        "otto",
+        "wiggum"
       ],
       "notes": null,
       "_chars_v2": true
@@ -5961,7 +7500,26 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "krusty",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "barney",
+        "moe",
+        "lenny_carl",
+        "apu",
+        "patty_selma",
+        "burns",
+        "smithers"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -5998,7 +7556,15 @@
       "parody": true,
       "parody_of": "Marie Kondo and KonMari method",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "smithers"
+      ],
       "notes": "This episode marks one of the first major American animated series to parody Marie Kondo's \"KonMari Method,\" airing just two years before her Netflix series would make the decluttering guru a global phenomenon.",
       "_chars_v2": true
     },
@@ -6047,7 +7613,14 @@
       "parody": true,
       "parody_of": "The Great Gatsby",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "burns",
+        "smithers"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -6118,8 +7691,7 @@
         "bart",
         "lisa",
         "burns",
-        "smithers",
-        "milhouse"
+        "smithers"
       ],
       "notes": "This hour-long musical episode featured guest stars Keegan-Michael Key as hip-hop mogul Jay G and Common as rapper Jazzy James in a loose parody of The Great Gatsby. The ambitious production marked one of the show's most elaborate musical episodes, though it received mixed reviews and struggled to capture the cultural impact of earlier musical specials.",
       "_chars_v2": true
@@ -6153,7 +7725,27 @@
       "parody": true,
       "parody_of": "Fitzcarraldo",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "moe",
+        "apu",
+        "wiggum",
+        "krusty",
+        "barney",
+        "lenny_carl",
+        "flanders",
+        "skinner",
+        "chalmers",
+        "burns",
+        "smithers",
+        "kent_brockman",
+        "milhouse",
+        "mayor_quimby"
+      ],
       "notes": "This episode parodies Werner Herzog's 1982 film \"Fitzcarraldo,\" in which Klaus Kinski's obsessed opera lover drags a steamship over a mountain in the Amazon. The title \"Fatzcarraldo\" cleverly combines Homer's weight obsession with Herzog's notoriously difficult production about moving a massive vessel through impossible terrain.",
       "_chars_v2": true
     },
@@ -6192,8 +7784,24 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "milhouse",
+        "krusty",
+        "wiggum",
+        "skinner",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "comic_book_guy",
+        "patty_selma",
+        "kent_brockman",
+        "chalmers",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -6232,7 +7840,6 @@
         "marge",
         "bart",
         "lisa",
-        "milhouse",
         "krusty"
       ],
       "notes": null,
@@ -6272,11 +7879,19 @@
       "parody_of": "ESPN 30 for 30 documentary series",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
-        "homer",
+        "maggie",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "nelson",
         "milhouse",
-        "fat_tony"
+        "fat_tony",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -6318,7 +7933,18 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "lenny_carl"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -6365,8 +7991,14 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
         "burns",
-        "smithers"
+        "smithers",
+        "skinner",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": "This episode marked one of the latest-season appearances by Mr. Burns as a central character driving the main plot, reflecting the show's continued relevance in satirizing contemporary issues like predatory for-profit education scandals.",
       "_chars_v2": true
@@ -6401,9 +8033,20 @@
       "parody_of": "Pokémon Go",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
         "skinner",
-        "milhouse"
+        "chalmers",
+        "wiggum",
+        "patty_selma",
+        "flanders",
+        "rod_todd",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "This episode marked The Simpsons' timely parody of the Pokémon Go phenomenon, arriving less than a year after the mobile game's explosive global launch in July 2016.",
       "_chars_v2": true
@@ -6440,9 +8083,10 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
+        "lisa",
         "burns",
         "moe",
-        "milhouse",
         "smithers"
       ],
       "notes": null,
@@ -6473,7 +8117,23 @@
       "parody": true,
       "parody_of": "Planet of the Apes",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "lenny_carl",
+        "patty_selma",
+        "kent_brockman",
+        "mayor_quimby"
+      ],
       "notes": null,
       "_chars_v2": true
     }

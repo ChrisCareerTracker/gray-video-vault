@@ -32,7 +32,9 @@
         "marge",
         "bart",
         "lisa",
-        "barney"
+        "maggie",
+        "barney",
+        "wiggum"
       ],
       "notes": "This episode was pulled from syndication and streaming for years after 9/11 due to its prominent depiction of the World Trade Center towers, making it one of the most censored episodes in TV history.",
       "_chars_v2": true
@@ -71,10 +73,28 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "skinner",
         "chalmers",
+        "wiggum",
+        "flanders",
+        "burns",
+        "smithers",
+        "kent_brockman",
+        "mayor_quimby",
+        "patty_selma",
+        "lenny_carl",
+        "moe",
+        "barney",
+        "apu",
         "milhouse",
-        "flanders"
+        "ralph",
+        "nelson",
+        "krusty"
       ],
       "notes": "Often cited as the most controversial episode in the series' history, this installment permanently altered a beloved character's backstory by revealing Principal Skinner was actually an impostor named Armin Tamzarian. The episode sparked fierce debate among fans and writers about whether long-running shows should drastically revise established character histories.",
       "_chars_v2": true
@@ -109,10 +129,18 @@
       "parody_of": null,
       "classic": true,
       "characters": [
-        "lisa",
         "homer",
         "marge",
-        "flanders"
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "wiggum",
+        "skinner",
+        "kent_brockman",
+        "barney",
+        "lenny_carl",
+        "moe"
       ],
       "notes": "This flashback episode revealed that Lisa first got her saxophone in 1990 when Marge was pregnant with Maggie, establishing crucial Simpson family timeline and explaining Lisa's musical passion through her connection with bleeding gums Murphy.",
       "_chars_v2": true
@@ -150,8 +178,10 @@
         "homer",
         "marge",
         "bart",
-        "flanders",
-        "milhouse",
+        "lisa",
+        "maggie",
+        "burns",
+        "wiggum",
         "patty_selma"
       ],
       "notes": "This episode marks the first time a Treehouse of Horror segment is set in historical times rather than contemporary Springfield, with \"Easy-Bake Coven\" taking place in 1649 colonial America.",
@@ -178,11 +208,17 @@
         "marge",
         "bart",
         "lisa",
+        "maggie",
         "wiggum",
-        "apu",
+        "flanders",
         "moe",
+        "barney",
         "lenny_carl",
-        "barney"
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "apu",
+        "mayor_quimby"
       ],
       "notes": "This episode introduced the NRA-parodying gun club and Homer's memorable line \"Guns are for family protection, hunting dangerous or delicious animals, and keeping the King of England out of your face,\" which became one of the series' most quoted pro-gun satire moments.",
       "_chars_v2": true
@@ -218,9 +254,16 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "nelson",
-        "milhouse"
+        "wiggum",
+        "skinner",
+        "milhouse",
+        "ralph",
+        "chalmers"
       ],
       "notes": null,
       "_chars_v2": true
@@ -259,9 +302,20 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "marge",
         "homer",
-        "apu"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "apu",
+        "patty_selma",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "krusty"
       ],
       "notes": "This episode introduces Manjula Nahasapeemapetilon, Apu's wife, who would become a recurring character and the mother of octuplets in later episodes.",
       "_chars_v2": true
@@ -292,13 +346,26 @@
       "parody_of": "Religious hysteria and archaeological discovery stories",
       "classic": true,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
+        "maggie",
+        "burns",
         "flanders",
         "wiggum",
         "skinner",
         "kent_brockman",
+        "chalmers",
+        "patty_selma",
         "dr_hibbert",
-        "mayor_quimby"
+        "mayor_quimby",
+        "apu",
+        "barney",
+        "moe",
+        "comic_book_guy",
+        "ralph",
+        "rod_todd"
       ],
       "notes": "This episode marked one of the earliest mainstream TV treatments of intelligent design debates, airing months before the concept gained widespread political attention in the late 1990s.",
       "_chars_v2": true
@@ -325,8 +392,19 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
         "marge",
-        "flanders"
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "apu",
+        "barney",
+        "lenny_carl"
       ],
       "notes": "This episode features one of the series' most memorable throwaway gags when Marge describes a house as having a \"possum problem\" while a family of possums casually walks by in the background. The Murder House subplot became a recurring location reference in later episodes, though it rarely appeared on screen again.",
       "_chars_v2": true
@@ -364,7 +442,28 @@
       "parody": true,
       "parody_of": "It's a Wonderful Life",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "kent_brockman",
+        "mayor_quimby",
+        "apu",
+        "barney",
+        "moe",
+        "lenny_carl",
+        "patty_selma",
+        "milhouse",
+        "nelson",
+        "ralph",
+        "chalmers"
+      ],
       "notes": "This episode marked one of the first times The Simpsons directly addressed the show's growing reputation for cynicism, as the townspeople's initial generosity turns to mob-like vengeance when Bart's deception is revealed.",
       "_chars_v2": true
     },
@@ -389,25 +488,28 @@
         "marge",
         "bart",
         "lisa",
+        "maggie",
+        "grandpa",
         "burns",
         "flanders",
         "moe",
+        "milhouse",
         "krusty",
-        "sideshow_bob",
-        "apu",
         "barney",
         "wiggum",
         "skinner",
         "smithers",
+        "ralph",
         "nelson",
         "lenny_carl",
-        "grandpa",
+        "fat_tony",
         "snake",
-        "patty_selma",
-        "chalmers",
+        "apu",
         "kent_brockman",
-        "dr_hibbert",
-        "mayor_quimby"
+        "dr_nick",
+        "mayor_quimby",
+        "bleeding_gums",
+        "patty_selma"
       ],
       "notes": "The first full musical episode of The Simpsons, featuring 13 songs compiled from previous episodes to create a cohesive clip show format. This experimental structure would influence later musical episodes like \"Simpsoncalifragilisticexpiala(Annoyed Grunt)cious\" and the Emmy-winning \"We Put the Spring in Springfield",
       "_chars_v2": true
@@ -435,8 +537,15 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
-        "wiggum"
+        "lisa",
+        "maggie",
+        "wiggum",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "krusty"
       ],
       "notes": "This episode introduced the carny code philosophy \"You gotta play to win, but you also gotta win to play,\" which became a memorable Simpsons catchphrase among fans. The carnival setting allowed the show to explore the seedier side of traveling entertainment while showcasing Homer and Bart working together as unlikely con artists.",
       "_chars_v2": true
@@ -467,14 +576,20 @@
         "marge",
         "bart",
         "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
         "flanders",
-        "apu",
-        "barney",
+        "moe",
         "wiggum",
         "skinner",
+        "apu",
+        "barney",
         "lenny_carl",
+        "patty_selma",
         "kent_brockman",
-        "troy_mcclure"
+        "mayor_quimby",
+        "chalmers"
       ],
       "notes": "This episode aired just one year after the Heaven's Gate cult's mass suicide, making it one of the most topically immediate parodies in Simpsons history.",
       "_chars_v2": true
@@ -522,11 +637,20 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
+        "otto",
+        "wiggum",
+        "skinner",
+        "chalmers",
         "milhouse",
+        "ralph",
         "nelson",
-        "troy_mcclure"
+        "lenny_carl",
+        "burns",
+        "smithers"
       ],
       "notes": "The Bill Gates subplot features one of the show's most prescient tech industry parodies, with Gates portrayed as a ruthless monopolist years before Microsoft's major antitrust battles",
       "_chars_v2": true
@@ -573,8 +697,17 @@
       "parody_of": "Stand-up comedy culture and alternative comedy movement of the 1990s",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
         "krusty",
-        "sideshow_mel"
+        "barney",
+        "lenny_carl",
+        "moe",
+        "wiggum",
+        "sideshow_mel",
+        "kent_brockman"
       ],
       "notes": "This episode marked one of the earliest mainstream TV parodies of the alternative comedy movement, predicting the real-world backlash against \"anti-comedy\" performers who would later face similar sellout accusations.",
       "_chars_v2": true
@@ -606,10 +739,19 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
         "moe",
         "barney",
         "lenny_carl",
-        "wiggum"
+        "wiggum",
+        "burns",
+        "smithers",
+        "apu",
+        "skinner",
+        "chalmers",
+        "milhouse"
       ],
       "notes": "This episode marks one of the few times The Simpsons directly parodied a classic film noir, with the title and plot structure closely following Billy Wilder's 1944 masterpiece \"Double Indemnity.",
       "_chars_v2": true
@@ -631,10 +773,16 @@
       "parody_of": null,
       "classic": true,
       "characters": [
-        "lisa",
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "grandpa",
-        "troy_mcclure"
+        "burns",
+        "flanders",
+        "skinner",
+        "patty_selma"
       ],
       "notes": "This episode established the canonical explanation that the \"Simpson gene\" only affects male descendants, revealing that Simpson women like Lisa retain their intelligence while the men become progressively dumber with age.",
       "_chars_v2": true
@@ -661,11 +809,17 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "bart",
+        "homer",
         "marge",
-        "ralph",
+        "bart",
+        "lisa",
+        "maggie",
         "wiggum",
-        "troy_mcclure"
+        "ralph",
+        "milhouse",
+        "nelson",
+        "skinner",
+        "chalmers"
       ],
       "notes": "Features one of Ralph Wiggum's most quoted lines when he declares \"I bent my Wookiee\" while playing with action figures, which became a popular internet meme years later.",
       "_chars_v2": true
@@ -700,9 +854,14 @@
         "marge",
         "bart",
         "lisa",
+        "maggie",
+        "burns",
+        "wiggum",
+        "skinner",
+        "smithers",
         "barney",
-        "moe",
-        "lenny_carl"
+        "lenny_carl",
+        "moe"
       ],
       "notes": "This episode features one of the series' most elaborate parodies of *The Hunt for Red October*, complete with detailed submarine sequences that required extensive research into naval procedures and terminology.",
       "_chars_v2": true
@@ -738,9 +897,22 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
+        "wiggum",
         "smithers",
-        "troy_mcclure"
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "apu",
+        "patty_selma",
+        "fat_tony"
       ],
       "notes": "This episode features one of the series' most absurd premises, with Homer literally helping Mr. Burns steal a trillion-dollar bill and flee to Cuba to meet Fidel Castro. The Castro scenes were among the most politically charged moments in the show's history, airing during the height of U.S.-Cuba tensions.",
       "_chars_v2": true
@@ -766,7 +938,17 @@
       "parody": true,
       "parody_of": "children's news programs and human interest journalism",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "ralph"
+      ],
       "notes": "This episode introduced Mojo, the helper monkey who becomes corrupted by Homer's lazy lifestyle, in what became one of the series' most memorable animal character storylines.",
       "_chars_v2": true
     },
@@ -816,8 +998,22 @@
         "marge",
         "bart",
         "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "lenny_carl",
+        "fat_tony",
+        "patty_selma",
+        "kent_brockman",
         "mayor_quimby",
-        "kent_brockman"
+        "apu",
+        "barney",
+        "moe",
+        "chalmers",
+        "rainier_wolfcastle"
       ],
       "notes": "The episode's campaign song \"Can't Someone Else Do It?\" became one of the show's most memorable political satire moments, perfectly encapsulating Homer's lazy populism. This marked one of the rare times Homer actually wins an election and faces the consequences of his unrealistic campaign promises.",
       "_chars_v2": true
@@ -853,8 +1049,19 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "rod_todd",
+        "moe",
+        "barney",
+        "wiggum",
+        "lenny_carl",
         "rainier_wolfcastle",
-        "fat_tony"
+        "kent_brockman",
+        "dr_hibbert"
       ],
       "notes": "Rainier Wolfcastle's first major role outside of McBain action movie parodies, establishing him as a fully-realized character rather than just a film-within-show joke.",
       "_chars_v2": true
@@ -882,9 +1089,12 @@
       "classic": true,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
-        "skinner"
+        "maggie",
+        "wiggum",
+        "otto"
       ],
       "notes": "This episode features one of the series' most touching father-daughter moments when Homer tells Lisa \"You make me proud,\" marking a rare instance of pure emotional sincerity from Homer without comedic undercut.",
       "_chars_v2": true
@@ -914,7 +1124,21 @@
         "homer",
         "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "krusty",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "flanders",
+        "rod_todd",
+        "apu",
+        "burns",
+        "smithers"
       ],
       "notes": "This episode features one of the most extensive public nudity sequences in Simpsons history, with Homer and Marge's naked adventure spanning multiple locations including a hot air balloon ride over Springfield Stadium during a football game.",
       "_chars_v2": true
@@ -958,10 +1182,16 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "lenny_carl",
         "milhouse",
-        "skinner"
+        "ralph",
+        "nelson"
       ],
       "notes": "This episode marked the first time The Simpsons directly addressed the trend of children trying to act older than their age, with Lisa's storyline reflecting growing concerns about kids growing up too fast in the late 1990s.",
       "_chars_v2": true
@@ -993,9 +1223,18 @@
       "classic": true,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "smithers",
         "flanders",
-        "lenny_carl",
-        "professor_frink"
+        "moe",
+        "barney",
+        "skinner",
+        "chalmers",
+        "lenny_carl"
       ],
       "notes": "Homer's makeshift electric hammer accidentally anticipates the design of a modern cordless drill, making this one of the few times his incompetence accidentally predicted real technology.",
       "_chars_v2": true
@@ -1038,10 +1277,16 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "nelson",
-        "milhouse",
-        "troy_mcclure"
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1089,10 +1334,14 @@
       "classic": true,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
         "maggie",
-        "snake"
+        "snake",
+        "wiggum",
+        "skinner",
+        "kent_brockman"
       ],
       "notes": "The Jerry Springer parody segment marked one of the first times The Simpsons directly lampooned a contemporary daytime talk show, complete with Springer himself providing his own voice for the alien tribunal finale.",
       "_chars_v2": true
@@ -1134,7 +1383,18 @@
       "parody": true,
       "parody_of": "Hollywood celebrity culture and tabloid journalism",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "milhouse",
+        "flanders"
+      ],
       "notes": "Features real Hollywood celebrities Alec Baldwin, Kim Basinger, and Ron Howard playing themselves, marking one of the few times A-list stars appeared as themselves rather than fictional characters on The Simpsons.",
       "_chars_v2": true
     },
@@ -1169,7 +1429,14 @@
       "classic": false,
       "characters": [
         "homer",
-        "grandpa"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "wiggum",
+        "moe",
+        "barney"
       ],
       "notes": "This episode reveals Homer's middle name as Jay, finally answering a question that had lingered since the show's early seasons.",
       "_chars_v2": true
@@ -1212,10 +1479,22 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "lisa",
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "skinner",
-        "milhouse"
+        "chalmers",
+        "ralph",
+        "milhouse",
+        "nelson",
+        "dr_hibbert",
+        "wiggum",
+        "kent_brockman",
+        "lenny_carl",
+        "moe",
+        "barney"
       ],
       "notes": "This episode marks the first time a main Simpson family member is shown explicitly cheating academically, representing a notable moral complexity rarely explored with Lisa's character.",
       "_chars_v2": true
@@ -1238,9 +1517,16 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "grandpa",
         "dr_hibbert",
-        "dr_nick"
+        "moe",
+        "barney",
+        "lenny_carl",
+        "wiggum"
       ],
       "notes": "This episode marks one of the few times Homer's cowardice has genuine moral consequences, as his failure to donate a kidney to his own father represents a darker turn for the character than typical sitcom selfishness.",
       "_chars_v2": true
@@ -1296,10 +1582,23 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "mayor_quimby",
         "fat_tony",
-        "milhouse",
-        "comic_book_guy"
+        "wiggum",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "snake",
+        "kent_brockman",
+        "skinner",
+        "apu",
+        "flanders",
+        "burns",
+        "smithers"
       ],
       "notes": "Features the first major appearance of Fat Tony's Springfield mafia operation as central antagonists, establishing the crime family dynamic that would recur throughout the series.",
       "_chars_v2": true
@@ -1339,7 +1638,19 @@
       "classic": false,
       "characters": [
         "homer",
-        "flanders"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "barney",
+        "moe",
+        "wiggum",
+        "lenny_carl",
+        "patty_selma",
+        "skinner",
+        "kent_brockman",
+        "milhouse"
       ],
       "notes": "Ned Flanders reveals he's actually 60 years old, having lived an extremely sheltered life that kept him youthful. This episode marks one of the few times the show explicitly states a main character's age, creating continuity issues that fans still debate today.",
       "_chars_v2": true
@@ -1370,13 +1681,33 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "milhouse",
+        "krusty",
+        "barney",
         "wiggum",
         "skinner",
-        "milhouse",
+        "smithers",
+        "ralph",
         "nelson",
-        "ralph"
+        "lenny_carl",
+        "snake",
+        "comic_book_guy",
+        "patty_selma",
+        "kent_brockman",
+        "dr_hibbert",
+        "mayor_quimby",
+        "rainier_wolfcastle",
+        "otto",
+        "rod_todd"
       ],
       "notes": "This episode features one of the series' most memorable musical numbers with \"We Are the Children,\" a parody of \"We Are the World\" that showcases the show's ability to blend social commentary with catchy songwriting.",
       "_chars_v2": true
@@ -1429,9 +1760,18 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "barney",
         "lenny_carl",
-        "moe"
+        "moe",
+        "otto",
+        "flanders",
+        "wiggum",
+        "milhouse",
+        "apu",
+        "kent_brockman"
       ],
       "notes": "This Super Bowl episode featured an unprecedented number of celebrity cameos including Dolly Parton, Dan Marino, and Rosey Grier, making it one of the most guest-heavy episodes in the series' history.",
       "_chars_v2": true
@@ -1463,7 +1803,21 @@
       "classic": false,
       "characters": [
         "homer",
-        "flanders"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "lenny_carl",
+        "kent_brockman",
+        "rainier_wolfcastle",
+        "troy_mcclure"
       ],
       "notes": "The episode introduced Homer's alter ego \"Max Power,\" a name that became a recurring gag and catchphrase throughout the series. This marked one of the show's most direct parodies of celebrity culture and the fickleness of fame in Hollywood.",
       "_chars_v2": true
@@ -1502,13 +1856,21 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
         "apu",
-        "flanders",
         "moe",
         "barney",
-        "lenny_carl",
         "wiggum",
-        "skinner"
+        "flanders",
+        "lenny_carl",
+        "burns",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -1547,8 +1909,22 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
         "marge",
-        "wiggum"
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "ralph",
+        "lenny_carl",
+        "patty_selma",
+        "kent_brockman",
+        "dr_hibbert",
+        "mayor_quimby",
+        "chalmers"
       ],
       "notes": "The episode introduced the Canyonero, a parody of oversized SUVs that became one of the show's most enduring vehicle gags, complete with a memorable country jingle sung by Hank Williams Jr.",
       "_chars_v2": true
@@ -1578,7 +1954,19 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
+      ],
       "notes": "This episode marked one of the earliest mainstream television portrayals of concerns about cell phone radiation and health effects, airing during the initial wave of public anxiety about the technology's safety.",
       "_chars_v2": true
     },
@@ -1600,8 +1988,12 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
-        "moe"
+        "lisa",
+        "maggie",
+        "barney",
+        "lenny_carl"
       ],
       "notes": "This episode features the first appearance of the truck stop waitress who calls Homer \"Big Daddy,\" and includes one of the series' most elaborate trucker culture parodies with authentic CB radio slang throughout.",
       "_chars_v2": true
@@ -1648,7 +2040,27 @@
         "marge",
         "bart",
         "lisa",
-        "milhouse"
+        "maggie",
+        "grandpa",
+        "flanders",
+        "rod_todd",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "krusty",
+        "apu",
+        "barney",
+        "burns",
+        "smithers",
+        "moe",
+        "lenny_carl",
+        "milhouse",
+        "sideshow_bob",
+        "snake",
+        "fat_tony",
+        "mayor_quimby",
+        "dr_hibbert"
       ],
       "notes": "This anthology episode marked one of the few times The Simpsons directly parodied religious content, drawing criticism from some Christian groups while being praised by others for its respectful treatment of Biblical narratives.",
       "_chars_v2": true
@@ -1693,7 +2105,25 @@
       "characters": [
         "homer",
         "marge",
-        "flanders"
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "comic_book_guy",
+        "patty_selma",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "Features Jasper Johns as himself, marking one of the few times a major contemporary artist appeared on The Simpsons to comment on the art world being satirized.",
       "_chars_v2": true
@@ -1728,9 +2158,20 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
-        "milhouse",
-        "grandpa"
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby",
+        "otto"
       ],
       "notes": "This episode features one of the series' most devastating endings, with multiple elderly characters drowning in a boat accident that Bart directly caused, marking an unusually dark turn even for later-season Simpsons.",
       "_chars_v2": true
@@ -1762,9 +2203,23 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
         "smithers",
-        "flanders"
+        "barney",
+        "lenny_carl",
+        "apu",
+        "krusty",
+        "kent_brockman",
+        "mayor_quimby",
+        "chalmers"
       ],
       "notes": "This episode marks the only appearance of Arthur Fortune, the billionaire rival who showers Springfield with money, establishing him as one of the show's most memorable one-off antagonists to Mr. Burns.",
       "_chars_v2": true
@@ -1791,11 +2246,27 @@
       "parody_of": "Utopian literature and intellectual dystopias like Brave New World",
       "classic": true,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
-        "mayor_quimby",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "krusty",
+        "apu",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "lenny_carl",
         "comic_book_guy",
-        "professor_frink",
-        "dr_hibbert"
+        "patty_selma",
+        "kent_brockman",
+        "mayor_quimby",
+        "chalmers"
       ],
       "notes": "Features Stephen Hawking's first and only appearance on The Simpsons, where he delivers the famous line \"Your theory of a donut-shaped universe is intriguing, Homer. I may have to steal it.",
       "_chars_v2": true
@@ -1849,7 +2320,13 @@
       "parody": true,
       "parody_of": "Japanese game shows and travel culture",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie"
+      ],
       "notes": "This episode marked The Simpsons' first extended international setting outside of brief vacation scenes, requiring extensive research into Japanese culture and customs. The show's parody of bizarre Japanese game shows helped introduce American audiences to the concept years before such programs gained mainstream Western popularity.",
       "_chars_v2": true
     },
@@ -1886,7 +2363,18 @@
         "homer",
         "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "lenny_carl",
+        "kent_brockman",
+        "rainier_wolfcastle"
       ],
       "notes": "Mel Gibson voiced himself in what would become one of his final major mainstream media appearances before his career controversies, making this a time capsule of late 90s Hollywood celebrity culture.",
       "_chars_v2": true
@@ -1940,7 +2428,26 @@
       "parody": true,
       "parody_of": "A Beautiful Mind and conspiracy thriller films",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "dr_hibbert",
+        "kent_brockman",
+        "burns",
+        "smithers",
+        "lenny_carl",
+        "ralph",
+        "nelson",
+        "krusty",
+        "sideshow_bob"
+      ],
       "notes": "This episode marked one of the earliest mainstream TV critiques of ADHD medication in children, airing during the height of Ritalin controversies in the late 1990s.",
       "_chars_v2": true
     },
@@ -1975,11 +2482,20 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
         "lisa",
+        "maggie",
+        "burns",
         "flanders",
         "moe",
         "apu",
-        "kent_brockman"
+        "barney",
+        "wiggum",
+        "skinner",
+        "kent_brockman",
+        "chalmers",
+        "mayor_quimby"
       ],
       "notes": "Features Homer's memorable food critic catchphrase \"So good!\" which became a running gag throughout his brief culinary journalism career.",
       "_chars_v2": true
@@ -2018,12 +2534,24 @@
       "parody_of": "I Know What You Did Last Summer, X-Men/superheroes, Y2K panic",
       "classic": true,
       "characters": [
+        "homer",
+        "marge",
         "bart",
         "lisa",
+        "maggie",
         "flanders",
+        "wiggum",
         "burns",
         "smithers",
-        "kent_brockman"
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "moe",
+        "lenny_carl",
+        "barney",
+        "apu",
+        "krusty",
+        "sideshow_bob"
       ],
       "notes": "This marked the first Treehouse of Horror to air in the new millennium and was the show's direct commentary on Y2K hysteria, featuring one of the series' most topical segments that captured the genuine cultural panic of late 1999.",
       "_chars_v2": true
@@ -2058,7 +2586,13 @@
         "marge",
         "bart",
         "lisa",
-        "flanders"
+        "maggie",
+        "burns",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "cletus"
       ],
       "notes": "This episode introduces \"tomacco,\" a fictional hybrid crop that became one of The Simpsons' most memorable running gags and was later actually created by real-life botanist Rob Baur in 2003.",
       "_chars_v2": true
@@ -2122,9 +2656,14 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
         "maggie",
         "moe",
-        "milhouse",
+        "barney",
+        "wiggum",
+        "skinner",
         "lenny_carl"
       ],
       "notes": "This episode marks one of the rare times Homer achieves genuine athletic excellence, as his perfect 300 bowling game represents the highest possible score in the sport. The storyline explores Homer's midlife crisis through the lens of peak achievement, making it one of the more introspective character studies in the series.",
@@ -2165,7 +2704,17 @@
       "classic": false,
       "characters": [
         "homer",
-        "apu"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "apu",
+        "wiggum",
+        "skinner",
+        "barney",
+        "moe",
+        "flanders",
+        "krusty"
       ],
       "notes": "This episode introduced Apu and Manjula's octuplets, who would become recurring characters throughout the series' run. The babies were named after classic American brands: Lincoln, Freedom, Govt, Cory, Q*bert, Morgan, IKEA, and Nabendu.",
       "_chars_v2": true
@@ -2223,7 +2772,18 @@
       "parody": true,
       "parody_of": "Biker gang movies and motorcycle culture",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "moe",
+        "wiggum",
+        "barney",
+        "lenny_carl",
+        "snake"
+      ],
       "notes": "This episode features Homer's motorcycle gang \"Hell's Satans,\" whose name became a recurring joke in later seasons whenever the show referenced amateur or wannabe biker culture.",
       "_chars_v2": true
     },
@@ -2276,7 +2836,28 @@
       "parody": true,
       "parody_of": "How the Grinch Stole Christmas",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "ralph",
+        "milhouse",
+        "nelson",
+        "lenny_carl",
+        "wiggum",
+        "kent_brockman",
+        "burns",
+        "smithers",
+        "moe",
+        "barney",
+        "apu",
+        "flanders",
+        "rod_todd"
+      ],
       "notes": "This Christmas episode features Tim Robbins as the villainous toy company executive Jim Hope, delivering one of the most memorable guest performances of Season 11. The episode's climactic scene parodies How the Grinch Stole Christmas with Bart destroying the Funzo dolls in a sequence that mirrors the Grinch's change of heart.",
       "_chars_v2": true
     },
@@ -2314,8 +2895,13 @@
       "parody_of": "The Parent Trap",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
-        "dr_hibbert"
+        "maggie",
+        "dr_hibbert",
+        "wiggum"
       ],
       "notes": "Lisa's elaborate deception using fake medical books and staged symptoms marks one of the few times a Simpson child successfully manipulates the entire family for their own good.",
       "_chars_v2": true
@@ -2353,7 +2939,28 @@
       "parody": true,
       "parody_of": "faith healing televangelists and religious revival meetings",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "flanders",
+        "rod_todd",
+        "burns",
+        "smithers",
+        "fat_tony",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "dr_hibbert",
+        "barney",
+        "moe",
+        "lenny_carl",
+        "apu",
+        "mayor_quimby"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -2384,8 +2991,16 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
-        "smithers"
+        "smithers",
+        "moe",
+        "barney",
+        "wiggum",
+        "lenny_carl"
       ],
       "notes": "Mr. Burns' medical examination reveals he has every disease known to man, but they're all perfectly balanced in a state he calls \"Three Stooges Syndrome\" — creating one of the show's most memorable medical gags.",
       "_chars_v2": true
@@ -2427,7 +3042,20 @@
       "parody": true,
       "parody_of": "Horse racing films and fantasy adventure stories",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "wiggum",
+        "skinner",
+        "barney",
+        "kent_brockman",
+        "mayor_quimby",
+        "cletus"
+      ],
       "notes": "This episode marked one of the most polarizing moments in Simpsons history when it abruptly shifted from horse racing satire to fantasy adventure with magical jockey creatures, widely cited by fans as an early example of the show's creative decline.",
       "_chars_v2": true
     },
@@ -2465,7 +3093,21 @@
         "marge",
         "bart",
         "lisa",
-        "flanders"
+        "maggie",
+        "flanders",
+        "rod_todd",
+        "wiggum",
+        "burns",
+        "smithers",
+        "krusty",
+        "barney",
+        "lenny_carl",
+        "apu",
+        "moe",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "The shocking death of Maude Flanders was written into the show because voice actress Maggie Roswell was in a pay dispute and couldn't continue recording from her home in Denver.",
       "_chars_v2": true
@@ -2493,7 +3135,9 @@
       "classic": false,
       "characters": [
         "homer",
-        "kent_brockman"
+        "marge",
+        "bart",
+        "lisa"
       ],
       "notes": "This episode served as the season finale and fundraising special for FOX, breaking the fourth wall when actual PBS stars like Betty White and Big Bird chase Homer, blending real public television with the show's fictional world.",
       "_chars_v2": true
@@ -2520,10 +3164,19 @@
       "parody_of": "soap operas and celebrity culture",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
         "moe",
-        "dr_nick",
+        "barney",
         "lenny_carl",
-        "barney"
+        "wiggum",
+        "burns",
+        "smithers",
+        "kent_brockman",
+        "krusty",
+        "troy_mcclure"
       ],
       "notes": "The episode's title \"Pygmoelian\" is a clever portmanteau of \"Pygmalion\" (the Greek myth about transforming someone's appearance) and Moe's name, representing one of the series' most linguistically creative episode titles.",
       "_chars_v2": true
@@ -2548,7 +3201,17 @@
         "bart",
         "lisa",
         "ralph",
-        "milhouse"
+        "homer",
+        "marge",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "This episode famously predicted that Donald Trump would become President of the United States, with Lisa referencing inheriting \"quite a budget crunch from President Trump\" — a joke that became reality 16 years later.",
       "_chars_v2": true
@@ -2575,9 +3238,17 @@
       "parody_of": "Days of Wine and Roses",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
         "barney",
         "moe",
-        "homer"
+        "wiggum",
+        "flanders",
+        "burns",
+        "smithers",
+        "kent_brockman"
       ],
       "notes": "This episode marked Barney's most significant character development, transforming him from town drunk to responsible helicopter pilot in a rare moment of genuine growth for a secondary character.",
       "_chars_v2": true
@@ -2620,7 +3291,13 @@
       "parody_of": "Cool Hand Luke and chain gang prison films",
       "classic": false,
       "characters": [
-        "homer"
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "kent_brockman"
       ],
       "notes": "This episode marks the first time the entire Simpson family was arrested together and sentenced to hard labor, featuring an unusually dark turn even by later-season standards.",
       "_chars_v2": true
@@ -2643,11 +3320,13 @@
       "classic": false,
       "characters": [
         "homer",
-        "lisa",
         "marge",
         "bart",
-        "dr_hibbert",
-        "milhouse"
+        "lisa",
+        "maggie",
+        "skinner",
+        "chalmers",
+        "dr_hibbert"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2694,8 +3373,18 @@
       "parody_of": "Single White Female",
       "classic": false,
       "characters": [
+        "homer",
         "marge",
-        "milhouse"
+        "bart",
+        "lisa",
+        "maggie",
+        "otto",
+        "wiggum",
+        "skinner",
+        "milhouse",
+        "nelson",
+        "ralph",
+        "lenny_carl"
       ],
       "notes": "This episode marks the only appearance of Becky, Otto's psychotic girlfriend who infiltrates the Simpson household in a parody of the 1992 thriller \"Single White Female.",
       "_chars_v2": true
@@ -2749,7 +3438,33 @@
         "homer",
         "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "milhouse",
+        "krusty",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "fat_tony",
+        "snake",
+        "comic_book_guy",
+        "sideshow_mel",
+        "patty_selma",
+        "troy_mcclure",
+        "kent_brockman",
+        "dr_nick",
+        "professor_frink",
+        "cletus",
+        "mayor_quimby",
+        "rainier_wolfcastle"
       ],
       "notes": "This mockumentary format broke the fourth wall more completely than any previous Simpsons episode, with the actual VH1 narrator Jim Forbes providing commentary on the fictional Simpson family as if they were real celebrities.",
       "_chars_v2": true
@@ -2777,8 +3492,10 @@
       "classic": true,
       "characters": [
         "homer",
+        "marge",
         "bart",
-        "lisa"
+        "lisa",
+        "maggie"
       ],
       "notes": "The dolphin segment's climactic scene where dolphins emerge from the ocean en masse was one of the most expensive animation sequences in Treehouse of Horror history, requiring extensive crowd animation techniques typically reserved for feature films.",
       "_chars_v2": true
@@ -2822,11 +3539,33 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
         "moe",
+        "milhouse",
+        "krusty",
         "apu",
+        "barney",
         "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "nelson",
         "lenny_carl",
-        "barney"
+        "fat_tony",
+        "snake",
+        "comic_book_guy",
+        "patty_selma",
+        "kent_brockman",
+        "dr_hibbert",
+        "mayor_quimby",
+        "chalmers",
+        "otto"
       ],
       "notes": "This episode features one of the series' most elaborate musical sequences, with a full West Side Story parody complete with choreographed dance numbers that required significantly more animation resources than typical episodes.",
       "_chars_v2": true
@@ -2874,8 +3613,15 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "krusty",
-        "fat_tony"
+        "wiggum",
+        "skinner",
+        "milhouse",
+        "barney"
       ],
       "notes": "First appearance of Sophie, Krusty's daughter, who would become a recurring character representing his attempts at genuine fatherhood throughout the series.",
       "_chars_v2": true
@@ -2914,8 +3660,18 @@
       "parody_of": null,
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
+        "bart",
         "lisa",
-        "milhouse"
+        "maggie",
+        "burns",
+        "flanders",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2947,8 +3703,23 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
-        "smithers"
+        "smithers",
+        "moe",
+        "barney",
+        "wiggum",
+        "skinner",
+        "krusty",
+        "lenny_carl",
+        "flanders",
+        "milhouse",
+        "nelson",
+        "apu",
+        "ralph"
       ],
       "notes": null,
       "_chars_v2": true
@@ -2980,9 +3751,22 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
         "burns",
         "smithers",
-        "lenny_carl"
+        "skinner",
+        "chalmers",
+        "wiggum",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "kent_brockman",
+        "flanders",
+        "comic_book_guy",
+        "apu"
       ],
       "notes": "This episode marked one of the earliest mainstream TV depictions of internet blogging and conspiracy theory websites, predating the social media age by several years.",
       "_chars_v2": true
@@ -3010,9 +3794,17 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "moe",
+        "barney",
         "wiggum",
-        "fat_tony"
+        "fat_tony",
+        "snake",
+        "lenny_carl"
       ],
       "notes": "The episode features an elaborate con artist plot structure that directly homages \"The Sting,\" complete with multiple fake-outs and reveals that the marks were actually running a larger scheme all along.",
       "_chars_v2": true
@@ -3056,10 +3848,19 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
-        "skinner",
+        "lisa",
+        "maggie",
         "flanders",
-        "milhouse"
+        "skinner",
+        "chalmers",
+        "ralph",
+        "milhouse",
+        "nelson",
+        "wiggum",
+        "kent_brockman",
+        "otto"
       ],
       "notes": "This episode features one of the series' most elaborate Lord of the Flies parodies, with Bart leading a student rebellion that transforms the school into a primitive society complete with tribal face paint and spear-wielding guards.",
       "_chars_v2": true
@@ -3083,12 +3884,13 @@
       "characters": [
         "homer",
         "marge",
+        "bart",
         "lisa",
+        "maggie",
+        "burns",
+        "smithers",
         "dr_hibbert",
-        "professor_frink",
-        "lenny_carl",
-        "moe",
-        "barney"
+        "professor_frink"
       ],
       "notes": "This episode's title uses the Cyrillic letter \"Я\" (ya) instead of \"R\" to spell \"HOMЯ,\" making it one of the few Simpsons episodes to use non-Latin characters in its title.",
       "_chars_v2": true
@@ -3131,9 +3933,23 @@
       "parody_of": null,
       "classic": false,
       "characters": [
-        "marge",
         "homer",
-        "skinner"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "flanders",
+        "moe",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "lenny_carl",
+        "patty_selma",
+        "kent_brockman",
+        "dr_hibbert",
+        "mayor_quimby",
+        "chalmers"
       ],
       "notes": "The episode introduces Jack Crowley, a one-time convict character whose artistic talents and tragic backstory made him one of the most memorable single-episode guest characters in the series' middle years.",
       "_chars_v2": true
@@ -3162,7 +3978,10 @@
       "characters": [
         "bart",
         "milhouse",
-        "comic_book_guy"
+        "comic_book_guy",
+        "lisa",
+        "marge",
+        "homer"
       ],
       "notes": "The episode's title became an ironic rallying cry among fans who felt the show's quality was declining in later seasons, making it one of the most meta-textually referenced episode titles in Simpsons history.",
       "_chars_v2": true
@@ -3208,7 +4027,29 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "grandpa",
+        "burns",
+        "flanders",
+        "moe",
+        "milhouse",
+        "barney",
+        "wiggum",
+        "skinner",
+        "smithers",
+        "ralph",
+        "nelson",
+        "lenny_carl",
+        "apu",
+        "chalmers",
+        "kent_brockman",
+        "mayor_quimby"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3238,9 +4079,17 @@
       "parody_of": "The Manchurian Candidate",
       "classic": true,
       "characters": [
+        "homer",
+        "marge",
         "bart",
+        "lisa",
+        "maggie",
         "krusty",
-        "sideshow_bob"
+        "sideshow_bob",
+        "wiggum",
+        "skinner",
+        "kent_brockman",
+        "mayor_quimby"
       ],
       "notes": "This episode marked Sideshow Bob's return after a four-season absence, with Kelsey Grammer reprising his role for what many consider the character's final truly menacing appearance before becoming more of a comic figure.",
       "_chars_v2": true
@@ -3283,10 +4132,19 @@
       "parody_of": "Boy bands like *NSYNC and Backstreet Boys",
       "classic": false,
       "characters": [
+        "homer",
+        "marge",
         "bart",
-        "nelson",
+        "lisa",
         "milhouse",
-        "ralph"
+        "ralph",
+        "nelson",
+        "skinner",
+        "burns",
+        "smithers",
+        "wiggum",
+        "kent_brockman",
+        "lenny_carl"
       ],
       "notes": "The boy band \"Party Posse\" featured guest voices from *NSYNC members Justin Timberlake, JC Chasez, Chris Kirkpatrick, and Joey Fatone as themselves. This marked one of the first times a major pop group appeared on The Simpsons during the height of their fame, just as the boy band craze was peaking.",
       "_chars_v2": true
@@ -3330,7 +4188,20 @@
       "classic": false,
       "characters": [
         "homer",
-        "milhouse"
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "burns",
+        "wiggum",
+        "kent_brockman",
+        "barney",
+        "lenny_carl",
+        "moe",
+        "skinner",
+        "apu",
+        "chalmers",
+        "mayor_quimby"
       ],
       "notes": "This episode features Homer's most sustained act of civil disobedience, with his hunger strike lasting longer than any previous protest in the series. The Albuquerque Isotopes later became the name of a real minor league baseball team, making this one of the few times The Simpsons directly inspired a professional sports franchise.",
       "_chars_v2": true
@@ -3380,7 +4251,20 @@
       "parody": false,
       "parody_of": null,
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "milhouse",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "nelson",
+        "ralph",
+        "comic_book_guy"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3400,7 +4284,16 @@
       "parody": true,
       "parody_of": "African safari adventure films and nature documentaries",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "wiggum",
+        "apu",
+        "kent_brockman"
+      ],
       "notes": null,
       "_chars_v2": true
     },
@@ -3451,11 +4344,28 @@
       "classic": true,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
-        "fat_tony",
+        "maggie",
+        "wiggum",
         "skinner",
-        "milhouse"
+        "chalmers",
+        "dr_hibbert",
+        "moe",
+        "barney",
+        "lenny_carl",
+        "fat_tony",
+        "snake",
+        "kent_brockman",
+        "milhouse",
+        "nelson",
+        "comic_book_guy",
+        "apu",
+        "flanders",
+        "burns",
+        "smithers",
+        "sideshow_mel"
       ],
       "notes": "This groundbreaking episode was the first Simpsons story told from multiple interconnected perspectives, directly parodying the innovative narrative structure of German film \"Run Lola Run\" and influencing later animated shows to experiment with non-linear storytelling.",
       "_chars_v2": true
@@ -3490,7 +4400,21 @@
       "parody_of": "Christian theme parks and religious entertainment venues",
       "classic": false,
       "characters": [
-        "flanders"
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "flanders",
+        "burns",
+        "wiggum",
+        "skinner",
+        "chalmers",
+        "kent_brockman",
+        "krusty",
+        "milhouse",
+        "patty_selma",
+        "rod_todd"
       ],
       "notes": "This episode marks the final major storyline centered around Maude Flanders' death, providing closure to the character arc that began when Maggie Roswell left the show due to a salary dispute.",
       "_chars_v2": true
@@ -3513,15 +4437,15 @@
       "classic": false,
       "characters": [
         "homer",
+        "marge",
         "bart",
         "lisa",
-        "marge",
+        "maggie",
         "flanders",
-        "milhouse",
-        "ralph",
+        "rod_todd",
         "wiggum",
-        "dr_hibbert",
-        "lenny_carl"
+        "nelson",
+        "ralph"
       ],
       "notes": null,
       "_chars_v2": true
@@ -3547,7 +4471,14 @@
       "parody": true,
       "parody_of": "American tall tales and folk legends",
       "classic": false,
-      "characters": [],
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa",
+        "maggie",
+        "nelson"
+      ],
       "notes": "Features the first and only appearance of the singing hobo character, voiced by Hank Azaria, who serves as the episode's narrator and performs original folk songs between each tall tale segment.",
       "_chars_v2": true
     }
