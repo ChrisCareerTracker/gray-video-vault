@@ -7873,7 +7873,7 @@ function openMSTHub() {
 
   loadMSTData(function(data) {
     buildMSTSeasonBands(data);
-    var total = data.seasons.reduce(function(t,s){ return t + s.episodes.length; }, 0);
+    var total = (data.episodes || []).length;
     document.getElementById('mst-hub-count').textContent = total + ' episodes';
   });
 }
@@ -7896,9 +7896,25 @@ function buildMSTSeasonBands(data) {
   var container = document.getElementById('mst-season-bands');
   container.innerHTML = '';
 
-  data.seasons.forEach(function(season) {
-    var isKTMA = season.num === 0;
-    var eps = season.episodes;
+  // Build seasons map from flat episodes array
+  var seasonMap = {};
+  (data.episodes || []).forEach(function(ep) {
+    var snum = ep.season;
+    if (!seasonMap[snum]) seasonMap[snum] = [];
+    seasonMap[snum].push(ep);
+  });
+
+  // Sort seasons: KTMA (0) first, then 1-10
+  var seasonNums = Object.keys(seasonMap).map(Number).sort(function(a,b){
+    if (a === 0) return -1;
+    if (b === 0) return 1;
+    return a - b;
+  });
+
+  seasonNums.forEach(function(snum) {
+    var eps = seasonMap[snum];
+    var isKTMA = snum === 0;
+    var meta = (data.season_meta && data.season_meta[String(snum)]) || {};
     var joelEps = eps.filter(function(e){ return e.host === 'Joel'; }).length;
     var mikeEps = eps.filter(function(e){ return e.host === 'Mike'; }).length;
     var hostLabel = joelEps > 0 && mikeEps > 0 ? 'both' : (joelEps > 0 ? 'joel' : 'mike');
@@ -7915,38 +7931,30 @@ function buildMSTSeasonBands(data) {
       return '<img class="mst-band-still" src="' + url + '" loading="lazy" alt="">';
     }).join('');
 
-    var seasonLabel = isKTMA ? 'THE KTMA SEASON' : 'SEASON ' + season.num;
-    var collNote = season.collectionNote
-      ? '<span style="font-family:DM Mono,monospace;font-size:8px;letter-spacing:2px;color:var(--gold3);border:1px solid rgba(201,168,76,0.4);padding:2px 8px;">' + season.collectionNote.toUpperCase() + '</span>'
-      : '';
+    var seasonLabel = isKTMA ? 'KTMA' : 'Season ' + snum;
+    var network = meta.network || '';
+    var tagline = meta.tagline || '';
+    var collectionNote = meta.collection_note || '';
+    var posterUrl = meta.poster || '';
 
     var band = document.createElement('div');
-    band.className = 'mst-season-band' + (isKTMA ? ' ktma-band' : '');
-    band.setAttribute('data-season', season.num);
-    band.onclick = function() { openMSTSeason(season.num); };
-
-    if (isKTMA) {
-      band.style.borderColor = 'rgba(201,168,76,0.3)';
-      band.style.marginTop = '32px';
-    }
-
+    band.className = 'mst-season-band' + (isKTMA ? ' mst-ktma-band' : '');
     band.innerHTML =
-      '<div class="mst-band-mosaic">' + mosaicHtml + mosaicHtml + '</div>' +
+      '<div class="mst-band-mosaic">' + mosaicHtml + '</div>' +
       '<div class="mst-band-overlay"></div>' +
-      (isKTMA ? '<div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(to right,var(--gold3),transparent);"></div>' : '') +
       '<div class="mst-band-content">' +
-        '<div class="mst-band-season" style="' + (isKTMA ? 'font-size:52px;' : '') + '">' + seasonLabel + '</div>' +
-        '<div class="mst-band-info">' +
-          '<div class="mst-band-count">' + eps.length + ' Episodes &nbsp;&middot;&nbsp; ' + season.year + ' &nbsp;' + collNote + '</div>' +
-          '<div class="mst-band-meta">' +
-            '<span class="mst-band-host ' + hostLabel + '">' + hostText + '</span>' +
-            '<span class="mst-band-network">' + season.network + '</span>' +
-          '</div>' +
-          '<div class="mst-band-tagline">' + (season.tagline || '') + '</div>' +
+        '<div class="mst-band-season-label' + (isKTMA ? ' mst-ktma-label' : '') + '">' + seasonLabel + '</div>' +
+        '<div class="mst-band-meta">' +
+          '<span class="mst-band-ep-count">' + eps.length + ' Episodes</span>' +
+          (network ? '<span class="mst-band-dot">&middot;</span><span class="mst-band-network">' + network + '</span>' : '') +
+          '<span class="mst-band-dot">&middot;</span><span class="mst-host-label mst-host-' + hostLabel + '">' + hostText + '</span>' +
         '</div>' +
+        (tagline ? '<div class="mst-band-tagline">' + tagline + '</div>' : '') +
+        (collectionNote ? '<div class="mst-band-note">' + collectionNote + '</div>' : '') +
       '</div>' +
-      '<div class="mst-band-browse">Browse ' + eps.length + ' Experiments ›</div>';
+      '<div class="mst-band-browse">Browse Season &#8594;</div>';
 
+    band.onclick = (function(n) { return function() { openMSTSeason(n); }; })(snum);
     container.appendChild(band);
   });
 }
@@ -7970,8 +7978,8 @@ function filterMSTHub(query) {
 
   // Collect matching episodes
   var matches = [];
-  mstData.seasons.forEach(function(season) {
-    season.episodes.forEach(function(ep) {
+  var allEps = mstData.episodes || [];
+  allEps.forEach(function(ep) {
       var searchStr = (
         ep.title + ' ' +
         ep.host + ' ' +
@@ -7988,13 +7996,12 @@ function filterMSTHub(query) {
       if (textMatch && hostMatch && shortMatch) {
         matches.push({ season: season.num, ep: ep });
       }
-    });
   });
 
   document.getElementById('mst-hub-count').textContent =
     isFiltering
       ? matches.length + ' episode' + (matches.length !== 1 ? 's' : '') + ' matching'
-      : mstData.seasons.reduce(function(t,s){ return t + s.episodes.length; }, 0) + ' episodes';
+      : (mstData.episodes || []).length + ' episodes';
 
   var bandsEl  = document.getElementById('mst-season-bands');
   var labelEl  = document.getElementById('mst-seasons-label');
@@ -8028,45 +8035,27 @@ function filterMSTHub(query) {
 
 function openMSTSeason(seasonNum) {
   if (!mstData) return;
+  var eps = (mstData.episodes || []).filter(function(e){ return e.season === seasonNum; });
+  var meta = (mstData.season_meta && mstData.season_meta[String(seasonNum)]) || {};
+  var isKTMA = seasonNum === 0;
+  var seasonLabel = isKTMA ? 'KTMA — The Pre-National Run' : 'Season ' + seasonNum;
+
+  var bg = document.getElementById('mst-season-bg');
+  var firstStill = eps.find(function(e){ return e.still; });
+  if (bg && firstStill) bg.style.backgroundImage = 'url(' + firstStill.still + ')';
+
+  document.getElementById('mst-season-label').textContent = seasonLabel;
+  document.getElementById('mst-season-network').textContent = meta.network || '';
+  document.getElementById('mst-season-tagline').textContent = meta.tagline || '';
+  document.getElementById('mst-season-ep-count').textContent = eps.length + ' Episodes';
+
+  var grid = document.getElementById('mst-ep-grid');
+  grid.innerHTML = eps.map(function(ep){ return buildMSTCard(ep.season, ep.episode); }).join('');
+
+  document.getElementById('mst-season-view').style.display = 'block';
+  document.getElementById('mst-hub').style.overflow = 'hidden';
   mstCurrentSeason = seasonNum;
-  var season = mstData.seasons.find(function(s){ return s.num === seasonNum; });
-  if (!season) return;
-
-  var view = document.getElementById('mst-season-view');
-  var heroBg = (season.episodes[0] && season.episodes[0].still) || '';
-  var bgStyle = heroBg ? 'background-image:url(' + heroBg + ')' : 'background:var(--surface2)';
-
-  var joelCount = season.episodes.filter(function(e){ return e.host === 'Joel'; }).length;
-  var mikeCount = season.episodes.filter(function(e){ return e.host === 'Mike'; }).length;
-  var hostStr = joelCount > 0 && mikeCount > 0
-    ? 'Joel (' + joelCount + ') & Mike (' + mikeCount + ')'
-    : (joelCount > 0 ? 'Host: Joel' : 'Host: Mike');
-
-  var gridHtml = season.episodes.map(function(ep) {
-    return buildMSTCard(seasonNum, ep, '');
-  }).join('');
-
-  view.innerHTML =
-    '<div class="mst-season-hero">' +
-      '<div class="mst-season-hero-bg" style="' + bgStyle + '"></div>' +
-      '<div class="mst-season-hero-vignette"></div>' +
-      '<div class="mst-season-back" onclick="closeMSTSeason()">All Seasons</div>' +
-      '<div class="mst-season-hero-content">' +
-        '<div class="mst-season-eyebrow">Mystery Science Theater 3000 &nbsp;&middot;&nbsp; ' + season.network + (season.collectionNote ? ' &nbsp;&middot;&nbsp; <span style="color:var(--gold3)">' + season.collectionNote + '</span>' : '') + '</div>' +
-        '<div class="mst-season-title">' + (season.num === 0 ? 'THE KTMA SEASON' : 'SEASON ' + seasonNum) + '</div>' +
-        '<div class="mst-season-meta">' + season.year + ' &nbsp;&middot;&nbsp; ' + season.episodes.length + ' Episodes &nbsp;&middot;&nbsp; ' + hostStr + '</div>' +
-      '</div>' +
-    '</div>' +
-    '<div class="mst-season-controls">' +
-      '<div class="mst-season-search">' +
-        '<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color:var(--text3);flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>' +
-        '<input type="text" placeholder="Search movies, shorts..." oninput="filterMSTSeason(this.value)">' +
-      '</div>' +
-    '</div>' +
-    '<div class="mst-ep-grid" id="mst-ep-grid">' + gridHtml + '</div>';
-
-  view.scrollTop = 0;
-  view.style.display = 'block';
+  window.scrollTo(0, 0);
 }
 
 function closeMSTSeason() {
@@ -8126,23 +8115,20 @@ function buildMSTCard(seasonNum, ep, highlightQuery) {
 
 function openMSTEpisode(seasonNum, epNum) {
   if (!mstData) return;
-  var season = mstData.seasons.find(function(s){ return s.num === seasonNum; });
-  if (!season) return;
-  var ep = season.episodes.find(function(e){ return e.num === epNum; });
+  var ep = (mstData.episodes || []).find(function(e){ return e.season === seasonNum && e.episode === epNum; });
   if (!ep) return;
+  var isKTMA = seasonNum === 0;
+  var code = (isKTMA ? 'SKTMAE' : 'S' + String(seasonNum).padStart(2,'0') + 'E') + String(epNum).padStart(2,'0');
+  var meta = (mstData.season_meta && mstData.season_meta[String(seasonNum)]) || {};
 
-  var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(epNum).padStart(2,'0');
   var stillHtml = ep.still
     ? '<img class="mst-ep-modal-still" src="' + ep.still + '" alt="">'
     : '<div class="mst-ep-modal-still-fallback">' + code + '</div>';
 
-  var shortsHtml = ep.has_short
-    ? '<div class="mst-ep-modal-section">Shorts</div>' +
-      '<div class="mst-ep-modal-shorts">' +
-        (ep.shorts || []).map(function(s) {
-          return '<span class="mst-ep-modal-short">' + s + '</span>';
-        }).join('') +
-      '</div>'
+  var shortsHtml = (ep.shorts && ep.shorts.length)
+    ? '<div class="mst-modal-section"><div class="mst-modal-label">Short' + (ep.shorts.length > 1 ? 's' : '') + '</div>'
+      + ep.shorts.map(function(s){ return '<div class="mst-modal-short">' + s + '</div>'; }).join('')
+      + '</div>'
     : '';
 
   var modal = document.getElementById('mst-ep-modal-inner');
@@ -8150,15 +8136,11 @@ function openMSTEpisode(seasonNum, epNum) {
     stillHtml +
     '<div class="mst-ep-modal-close" onclick="closeMSTEpisode()">&#x2715;</div>' +
     '<div class="mst-ep-modal-body">' +
-      '<div class="mst-ep-modal-code">Mystery Science Theater 3000 &nbsp;&middot;&nbsp; ' + code + '</div>' +
-      '<div class="mst-ep-modal-movie">' + (ep.title || ('Episode ' + epNum)) + '</div>' +
-      '<div class="mst-ep-modal-meta">' +
-        '<span class="mst-ep-modal-host ' + ep.host.toLowerCase() + '">Host: ' + ep.host + '</span>' +
-        '<span class="mst-ep-modal-date">' + (ep.airdate || '') + '</span>' +
-        '<span class="mst-ep-modal-date">' + season.network + '</span>' +
-      '</div>' +
+      '<div class="mst-ep-modal-code">' + code + '</div>' +
+      '<div class="mst-ep-modal-title">' + ep.title + '</div>' +
+      '<div class="mst-ep-modal-host">Host: ' + (ep.host || '') + ' &nbsp;&middot;&nbsp; ' + (ep.air_date || '') + '</div>' +
+      (ep.overview ? '<div class="mst-modal-section"><div class="mst-modal-label">Overview</div><div class="mst-ep-modal-desc">' + ep.overview + '</div></div>' : '') +
       shortsHtml +
-      (ep.desc ? '<div class="mst-ep-modal-section">About This Experiment</div><div class="mst-ep-modal-desc">' + ep.desc + '</div>' : '') +
     '</div>';
 
   document.getElementById('mst-ep-modal').classList.add('open');
