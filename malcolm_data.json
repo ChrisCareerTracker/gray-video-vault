@@ -1,0 +1,3896 @@
+{
+  "series": {
+    "title": "Malcolm in the Middle",
+    "network": "Fox",
+    "years": "2000-2006",
+    "tmdb_id": 2004,
+    "hero": "./images/malcolm/hero.jpg",
+    "backdrop": "./images/malcolm/backdrop.jpg",
+    "description": "A gifted young teen tries to survive life with his dimwitted, dysfunctional family."
+  },
+  "season_meta": {
+    "1": {
+      "year": "2000",
+      "tagline": "The breakout. Malcolm discovers he's a genius, Francis is shipped off, and the Wilkersons explode onto Fox.",
+      "poster": "./images/malcolm/season_01_poster.jpg"
+    },
+    "2": {
+      "year": "2000-2001",
+      "tagline": "The show hits its stride. Bowling. Flashback. Ida arrives. The family gets louder.",
+      "poster": "./images/malcolm/season_02_poster.jpg"
+    },
+    "3": {
+      "year": "2001-2002",
+      "tagline": "Francis at the academy, Reese behind the wheel, and the chaos deepens.",
+      "poster": "./images/malcolm/season_03_poster.jpg"
+    },
+    "4": {
+      "year": "2002-2003",
+      "tagline": "Francis goes to Alaska, the family reunion from hell, and Jamie arrives.",
+      "poster": "./images/malcolm/season_04_poster.jpg"
+    },
+    "5": {
+      "year": "2003-2004",
+      "tagline": "Francis finds the ranch. Reese joins the army. Dewey gets his own class of misfits.",
+      "poster": "./images/malcolm/season_05_poster.jpg"
+    },
+    "6": {
+      "year": "2004-2005",
+      "tagline": "Dewey composes an opera. Ida loses a leg. The boys aren't little anymore.",
+      "poster": "./images/malcolm/season_06_poster.jpg"
+    },
+    "7": {
+      "year": "2005-2006",
+      "tagline": "The final year. Burning Man to Graduation — the Wilkersons go out swinging.",
+      "poster": "./images/malcolm/season_07_poster.jpg"
+    }
+  },
+  "characters": [
+    {
+      "id": "malcolm",
+      "name": "Malcolm",
+      "actor": "Frankie Muniz",
+      "epithet": "The genius stuck in the middle",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": true,
+      "image": "./images/malcolm/char_malcolm.jpg"
+    },
+    {
+      "id": "hal",
+      "name": "Hal",
+      "actor": "Bryan Cranston",
+      "epithet": "The lovable, reckless dad",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": true,
+      "image": "./images/malcolm/char_hal.jpg"
+    },
+    {
+      "id": "lois",
+      "name": "Lois",
+      "actor": "Jane Kaczmarek",
+      "epithet": "The iron fist of the household",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": true,
+      "image": "./images/malcolm/char_lois.jpg"
+    },
+    {
+      "id": "reese",
+      "name": "Reese",
+      "actor": "Justin Berfield",
+      "epithet": "The brawn to Malcolm's brains",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": true,
+      "image": "./images/malcolm/char_reese.jpg"
+    },
+    {
+      "id": "dewey",
+      "name": "Dewey",
+      "actor": "Erik Per Sullivan",
+      "epithet": "The quiet creative one",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": true,
+      "image": "./images/malcolm/char_dewey.jpg"
+    },
+    {
+      "id": "francis",
+      "name": "Francis",
+      "actor": "Christopher Kennedy Masterson",
+      "epithet": "The exiled firstborn",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": true,
+      "image": "./images/malcolm/char_francis.jpg",
+      "francis_eras": [
+        {
+          "label": "Military Academy",
+          "seasons": [
+            1,
+            2,
+            3
+          ],
+          "setting": "Marlin Academy"
+        },
+        {
+          "label": "Alaska",
+          "seasons": [
+            4
+          ],
+          "setting": "Alaska logging camp"
+        },
+        {
+          "label": "The Ranch",
+          "seasons": [
+            5,
+            6
+          ],
+          "setting": "Otto's Grotto Ranch"
+        },
+        {
+          "label": "Office Job",
+          "seasons": [
+            7
+          ],
+          "setting": "Corporate office"
+        }
+      ]
+    },
+    {
+      "id": "stevie",
+      "name": "Stevie Kenarban",
+      "actor": "Craig Lamar Traylor",
+      "epithet": "Malcolm's best friend",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_stevie.jpg"
+    },
+    {
+      "id": "craig",
+      "name": "Craig Feldspar",
+      "actor": "David Anthony Higgins",
+      "epithet": "Lucky Aide's finest",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_craig.jpg"
+    },
+    {
+      "id": "ida",
+      "name": "Ida",
+      "actor": "Cloris Leachman",
+      "epithet": "The terrifying grandmother",
+      "seasons": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_ida.jpg"
+    },
+    {
+      "id": "piama",
+      "name": "Piama",
+      "actor": "Emy Coligado",
+      "epithet": "Francis's wife",
+      "seasons": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_piama.jpg"
+    },
+    {
+      "id": "spangler",
+      "name": "Commandant Spangler",
+      "actor": "Daniel von Bargen",
+      "epithet": "Marlin Academy's tyrant",
+      "seasons": [
+        1,
+        2,
+        3
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_spangler.jpg"
+    },
+    {
+      "id": "otto",
+      "name": "Otto",
+      "actor": "Kenneth Mars",
+      "epithet": "The eccentric rancher",
+      "seasons": [
+        5,
+        6
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_otto.jpg"
+    },
+    {
+      "id": "gretchen",
+      "name": "Gretchen",
+      "actor": "Meagen Fay",
+      "epithet": "Otto's devoted wife",
+      "seasons": [
+        5,
+        6
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_gretchen.jpg"
+    },
+    {
+      "id": "abe",
+      "name": "Abe Kenarban",
+      "actor": "Gary Anthony Williams",
+      "epithet": "Stevie's overprotective dad",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": false,
+      "image": "./images/malcolm/char_abe.jpg"
+    },
+    {
+      "id": "jamie",
+      "name": "Jamie",
+      "actor": "Various",
+      "epithet": "The baby Wilkerson",
+      "seasons": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "family": true,
+      "image": "./images/malcolm/char_jamie.jpg"
+    }
+  ],
+  "episodes": [
+    {
+      "season": 1,
+      "episode": 1,
+      "title": "Pilot",
+      "air_date": "2000-01-09",
+      "overview": "Malcolm finds his life as the middle brother in an eccentric family made even more difficult by his being placed in a class for gifted students at school where he reluctantly befriends another boy with a high IQ and stands up to a bully.",
+      "still": "./images/malcolm/s01e01_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Martin Spanjers",
+        "Landry Allbright",
+        "Vincent Berry",
+        "Austin Stout",
+        "Dylan Kasch",
+        "Craig Lamar Traylor",
+        "Kristin Quick",
+        "Tanisha Grant",
+        "Will Jennings",
+        "Catherine Lloyd Burns",
+        "Merrin Dungey"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 2,
+      "title": "Red Dress",
+      "air_date": "2000-01-16",
+      "overview": "Lois must take drastic steps to discover which of her sons ruined the special dress she bought for an anniversary dinner with Hal.",
+      "still": "./images/malcolm/s01e02_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "Adam Hendershott",
+        "Paul Willson",
+        "Karim Prince",
+        "Joel McCrary",
+        "Daniel Escobar",
+        "David Anthony Higgins",
+        "Robert Cesario",
+        "Cisco Reyes",
+        "Drew Powell"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 3,
+      "title": "Home Alone 4",
+      "air_date": "2000-01-23",
+      "overview": "Lois and Hal leave the boys alone for the weekend with Francis. the boys assume that if all goes well, Francis may not have to go back to military school.",
+      "still": "./images/malcolm/s01e03_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Tom Virtue",
+        "Aloma Wright",
+        "Justin Pierce",
+        "Scott Haven",
+        "Richard Penn",
+        "Parker Mills",
+        "Todd Giebenhain",
+        "Craig Lamar Traylor",
+        "Will Jennings"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 4,
+      "title": "Shame",
+      "air_date": "2000-02-06",
+      "overview": "Parallel stories pit Malcolm against a bullying, obnoxious new kid and Francis vies with his intimidating, military-school commandant, who's presenting sex-education lectures. Meanwhile, Hal takes heat after cutting down a tree.",
+      "still": "./images/malcolm/s01e04_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Adam Hendershott",
+        "Paul Willson",
+        "Karim Prince",
+        "Robert Grovich",
+        "Michael Canavan",
+        "Roger Marks",
+        "Amy Higgins",
+        "Gregory Bell",
+        "Annie O'Donnell",
+        "Alessandro Canale",
+        "Daniel von Bargen",
+        "Craig Lamar Traylor",
+        "Kristin Quick",
+        "Will Jennings",
+        "Daniel Smith",
+        "Catherine Lloyd Burns"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 5,
+      "title": "Malcolm Babysits",
+      "air_date": "2000-02-13",
+      "overview": "Malcolm's cushy babysitting job provides relief from the trailer the family's using while their house is being fumigated, until Malcolm learns that the trust placed in him in his new position is strictly limited. Meanwhile, the military school's master key leads Francis to a corpse, for which he provides a proper send-off.",
+      "still": "./images/malcolm/s01e05_still.jpg",
+      "rating": 7.9,
+      "guests": [
+        "Ashley Edner",
+        "Eric Stonestreet",
+        "Joan McMurtrey",
+        "Karim Prince",
+        "Mark Tymchyshyn",
+        "Patrick Howard",
+        "Craig Lamar Traylor",
+        "David Anthony Higgins",
+        "Drew Powell"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 6,
+      "title": "Sleepover",
+      "air_date": "2000-02-20",
+      "overview": "Malcolm sleeps over at Stevie's house and, appalled at his over-protected lifestyle, persuades him to sneak out to a strange, late-night escapade. Francis deals with hazing at military school. Reese tries to prove he's man enough to watch a scary movie.",
+      "still": "./images/malcolm/s01e06_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Scotch Ellis Loring",
+        "Karim Prince",
+        "Sheff Otis",
+        "Chad Brannon",
+        "Nick Gaza",
+        "Bart McCarthy",
+        "Ahmad Stoner",
+        "Joey Simmrin",
+        "Arjay Smith",
+        "Craig Lamar Traylor",
+        "Gary Anthony Williams",
+        "Merrin Dungey"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 7,
+      "title": "Francis Escapes",
+      "air_date": "2000-02-27",
+      "overview": "Francis goes AWOL from military school to link up with his girlfriend, a ditsy doozy who's made him gaga.",
+      "still": "./images/malcolm/s01e07_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Lauren Hodges",
+        "Karim Prince",
+        "Haven Hartman",
+        "Jade Carter",
+        "Craig Lamar Traylor",
+        "Ruth Cohen"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 8,
+      "title": "Krelboyne Picnic",
+      "air_date": "2000-03-12",
+      "overview": "The whole family attends a Krelboyne family picnic, and Malcolm dreads his performance in the event's Academic Circus will make him look like a freak. Disasters abound as stage acts bomb, families feud, and Malcolm's dad serves meat to vegetarians.",
+      "still": "./images/malcolm/s01e08_still.jpg",
+      "rating": 8.1,
+      "guests": [
+        "Jerry Lambert",
+        "Beth Grant",
+        "Katherine Ellis",
+        "Mark Rickard",
+        "Liann Pattison",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick",
+        "Will Jennings",
+        "Catherine Lloyd Burns"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 9,
+      "title": "Lois vs. Evil",
+      "air_date": "2000-03-19",
+      "overview": "Lois's firing prompts household economizing. Meanwhile, Francis delights in his honor-guard duty—at a teenage beauty pageant.",
+      "still": "./images/malcolm/s01e09_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Rick Scarry",
+        "Shea Curry",
+        "Alexandra Picatto",
+        "Marc Vann",
+        "Landry Allbright",
+        "Karim Prince",
+        "Elise Horn",
+        "David Beach",
+        "Harris Doran",
+        "Craig Lamar Traylor",
+        "David Anthony Higgins",
+        "Kristin Quick",
+        "Catherine Lloyd Burns"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 10,
+      "title": "Stock Car Races",
+      "air_date": "2000-04-02",
+      "overview": "While Hal secretly takes the boys to the stock car races, Lois desperately searches for her missing paycheck. Francis at military school is keeping a boa constrictor as a pet.",
+      "still": "./images/malcolm/s01e10_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Joel McKinnon Miller",
+        "Karim Prince",
+        "Daniel von Bargen",
+        "Scott McDonald",
+        "Ron Robinson",
+        "Catherine Lloyd Burns",
+        "Drew Powell"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 11,
+      "title": "Funeral",
+      "air_date": "2000-04-09",
+      "overview": "A relative's funeral conflicts with Malcolm's plans for his very first date, so he tries to figure out a way to skip the bereavement ceremony.",
+      "still": "./images/malcolm/s01e11_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "Alexander Gould",
+        "Landry Allbright",
+        "Paulo Andrés",
+        "Frank Woods",
+        "Craig Lamar Traylor",
+        "Will Jennings",
+        "Catherine Lloyd Burns"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 12,
+      "title": "Cheerleader",
+      "air_date": "2000-04-16",
+      "overview": "A spiffy cheerleader attracts slovenly Reese, who cleans up his act—best as he can—to woo her. He even joins her rah-rah squad. Dewey tries to convince Lois and Hal to buy him a new toy. Francis has a heart-to-heart conversation with headmaster Spangler.",
+      "still": "./images/malcolm/s01e12_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Lisa Lewolt",
+        "Nick Toth",
+        "Gregory Deckman",
+        "Daniel von Bargen",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick",
+        "Will Jennings",
+        "Catherine Lloyd Burns",
+        "Mark Silverman"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 13,
+      "title": "Rollerskates",
+      "air_date": "2000-04-30",
+      "overview": "Roller-skating lessons from Hal bug Malcolm, who rebels against dad's discipline while mom agonizes in bed from a backache she blames on Reese. Francis avoids his squad's survival weekend.",
+      "still": "./images/malcolm/s01e13_still.jpg",
+      "rating": 8.3,
+      "guests": [
+        "Karim Prince",
+        "José Espinoza",
+        "Craig Lamar Traylor",
+        "Drew Powell",
+        "Ryan Allen Carrillo"
+      ],
+      "tags": [
+        "HAL_SCHEME",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 14,
+      "title": "The Bots and the Bees",
+      "air_date": "2000-05-07",
+      "overview": "Malcolm and his Krelboyne classmates enlist the help of Hal for a school project, which involves a robot, and an enormous swarm of bees. Lois visits Francis at his school after he becomes injured and soon clashes with Spangler.",
+      "still": "./images/malcolm/s01e14_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Marco Gould",
+        "Arjay Smith",
+        "Daniel von Bargen",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "David Anthony Higgins",
+        "Will Jennings",
+        "Drew Powell"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 15,
+      "title": "Smunday",
+      "air_date": "2000-05-14",
+      "overview": "The boys stay home from school when their mother thinks it's Sunday instead of Monday. Malcolm thinks of a plan to get Francis out of trouble once again. Hal gets sucked in by a Porsche dealership.",
+      "still": "./images/malcolm/s01e15_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Peter MacKenzie",
+        "Justin Pierce",
+        "Parker Mills",
+        "David Weisenberg",
+        "Stan Sellers",
+        "Todd Giebenhain"
+      ],
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 16,
+      "title": "Water Park (1)",
+      "air_date": "2000-05-21",
+      "overview": "When the family goes to a water park for a day, Dewey is left home with an elderly, stern babysitter. Francis is hustled at pocket billiards by his military-school commandant.",
+      "still": "./images/malcolm/s01e16_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Kevin Christy",
+        "Amanda Fuller",
+        "Marsha Clark",
+        "Bea Arthur",
+        "John Michael Miller",
+        "Malachi Pearson",
+        "Laura Roth",
+        "Jared McVay",
+        "Adam Vernier",
+        "Kasan Butcher",
+        "Daniel von Bargen",
+        "Eric Nenninger",
+        "Kristin Quick"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 1,
+      "title": "Traffic Jam (2)",
+      "air_date": "2000-11-05",
+      "overview": "Hal, Loi, Malcolm and Reese are trapped in a horrendous traffic jam. Francis enters himself in a bet that recalls the egg-eating wager in \"Cool Hand Luke.\" Malcolm becomes smitten over a girl he meets. Dewey has his own little adventure--all over the world--before his family returns home.",
+      "still": "./images/malcolm/s02e01_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Mark Christopher Lawrence",
+        "John Harrington Bland",
+        "Hallee Hirsh",
+        "Clyde Kusatsu",
+        "Andrew Craig",
+        "Andy Mackenzie",
+        "Jayne Taini",
+        "Skip O'Brien",
+        "Erin Briskey",
+        "Kasan Butcher",
+        "Arjay Smith",
+        "Eric Nenninger"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 2,
+      "title": "Halloween Approximately",
+      "air_date": "2000-11-08",
+      "overview": "Francis visits the week after Halloween and helps his brothers in a trick that involves a giant slingshot with icky ammo. Hal tries to catch a mysterious hot-rodder.",
+      "still": "./images/malcolm/s02e02_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Mary Gillis",
+        "Danny Cistone",
+        "Leslie David Baker",
+        "Jack Shearer",
+        "Kate Asner",
+        "Kevin Brief",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Will Jennings"
+      ],
+      "tags": [
+        "COLD_OPEN"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 3,
+      "title": "Lois's Birthday",
+      "air_date": "2000-11-12",
+      "overview": "Crummy gifts rile birthday gal Lois, who suddenly splits from home, leaving confusion, anxiety and desperation in her wake.",
+      "still": "./images/malcolm/s02e03_still.jpg",
+      "rating": 7.9,
+      "guests": [
+        "Blair Wingo",
+        "Sean Marquette",
+        "Patricia Place",
+        "Robert Briscoe Evans",
+        "David Anthony Higgins",
+        "Patricia A. Lewis",
+        "Keith Alexander",
+        "Brian J. Williams"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS",
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 4,
+      "title": "Dinner Out",
+      "air_date": "2000-11-15",
+      "overview": "Shenanigans abound at the fancy spot where the family's dining with the Kenarbans, and at Francis' school, where rowdy teenage girls are partying.",
+      "still": "./images/malcolm/s02e04_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "James Henriksen",
+        "Tinsley Grimes",
+        "Melissa Marsala",
+        "Frankie Ingrassia",
+        "Kasan Butcher",
+        "Arjay Smith",
+        "Daniel von Bargen",
+        "Craig Lamar Traylor",
+        "Gary Anthony Williams",
+        "Drew Powell",
+        "Merrin Dungey",
+        "Nicole Marie Appleby"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 5,
+      "title": "Casino",
+      "air_date": "2000-11-19",
+      "overview": "A family weekend vacation to a casino turns into an ordeal in the desert for Hal, Reese and Malcolm, who wander onto an artillery range. Francis sneaks home, but has no one to play with.",
+      "still": "./images/malcolm/s02e05_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Michael Horse",
+        "Ajgie Kirkland",
+        "Sara Van Horn",
+        "Larry Weissman",
+        "BJ Porter",
+        "Kristen Trucksess",
+        "Todd Eckert",
+        "Michelle Davison",
+        "Kasan Butcher",
+        "Todd Giebenhain",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 6,
+      "title": "Convention",
+      "air_date": "2000-11-22",
+      "overview": "Hal and Lois heads off to a convention while the boys stays home for the babysitter. Malcolm, Reese and Dewey assumed it's just another old woman, their parents hired to watch them. They decide to do a series of pranks on their babysitter, which includes the covered up sewer tank with a blanket and a book for the old woman sit on. To their surprise, their babysitter is a hot, teen-aged girl named Patty. She is sweet to them, but also bitter because she was rejected by Francis, a long time ago, because she was obese. Now the boys compete against each other to see who will prove their eldest brother wrong in his rejection and sleep with her without sex. Meanwhile at the convention, Lois tries in vain to stop the fight between Hal and Jack, who stole his idea.",
+      "still": "./images/malcolm/s02e06_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "Melody Perkins",
+        "Robert Curtis Brown",
+        "Alison La Placa",
+        "Kasan Butcher",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Will Jennings",
+        "Bruce Paul Barbour"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 7,
+      "title": "Robbery",
+      "air_date": "2000-11-26",
+      "overview": "The night shift at Lucky Aide is held hostage by two robbers, since Craig does not want to give up the combination for the store's safe. Francis tries to help a heartbroken friend at the academy, while Hal and the boys fight nature at home.",
+      "still": "./images/malcolm/s02e07_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Teresa Velarde",
+        "Frank Clem",
+        "Dewey Weber",
+        "Maz Jobrani",
+        "Arjay Smith",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 8,
+      "title": "Therapy",
+      "air_date": "2000-11-29",
+      "overview": "Malcolm's humiliation as a Krelboyne drives him crazy, so he fakes his way into seeing the school's shrink, with whom the con continues.",
+      "still": "./images/malcolm/s02e08_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Johnny Lewis",
+        "Nancy Lenehan",
+        "Kasan Butcher",
+        "Kyle Sullivan",
+        "Eric Nenninger",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick",
+        "Catherine Lloyd Burns",
+        "Drew Powell"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 9,
+      "title": "High School Play",
+      "air_date": "2000-12-10",
+      "overview": "Malcolm gets a role in the high school play and is so captivated by high school gossip that he forgets his lines. Lois discovers the joys of massage. Hal and Dewey build a society of model buildings in the living room. Francis tries to show his individualism at school when the commandant cracks down on personal belongings.",
+      "still": "./images/malcolm/s02e09_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Octavia Spencer",
+        "Natasha Melnick",
+        "Busy Philipps",
+        "Arsenio Trinidad",
+        "José Espinoza",
+        "Paityn James",
+        "Avery Kidd Waddell",
+        "Richard Topol",
+        "Bill Rutkoski",
+        "Adam Vignola",
+        "Kasan Butcher",
+        "Daniel von Bargen",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Will Jennings",
+        "Catherine Lloyd Burns"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 10,
+      "title": "The Bully",
+      "air_date": "2000-12-17",
+      "overview": "Reese, promising champion of his school's wrestling team, gets beaten by a girl, completely demoralizing him. So he gives up his school-bully carrier, which destabilizes the natural order of things at school. Francis tries to get out of academy at his birthday in an attempt to avoid academy-birthday-traditions.",
+      "still": "./images/malcolm/s02e10_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Susan Yeagley",
+        "Mike White",
+        "John Lacy",
+        "Eric Fleeks",
+        "Tyler Roche",
+        "Laura Henry",
+        "Eric Marquette",
+        "Ellis Williams",
+        "Jerry Messing",
+        "Jacob Franchek",
+        "Nick Fuoco",
+        "T.J. Beacom",
+        "Kenneth Schmidt",
+        "Dion Overstreet Jr.",
+        "Kasan Butcher",
+        "Kyle Sullivan",
+        "Eric Nenninger",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 11,
+      "title": "Old Mrs. Old",
+      "air_date": "2001-01-07",
+      "overview": "Dewey starts carrying a purse to school. Francis's friend Richie joins him at military school. Malcolm becomes a slave to an old woman in the neighborhood.",
+      "still": "./images/malcolm/s02e11_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Florence Stanley",
+        "Brandon de Paul",
+        "Ricky Stark",
+        "Kasan Butcher",
+        "Daniel von Bargen",
+        "Kyle Sullivan",
+        "Todd Giebenhain",
+        "Eric Nenninger",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Will Jennings",
+        "Drew Powell"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 12,
+      "title": "Krelboyne Girl",
+      "air_date": "2001-01-14",
+      "overview": "Lois and Hal try to end Dewey's dependence on his stuffed animal Domingo by convincing him that it is too dirty. Strangely attracted, Malcolm finds himself in emotional confusion about the new weird Krelboyne girl Cynthia. At the academy Commandant Spangler re-institutes old Hickory into the school's disciplinary system and Francis tries to convince his father Hal to lie for him to avoid punishment.",
+      "still": "./images/malcolm/s02e12_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Tania Raymonde",
+        "Fred Sanders",
+        "Daniel von Bargen",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 13,
+      "title": "New Neighbors",
+      "air_date": "2001-01-21",
+      "overview": "New neighbors, who turn out to be even more awful than Malcolm's family, move in next door; the Marlin Academy cadets prepare for a visit from Oliver North.",
+      "still": "./images/malcolm/s02e13_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Michael Welch",
+        "Gregory Jbara",
+        "Robin Riker",
+        "Christopher DerGregorian",
+        "Dakota Fanning",
+        "Zack Phifer",
+        "Denalda Williams",
+        "Sarah Ashley",
+        "Arjay Smith",
+        "Daniel von Bargen",
+        "Eric Nenninger"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 14,
+      "title": "Hal Quits",
+      "air_date": "2001-02-04",
+      "overview": "Hal feels like his job is a piece of c* after going to Dewey's class for parent job day. So he decides to take a \"kidney failure\" weeks off. While Francis is forced to work at the lucky aid over spring break.",
+      "still": "./images/malcolm/s02e14_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Kurt Fuller",
+        "Bob Clendenin",
+        "Shaun Toub",
+        "Thomas Crawford",
+        "Reece Morgan",
+        "Steffani Brass",
+        "Rusty Flood",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "David Anthony Higgins",
+        "Will Jennings"
+      ],
+      "tags": [
+        "HAL_SCHEME"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 15,
+      "title": "The Grandparents",
+      "air_date": "2001-02-11",
+      "overview": "Lois' estranged parents, Ida and Victor, pay the family a visit. Right away, trouble starts brewing. Victor bonds with Reese, Ida gets Malcolm into a fight, and Dewey is haunted by childhood memories of his inattentive grandparents.",
+      "still": "./images/malcolm/s02e15_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Cloris Leachman",
+        "Robert Loggia",
+        "Joyce Fessides",
+        "Bobby Brewer",
+        "Kasan Butcher",
+        "Matthew Dunn",
+        "Eric Nenninger",
+        "Drew Powell"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 16,
+      "title": "Traffic Ticket",
+      "air_date": "2001-02-18",
+      "overview": "Lois gets a traffic ticket and immediately blames Francis and makes him get the money to her.  To do this, Francis stages a stunt for the other cadets' amusement.  Malcolm finds evidence that Lois was wrong about the traffic ticket.",
+      "still": "./images/malcolm/s02e16_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Sam McMurray",
+        "Kasan Butcher",
+        "Arjay Smith",
+        "Eric Nenninger",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 17,
+      "title": "Surgery",
+      "air_date": "2001-02-25",
+      "overview": "A hospital stay unsettles Malcolm, who's stuck in a kids ward with what may be appendicitis. Meanwhile, at military school, Francis leads a hunger strike.",
+      "still": "./images/malcolm/s02e17_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Chase Ellison",
+        "Steven Gilborn",
+        "Torsten Voges",
+        "Javier Grajeda",
+        "Linda Pine",
+        "Joe Colligan",
+        "Mike Rad",
+        "Arjay Smith",
+        "Daniel von Bargen",
+        "Kyle Sullivan",
+        "Eric Nenninger",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Drew Powell"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 18,
+      "title": "Reese Cooks",
+      "air_date": "2001-03-04",
+      "overview": "A cooking class energizes Reese; a planned party irks Malcolm, whose brutal honesty hurts the hostess, Krelboyne Cynthia.",
+      "still": "./images/malcolm/s02e18_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "Miriam Flynn",
+        "Tania Raymonde",
+        "Fred Sanders",
+        "Michael Emanuel",
+        "Ashlee Simpson",
+        "Adam Craig Duro",
+        "Sheila Shaw",
+        "Coleen Maloney",
+        "Christopher Hutson",
+        "Kyle Sullivan",
+        "Eric Nenninger",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 19,
+      "title": "Tutoring Reese",
+      "air_date": "2001-03-11",
+      "overview": "Malcolm and the Krelboynes tutor Reese, and uncover the real reason behind his failing grades.",
+      "still": "./images/malcolm/s02e19_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Dave Allen",
+        "E.J. Callahan",
+        "Kyle Sullivan",
+        "Todd Giebenhain",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 20,
+      "title": "Bowling",
+      "air_date": "2001-04-01",
+      "overview": "Malcolm and Reese go to a bowling party where they vie for the attention of a cute girl.",
+      "still": "./images/malcolm/s02e20_still.jpg",
+      "rating": 8.7,
+      "guests": [
+        "Alex McKenna",
+        "Peter Breitmayer",
+        "Garret Davis",
+        "David Bonfadini",
+        "Curtis Andersen"
+      ],
+      "tags": [
+        "FAN_FAVORITE",
+        "COLD_OPEN"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 21,
+      "title": "Malcolm vs. Reese",
+      "air_date": "2001-04-22",
+      "overview": "Francis has an extra ticket for a wrestling event and it is the prize pitting Malcolm vs. Reese in a one-upmanship war; caring for Craig's cat is troublesome for Dewey.",
+      "still": "./images/malcolm/s02e21_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Cerina Vincent",
+        "Anthony Holiday",
+        "Randy McPherson",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 22,
+      "title": "Mini-Bike",
+      "air_date": "2001-04-29",
+      "overview": "Lois forbids the boys to ride a motorbike they found, but Reese disobeys and breaks a leg.",
+      "still": "./images/malcolm/s02e22_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Kasan Butcher",
+        "Clement Blake",
+        "Brian Noonan",
+        "Chip Heller",
+        "Weston Blakesley",
+        "Brianna Deutsch",
+        "Daniel von Bargen",
+        "Eric Payne",
+        "Eric Nenninger",
+        "David Anthony Higgins",
+        "Drew Powell"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 23,
+      "title": "Carnival",
+      "air_date": "2001-05-06",
+      "overview": "Malcolm, Dewey, Stevie, and Reese hide out at a traveling carnival after hours and run afoul of a determined security guard and several members of the freak show.",
+      "still": "./images/malcolm/s02e23_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Matthew McGrory",
+        "Steven I. Schafer",
+        "Joe J. Garcia",
+        "April Tatro",
+        "Mike Grief",
+        "Craig Lamar Traylor",
+        "Gary Anthony Williams",
+        "Merrin Dungey"
+      ],
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 24,
+      "title": "Evacuation",
+      "air_date": "2001-05-13",
+      "overview": "Hal is inadvertently responsible for a toxic chemical spill that forces a neighborhood evacuation; Malcolm deals with being grounded even in the emergency shelter; Francis suffers through a date with a geeky 12-year-old.",
+      "still": "./images/malcolm/s02e24_still.jpg",
+      "rating": 8.3,
+      "guests": [
+        "Jerry Trainor",
+        "John Maynard",
+        "Casey Sander",
+        "Cristina Kernan",
+        "Heather McPhaul",
+        "Brian Tahash",
+        "Reagan Dale Neis",
+        "John Harnagel",
+        "Linda Porter",
+        "Emmett Shoemaker",
+        "Elizabeth Regen",
+        "Tom Ayers",
+        "Kim Delgado",
+        "Shannon Whirry",
+        "Katya Abelski",
+        "Kyle Sullivan",
+        "Eric Nenninger",
+        "Evan Matthew Cohen"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 25,
+      "title": "Flashback",
+      "air_date": "2001-05-20",
+      "overview": "Lois is two weeks late with her period, causing her and Hal to panic and start a big fight, while trying to keep it from the boys. And while Dewey is scared that his parents may split up, Hal and Lois remember the troubles of getting their previous four sons.",
+      "still": "./images/malcolm/s02e25_still.jpg",
+      "rating": 8.3,
+      "guests": [
+        "Stuart Pankin",
+        "Robert R. Shafer",
+        "Jerry Hauck",
+        "Weston Blakesley",
+        "David Doty",
+        "Gregory White",
+        "Cheryl Carter",
+        "Doug Cox",
+        "Connor M. Morrison",
+        "Austin Wolff",
+        "Tyler Ryan",
+        "Easton Gage",
+        "Scott Berkhausen",
+        "Cody Estes"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 1,
+      "title": "Houseboat",
+      "air_date": "2001-11-11",
+      "overview": "The family takes a vacation with the Kenarbans, sharing a houseboat. And while Steve's parents are caught in a fight, Reese and Steve socialize with some cheerleader from a nearby spirit camp, Malcolm is stuck with Hal fishing. At the military academy, Eric turns eighteen and leaves for Alaska, inspiring Francis to do something about his situation too.",
+      "still": "./images/malcolm/s03e01_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Scott Adsit",
+        "Shannon Woodward",
+        "Lawrence Mandley",
+        "Arjay Smith",
+        "Brooke Anne Smith",
+        "Matthew Morgan Scott",
+        "Whitney Laux",
+        "Stella Bach",
+        "Daniel von Bargen",
+        "Eric Nenninger",
+        "Craig Lamar Traylor",
+        "Gary Anthony Williams",
+        "Merrin Dungey"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 2,
+      "title": "Emancipation",
+      "air_date": "2001-11-14",
+      "overview": "Being fed up with military school, Francis gets himself legally emancipated so he can go north to Alaska with his friend Eric and become a logger. This does not sit well at all with the family.",
+      "still": "./images/malcolm/s03e02_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Daniel von Bargen",
+        "Bryan Burke",
+        "Mary Pat Gleason",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick",
+        "Chris Eigeman",
+        "Victor Z. Isaac"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 3,
+      "title": "Book Club",
+      "air_date": "2001-11-18",
+      "overview": "Lois, in an attempt to get a break from the family, joins a book club that turns out to be a night off for frustrated housewives, but it all goes a little bit haywire. Meanwhile Francis tries to get to Alaska, learning something important about himself and about truck drivers. Hal, who tries to keep the boys out of troubles for the evening, is caught in an inner conflict about how to treat them.",
+      "still": "./images/malcolm/s03e03_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Jodi Carlisle",
+        "Edie McClurg",
+        "Amy Farrington",
+        "Jim O'Heir",
+        "Antoinette Byron",
+        "Sharon Omi",
+        "Jennifer Echols",
+        "Eric Nenninger"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 4,
+      "title": "Malcolm's Girlfriend",
+      "air_date": "2001-11-28",
+      "overview": "Francis has to stay a couple of days in a small county jail and enjoys it more then he expected. Malcolm finds himself with a girlfriend, which add to his usual social anxiety. Dewey makes friend with a new kid in the area, helping the kid's mother to compose Dewey's dream birthday party for his new friend.",
+      "still": "./images/malcolm/s03e04_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Alessandra Torresani",
+        "Logan O'Brien",
+        "Malcolm David Kelley",
+        "Terry Rhoads",
+        "Karen Lorre",
+        "Charlie Stewart",
+        "Cristine Rose",
+        "Colin Ferguson",
+        "Marcella Lentz-Pope",
+        "Jack Impellizzeri",
+        "Jonathan Jones",
+        "Matthew Dunn",
+        "Cody Estes",
+        "Dillon John Dailidonis",
+        "Kyle Sullivan",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kristin Quick",
+        "Daniel 'Smalls' Johnson"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 5,
+      "title": "Charity",
+      "air_date": "2001-12-02",
+      "overview": "In an effort to contribute to society and to make her boys useful at the same time, Lois \"volunteers\" Malcolm, Reese and Dewey for charity work at a local church. The boys are assigned to sort giant piles of donated clothing, game, appliances etc. Initially irritated at their new task, they realize the donated stuff is a lot nicer than their own possessions, and they begin swapping out their old stuff with the second-hand items. The boys soon make a enterprise out of their charity assistance, going as far as to sell things to the neighborhood kids - that is until Hal finds out. Meanwhile, Francis must come to grips with the fact his fabulous job in Alaska is not quite what he expected.",
+      "still": "./images/malcolm/s03e05_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Bette Rae",
+        "Terry Woodberry",
+        "Marsha Kramer",
+        "Randy Thompson",
+        "Kyle Sullivan",
+        "Eric Nenninger",
+        "Richard Gross",
+        "Brenda Wehle",
+        "Sandy Ward",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 6,
+      "title": "Health Scare",
+      "air_date": "2001-12-09",
+      "overview": "When Hal's doctor discovers something suspicious during his routine check-up, Lois and Hal become frantic, nervous wrecks as they wait for the test results. As a result of her anticipation, Lois becomes even stricter with the boys, leaving them to misinterpret the new house rules. Meanwhile, in Alaska, Francis comes to blows with his boss.",
+      "still": "./images/malcolm/s03e06_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Christopher Michael Moore",
+        "Bart McCarthy",
+        "Adam Cagley",
+        "Charles Emmett",
+        "Eric Nenninger",
+        "Richard Gross",
+        "Brenda Wehle",
+        "Sandy Ward",
+        "John Ennis"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 7,
+      "title": "Christmas",
+      "air_date": "2001-12-16",
+      "overview": "When Malcolm and his brothers destroy their Christmas tree ornaments, Lois punishes them by canceling Christmas and moves all the presents into the garage. The only way she will reinstate the holiday is if the boys behave impeccably up to Christmas morning. Her plan works better than expected, and Lois is touched that her family responded so well to her challenge. Meanwhile, the boys decide that Lois could use this tactic for future holidays and retaliate by breaking into the garage and opening up all the presents. Elsewhere, Francis is forced to visit his Grandma Ida for Christmas.",
+      "still": "./images/malcolm/s03e07_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Cloris Leachman",
+        "Matthew Dunn",
+        "Cody Estes",
+        "Dillon John Dailidonis"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 8,
+      "title": "Poker",
+      "air_date": "2002-01-06",
+      "overview": "Poker showdowns with Abe give Hal a flush; dance lessons turn Lois awhirl; an Alaskan blizzard entraps and rattles Francis. (TV Guide)",
+      "still": "./images/malcolm/s03e08_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Harry Groener",
+        "Rappin' Granny",
+        "Norma Michaels",
+        "Jackie Benoit",
+        "Victoria Stevens",
+        "Eric Nenninger",
+        "Brenda Wehle",
+        "Sandy Ward",
+        "John Ennis",
+        "Dan Martin",
+        "Craig Lamar Traylor",
+        "Alex Morris",
+        "Edward James Gage",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 9,
+      "title": "Reese's Job",
+      "air_date": "2002-01-20",
+      "overview": "Trouble finds Reese at his new fast-food job; a new Krelboyne tutors Malcolm; Hal and Lois sabotage Dewey's plan to get a dog.",
+      "still": "./images/malcolm/s03e09_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Kyle Sullivan",
+        "Todd Giebenhain",
+        "Will Stabile",
+        "Brian Treitler",
+        "Katherine Boecher",
+        "Eric Nenninger",
+        "Sandy Ward",
+        "John Ennis",
+        "Evan Matthew Cohen",
+        "David Anthony Higgins",
+        "Kristin Quick",
+        "Chris Eigeman",
+        "Victor Z. Isaac"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 10,
+      "title": "Lois's Makeover",
+      "air_date": "2002-01-27",
+      "overview": "A negative job-performance review riles Lois; hoops play with the boys energizes Hal; a vermin infestation busies rat-killer Francis.",
+      "still": "./images/malcolm/s03e10_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Stephen Tobolowsky",
+        "Steven Houska",
+        "Jack Donner",
+        "Karl T. Wright",
+        "Larry Udy",
+        "Benita Krista Nall",
+        "Craig Welzbacher",
+        "Jean Sincere",
+        "Eric Nenninger",
+        "Richard Gross",
+        "Sandy Ward",
+        "John Ennis",
+        "David Anthony Higgins",
+        "David A. Kimball",
+        "Ginny McMath"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 11,
+      "title": "Company Picnic (1)",
+      "air_date": "2002-02-03",
+      "overview": "Juicy guest casting and ingenious plotting enliven an hourlong episode that airs in the plum post-Super Bowl slot. One storyline unfolds at Hal's company picnic, where Lois clashes with a blabby wife and her beleaguered spouse; and Hal runs afoul of his new boss and the big cheese. In Alaska, Francis's scheme to win a bet involves rigging a hockey game that pits loggers vs. a fearsome women's squad led by a blowhard coach.",
+      "still": "./images/malcolm/s03e11_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Lauren Storm",
+        "Magic Johnson",
+        "Bradley Whitford",
+        "Stephen Root",
+        "Christina Ricci",
+        "Tom Green",
+        "Heidi Klum",
+        "Yolanda Snowball",
+        "Betty Carvalho",
+        "Connor Matheus",
+        "Wesley Thompson",
+        "Mary Ostrow",
+        "Steve Tom",
+        "Dennis Singletary",
+        "Michael Kostroff",
+        "Aaron Hill",
+        "Eric Payne",
+        "Terry Bradshaw",
+        "Howie Long",
+        "Patrick Warburton",
+        "Susan Sarandon",
+        "Nicolas Mize",
+        "Eric Nenninger",
+        "Brenda Wehle",
+        "Sandy Ward",
+        "John Ennis",
+        "Thomas Lumberg Jr.",
+        "Bruce Paul Barbour"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 12,
+      "title": "Company Picnic (2)",
+      "air_date": "2002-02-03",
+      "overview": "After Hal is mistaken by his new boss, as that guy's boss, Hal plays along. Malcolm is in a three-legged scavenger hunt with the girl he likes, but becomes upset after he confesses he likes her, and she says she likes another boy. Reese is also the the scavenger hunt, and at first doesn't like the big dumb bully he is with, but they grow to like each other when they bond over beating up the other contestants and stealing their items. Lois continues to balance keeping Dewey intact and dealing with the crazy woman, but now must talk to the husband as well. Francis continues to sabotage his own team, this time on the ice.",
+      "still": "./images/malcolm/s03e12_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Lauren Storm",
+        "Magic Johnson",
+        "Bradley Whitford",
+        "Stephen Root",
+        "Michael Kostroff",
+        "Aaron Hill",
+        "Eric Payne",
+        "Terry Bradshaw",
+        "Howie Long",
+        "Patrick Warburton",
+        "Susan Sarandon",
+        "Nicolas Mize",
+        "Steve Witting",
+        "Lillian Adams",
+        "Joey Hiott",
+        "Nicholas Edwin Barb",
+        "Eric Nenninger",
+        "Brenda Wehle",
+        "Sandy Ward",
+        "John Ennis",
+        "Thomas Lumberg Jr."
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 13,
+      "title": "Reese Drives",
+      "air_date": "2002-02-10",
+      "overview": "Highway horror: Reese gets a learner's permit, which he promptly proceeds to abuse by commandeering a driving-school vehicle.",
+      "still": "./images/malcolm/s03e13_still.jpg",
+      "rating": 8.4,
+      "guests": [
+        "Christopher Michael Moore",
+        "Jay Johnston",
+        "Rheagan Wallace",
+        "Mel Rodriguez",
+        "Don Tiffany",
+        "David Paul Needles",
+        "Chris Gann",
+        "Frederick Dawson",
+        "Richard Gross",
+        "Sandy Ward",
+        "David Anthony Higgins"
+      ],
+      "tags": [
+        "FAN_FAVORITE",
+        "COLD_OPEN"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 14,
+      "title": "Cynthia's Back",
+      "air_date": "2002-02-17",
+      "overview": "The return of the smart and sassy Cynthia rattles Malcolm, who's astonished by her physical maturation. And so is drooling Reese.",
+      "still": "./images/malcolm/s03e14_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Tania Raymonde",
+        "Amy Farrington",
+        "Kyle Sullivan",
+        "Ivan Naranjo",
+        "Eric Nenninger",
+        "Sandy Ward",
+        "John Ennis",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Bobby Preston"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 15,
+      "title": "Hal's Birthday",
+      "air_date": "2002-03-03",
+      "overview": "The arrival of Francis's new bride on Hal's birthday sparks a fray that drives the younger siblings out---and into a posh hotel.",
+      "still": "./images/malcolm/s03e15_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Wayne Wilderson",
+        "Jim Meskimen",
+        "Emy Coligado"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 16,
+      "title": "Hal Coaches",
+      "air_date": "2002-03-10",
+      "overview": "Clever Hal invigorates Dewey's soccer team; sly Reese blackmails a philandering neighbor; obsessed Malcolm battles a computer program.",
+      "still": "./images/malcolm/s03e16_still.jpg",
+      "rating": 6.8,
+      "guests": [
+        "Bret Loehr",
+        "Paul Willson",
+        "Michael Bailey Smith",
+        "Gloria LeRoy",
+        "Maggie Egan",
+        "Billy Mayo",
+        "Eric Nenninger",
+        "Brenda Wehle",
+        "Craig Lamar Traylor",
+        "Emy Coligado",
+        "Gary Ambrosia"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 17,
+      "title": "Dewey's Dog",
+      "air_date": "2002-04-07",
+      "overview": "Dewey rules, thanks to his new dog that intimidates Malcolm and Reese; Hal and Lois hit the town with big plans---and flu symptoms.",
+      "still": "./images/malcolm/s03e17_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Daniel von Bargen",
+        "Kotoko Kawamura",
+        "Tim Haldeman",
+        "Ransford Doherty",
+        "Paul Stroili",
+        "Eric Nenninger",
+        "David Anthony Higgins"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 18,
+      "title": "Poker 2",
+      "air_date": "2002-04-21",
+      "overview": "Girls in the house spell trouble for the boys, who are on their own while Dad's hosting a poker game that's more about one-upmanship than cards.",
+      "still": "./images/malcolm/s03e18_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Lindsey Haun",
+        "Dana Davis",
+        "Steve Reevis",
+        "Frederick Dawson",
+        "John Colella",
+        "Eric Nenninger",
+        "Dan Martin",
+        "Craig Lamar Traylor",
+        "Emy Coligado",
+        "Alex Morris",
+        "Edward James Gage",
+        "Jonathan Craig Williams",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 19,
+      "title": "Clip Show",
+      "air_date": "2002-04-28",
+      "overview": "An embattled psychiatrist probes the boys' naughty behavior patterns in a session framed by flashbacks to past episodes.",
+      "still": "./images/malcolm/s03e19_still.jpg",
+      "rating": 6.3,
+      "guests": [
+        "Andy Richter"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 20,
+      "title": "Jury Duty",
+      "air_date": "2002-05-01",
+      "overview": "Lois gets jury duty and Hal tries to figure out what case she's working on. Meanwhile, Malcolm and Reese saw Stevie's mom naked and brag about it, they also take Dewey to the sewers and get lost.",
+      "still": "./images/malcolm/s03e20_still.jpg",
+      "rating": 6.9,
+      "guests": [
+        "Eric Nenninger",
+        "George Wyner",
+        "Bonita Friedericy",
+        "Carlease Burke",
+        "Byrne Offutt",
+        "Sean G. Griffin",
+        "Dennis Cockrum",
+        "E.J. De la Pena",
+        "Ashley French",
+        "Sandy Ward",
+        "John Ennis",
+        "Thomas Lumberg Jr.",
+        "Craig Lamar Traylor",
+        "Gary Anthony Williams",
+        "Gary Ambrosia"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 21,
+      "title": "Cliques",
+      "air_date": "2002-05-05",
+      "overview": "Back in the general school population, the Krelboyne whiz kids wind up in cliques with jocks, skateboarders and brooding \"Goths.\"",
+      "still": "./images/malcolm/s03e21_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Curtis Williams",
+        "Kyle Sullivan",
+        "Richard Gross",
+        "Miles Marsico",
+        "Shawn Pyfrom",
+        "Michael Lawrence Morgan",
+        "Jesse Flanagan",
+        "Charlie Zigler",
+        "Richard Alan Brown",
+        "Glenn Lutz",
+        "Thomas Mills",
+        "Ivan Naranjo",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Emy Coligado",
+        "Kristin Quick",
+        "Chris Eigeman",
+        "Gary Ambrosia",
+        "Ricky Dominguez",
+        "Victor Z. Isaac"
+      ],
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 22,
+      "title": "Monkey",
+      "air_date": "2002-05-12",
+      "overview": "New monkey business occupies Reese, now a self-appointed law enforcer; a capuchin monkey has it in for Lois's co-worker, Craig.",
+      "still": "./images/malcolm/s03e22_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Dylan Cash",
+        "Philip Bolden",
+        "Curtis Williams",
+        "Eric Nenninger",
+        "Brenda Wehle",
+        "Sandy Ward",
+        "John Ennis",
+        "Steven Barr",
+        "Thomas Lumberg Jr.",
+        "Jesse D. Goins",
+        "Albert Owens",
+        "Ivan Naranjo",
+        "Kenneth Dolin",
+        "J. Grant Albrecht",
+        "Michael Horse",
+        "Micah Henson",
+        "Dion Overstreet Jr.",
+        "Emy Coligado",
+        "David Anthony Higgins",
+        "Crystal the Monkey",
+        "Elijah Runcorn"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 1,
+      "title": "Zoo",
+      "air_date": "2002-11-03",
+      "overview": "Malcolm, whose frenetic home life is a kind of zoo, begins the fourth season by accompanying his family to the real thing. A visit to the zoo offers close encounters with creatures great and small. But Hal wishes he could have passed on an encounter with Lois's former beau, who lectures on rain-forest animals. Elsewhere, Reese butts heads with a goat; and Malcolm and Dewey take a tumble into a tiger den. Another storyline checks in on ne'er-do-well Francis, now the unlikely foreman of a dude ranch owned by a cheery German businessman.",
+      "still": "./images/malcolm/s04e01_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Tim DeKay",
+        "Rocky McMurray",
+        "Daniel Roebuck",
+        "James Henriksen",
+        "Teddy Lane Jr.",
+        "Jeremy Forte",
+        "Ken Daly",
+        "David Ury",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "Emy Coligado",
+        "Angela Sargeant",
+        "Patrick O'Connor",
+        "Rhomeyn Johnson"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 2,
+      "title": "Humilithon",
+      "air_date": "2002-11-10",
+      "overview": "High school's first day vexes Malcolm, who acquires an unfortunate nickname; and Hal, a parental \"volunteer\" running afoul of authority.",
+      "still": "./images/malcolm/s04e02_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Deborah Harmon",
+        "Tania Raymonde",
+        "Theo Rossi",
+        "Kyle Sullivan",
+        "Dana Workman",
+        "Darcy Fowers",
+        "Joe Costanza",
+        "Leslie Upson",
+        "Jason Lansing",
+        "Jordan Masterson",
+        "Vanessa Lee Chester",
+        "Paige Segal",
+        "Jeff D'Agostino",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "Chris Eigeman",
+        "Victor Z. Isaac",
+        "Cleavon McClendon"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 3,
+      "title": "Family Reunion",
+      "air_date": "2002-11-17",
+      "overview": "Christopher Lloyd adds to his gallery of eccentric characters, playing Hal's quirky, cranky and very wealthy father, Walter, in this rollicking episode. The occasion is a birthday celebration for the old man, but the snooty female in-laws seem more interested in offending Lois. Their shabby behavior initially goes unnoticed by Hal, who's desperately trying to bond with his self-centered dad; and by Dewey and Reese, who seek some of Grampa's dough by currying favor with him. But when Lois is reduced to tears after being excluded from a group photo, the family rallies to her side with an all-out counterattack that turns the party into pandemonium.",
+      "still": "./images/malcolm/s04e03_still.jpg",
+      "rating": 8.4,
+      "guests": [
+        "Christopher Lloyd",
+        "Brenda Strong",
+        "Jeanine Jackson",
+        "Robert Alan Beuth",
+        "John Valdetero",
+        "Matt Knudsen",
+        "Timmy Fitzpatrick",
+        "Benjamin Bryan",
+        "Andrew J. Turner",
+        "Brett Buford",
+        "Jonathan Pickett",
+        "Emy Coligado",
+        "Stephen Brennan"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 4,
+      "title": "Stupid Girl",
+      "air_date": "2002-11-24",
+      "overview": "Acting dumb like Reese eases Malcolm's stress and lands him a date with the new light of his life, an attractive girl who's really a dim bulb.",
+      "still": "./images/malcolm/s04e04_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "Brittany Finamore",
+        "Randall Bosley",
+        "Carole Goldman",
+        "Roger W. Morrissey",
+        "Carlo Manchini",
+        "Mehcad Brooks",
+        "Steven Bendik",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "Emy Coligado"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 5,
+      "title": "Forwards Backwards",
+      "air_date": "2002-12-01",
+      "overview": "Brotherly love is lost on Malcolm and Reese, now out to sabotage his sibling's birthday in devilish strikes met with crafty counterattacks.",
+      "still": "./images/malcolm/s04e05_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Timm Sharp",
+        "Tom Tartamella",
+        "Trieu Tran",
+        "Marquis Scott",
+        "Angee Hughes",
+        "Kevin Dunigan",
+        "Bonnie Burroughs",
+        "Matt Hannigan",
+        "Oscar Nuñez",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 6,
+      "title": "Forbidden Girlfriend",
+      "air_date": "2002-12-15",
+      "overview": "Malcolm starts to date Nikki. Meanwhile, Hal and Lois must take abstinence pills in an attempt to be better parents. At the ranch, Otto is furious with the other ranchers who keep destroying the fence that Francis is building to keep the cattle inside.",
+      "still": "./images/malcolm/s04e06_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "Logan A. Graham",
+        "Matt Battaglia",
+        "Blue Deckert",
+        "Jonny Acker",
+        "Fiona Hale",
+        "Ed Brigadier",
+        "Fitz Houston",
+        "Reagan Dale Neis",
+        "Michael Shamus Wiles",
+        "Craig Lamar Traylor",
+        "Meagen Fay",
+        "Kenneth Mars"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 7,
+      "title": "Malcolm Holds His Tongue",
+      "air_date": "2003-01-05",
+      "overview": "After joining the basketball team at school, Malcolm soon finds himself under the coach's skin due to his constant complaining, which eventually gets him kicked off the team. Determined to put an end to his horrible habit of talking before he thinks, Malcolm starts \"holding his tongue\" which solves all the problems with his coach, girlfriend, and parents, but it ends up causing more stress than before. Meanwhile, Hal takes up speed walking and is desperate to be the best while Reese gets Craig to take him and Allison to a concert and almost ruins his date.",
+      "still": "./images/malcolm/s04e07_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Brittany Finamore",
+        "Kevin Kilner",
+        "Jack McGee",
+        "David Burke",
+        "Jessica Hendra",
+        "Edmund L. Shaff",
+        "David Grant Wright",
+        "Geneviere Anderson",
+        "Mikki Padilla",
+        "Reagan Dale Neis",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "Emy Coligado",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 8,
+      "title": "Boys at Ranch",
+      "air_date": "2003-01-12",
+      "overview": "On a visit to Francis' dude ranch Hal can't help being disappointed in Francis' success, Reese and Malcolm fear Francis has turned into an overly responsible grownup, and Gretchen punishes Dewey for breaking a valuable doll.",
+      "still": "./images/malcolm/s04e08_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Margie Loomis",
+        "Ben Livingston",
+        "Dale E. Turner",
+        "Andre Jamal Kinney",
+        "Donald Sage Mackay",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "Emy Coligado"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 9,
+      "title": "Grandma Sues",
+      "air_date": "2003-02-02",
+      "overview": "Grandma Ida is even nastier than usual (if that's possible) because of a tumble down the front steps that resulted in a broken collarbone, prompting her to sue her daughter and son-in-law for pain and suffering. And there's more momentous news on the home front: Lois is pregnant.",
+      "still": "./images/malcolm/s04e09_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "David Rasche",
+        "Cloris Leachman",
+        "Mark Chaet",
+        "David Weisenberg",
+        "Emy Coligado"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 10,
+      "title": "If Boys Were Girls",
+      "air_date": "2003-02-09",
+      "overview": "After being rattled by a battle among the boys, a pregnant Lois ponders the consequences of raising another brawling kid. So she fantasizes that her unruly sons have morphed into well-behaved young daughters. Malcolm becomes Mallory, Reese is transformed into Renee and Dewey turns into Daisy.",
+      "still": "./images/malcolm/s04e10_still.jpg",
+      "rating": 8.4,
+      "guests": [
+        "Jennette McCurdy",
+        "Lisa Foiles",
+        "Mimi Paley",
+        "Lane Toran",
+        "Jeff Rosenthal",
+        "Howard George",
+        "Michelle Anne Johnson",
+        "Scott Dreier",
+        "Patricia Bethune",
+        "Dona Hardy"
+      ],
+      "tags": [
+        "FAN_FAVORITE",
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 11,
+      "title": "Long Drive",
+      "air_date": "2003-03-02",
+      "overview": "A sex lecture from Lois rattles Malcolm; a ranch calamity unnerves Francis; disharmony among Hal's music group is a prelude to their concert. Also, a day in jail tests a defiant Reese, who faces a \"Scared Straight\" encounter.",
+      "still": "./images/malcolm/s04e11_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Lester Speight",
+        "Frankie J. Allison",
+        "Tom McCleister",
+        "David A. Kimball",
+        "Mike Randleman",
+        "Brian Stark",
+        "Brad Bufanda",
+        "Reagan Dale Neis",
+        "Dan Martin",
+        "Kenneth Mars",
+        "Alex Morris",
+        "Edward James Gage",
+        "Jonathan Craig Williams",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 12,
+      "title": "Kicked Out",
+      "air_date": "2003-03-09",
+      "overview": "After Lois is out of town, Malcolm and Hal got into a fight leading Malcolm to get expelled from his house.  Malcolm lives with his girlfriend in her attic, as Hal put signs for \"Missing Malcolm.\"",
+      "still": "./images/malcolm/s04e12_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Reagan Dale Neis",
+        "Alex Boling",
+        "Michael Shamus Wiles",
+        "Sam Lerner",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 13,
+      "title": "Stereo Store",
+      "air_date": "2003-03-16",
+      "overview": "Jessica, a sly, 16-year-old sitter outfoxes the boys while Lois is away and Hal's busy with a second job as a whiz of a salesman.",
+      "still": "./images/malcolm/s04e13_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Jeremy Howard",
+        "Hayden Panettiere",
+        "Todd Holland",
+        "Angela Little",
+        "Brittany Finamore",
+        "Gregg Binkley",
+        "Corey Lovett",
+        "Kristina Colon",
+        "Jon Ryckman",
+        "Helen Slayton-Hughes",
+        "Elisa Leonetti",
+        "James Giordano",
+        "Ivan Baccarat",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "Leslie David Baker"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 14,
+      "title": "Hal's Friend",
+      "air_date": "2003-03-30",
+      "overview": "Malcolm tries to emancipate Dabney from his overbearing mother while Hal invites his ne'er-do-well old buddy to the house.  At the ranch, Francis is forced to share a room with Otto.",
+      "still": "./images/malcolm/s04e14_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "Beth Grant",
+        "Brittany Finamore",
+        "Brendan Walsh",
+        "Kyle Sullivan",
+        "Joel Murray",
+        "Ben Kronen",
+        "Joe Camareno",
+        "Craig Lamar Traylor",
+        "Kenneth Mars"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 15,
+      "title": "Garage Sale",
+      "air_date": "2003-04-06",
+      "overview": "A garage sale that's entrusted to Reese (yikes!) yields treasures near and dear, like Hal's old radio transmitter, which he makes operational. And a PC dating back to 1976 that Malcolm plans to sell to Craig for $1300.",
+      "still": "./images/malcolm/s04e15_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "Cody Arens",
+        "Connor Swanek",
+        "Jay Collette",
+        "Kirk Ward",
+        "Richard Eck",
+        "Matt Corboy",
+        "Kathleen M. Darcy",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "David Anthony Higgins",
+        "Mildred Dumas"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 16,
+      "title": "Academic Octathalon",
+      "air_date": "2003-04-13",
+      "overview": "An academic competition faces the Krelboynes in an event Malcolm derides. Especially when he learns his teacher has a cheating plan. Also: a commitment to a formal dance ruffles Reese, who's now trying to ditch his date.",
+      "still": "./images/malcolm/s04e16_still.jpg",
+      "rating": 6.9,
+      "guests": [
+        "Ana Gabriel",
+        "Tucker Smallwood",
+        "Brittany Finamore",
+        "Joe O'Connor",
+        "Kyle Sullivan",
+        "Todd Hurst",
+        "Alec Medlock",
+        "Spencer Pennington",
+        "Joey Tyllesen",
+        "Bill Timoney",
+        "Rose Colasanti",
+        "Oscar Nuñez",
+        "Patricia Rae",
+        "Regi Davis",
+        "Sonya Maddox",
+        "Evan Matthew Cohen",
+        "Craig Lamar Traylor",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "Emy Coligado",
+        "Kristin Quick",
+        "Chris Eigeman",
+        "Victor Z. Isaac"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 17,
+      "title": "Clip Show 2",
+      "air_date": "2003-04-20",
+      "overview": "Hal and Lois are penning their will, and think back to all the trouble their sons put them through. It is there that Lois' problems with Francis are finally revealed and how her inability to admit when she is wrong lead to a lot of the problems the family has been dealing with.",
+      "still": "./images/malcolm/s04e17_still.jpg",
+      "rating": 5.8,
+      "guests": [],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 18,
+      "title": "Reese's Party",
+      "air_date": "2003-04-27",
+      "overview": "When Hal and Lois go out of town for a \"last chance\" getaway before the baby comes, Reese has a big bash that gets out of hand. College-age thugs show up, cancel the party and set up a drug-making operation in the garage. All Reese and Malcolm can do is knuckle under. The good news is, Dewey's not around. The bad news is, his baby sitter is Lois's annoying co-worker Craig. Meanwhile, Hal and his very pregnant wife are off at a romantic retreat---feuding.",
+      "still": "./images/malcolm/s04e18_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Danielle Panabaker",
+        "Nick Wechsler",
+        "Bill Lee Brown",
+        "Dominic Colón",
+        "Gail Borges",
+        "Jim Jackman",
+        "Chris Freeman",
+        "Randolph Jones",
+        "Kevin 'Repo' Thomas",
+        "Ray Buffer",
+        "Christie Lynn Smith",
+        "Larry Dorf",
+        "David Anthony Higgins",
+        "Candice T. Cain",
+        "Michael Schoolcraft"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 19,
+      "title": "Future Malcolm",
+      "air_date": "2003-05-04",
+      "overview": "Leonard, a cynical, genius chess player with no friends or job, makes Malcolm think he could grow into a similar adulthood. Determined to prevent this undesirable fate, Malcolm tries to help Leonard change his life by lining him up for a job interview with the obnoxious Craig. Meanwhile, Francis finds employ as a nude model and begins to delight in the exposure.",
+      "still": "./images/malcolm/s04e19_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Vernee Watson",
+        "Jeremy Roberts",
+        "Jason Alexander",
+        "J. Paul Rogen",
+        "Don Perry",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "Emy Coligado",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 20,
+      "title": "Baby (1)",
+      "air_date": "2003-05-11",
+      "overview": "Lois goes into labor while Hal and the boys are at a bridal exposition. Ida moves in after her apartment burns down and she refuses to stay with Susan.Dewey reveals the date his parents chose for the baby's planned delivery is his birthday in an announcement at the exposition to humiliate Hal.",
+      "still": "./images/malcolm/s04e20_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Cloris Leachman",
+        "Evan Matthew Cohen",
+        "Brian Stepanek",
+        "Dan Martin",
+        "Barry Sigismondi",
+        "Casey Williams",
+        "Joe Ochman",
+        "Asante Jones",
+        "Paul Tigue",
+        "Dennis Napolitano",
+        "Elizabeth Payne",
+        "Emy Coligado",
+        "Alex Morris",
+        "Edward James Gage",
+        "Jonathan Craig Williams",
+        "Gary Anthony Williams"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 21,
+      "title": "Baby (2)",
+      "air_date": "2003-05-18",
+      "overview": "While Lois is in labor, the house is hectic, and Hal, desperate to get home, has crashed the car on the way out of the expo.",
+      "still": "./images/malcolm/s04e21_still.jpg",
+      "rating": 8.2,
+      "guests": [
+        "Cloris Leachman",
+        "Evan Matthew Cohen",
+        "Dan Martin",
+        "Michael Rothhaar",
+        "Cyndi Martino",
+        "Mary Wickliffe",
+        "Michael Patrick McGill",
+        "Danny Bolero",
+        "Titus Napoleon",
+        "Margie Loomis",
+        "Mary Ellen Lyon",
+        "Emy Coligado",
+        "David Anthony Higgins",
+        "Alex Morris",
+        "Edward James Gage",
+        "Jonathan Craig Williams",
+        "Gary Anthony Williams"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 22,
+      "title": "Day Care",
+      "air_date": "2003-05-18",
+      "overview": "With the arrival of their fifth child, Lois and Hal search for a \"creative\" daycare solution.",
+      "still": "./images/malcolm/s04e22_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Nancy Lenehan",
+        "Jim Jansen",
+        "Jackie Harris Greenberg",
+        "Dylan Capannelli",
+        "Howard Mann",
+        "Jennie Ventriss",
+        "William Christian",
+        "Sally Brooks",
+        "Jim Hanna",
+        "Jeff Bowser",
+        "Stewart Skelton",
+        "Kenneth Mars",
+        "David Anthony Higgins",
+        "Brianna Sperry",
+        "Chane't Johnson",
+        "Jessica Rotter",
+        "Kristin Bushnell",
+        "Laurie A. Schillinger",
+        "Jasmine Alvarado",
+        "Cord Jackman",
+        "D.J. Harper"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 1,
+      "title": "Vegas",
+      "air_date": "2003-11-02",
+      "overview": "When Dewey's pet rabbit does good in a state contest, the family must travel to Las Vegas for the nationals. But Reese unknowingly sells the rabbit to a restaurant. Now it is up to Dewey (with a little help from a \"choking\" Reese) to try and save the rabbit.\n\nMeanwhile, Malcolm tells Hal and Lois that they embarras him, and that is why he didn't tell them he won state science honors. As a form of repayment, Malcolm gets great seats for him and Lois to see Lois' favorite singer. Lois then gets lucky and is invited backstage where all she really wants to do is figure out why Malcolm doesn't want her around.\n\nHal, on the other hand, is looking all across Las Vegas for a slot machine that he has had dreams of winning the jackpot on.\n\nFrancis is also in trouble when he gets behind on duties at the ranch, and for the first time sees that Otto isn't just a pushover for everything.",
+      "still": "./images/malcolm/s05e01_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Teresa Ganzel",
+        "David Cassidy",
+        "Ursula Whittaker",
+        "Darlene Kardon",
+        "Michael Merton",
+        "Donna Pieroni",
+        "Tom Lent",
+        "Jeffrey Anderson-Gunter",
+        "Dan Desmond",
+        "Loanne Bishop",
+        "Javier Grajeda",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "Emy Coligado"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "HAL_SCHEME"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 2,
+      "title": "Watching the Baby",
+      "air_date": "2003-11-09",
+      "overview": "Hal and the boys offer to watch baby Jamie so an exhausted Lois can finally get some sleep. Hal leaves the boys in charge while he goes to the Lucky Aid to pick up more diapers. While the boys are watching Jamie, three beautiful teenage girls arrive and woo Malcolm, Reese and Stevie away for the night, leaving Dewey alone with the baby. Meanwhile at the Lucky Aid, Hal doesn't have enough money for the diapers and Craig forces him to work. Back at home, Dewey concocts an elaborate bedtime story for Jamie involving each member of his family.",
+      "still": "./images/malcolm/s05e02_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Kat Graham",
+        "Caitlin Crosby",
+        "Michelle Durham",
+        "Patricia Place",
+        "David Reynolds",
+        "Sharon Johnston",
+        "Nasser Faris",
+        "Craig Lamar Traylor",
+        "Julie Hagerty",
+        "David Anthony Higgins",
+        "Rodrigo Rojas"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 3,
+      "title": "Goodbye Kitty",
+      "air_date": "2003-11-16",
+      "overview": "No one wants to tell Stevie his parents are getting a divorce, until Reese spills the beans.",
+      "still": "./images/malcolm/s05e03_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Kyle Searles",
+        "Devin Sidell",
+        "Brett Gilbert",
+        "Sarah Godshaw",
+        "John Vance",
+        "Wesley Barker",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "Gary Anthony Williams",
+        "Rodrigo Rojas"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 4,
+      "title": "Thanksgiving",
+      "air_date": "2003-11-23",
+      "overview": "Malcolm skips out on Thanksgiving to go to a party; Reese becomes abusive to Hal and Dewey as he attempts to prepare Thanksgiving dinner.",
+      "still": "./images/malcolm/s05e04_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Alessandra Torresani",
+        "Marshall Allman",
+        "Joel Anderson",
+        "John O'Brien",
+        "Joyce Corradetti",
+        "Emy Coligado"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 5,
+      "title": "Malcolm Films Reese",
+      "air_date": "2003-11-30",
+      "overview": "Malcolm chooses Reese as his subject for an Abnormal Psychology mid-term project; Dewey earns some extra cash as a street performer.",
+      "still": "./images/malcolm/s05e05_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Joan Blair",
+        "Don McManus",
+        "Julian Barnes",
+        "Jennifer Shon",
+        "Jonny Acker",
+        "Darryl Reed Jr.",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "Emy Coligado",
+        "Chris Eigeman",
+        "Pat Battistini"
+      ],
+      "tags": [
+        "COLD_OPEN"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 6,
+      "title": "Malcolm's Job",
+      "air_date": "2003-12-07",
+      "overview": "Malcolm gets a job working for Lois on the drugstore loading dock but is shocked to find that Lois smokes. She makes him promise not to tell, then turns her back on him and writes him up for a silly offense.   Meanwhile, Dewey runs away to the Ranch to be with Francis because he says he is tired of Reese and Malcolm.   Hal is also busy, secretly betting on and entering Jaime in baby competitions.",
+      "still": "./images/malcolm/s05e06_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "Todd Stashwick",
+        "Holmes Osborne",
+        "John Eric Bentley",
+        "Michael Dean Jacobs",
+        "Craig Lamar Traylor",
+        "Julie Hagerty",
+        "Kenneth Mars",
+        "David Anthony Higgins"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 7,
+      "title": "Christmas Trees",
+      "air_date": "2003-12-14",
+      "overview": "Hal, Reese, Malcolm, and Dewey go into business selling Christmas trees, with the boys using some of their own money, but two priests send homeless people to their business, trying to sabotage their sale.",
+      "still": "./images/malcolm/s05e07_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Patrick Thomas O'Brien",
+        "Vic Polizos",
+        "Casey Sander",
+        "Ted Rooney",
+        "Mark L. Taylor",
+        "Tom Towles",
+        "Larry Hankin",
+        "Jonathan Schmock",
+        "Rick Hall",
+        "Max Van Ville",
+        "John Marshall Jones",
+        "Abigail Hummel",
+        "Wayne Thomas Yorke",
+        "Jonathan Nail",
+        "Beverly Polcyn",
+        "David Bickford",
+        "Meagen Fay",
+        "Kenneth Mars",
+        "Emy Coligado",
+        "David Anthony Higgins",
+        "David William James Elliott",
+        "Monica Smith"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 8,
+      "title": "Block Party",
+      "air_date": "2004-01-04",
+      "overview": "Neighbors have the annual \"The Wilkersons are gone\" block party until they come home early. Reese and Dewey set up a plan to get money by letting Reese-tortured kids get revenge. Hal and Lois enter a kielbasa-eating contest and Malcolm unknowingly assists a robbery, but a surprising twist comes in the end.",
+      "still": "./images/malcolm/s05e08_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Paul Willson",
+        "Mark Moses",
+        "Randall Carver",
+        "Shashawnee Hall",
+        "Margarita Franco",
+        "Paul Schackman",
+        "Penny Balfour",
+        "Stephen Rockwell",
+        "A.J. Noel",
+        "Lorenzo James Henrie",
+        "James Edson",
+        "Thomas Bellin",
+        "Evan Lee Dahl",
+        "Ashlee Gillespie",
+        "Joey Hardy Gray",
+        "Michael Schmidt",
+        "Chris Clobber",
+        "Kenneth Mars",
+        "Noli Mollakuqe",
+        "Cynthia Beckert",
+        "Bridget Brno"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 9,
+      "title": "Dirty Magazine",
+      "air_date": "2004-01-11",
+      "overview": "Malcolm alerts the A.C.L.U. when he encounters censorship working on the high-school literary magazine; Hal tries to flirt with the woman in his office responsible for cutbacks.",
+      "still": "./images/malcolm/s05e09_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Hallie Todd",
+        "Frederick Koehler",
+        "Lori Beth Denberg",
+        "Kurtwood Smith",
+        "Craig Lamar Traylor",
+        "Nikki Crawford",
+        "Michael Monks",
+        "Nicole Mansour",
+        "Lorin McCraley",
+        "Meagen Fay",
+        "Bradley C. Berger",
+        "Kenneth Mars"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 10,
+      "title": "Hot Tub",
+      "air_date": "2004-01-25",
+      "overview": "Jamie's babysitter coerces Malcolm into doing a \"small\" task for her; Dewey finds a friend, only to lose him to Reese; Francis persuades Otto to confront an old adversary that once courted Gretchen.",
+      "still": "./images/malcolm/s05e10_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Ryan Malgarini",
+        "Robert Joy",
+        "Meagen Fay",
+        "Ned Schmidtke",
+        "Barton Tinapp",
+        "Julie Hagerty",
+        "Kenneth Mars"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 11,
+      "title": "Ida's Boyfriend",
+      "air_date": "2004-02-08",
+      "overview": "Malcolm gets his tongue pierced and needs to hide it for a month. While Lois' mother, Ida, comes and annouces that she will marry a rich Chinese Man that she met on a cruise. Malcolm gets complications when his tongue ring gets infected, rendering him unable to say \"S's\" and he discovers that Ida has been drugging her fiancé with opiates and mood enhancers. When Lois and Hal confront Ida, she drugs them with free food. But luckily, the fiancé misses a drug treatment, and realizes that Ida is a terrible woman and he leaves her at the altar. Malcolm is punished for his tongue piercing.   Meanwhile at the ranch, Otto decides to hire a murder mystery acting troup, but it all turns out badly.",
+      "still": "./images/malcolm/s05e11_still.jpg",
+      "rating": 6.8,
+      "guests": [
+        "James Hong",
+        "Patrick Bristow",
+        "Cloris Leachman",
+        "Dan O'Connor",
+        "Kristina Hayes",
+        "Andy Umberger",
+        "Larry Clarke",
+        "Christie Lynn Smith",
+        "Larry Dorf",
+        "Marcy Goldman",
+        "Kenneth Mars",
+        "Lyn Alicia Henderson",
+        "Jim Grollman",
+        "David William James Elliott"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 12,
+      "title": "Softball",
+      "air_date": "2004-02-15",
+      "overview": "Malcolm is convinced to play Softball by Lois and ends up doing very badly at it due to Lois's hold on him. Meanwhile, Francis tries to pick fights with Lois, Reese tries to break Francis's record of collecting toilet seats from a local junkyard, and Hal accidentally applies to become a member of the CIA.",
+      "still": "./images/malcolm/s05e12_still.jpg",
+      "rating": 6.3,
+      "guests": [
+        "Kaitlin Cullum",
+        "Michael Gaston",
+        "Ingo Neuhaus",
+        "Tom Simmons",
+        "James Martin Kelly",
+        "Brandon Mauro",
+        "Kerry David",
+        "Brooke Radding",
+        "David Anthony Higgins"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 13,
+      "title": "Lois's Sister",
+      "air_date": "2004-02-22",
+      "overview": "Lois' younger sister, Susan, pays the family a visit and brings with her expensive gifts for the boys, biting remarks for Lois and a cold shoulder for Hal – whom she has never forgiven for dumping her for Lois. Lois and Susan's competitive relationship takes a turn for the worse when Susan gives Malcolm and Reese her prize '65 Mustang convertible. But when Lois discovers that Susan needs a kidney transplant, she puts her anger aside and offers to donate her kidney to Susan, which Susan only sees as the perfect opportunity for Lois to one-up her.",
+      "still": "./images/malcolm/s05e13_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Laurie Metcalf",
+        "Abigail Mavity",
+        "Kevin Cooney",
+        "Lyndsy Fonseca",
+        "Heather McPhaul",
+        "Jasmine Di Angelo",
+        "Kate Miner",
+        "Josh Jacobson",
+        "Tianna Danielle Kenney",
+        "Hayley Erin",
+        "Alyssa Monka",
+        "Montana Tsai",
+        "Gracie Markland",
+        "Chanel Gaines",
+        "Barbara Scolaro"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 14,
+      "title": "Malcolm Dates a Family",
+      "air_date": "2004-03-14",
+      "overview": "Lois blows her top over a hidden 15 percent surcharge on the bill at her family's favorite pizza place and stages a boycott...but Hal and the boys are sneaking slices on the side. Malcolm meets Angela and becomes instantly smitten with her intellectual family...but starts to feel like a heel because he's asked another girl to the school dance and is forced to break it off with her--er--them. And Francis is reluctant to let Otto hire an assistant for him...but soon comes to like the idea.",
+      "still": "./images/malcolm/s05e14_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Eddie Shin",
+        "Sherman Howard",
+        "Sara Paxton",
+        "Craig Lamar Traylor",
+        "Nike Doukas",
+        "Helen Slayton-Hughes",
+        "Matt Crabtree",
+        "Rachel Vacca",
+        "James DiStefano",
+        "Jason Huber",
+        "Ken Land",
+        "Kenneth Mars",
+        "Emy Coligado"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 15,
+      "title": "Reese's Apartment",
+      "air_date": "2004-03-21",
+      "overview": "Francis is determined to show his parents why they should not have kicked Reese out. Meanwhile, Malcolm helps a football player write a college essay.",
+      "still": "./images/malcolm/s05e15_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Michael Dempsey",
+        "Patricia Belcher",
+        "Jack McGee",
+        "Jonny Acker",
+        "Gregory North",
+        "Brian Mulligan",
+        "Roderick M. Spencer",
+        "David William James Elliott"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 16,
+      "title": "Malcolm Visits College",
+      "air_date": "2004-03-28",
+      "overview": "Lois tags along with Malcolm as he visits a college, but she's determined to room in the dorm Malcolm is staying in when she learns the room is co-ed. Meanwhile, after his father denies him a piano, Dewey begins stealing objects from around the house to amuse himself and to drive Hal crazy. Reese meets a girl, who he thinks is a narc, and he pretends he is a dealer, unaware that she is really an undercover cop.",
+      "still": "./images/malcolm/s05e16_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Evan Sabara",
+        "Cole Petersen",
+        "Jamie Renée Smith",
+        "Monique Coleman",
+        "Stephanie Lemelin",
+        "Daniel Farber",
+        "Andrew Reville",
+        "Jordan Orr",
+        "Kelsey Chapman",
+        "Renee Ryan",
+        "Paul Avedisian",
+        "Scott Cummins",
+        "Steve Kramer",
+        "Rishonda Napier",
+        "Allison Andreas",
+        "Bobby Block",
+        "David Christian Welborn",
+        "Jonathan Palmer",
+        "Kenneth Mars"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 17,
+      "title": "Polly in the Middle",
+      "air_date": "2004-04-25",
+      "overview": "Hal sets up Abe Kenarben on a blind date with Jaime's babysitter Polly but then realizes Lois has also set her up on a blind date - with Craig. Malcolm, Dewey (with his \"lucky\" shirt) and Reese also meet Reggie Jackson and Francis is embarrassed by Piama in front of his co-workers.",
+      "still": "./images/malcolm/s05e17_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Reggie Jackson",
+        "Craig Lamar Traylor",
+        "Julie Hagerty",
+        "Harley Zumbrum",
+        "Kimberly Jackson",
+        "D.J. Lockhart-Johnson",
+        "Ted Giannoulas",
+        "Ron E. Dickinson",
+        "Gino Montesinos",
+        "Martin Morales",
+        "Ramon Hilario",
+        "Emy Coligado",
+        "David Anthony Higgins",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 18,
+      "title": "Dewey's Special Class",
+      "air_date": "2004-05-02",
+      "overview": "Malcolm convinces Dewey to do poorly on an I.Q. test, so that he won't become a ridiculed Krelboyne student. But Dewey does so badly that he is placed in a class for the emotionally disturbed. Hal and Craig compete in a dance competition.",
+      "still": "./images/malcolm/s05e18_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Amy Castle",
+        "Craig Lamar Traylor",
+        "Kenneth Mars",
+        "Matt Malloy",
+        "Dennis Bendersky",
+        "Ayla Kell",
+        "Christopher Gerse",
+        "Louan Gideon",
+        "Tricia O'Kelley",
+        "David Anthony Higgins",
+        "Cameron Monaghan",
+        "Danny McCarthy",
+        "Derek Cox-Berg",
+        "Raven Goodwin",
+        "Nikki Lee",
+        "David Trice"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 19,
+      "title": "Experiment",
+      "air_date": "2004-05-02",
+      "overview": "When Dewey's annual candy selling event for school comes up, he uses the excuse of \"these bars help support america\" to sell them. Malcolm and Stevie attempt a science experiment, and are shocked when Reese begs to help.",
+      "still": "./images/malcolm/s05e19_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Regan Burns",
+        "Craig Lamar Traylor",
+        "Justin Martin",
+        "Gil Glasgow",
+        "Susan Leslie",
+        "Helaine Lembeck",
+        "Cathrine Grace",
+        "Carlie Westerman",
+        "Emy Coligado"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 20,
+      "title": "Victor's Other Family",
+      "air_date": "2004-05-09",
+      "overview": "When Lois tracks down her father's \"other family,\" she meets Victor's \"other wife\" Sylvia, and learns something shocking about her dad.",
+      "still": "./images/malcolm/s05e20_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Andrew James Allen",
+        "Cloris Leachman",
+        "Adam Wylie",
+        "Maura Soden",
+        "Tom Virtue",
+        "Betty White",
+        "Megan Hubbell"
+      ],
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 21,
+      "title": "Reese Joins the Army (1)",
+      "air_date": "2004-05-16",
+      "overview": "Reese's new girlfriend Beth is about as dumb as he is. Malcolm initially dislikes her but they soon get to like each other too much and Beth breaks up with Reese. Devastated, Reese runs away and joins the army under the false surname.",
+      "still": "./images/malcolm/s05e21_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Erik King",
+        "Emy Coligado",
+        "Molly Orr",
+        "James Henriksen",
+        "Monti Sharp",
+        "Kevin Crowley",
+        "Michael Chieffo",
+        "Paul Gleason",
+        "Steve Rankin",
+        "Vaughn Johseph",
+        "Wells Rosales"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 22,
+      "title": "Reese Joins the Army (2)",
+      "air_date": "2004-05-23",
+      "overview": "Reese continues to be a great soldier in the Army until he finds himself in a situation where his Sergeant cannot help. But after comparing being captured to being grounded, he takes action and leads his team to victory. But being such a successful soldier has it's bad parts as well, as Reese prepares to jump from the plane - right into Afghanistan. Malcolm has his hands full as well as he attempts to prove Hal innocent. But being good with numbers helps as Malcolm notices all of the prosecutions given dates are on Fridays - which Hal hasn't worked on in over 15 years. And with Reese missing and Hal's case, Lois falls deeper and deeper into insanity.",
+      "still": "./images/malcolm/s05e22_still.jpg",
+      "rating": 7.9,
+      "guests": [
+        "Jorge-Luis Pallo",
+        "Michael Milhoan",
+        "Emy Coligado",
+        "Michael Chieffo",
+        "Lindsey Ginter",
+        "Paul Gleason",
+        "Judith Moreland",
+        "Nate Torrence",
+        "Eric George",
+        "Dennis Cockrum",
+        "Craig Barnett",
+        "Kareem J. Grimes",
+        "Luis Chávez",
+        "Michael Jerome West",
+        "Randy Thompson",
+        "Larry Bagby",
+        "Paul Hayes",
+        "Jan Devereaux",
+        "Noel Conlon",
+        "P.J. O'Connor",
+        "Steve Rankin",
+        "Dave Power",
+        "Wells Rosales",
+        "Nicolas Roye"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 1,
+      "title": "Reese Comes Home (3)",
+      "air_date": "2004-11-07",
+      "overview": "When Reese realizes the Army is too much for him to handle, he deserts and dresses as an Afghani woman. But Lois is on a march to find him, and travels to Kabul to hunt him down. Meanwhile, Malcolm volunteers at a veterans hospital as a way to make up for his guilt of making Reese leave.",
+      "still": "./images/malcolm/s06e01_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "Caroline Aaron",
+        "Steve Rankin",
+        "James Black",
+        "Matthew Atherton",
+        "Larry Marko",
+        "David Kavandi",
+        "Farrah Skyler Greye",
+        "Sunny Bedi",
+        "Lucius Baybak",
+        "Emma Lockhart",
+        "Drew Massey",
+        "Paul Michael Bloodgood",
+        "Dave Power",
+        "Wells Rosales",
+        "Nicolas Roye"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 2,
+      "title": "Buseys Run Away",
+      "air_date": "2004-11-14",
+      "overview": "The Buseys disappear after Dewey leaves the special-needs class; Hal becomes the leader of a group of brainless bodybuilders.",
+      "still": "./images/malcolm/s06e02_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Bob Cicherillo",
+        "Amy Bruckner",
+        "Tricia O'Kelley",
+        "Christopher Lee Cook",
+        "Bill Timoney",
+        "Aaron Brumfield",
+        "Rich Piana",
+        "Katie Morrow",
+        "Cameron Monaghan",
+        "Danny McCarthy",
+        "Derek Cox-Berg"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 3,
+      "title": "Standee",
+      "air_date": "2004-11-21",
+      "overview": "When Hal and the garbageman get into a trash-dumping war (which benefits Dewey more than anyone else), Hal enlists Reese's help. Meanwhile, Lois gets her job back at Lucky Aide (off probation), and fights against Malcolm in order to take down an offensive billboard of a smiling black janitor (whose nametag reads \"Slappy\") holding a mop and a 6-pack of malt liquor. Soon it's an all-out war between mom and son - until Lois encounters a fellow employee who is more racist than the billboard.",
+      "still": "./images/malcolm/s06e03_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "Dan Martin",
+        "John DiResta",
+        "Jill Basey",
+        "Kathy Lamkin",
+        "Carol Mansell",
+        "David Anthony Higgins",
+        "Alex Morris",
+        "Edward James Gage",
+        "Jonathan Craig Williams",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 4,
+      "title": "Pearl Harbor",
+      "air_date": "2004-12-05",
+      "overview": "Malcolm and Reese plot revenge after they realize their teenage neighbor has tricked each of them into believing the other is gay. Meanwhile, Hal, tired of competing with a neighbor who always outdoes his Christmas decorations, decides to create his own \"holiday\" to decorate his house for - Pearl Harbor Day.",
+      "still": "./images/malcolm/s06e04_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Hayden Panettiere",
+        "Curtis Taylor"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 5,
+      "title": "Kitty's Back",
+      "air_date": "2004-12-12",
+      "overview": "Kitty returns and asks Lois for help getting Kitty's estranged husband back; Francis comes home and puts Dewey through the torturous \"Brotherhood Initiation.\"",
+      "still": "./images/malcolm/s06e05_still.jpg",
+      "rating": 6.8,
+      "guests": [
+        "Henry Gibson",
+        "Craig Lamar Traylor",
+        "Mitch Silpa",
+        "Derek Waters",
+        "Jeanette Miller",
+        "Gary Anthony Williams",
+        "Merrin Dungey"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 6,
+      "title": "Hal's Christmas Gift",
+      "air_date": "2004-12-19",
+      "overview": "Hal and Lois, strapped for cash, decide that Christmas gifts will have to be homemade this year. When everyone makes much better gifts than Hal, he spins a bigger and bigger lie about the present he has in store for them. In desperation, Hal pick-pockets Malcolm's secret credit card, and buys the family a ski vacation.",
+      "still": "./images/malcolm/s06e06_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Emy Coligado",
+        "Cindy Lu",
+        "Jay Edward Anthony",
+        "McNally Sagal",
+        "Christopher Jones",
+        "C. Stephen Browder"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 7,
+      "title": "Hal Sleepwalks",
+      "air_date": "2005-01-16",
+      "overview": "Hal is sleepless because of their upcoming 20th wedding anniversary. So he ask Reese for some ideas for presents. Then Reese gets the idea to brainwash his dad while he's nervous. Dewey's friends are set up in an upcoming student body election when a bully nominated two of his geeky friends. Malcolm takes up playing the electric guitar, though Lois discourages his musical ability. He writes a heart warming song. When he plays & sings his creation, Dewey figures out that his song is sung to the tune of the \"Meow Mix\" jingle!",
+      "still": "./images/malcolm/s06e07_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Soren Fulton",
+        "Amy Bruckner",
+        "Terence Bernie Hines",
+        "Tashana Haye",
+        "Cameron Monaghan",
+        "Danny McCarthy",
+        "Derek Cox-Berg"
+      ],
+      "tags": [
+        "HAL_SCHEME"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 8,
+      "title": "Lois Battles Jamie",
+      "air_date": "2005-01-23",
+      "overview": "Lois thinks Jamie is out to get her when Jamie knocks over a shelf and nearly crushes her.",
+      "still": "./images/malcolm/s06e08_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Evan Reece",
+        "Owen Reece"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 9,
+      "title": "Malcolm's Car",
+      "air_date": "2005-01-30",
+      "overview": "When Malcolm spots a roughed up 1967 Cuda in his neighborhood, he instantly falls in love with it and purchases the car. But he gets so caught up in the difficult task of restoring it that he blows off Stevie as well as Reese who needs him for an illegal betting scheme of his. Hal on the other hand, is having success when he stumbles upon his hidden talent -- hairstyling. Lois doesn't have time to worry about Malcolm or Hal, as she is caught up in scandal between Craig and their Lucky Aide boss Fred. Craig says he is taking time off to tutor Fred's wife in golf but Lois finds out he is actually having an affair with her.",
+      "still": "./images/malcolm/s06e09_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Art LaFleur",
+        "Craig Lamar Traylor",
+        "Bob Koherr",
+        "Blaire Baron",
+        "Heather McDonald",
+        "J.T. Kubala",
+        "Michael Krawic",
+        "David Anthony Higgins",
+        "Rose Abdoo"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 10,
+      "title": "Billboard",
+      "air_date": "2005-02-13",
+      "overview": "When Lois catches the boys vandalizing a trashy billboard for a strip club, Malcolm alters the vandalism into a women's rights protest, which sparks a colossal media circus. In no time, feminists, conservative religious groups and national new reporters descend on the scene. After Hal grants a TV interview, a woman from his past turns up at the faux protest; and Reese, inspired by the giant billboard stripper who comes to life in his dreams, gives an impassioned speech about the objectification of women.",
+      "still": "./images/malcolm/s06e10_still.jpg",
+      "rating": 8.1,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Jenna Edwards",
+        "Jennifer Lyons",
+        "Kyme",
+        "Fredric Lehne",
+        "Sam Anderson",
+        "Ashley Gardner",
+        "Susan Morgenstern",
+        "Debbie Zipp",
+        "Marianne Curan",
+        "Javier Grajeda",
+        "Keaton Simons"
+      ],
+      "tags": [
+        "HAL_SCHEME",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 11,
+      "title": "Dewey's Opera",
+      "air_date": "2005-02-20",
+      "overview": "When Lois buys a brand-new king-sized bed, Hal thinks that her motive is to put more distance between them and refuses to sleep in it. Moved to tears by an opera he sees on television, Dewey is inspired to write his own operatic masterpiece, \"The Marriage Bed,\" which is based on his parents' fight and turned into a school production. Meanwhile, Malcolm and Reese build their own street luge board; and Jamie falls head over heels for the baby girl across the street.",
+      "still": "./images/malcolm/s06e11_still.jpg",
+      "rating": 8.1,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Amy Bruckner",
+        "Craig Lamar Traylor",
+        "Brad Bufanda",
+        "Derek Cox-Berg",
+        "Raven Goodwin",
+        "Cameron Monaghan",
+        "Danny McCarthy",
+        "Ron West"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 12,
+      "title": "Living Will",
+      "air_date": "2005-03-06",
+      "overview": "Hal is named executor of his neighbor's living will and must decide whether to keep him on life support or pull the plug. In attempting to make the decision, Hal discovers he is incapable of making decisions on his own because he always defers to Lois. Meanwhile, Craig asks Malcolm, Reese and Dewey to teach him how to fight dirty since a bully from his childhood is coming to town.",
+      "still": "./images/malcolm/s06e12_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Michael McShane",
+        "Thomas Kopache",
+        "Davenia McFadden",
+        "John Ducey",
+        "Elyse Mirto",
+        "Michele Spears",
+        "Steve Sheridan",
+        "Kerry Carney",
+        "David Anthony Higgins",
+        "Dean Bates"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 13,
+      "title": "Tiki Lounge",
+      "air_date": "2005-03-13",
+      "overview": "When Hal and Lois realize how little time they spend together, Hal turns the garage into a private tiki lounge where he and Lois can retreat. Things go smoothly until they feud over philosophical beliefs. Meanwhile, Mr. Herkabe cons Malcolm into joining the Booster Club, where he learns a lesson about taking one for the team.",
+      "still": "./images/malcolm/s06e13_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Travis Van Winkle",
+        "Steven Christopher Parker",
+        "Cameron Bowen",
+        "Leah Pipes",
+        "Jonathan Hernandez",
+        "Diana Rivas Hamar",
+        "Chris Eigeman"
+      ],
+      "tags": [
+        "HAL_SCHEME",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 14,
+      "title": "Ida Loses a Leg",
+      "air_date": "2005-03-20",
+      "overview": "During Grandma's unwelcome visit with the family, she loses her leg while saving Dewey from a moving truck. Consumed with guilt, Dewey is determined to find his Grandmother's leg and give it the proper burial. Francis, on the other hand, begrudgingly becomes the caretaker for his stubborn, cranky grandmother. Meanwhile, Malcolm and Reese are given a new idea for a prank that forces them to stay awake days at a time to avoid the embarrassment of having their faces glued to the floor.",
+      "still": "./images/malcolm/s06e14_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Tarah Paige",
+        "Cloris Leachman",
+        "Craig Lamar Traylor"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 15,
+      "title": "Chad's Sleepover",
+      "air_date": "2005-03-27",
+      "overview": "After Hal forbids Dewey from inviting his peculiar classmate Chad over for a sleepover, Dewey quickly finds out that his father had good reason to warm him. Meanwhile, Malcolm and Reese find out that they are not as popular as they once thought, then plot \"revenge\" on their classmates.",
+      "still": "./images/malcolm/s06e15_still.jpg",
+      "rating": 8.2,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Kevin Christy",
+        "Mary Gross",
+        "Patrick Bristow",
+        "Cynthia Sophiea",
+        "Martin West",
+        "Eric Hoffman",
+        "Laura Ashlee Innes",
+        "Cameron Monaghan",
+        "Bob Glouberman"
+      ],
+      "tags": [
+        "FAN_FAVORITE",
+        "COLD_OPEN"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 16,
+      "title": "No Motorcycles",
+      "air_date": "2005-04-03",
+      "overview": "When Francis and Piama choose to celebrate Francis' 21st birthday at the house, Hal is reminded of a promise he made to his son as a young child, involving a motorcycle trip that Lois quickly forbids. Hal and Francis have no choice but to sneak off for their wild adventure, leaving their women behind. Meanwhile Malcolm, Dewey and Reese are held captive in their own home by a bully.",
+      "still": "./images/malcolm/s06e16_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Geoff Meed",
+        "Emy Coligado",
+        "Chase Ellison",
+        "Graham Murdoch",
+        "Carla Jimenez"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 17,
+      "title": "Butterflies",
+      "air_date": "2005-04-10",
+      "overview": "Malcolm discovers a man, Norm, living in the Lucky Aide. He agrees to keep Norm's secret as long as he provides Malcolm with tidbits on his new crush, a fellow Lucky Aide employee. Meanwhile, when Reese takes a job as an exterminator, he quickly learns that to drum up business he must infest the neighbors' lawns, and chooses caterpillars as his weapon. But instead of spreading the caterpillars, he has a change of heart and begins to nurture them, ultimately leading to his own menagerie of butterflies.",
+      "still": "./images/malcolm/s06e17_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Dan Butler",
+        "Peter Siragusa",
+        "Marisa Theodore",
+        "David Anthony Higgins",
+        "Reggie Jordan"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 18,
+      "title": "Ida's Dance",
+      "air_date": "2005-04-17",
+      "overview": "Lois goes over to visit Ida, but gets unpleasantly surprised by the St. Grotus Day festival. Malcolm fails a music appreciation course, and reluctantly goes to Dewey for help. Reese and Hal secretly watch scary movies while Lois is not around, but it ends up revealing some unexpected secrets about both Reese and Hal.",
+      "still": "./images/malcolm/s06e18_still.jpg",
+      "rating": 7.9,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Lilyan Chauvin",
+        "Cloris Leachman",
+        "Bess Meisler",
+        "Lorna Raver"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 19,
+      "title": "Motivational Seminar",
+      "air_date": "2005-04-24",
+      "overview": "Reese befriends a pack of troublesome stray dogs; Dewey feels conflicted when he starts seeing another mother-figure; Hal unwittingly becomes a motivational speaker.",
+      "still": "./images/malcolm/s06e19_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Markus Flanagan",
+        "Myra McWethy",
+        "Franc Ross",
+        "Michael Kagan",
+        "Don Pugsley",
+        "Bobby McGee",
+        "Jay Harik",
+        "Barbara Brownell",
+        "DeeDee Rescher",
+        "Robin Krieger",
+        "Marcus Folmar",
+        "Bob Glouberman"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 20,
+      "title": "Stilts",
+      "air_date": "2005-05-01",
+      "overview": "After Lois and Hal are reminded of the tight budget they must uphold, Hal discovers one of his boys has been dialing a 900 number. His attempt to explain the error to the hotline's billing department turns awry when he forgets to hang up the phone, incurring a whopping $800 charge. Meanwhile, Reese takes a job at a research clinic that pays him to pop experimental pills, and a reluctant Malcolm takes on a mortifying job at the Lucky Aide as a costumed Uncle Sam on stilts.",
+      "still": "./images/malcolm/s06e20_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Timothy Stack",
+        "Phil Abrams",
+        "Michael Cutt",
+        "David Anthony Higgins",
+        "Tina Gasbarra",
+        "Kevin Thompson",
+        "William Jackson"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 21,
+      "title": "Buseys Take a Hostage",
+      "air_date": "2005-05-08",
+      "overview": "When Hal decides to attend his first annual Neighborhood Association meeting with Malcolm, he is strongly encouraged to take on the role of President. Being his dad's right-hand man, Malcolm sees a perfect opportunity to add some excitement to the community, while Hal's agenda is a little bit different. Meanwhile, Francis takes on a new job as a camp activities coordinator and turns to Dewey for his input on some creative new games. While Dewey revels in his afternoon of fun, his fed-up classmates take their teacher, principal and janitor hostage.",
+      "still": "./images/malcolm/s06e21_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Sam Lloyd",
+        "Jennette McCurdy",
+        "Cameron Monaghan",
+        "Danny McCarthy",
+        "Ron West",
+        "Jim Jansen",
+        "Rhomeyn Johnson",
+        "Wayne Lopez",
+        "Derek Cox-Berg",
+        "Raven Goodwin"
+      ],
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 22,
+      "title": "Mrs. Tri-County",
+      "air_date": "2005-05-15",
+      "overview": "Unbeknownst to Lois, the boys enter her in the Mrs. Tri-County Pageant as a joke. When they overhear the other contestants remarking that Lois doesn't have a chance of winning, they plot to help their mother take the crown. Meanwhile, Malcolm is blackmailed into delivering love notes to a contestant for Herkabe, and Reese discovers that, according to the Mrs. Tri-County Pageant manual's scientific formula, he is beautiful.",
+      "still": "./images/malcolm/s06e22_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "James Rodriguez",
+        "Lukas Rodriguez",
+        "Julia Campbell",
+        "Cindy Ambuehl",
+        "Fred Applegate",
+        "Carolyn Seymour",
+        "Kirsten Nelson",
+        "Deborah May",
+        "Rafael J. Noble",
+        "Vanessa Paul",
+        "Katherine Norland",
+        "Chris Eigeman"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 7,
+      "episode": 1,
+      "title": "Burning Man",
+      "air_date": "2005-09-30",
+      "overview": "The family attends the counterculture Burning Man festival in the desert.",
+      "still": "./images/malcolm/s07e01_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Jeff Doucette",
+        "Rosanna Arquette",
+        "India King",
+        "Cece Tsou",
+        "Kim Shannon",
+        "Atticus Todd",
+        "Rebecca Metz",
+        "Elijah Anarchist",
+        "Sven Holmberg",
+        "Eva La Dare",
+        "Aaron Hendry",
+        "Max Faugno",
+        "Jon Beavers",
+        "Eva Fisher"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 7,
+      "episode": 2,
+      "title": "Health Insurance",
+      "air_date": "2005-10-07",
+      "overview": "When Hal forgets to pay the family's health insurance, the company will not reinstate it until Monday, so he panics and locks the boys in their room to keep them from getting hurt.",
+      "still": "./images/malcolm/s07e02_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Tara Karsian",
+        "David Anthony Higgins",
+        "Scott Adsit",
+        "Richard V. Licata",
+        "Wes Robinson",
+        "Diana Murphy",
+        "Laura Hayes",
+        "Preston Shores",
+        "Trevor Shores",
+        "Yun Choi"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 3,
+      "title": "Reese vs. Stevie",
+      "air_date": "2005-10-14",
+      "overview": "When Hal catches Dewey smoking, he makes a deal with him that he will stop drinking coffee if Dewey quits smoking.",
+      "still": "./images/malcolm/s07e03_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "Craig Lamar Traylor",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 4,
+      "title": "Halloween",
+      "air_date": "2005-10-28",
+      "overview": "Reese and Malcolm try to perform the ultimate Halloween prank.",
+      "still": "./images/malcolm/s07e04_still.jpg",
+      "rating": 7.8,
+      "guests": [
+        "Alex Weed",
+        "Daylon Reese",
+        "David Anthony Higgins",
+        "Jack Axelrod",
+        "Rob Elk",
+        "Rose Abdoo",
+        "Reggie Jordan",
+        "Margarita Franco",
+        "Brooke Ingraham",
+        "Justin Rios",
+        "Preston Shores",
+        "Trevor Shores"
+      ],
+      "tags": [
+        "COLD_OPEN"
+      ]
+    },
+    {
+      "season": 7,
+      "episode": 5,
+      "title": "Jessica Stays Over",
+      "air_date": "2005-11-04",
+      "overview": "When Jessica goes through some family troubles, Lois agrees to let her stay at the house, making the boys crazy.",
+      "still": "./images/malcolm/s07e05_still.jpg",
+      "rating": 7.6,
+      "guests": [
+        "Hayden Panettiere",
+        "Bruno Amato",
+        "Yun Choi"
+      ],
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 7,
+      "episode": 6,
+      "title": "Secret Boyfriend",
+      "air_date": "2005-11-11",
+      "overview": "When Malcolm gets paired with a dimwitted beauty as his chemistry partner, he thinks it's a recipe for disaster, but when she reveals her feelings for him, sparks fly. They agree to keep their romantic experiment under wraps until Malcolm realizes that she's just embarrassed to be dating him. Meanwhile, Lois demands that Reese get a job, and she kicks him out of the house to prove that she means business.",
+      "still": "./images/malcolm/s07e06_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Hayden Panettiere",
+        "Erik von Detten",
+        "Harold Sylvester",
+        "Sarah Wright",
+        "Larry Polson",
+        "Perry D'Marco"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 7,
+      "title": "Blackout",
+      "air_date": "2005-11-18",
+      "overview": "Francis decides to surprise the family by coming home, and the power goes out in the house. Meanwhile, it's Lois who's in the dark when Hal decides to cancel their anniversary dinner in favor of a Reese-cooked meal at home. And Malcolm ends up in hot water after he sneaks three Dutch girls into the house.",
+      "still": "./images/malcolm/s07e07_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Anastasia Baranova",
+        "Julia Levy-Boeken",
+        "Ellen Hollman"
+      ],
+      "tags": [
+        "FAMILY_CHAOS"
+      ]
+    },
+    {
+      "season": 7,
+      "episode": 8,
+      "title": "Army Buddy",
+      "air_date": "2005-12-02",
+      "overview": "When Lois finds renewed energy with orthotic inserts for her shoes, Hal fears she will not look to him for support anymore and plots to destroy the inserts. A former female army buddy of Reese's comes to their house for a visit. But she gets defensive when Reese thinks they are way more than just friends and comes intact to the idea of trying to sleep with her.",
+      "still": "./images/malcolm/s07e08_still.jpg",
+      "rating": 6.5,
+      "guests": [
+        "Larisa Oleynik"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 9,
+      "title": "Malcolm Defends Reese",
+      "air_date": "2005-12-16",
+      "overview": "Lois thinks the new babysitter she found for Jamie is perfect... until she starts driving Lois crazy. Meanwhile, Reese starts getting picked on by the teacher when he and Malcolm are in the same class. However, Malcolm decides to defend him.",
+      "still": "./images/malcolm/s07e09_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Vanessa Marano",
+        "Chris Eigeman",
+        "Mimi Cozzens",
+        "Kathryn Joosten",
+        "Kevin Will",
+        "Fiona Hale",
+        "Tom Lent",
+        "Steve Vinovich"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 10,
+      "title": "Malcolm's Money",
+      "air_date": "2006-01-06",
+      "overview": "Malcolm receives a check for $10,000. After Hal and Lois find out, they decide to keep the money and spend it on something for themselves. However, when Dewey overhears this, he wants to get in on it, too. Now, they'll have to find a way to pay Malcolm back.",
+      "still": "./images/malcolm/s07e10_still.jpg",
+      "rating": 6.917,
+      "guests": [
+        "Perry Anzilotti",
+        "Murray Rubin",
+        "Gloria LeRoy",
+        "Tangelia Rouse",
+        "Lillian Adams",
+        "Alanna Masterson",
+        "Marcus Toji",
+        "Dan Olivo"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 11,
+      "title": "Bride of Ida (1)",
+      "air_date": "2006-01-13",
+      "overview": "Lois, Hal, and Dewey go out of town for a piano competition, so they get Ida to watch over Malcolm and Reese while they're gone. Since Ida thinks Reese needs to become a man, she comes up with a competition for Malcolm and Reese, and if Reese wins, he can take Raduca as his bride. Now, when Lois and Hal return, they're surprised to find out that Reese has run away to Las Vegas to get married.",
+      "still": "./images/malcolm/s07e11_still.jpg",
+      "rating": 6.9,
+      "guests": [
+        "Cloris Leachman",
+        "Yvette Nicole Brown",
+        "Hayley DuMond",
+        "Michael Yama",
+        "James Henriksen",
+        "Doug Ballard",
+        "Nikki Tyler-Flynn",
+        "Kathleen Garrett",
+        "Traber Burns",
+        "Rheagan Wallace"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 12,
+      "title": "College Recruiters (2)",
+      "air_date": "2006-01-29",
+      "overview": "A broke Francis gets talked into getting a real job by Dewey, but one of Francis' rocker friends decides to offer him the position of tour manager of his band instead. Back home, Hal takes over the college recruiters, which Malcolm refuses to meet with, and treats each one as a suitor. However, Hal's plans are ruined when Malcolm chooses to go Harvard.",
+      "still": "./images/malcolm/s07e12_still.jpg",
+      "rating": 6.9,
+      "guests": [
+        "Josh Hammond",
+        "Roark Critchlow",
+        "Rheagan Wallace",
+        "James McCauley",
+        "Scott Klace",
+        "Pete Gardner",
+        "Reid Collums"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 13,
+      "title": "Mono",
+      "air_date": "2006-02-12",
+      "overview": "Lois discovers she has mono after a visit to the doctor. She then ends up giving it to Malcolm after her maternal instincts begin. As a result, both Lois and Malcolm are forced to spend an entire day and night together in the same room. Hal, meanwhile, is invited to all of his neighbors' parties after they know Lois will not be attending any of them.",
+      "still": "./images/malcolm/s07e13_still.jpg",
+      "rating": 7.4,
+      "guests": [
+        "Stuart Fratkin",
+        "Kathleen York",
+        "Brian Palermo",
+        "Frank Crim",
+        "Johanna McKay"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 14,
+      "title": "Hal Grieves",
+      "air_date": "2006-02-19",
+      "overview": "Hal learns that his father has passed away, but sheds no tears and passes it off as nothing since he never knew him. So, to make sure nothing like that happens again, he lets the boys do whatever they want by letting them miss school and even offering to buy Malcolm a new car, until Lois puts a stop to it. Noticing how depressed Hal has become, his friend Abe brings George Takei over for a visit in an attempt to cheer him up.",
+      "still": "./images/malcolm/s07e14_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Nolan North",
+        "George Takei",
+        "Maurice Godin",
+        "Kevin Michael Richardson",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 15,
+      "title": "A.A.",
+      "air_date": "2006-03-05",
+      "overview": "Francis receives a visit from Lois and Hal to celebrate his one-year anniversary of sobriety. However, when they attend one of his A.A. meetings, it's revealed that it was Lois who forced him to start drinking. Back home, Dewey finds Hal's spare key for his car and tries to get Malcolm and Reese to drive him to the arcade, but, of course, they refuse.",
+      "still": "./images/malcolm/s07e15_still.jpg",
+      "rating": 7.1,
+      "guests": [
+        "Stephen Lee",
+        "Emy Coligado",
+        "James Geralden",
+        "Matthew Willig",
+        "George McQuade"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 16,
+      "title": "Lois Strikes Back",
+      "air_date": "2006-03-19",
+      "overview": "When four popular high school girls play an evil prank on Reese by pretending he has a secret admirer and then dropping a pig off at his front door, Lois comes to his rescue. She plots her revenge on the four unsuspecting girls and wreaks havoc on their adolescent lives. Meanwhile, Hal realizes Lois is at a dangerous emotional place so he decides to get some distance and stumbles upon the idea for making his own pitching machine out of stuff in the garage.",
+      "still": "./images/malcolm/s07e16_still.jpg",
+      "rating": 8.2,
+      "guests": [
+        "Amy Davidson",
+        "Christel Khalil",
+        "Danielle Savre",
+        "Rick Zieff",
+        "Steve Vinovich",
+        "Diane Robin",
+        "Chancellor Miller",
+        "Jarod Einsohn",
+        "Kate Linae",
+        "Emma Stone"
+      ],
+      "tags": [
+        "LOIS_VS_BOYS",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 7,
+      "episode": 17,
+      "title": "Hal's Dentist",
+      "air_date": "2006-03-26",
+      "overview": "Hal's friend Trey tells him to come to his dental office when he looses a tooth during a poker game, but their friendship becomes in jeopardy when Hal's faced with a $2,000 bill and causes a fight between them. Reese, meanwhile, teaches Lois how to ride a bike, while Malcolm and Dewey find sleeping as their new favorite pastime.",
+      "still": "./images/malcolm/s07e17_still.jpg",
+      "rating": 6.8,
+      "guests": [
+        "Michaela Watkins",
+        "Dan Martin",
+        "Alex Morris",
+        "Edward James Gage",
+        "Jonathan Craig Williams",
+        "Paul Rae",
+        "Scott Director",
+        "Danny Chambers",
+        "Gary Anthony Williams"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 18,
+      "title": "Bomb Shelter",
+      "air_date": "2006-04-02",
+      "overview": "Malcolm joins a local dance class to impress a girl, but when she loses her footing, he realizes that to win the competition he'll need a partner who can step it up. Dick, a rival student in the class who takes dancing a bit too seriously, challenges Malcolm to a dance-off. Meanwhile, Hal discovers an underground bachelor pad in the backyard.",
+      "still": "./images/malcolm/s07e18_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Suzie Pollard",
+        "Lynsey Bartilson",
+        "Mark DeCarlo",
+        "Sandra Purpuro",
+        "Sonya Eddy",
+        "Ryan Raftery",
+        "Wendy Worthington",
+        "Karen Russell",
+        "Andrea Silvers",
+        "Joe Donohoe",
+        "Darryl Henriques",
+        "Fernando Jiménez"
+      ],
+      "tags": [
+        "FAMILY_CHAOS",
+        "HAL_SCHEME"
+      ]
+    },
+    {
+      "season": 7,
+      "episode": 19,
+      "title": "Stevie in the Hospital",
+      "air_date": "2006-04-09",
+      "overview": "When Stevie goes to the hospital, Malcolm tries making up every excuse he can think of to not go because he can't face the truth about his illness. Meanwhile, back home, Hal gets highly competitive about his new remote control boat, while Lois thinks she's going insane.",
+      "still": "./images/malcolm/s07e19_still.jpg",
+      "rating": 7.2,
+      "guests": [
+        "Zach Mills",
+        "Jan Hoag",
+        "Craig Lamar Traylor",
+        "Terry Rhoads",
+        "Kevin Brief",
+        "John Balma",
+        "Brooks McBeth",
+        "Scott Francisco",
+        "Damon Jones"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 20,
+      "title": "Cattle Court",
+      "air_date": "2006-04-16",
+      "overview": "Reese meets a cute vegetarian named Carrie when he goes back to work at the meat plant. At first, he goes along with her political talk, but she catches him with a pork chop. So, to get Carrie back, he sets free all the cows at the meat plant. Malcolm, meanwhile, tries to fool Lois in order to attend a rock concert.",
+      "still": "./images/malcolm/s07e20_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Tara Lipinski",
+        "Alec Medlock",
+        "Nestor Serrano",
+        "David Anthony Higgins",
+        "Michael Robert Berger",
+        "Mildred Dumas"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 21,
+      "title": "Morp",
+      "air_date": "2006-04-23",
+      "overview": "For the senior prom, Reese gets paid to take Janine, a studious girl in class, but only after she gives him a makeover and sends him to finishing school, while Malcolm aligns with the unpopular kids to form an anti-prom they call \"Morp.\" Unfortunately, while Malcolm and his friends protest the official dance, they don't know how to make their \"Morp\" exciting. Meanwhile, Dewey discovers there aren't any childhood pictures of him, so he concocts an elaborate scavenger hunt to punish Hal and Lois.",
+      "still": "./images/malcolm/s07e21_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Caitlin Crosby",
+        "Amy Halloran",
+        "Scarlett Lam",
+        "Shanna Collins",
+        "Jeff Braine",
+        "Kate Micucci",
+        "Adam Rose",
+        "Samantha Streets",
+        "Jozef Fahey",
+        "Josh Gundling Williamson",
+        "Nikki Boyer",
+        "Eddie Pepitone",
+        "Evan Sabara"
+      ],
+      "tags": []
+    },
+    {
+      "season": 7,
+      "episode": 22,
+      "title": "Graduation",
+      "air_date": "2006-05-14",
+      "overview": "Malcolm struggles with his speech when he's elected valedictorian of his graduating class at school. However, Lois refuses to listen to any of his complaints and reveals that she wants him to become President of the United States. Meanwhile, Reese does everything he can to get a permanent job as a high school janitor, which includes creating the most disgusting mess ever. In the meantime, Hal has problems with Malcolm's Harvard tuition, while Francis finally gets a real 9-5 job that he actually enjoys. Also returning for the family celebrations is Grandma Ida, as they all say goodbye to Malcolm when he leaves for college.",
+      "still": "./images/malcolm/s07e22_still.jpg",
+      "rating": 8.4,
+      "guests": [
+        "Lamont Thompson",
+        "Cloris Leachman",
+        "Craig Lamar Traylor",
+        "Emy Coligado",
+        "David Anthony Higgins",
+        "Gary Anthony Williams",
+        "Linwood Boomer",
+        "Steve Vinovich",
+        "Raymond O'Connor",
+        "Noah Matthews",
+        "Harvey B. Jackson"
+      ],
+      "tags": [
+        "FAN_FAVORITE",
+        "FAMILY_CHAOS"
+      ]
+    }
+  ]
+}

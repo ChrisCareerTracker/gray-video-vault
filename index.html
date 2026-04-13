@@ -4524,6 +4524,398 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
   .spn-season-ep-grid { padding:16px 20px 60px; }
 }
 
+
+/* ═══════════════════════════════════════════════════════════
+   MALCOLM IN THE MIDDLE HUB
+   ═══════════════════════════════════════════════════════════ */
+#mitm-hub { display:none; position:fixed; inset:0; background:var(--bg); overflow-y:auto; z-index:100; }
+#mitm-season-view { display:none; position:fixed; inset:0; background:var(--bg); overflow-y:auto; z-index:200; }
+.mitm-hub-header { position:relative; height:460px; overflow:hidden; }
+.mitm-hub-header-bg { position:absolute; inset:0; background-size:cover; background-position:center 25%; filter:brightness(0.38) saturate(0.8); }
+.mitm-hub-header-vignette { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.1) 0%, rgba(8,8,9,0) 35%, rgba(8,8,9,0.8) 82%, var(--bg) 100%); }
+.mitm-back-btn { position:absolute; top:72px; left:48px; z-index:10; font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--text3); background:transparent; border:1px solid var(--border); padding:7px 16px; cursor:pointer; transition:all 0.2s; }
+.mitm-back-btn:hover { color:var(--gold); border-color:var(--gold3); }
+.mitm-hub-header-content { position:absolute; bottom:36px; left:48px; right:60px; z-index:2; }
+.mitm-hub-eyebrow { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:4px; text-transform:uppercase; color:var(--gold); display:flex; align-items:center; gap:10px; margin-bottom:10px; }
+.mitm-hub-eyebrow::before { content:""; width:24px; height:1px; background:var(--gold); }
+.mitm-hub-title { font-family:"Bebas Neue",sans-serif; font-size:86px; letter-spacing:4px; color:var(--text); line-height:0.88; text-shadow:0 4px 40px rgba(0,0,0,0.9); }
+.mitm-hub-meta { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text2); margin-top:14px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.mitm-hub-meta-dot { color:var(--gold); font-size:5px; }
+.mitm-hub-desc { font-family:"Crimson Pro",serif; font-size:16px; color:var(--text2); margin-top:8px; max-width:700px; line-height:1.6; font-style:italic; }
+
+/* Controls */
+.mitm-controls { padding:20px 48px 0; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.mitm-search-wrap input { background:var(--surface); border:1px solid var(--border); color:var(--text); font-family:"Crimson Pro",serif; font-size:15px; padding:9px 16px; width:280px; outline:none; transition:border-color 0.2s; }
+.mitm-search-wrap input:focus { border-color:var(--gold3); }
+.mitm-filter-btn { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:9px 14px; border:1px solid var(--border); background:transparent; color:var(--text3); cursor:pointer; transition:all 0.2s; white-space:nowrap; }
+.mitm-filter-btn:hover { color:var(--text2); border-color:var(--border2); }
+.mitm-filter-btn.active { color:var(--gold); border-color:var(--gold3); background:rgba(201,168,76,0.08); }
+.mitm-ep-count { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--text3); margin-left:auto; }
+
+/* Character section — unified row, family larger */
+.mitm-char-section { padding:28px 48px 8px; }
+.mitm-section-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:4px; text-transform:uppercase; color:var(--gold); margin-bottom:16px; display:flex; align-items:center; gap:10px; }
+.mitm-section-label::before { content:""; width:24px; height:1px; background:var(--gold); }
+.mitm-char-row { display:flex; flex-wrap:wrap; gap:10px; align-items:flex-end; }
+.mitm-family-card { display:flex; flex-direction:column; align-items:center; gap:0; cursor:pointer; border:2px solid var(--gold3); transition:all 0.2s; width:120px; background:var(--surface); }
+.mitm-family-card:hover { border-color:var(--gold); box-shadow:0 0 20px rgba(201,168,76,0.15); }
+.mitm-family-card.active { border-color:var(--gold); background:rgba(201,168,76,0.07); box-shadow:0 0 24px rgba(201,168,76,0.2); }
+.mitm-family-img-wrap { width:120px; height:160px; overflow:hidden; background:var(--surface2); flex-shrink:0; }
+.mitm-family-img { width:100%; height:100%; object-fit:cover; object-position:top center; }
+.mitm-family-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:1.5px; color:var(--text); text-align:center; width:100%; line-height:1.4; padding:8px 6px 2px; text-transform:uppercase; height:22px; overflow:hidden; }
+.mitm-family-actor { font-family:"Crimson Pro",serif; font-size:11px; color:var(--text3); text-align:center; width:100%; padding:0 6px 8px; line-height:1.3; height:22px; overflow:hidden; }
+.mitm-cast-card { display:flex; flex-direction:column; align-items:center; gap:0; cursor:pointer; border:1px solid var(--border); transition:all 0.2s; width:100px; }
+.mitm-cast-card:hover { border-color:var(--border2); background:rgba(255,255,255,0.03); }
+.mitm-cast-card.active { border-color:var(--gold3); background:rgba(201,168,76,0.07); }
+.mitm-cast-img-wrap { width:100px; height:130px; overflow:hidden; background:var(--surface2); flex-shrink:0; }
+.mitm-cast-img { width:100%; height:100%; object-fit:cover; object-position:top center; }
+.mitm-cast-placeholder { width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--surface3); }
+.mitm-cast-initials { font-family:"Bebas Neue",sans-serif; font-size:32px; letter-spacing:2px; color:var(--text3); }
+.mitm-cast-label { font-family:"DM Mono",monospace; font-size:8px; letter-spacing:1px; color:var(--text2); text-align:center; width:100%; line-height:1.4; padding:7px 6px 2px; background:var(--surface); word-break:break-word; height:28px; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+.mitm-cast-count { font-family:"DM Mono",monospace; font-size:7px; letter-spacing:1px; color:var(--text3); text-align:center; padding:0 6px 6px; }
+
+/* Francis's World band */
+.mitm-francis-section { padding:20px 48px 8px; }
+.mitm-francis-row { display:flex; gap:8px; flex-wrap:wrap; }
+.mitm-francis-era-card { position:relative; flex:1; min-width:180px; height:110px; overflow:hidden; cursor:pointer; border:1px solid var(--border); transition:all 0.3s; }
+.mitm-francis-era-card:hover { border-color:var(--gold3); box-shadow:0 0 16px rgba(201,168,76,0.12); }
+.mitm-francis-era-card.active { border-color:var(--gold); box-shadow:0 0 20px rgba(201,168,76,0.2); }
+.mitm-francis-era-bg { position:absolute; inset:0; background:var(--surface2); background-size:cover; background-position:center; filter:brightness(0.3) saturate(0.6); transition:filter 0.3s; }
+.mitm-francis-era-card:hover .mitm-francis-era-bg { filter:brightness(0.4) saturate(0.7); }
+.mitm-francis-era-content { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:flex-end; padding:14px 16px; }
+.mitm-francis-era-label { font-family:"Bebas Neue",sans-serif; font-size:22px; letter-spacing:2px; color:var(--text); line-height:1; }
+.mitm-francis-era-seasons { font-family:"DM Mono",monospace; font-size:8px; letter-spacing:2px; color:var(--gold); margin-top:4px; }
+.mitm-francis-era-setting { font-family:"Crimson Pro",serif; font-size:12px; color:var(--text3); font-style:italic; margin-top:2px; }
+
+/* Results grid (shown when filters active) */
+.mitm-results-section { display:none; padding:24px 48px; }
+.mitm-results-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; color:var(--gold); text-transform:uppercase; margin-bottom:16px; }
+.mitm-results-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:10px; }
+
+/* Season bands — Seinfeld-style scrolling mosaic */
+.mitm-seasons-section { padding:20px 48px 60px; }
+.mitm-season-band { position:relative; height:160px; margin-bottom:3px; cursor:pointer; overflow:hidden; border:1px solid var(--border); transition:border-color 0.3s, transform 0.3s cubic-bezier(0.2,0.8,0.2,1); }
+.mitm-season-band:hover { border-color:var(--gold3); transform:translateY(-2px); }
+.mitm-band-mosaic { position:absolute; inset:0; display:flex; gap:2px; animation:lt-scroll 40s linear infinite; }
+.mitm-season-band:hover .mitm-band-mosaic { animation-play-state:paused; }
+.mitm-band-still { flex-shrink:0; width:120px; height:160px; object-fit:cover; filter:brightness(0.4) saturate(0.7); transition:filter 0.4s; }
+.mitm-season-band:hover .mitm-band-still { filter:brightness(0.6) saturate(0.9); }
+.mitm-band-overlay { position:absolute; inset:0; background:linear-gradient(to right, rgba(8,8,9,0.96) 0%, rgba(8,8,9,0.72) 40%, rgba(8,8,9,0.2) 75%, rgba(8,8,9,0.3) 100%); transition:background 0.3s; }
+.mitm-season-band:hover .mitm-band-overlay { background:linear-gradient(to right, rgba(8,8,9,0.94) 0%, rgba(8,8,9,0.6) 45%, rgba(8,8,9,0.25) 75%, rgba(8,8,9,0.35) 100%); }
+.mitm-band-content { position:absolute; inset:0; display:flex; align-items:center; padding:0 40px; gap:28px; }
+.mitm-band-season-num { font-family:"Bebas Neue",sans-serif; font-size:72px; letter-spacing:4px; color:var(--text); line-height:1; text-shadow:0 2px 20px rgba(0,0,0,0.8); flex-shrink:0; min-width:220px; }
+.mitm-band-info { display:flex; flex-direction:column; gap:5px; }
+.mitm-band-count { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:3px; color:var(--gold); text-transform:uppercase; }
+.mitm-band-years { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--text3); }
+.mitm-band-tagline { font-family:"Crimson Pro",serif; font-size:15px; font-style:italic; color:var(--text2); max-width:480px; line-height:1.5; }
+.mitm-band-browse { position:absolute; right:40px; top:50%; transform:translateY(-50%) translateX(20px); font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold3); padding:8px 16px; background:rgba(8,8,9,0.85); opacity:0; transition:all 0.3s; pointer-events:none; }
+.mitm-season-band:hover .mitm-band-browse { opacity:1; transform:translateY(-50%) translateX(0); }
+
+/* Episode cards */
+.mitm-ep-card { position:relative; overflow:hidden; cursor:pointer; background:var(--surface); border:1px solid var(--border); transition:border-color 0.2s; aspect-ratio:16/9; }
+.mitm-ep-card:hover { border-color:var(--border2); }
+.mitm-ep-card img { width:100%; height:100%; object-fit:cover; display:block; }
+.mitm-ep-card-overlay { position:absolute; inset:0; background:linear-gradient(to top, rgba(8,8,9,0.95) 0%, rgba(8,8,9,0.3) 50%, transparent 100%); pointer-events:none; }
+.mitm-ep-card-title { position:absolute; bottom:8px; left:10px; right:10px; font-family:"DM Mono",monospace; font-size:9px; letter-spacing:1px; color:var(--text); line-height:1.4; z-index:1; }
+.mitm-ep-card-placeholder { width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--surface2); }
+.mitm-ep-card-placeholder-code { font-family:"DM Mono",monospace; font-size:11px; letter-spacing:2px; color:var(--text3); }
+.mitm-ep-badge { position:absolute; top:6px; right:6px; display:flex; gap:3px; z-index:2; }
+.mitm-ep-badge-item { font-family:"DM Mono",monospace; font-size:7px; letter-spacing:1px; padding:2px 5px; background:rgba(0,0,0,0.7); border:1px solid var(--border); color:var(--text2); }
+.mitm-ep-badge-fav { color:var(--gold); border-color:var(--gold3); }
+.mitm-ep-badge-hal { color:#7cb3ff; border-color:rgba(124,179,255,0.4); }
+.mitm-ep-badge-lois { color:#ff7c7c; border-color:rgba(255,124,124,0.4); }
+.mitm-ep-badge-chaos { color:#ff9e4a; border-color:rgba(255,158,74,0.4); }
+.mitm-ep-badge-cold { color:#7cffc4; border-color:rgba(124,255,196,0.4); }
+
+/* Season view */
+.mitm-season-view-hero { position:relative; height:340px; overflow:hidden; }
+.mitm-season-view-hero-bg { position:absolute; inset:0; background-size:cover; background-position:center; filter:brightness(0.3) saturate(0.6); }
+.mitm-season-view-overlay { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.2) 0%, var(--bg) 100%); }
+.mitm-season-view-content { position:absolute; bottom:32px; left:48px; z-index:2; }
+.mitm-season-view-back { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--text3); cursor:pointer; margin-bottom:16px; transition:color 0.2s; }
+.mitm-season-view-back:hover { color:var(--gold); }
+.mitm-season-view-eyebrow { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; color:var(--gold); text-transform:uppercase; }
+.mitm-season-view-title { font-family:"Bebas Neue",sans-serif; font-size:72px; letter-spacing:3px; color:var(--text); line-height:0.9; margin-top:4px; }
+.mitm-season-view-meta { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text2); margin-top:10px; }
+.mitm-season-view-tagline { font-family:"Crimson Pro",serif; font-size:15px; color:var(--text2); font-style:italic; margin-top:8px; max-width:600px; line-height:1.5; }
+.mitm-season-ep-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:10px; padding:24px 48px 60px; }
+
+/* Episode modal */
+.mitm-modal-overlay { position:fixed; inset:0; background:rgba(8,8,9,0.92); z-index:9000; overflow-y:auto; display:none; padding:48px 40px 80px; }
+.mitm-modal-overlay.open { display:flex; justify-content:center; align-items:flex-start; }
+.mitm-modal-card { background:var(--surface); border:1px solid var(--border); max-width:1400px; width:100%; position:relative; }
+.mitm-modal-close { position:absolute; top:16px; right:20px; font-size:28px; color:var(--text3); cursor:pointer; z-index:10; background:none; border:none; transition:color 0.2s; }
+.mitm-modal-close:hover { color:var(--text); }
+.mitm-modal-still { width:100%; height:460px; object-fit:cover; display:block; background:var(--surface2); }
+.mitm-modal-still-placeholder { width:100%; height:460px; display:flex; align-items:center; justify-content:center; background:var(--surface2); }
+.mitm-modal-still-placeholder-text { font-family:"DM Mono",monospace; font-size:14px; color:var(--text3); letter-spacing:3px; }
+.mitm-modal-body { padding:24px 32px 16px; }
+.mitm-modal-meta { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text3); display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.mitm-modal-meta-dot { color:var(--gold); font-size:5px; }
+.mitm-modal-title { font-family:"Bebas Neue",sans-serif; font-size:52px; letter-spacing:2px; color:var(--text); line-height:0.95; margin-top:8px; }
+.mitm-modal-badges { display:flex; gap:6px; flex-wrap:wrap; margin-top:10px; }
+.mitm-modal-badge { font-family:"DM Mono",monospace; font-size:8px; letter-spacing:2px; padding:4px 10px; border:1px solid var(--border); color:var(--text2); text-transform:uppercase; }
+.mitm-modal-badge-fav { color:var(--gold); border-color:var(--gold3); }
+.mitm-modal-badge-hal { color:#7cb3ff; border-color:rgba(124,179,255,0.4); }
+.mitm-modal-badge-lois { color:#ff7c7c; border-color:rgba(255,124,124,0.4); }
+.mitm-modal-badge-chaos { color:#ff9e4a; border-color:rgba(255,158,74,0.4); }
+.mitm-modal-badge-cold { color:#7cffc4; border-color:rgba(124,255,196,0.4); }
+.mitm-modal-section { padding:16px 32px; }
+.mitm-modal-section-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:8px; }
+.mitm-modal-desc { font-family:"Crimson Pro",serif; font-size:16px; color:var(--text2); line-height:1.75; }
+.mitm-modal-guest-grid { display:flex; flex-wrap:wrap; gap:4px 16px; }
+.mitm-modal-guest-item { font-family:"Crimson Pro",serif; font-size:15px; color:var(--text2); width:45%; }
+.mitm-modal-nav { display:flex; justify-content:space-between; align-items:center; padding:16px 32px 24px; border-top:1px solid var(--border); margin-top:16px; }
+.mitm-modal-nav-btn { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:8px 16px; border:1px solid var(--border); background:transparent; color:var(--text3); cursor:pointer; transition:all 0.2s; }
+.mitm-modal-nav-btn:hover { color:var(--gold); border-color:var(--gold3); }
+.mitm-modal-nav-code { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text3); }
+
+/* Character bio modal */
+.mitm-bio-overlay { position:fixed; inset:0; background:var(--bg); z-index:9500; overflow-y:auto; display:none; }
+.mitm-bio-overlay.open { display:block; }
+.mitm-bio-hero { position:relative; height:300px; overflow:hidden; }
+.mitm-bio-hero-bg { position:absolute; inset:0; background-size:cover; background-position:center 30%; filter:brightness(0.3) saturate(0.7); }
+.mitm-bio-hero-vignette { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.1) 0%, var(--bg) 100%); }
+.mitm-bio-close { position:absolute; top:20px; right:24px; font-size:28px; color:var(--text3); cursor:pointer; z-index:10; background:none; border:none; }
+.mitm-bio-close:hover { color:var(--text); }
+.mitm-bio-content { max-width:900px; margin:0 auto; padding:0 48px 60px; position:relative; margin-top:-80px; z-index:2; }
+.mitm-bio-portrait { width:140px; height:190px; overflow:hidden; border:2px solid var(--gold3); margin-bottom:16px; }
+.mitm-bio-portrait img { width:100%; height:100%; object-fit:cover; }
+.mitm-bio-name { font-family:"Bebas Neue",sans-serif; font-size:56px; letter-spacing:3px; color:var(--text); line-height:0.9; }
+.mitm-bio-actor { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text3); margin-top:8px; }
+.mitm-bio-epithet { font-family:"Crimson Pro",serif; font-size:17px; color:var(--gold); font-style:italic; margin-top:6px; }
+.mitm-bio-section { margin-top:28px; }
+.mitm-bio-section-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:8px; }
+.mitm-bio-body-text { font-family:"Crimson Pro",serif; font-size:16px; color:var(--text2); line-height:1.75; }
+
+/* Responsive */
+@media (max-width:768px) {
+  .mitm-hub-title { font-size:56px; }
+  .mitm-hub-header-content, .mitm-char-section, .mitm-francis-section, .mitm-controls, .mitm-seasons-section, .mitm-results-section { padding-left:20px; padding-right:20px; }
+  .mitm-family-card { width:100px; }
+  .mitm-family-img-wrap { width:100px; height:130px; }
+  .mitm-francis-era-card { min-width:140px; height:90px; }
+  .mitm-modal-still { height:240px; }
+  .mitm-modal-title { font-size:36px; }
+  .mitm-modal-body, .mitm-modal-section, .mitm-modal-nav { padding-left:20px; padding-right:20px; }
+  .mitm-season-ep-grid { padding:16px 20px 60px; }
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+   THE ROCKFORD FILES HUB
+   ═══════════════════════════════════════════════════════════ */
+#rf-hub { display:none; position:fixed; inset:0; background:var(--bg); overflow-y:auto; z-index:100; }
+#rf-season-view { display:none; position:fixed; inset:0; background:var(--bg); overflow-y:auto; z-index:200; }
+.rf-hub-header { position:relative; height:460px; overflow:hidden; }
+.rf-hub-header-bg { position:absolute; inset:0; background-size:cover; background-position:center 25%; filter:brightness(0.38) saturate(0.8); }
+.rf-hub-header-vignette { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.1) 0%, rgba(8,8,9,0) 35%, rgba(8,8,9,0.8) 82%, var(--bg) 100%); }
+.rf-back-btn { position:absolute; top:72px; left:48px; z-index:10; font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--text3); background:transparent; border:1px solid var(--border); padding:7px 16px; cursor:pointer; transition:all 0.2s; }
+.rf-back-btn:hover { color:var(--gold); border-color:var(--gold3); }
+.rf-hub-header-content { position:absolute; bottom:36px; left:48px; right:60px; z-index:2; }
+.rf-hub-eyebrow { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:4px; text-transform:uppercase; color:var(--gold); display:flex; align-items:center; gap:10px; margin-bottom:10px; }
+.rf-hub-eyebrow::before { content:""; width:24px; height:1px; background:var(--gold); }
+.rf-hub-title { font-family:"Bebas Neue",sans-serif; font-size:86px; letter-spacing:4px; color:var(--text); line-height:0.88; text-shadow:0 4px 40px rgba(0,0,0,0.9); }
+.rf-hub-meta { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text2); margin-top:14px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.rf-hub-meta-dot { color:var(--gold); font-size:5px; }
+.rf-hub-desc { font-family:"Crimson Pro",serif; font-size:16px; color:var(--text2); margin-top:8px; max-width:700px; line-height:1.6; font-style:italic; }
+
+/* Controls */
+.rf-controls { padding:20px 48px 0; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.rf-search-wrap input { background:var(--surface); border:1px solid var(--border); color:var(--text); font-family:"Crimson Pro",serif; font-size:15px; padding:9px 16px; width:280px; outline:none; transition:border-color 0.2s; }
+.rf-search-wrap input:focus { border-color:var(--gold3); }
+.rf-filter-btn { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:9px 14px; border:1px solid var(--border); background:transparent; color:var(--text3); cursor:pointer; transition:all 0.2s; white-space:nowrap; }
+.rf-filter-btn:hover { color:var(--text2); border-color:var(--border2); }
+.rf-filter-btn.active { color:var(--gold); border-color:var(--gold3); background:rgba(201,168,76,0.08); }
+.rf-ep-count { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--text3); margin-left:auto; }
+
+/* Firebird band */
+.rf-firebird-band { margin:24px 48px 0; position:relative; height:120px; overflow:hidden; border:1px solid var(--gold3); cursor:default; display:flex; }
+.rf-firebird-img { width:200px; height:120px; object-fit:cover; flex-shrink:0; background:var(--surface2); }
+.rf-firebird-body { flex:1; display:flex; align-items:center; padding:0 32px; gap:24px; background:var(--surface); }
+.rf-firebird-text { flex:1; }
+.rf-firebird-label { font-family:"Bebas Neue",sans-serif; font-size:28px; letter-spacing:3px; color:var(--gold); }
+.rf-firebird-quote { font-family:"Crimson Pro",serif; font-size:15px; color:var(--text2); font-style:italic; margin-top:4px; line-height:1.5; }
+.rf-firebird-plate { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:3px; color:var(--text3); flex-shrink:0; border:1px solid var(--border); padding:8px 14px; background:rgba(0,0,0,0.5); }
+
+/* Character section */
+.rf-char-section { padding:28px 48px 8px; }
+.rf-section-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:4px; text-transform:uppercase; color:var(--gold); margin-bottom:20px; display:flex; align-items:center; gap:10px; }
+.rf-section-label::before { content:""; width:24px; height:1px; background:var(--gold); }
+.rf-char-row { display:flex; flex-wrap:wrap; gap:10px; align-items:flex-start; }
+.rf-char-card { display:flex; flex-direction:column; align-items:center; gap:0; cursor:pointer; border:2px solid var(--gold3); transition:all 0.2s; width:120px; height:232px; background:var(--surface); overflow:hidden; }
+.rf-char-card:hover { border-color:var(--gold); box-shadow:0 0 20px rgba(201,168,76,0.15); }
+.rf-char-card.active { border-color:var(--gold); background:rgba(201,168,76,0.07); box-shadow:0 0 24px rgba(201,168,76,0.2); }
+.rf-char-img-wrap { width:116px; height:156px; overflow:hidden; background:var(--surface2); flex-shrink:0; }
+.rf-char-img { width:100%; height:100%; object-fit:cover; object-position:top center; }
+.rf-char-placeholder { width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--surface3); }
+.rf-char-initials { font-family:"Bebas Neue",sans-serif; font-size:32px; letter-spacing:2px; color:var(--text3); }
+.rf-char-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:1.5px; color:var(--text); text-align:center; width:100%; line-height:1.4; padding:8px 6px 2px; text-transform:uppercase; height:22px; overflow:hidden; }
+.rf-char-actor { font-family:"Crimson Pro",serif; font-size:11px; color:var(--text3); text-align:center; width:100%; padding:0 6px 2px; line-height:1.3; height:18px; overflow:hidden; }
+.rf-char-count { font-family:"DM Mono",monospace; font-size:7px; letter-spacing:1px; color:var(--text3); text-align:center; padding:0 6px 6px; }
+
+/* Guest star page band */
+.rf-guests-band { margin:16px 48px 0; position:relative; height:80px; overflow:hidden; border:1px solid var(--gold3); cursor:pointer; background:var(--surface); transition:all 0.3s; }
+.rf-guests-band:hover { border-color:var(--gold); box-shadow:0 0 20px rgba(201,168,76,0.12); }
+.rf-guests-band-content { position:absolute; inset:0; display:flex; align-items:center; padding:0 32px; gap:16px; }
+.rf-guests-band-eyebrow { font-family:"DM Mono",monospace; font-size:8px; letter-spacing:3px; color:var(--gold); text-transform:uppercase; }
+.rf-guests-band-title { font-family:"Bebas Neue",sans-serif; font-size:28px; letter-spacing:2px; color:var(--text); }
+.rf-guests-band-count { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--text3); margin-left:auto; }
+.rf-guests-band-cta { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); }
+
+/* Results grid */
+.rf-results-section { display:none; padding:24px 48px; }
+.rf-results-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; color:var(--gold); text-transform:uppercase; margin-bottom:16px; }
+.rf-results-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:10px; }
+
+/* Season bands */
+.rf-seasons-section { padding:20px 48px 60px; }
+.rf-season-band { position:relative; height:160px; margin-bottom:3px; cursor:pointer; overflow:hidden; border:1px solid var(--border); transition:border-color 0.3s, transform 0.3s cubic-bezier(0.2,0.8,0.2,1); }
+.rf-season-band:hover { border-color:var(--gold3); transform:translateY(-2px); }
+.rf-band-mosaic { position:absolute; inset:0; display:flex; gap:2px; animation:lt-scroll 40s linear infinite; }
+.rf-season-band:hover .rf-band-mosaic { animation-play-state:paused; }
+.rf-band-still { flex-shrink:0; width:120px; height:160px; object-fit:cover; filter:brightness(0.4) saturate(0.7); transition:filter 0.4s; }
+.rf-season-band:hover .rf-band-still { filter:brightness(0.6) saturate(0.9); }
+.rf-band-overlay { position:absolute; inset:0; background:linear-gradient(to right, rgba(8,8,9,0.96) 0%, rgba(8,8,9,0.72) 40%, rgba(8,8,9,0.2) 75%, rgba(8,8,9,0.3) 100%); transition:background 0.3s; }
+.rf-season-band:hover .rf-band-overlay { background:linear-gradient(to right, rgba(8,8,9,0.94) 0%, rgba(8,8,9,0.6) 45%, rgba(8,8,9,0.25) 75%, rgba(8,8,9,0.35) 100%); }
+.rf-band-content { position:absolute; inset:0; display:flex; align-items:center; padding:0 40px; gap:28px; }
+.rf-band-season-num { font-family:"Bebas Neue",sans-serif; font-size:72px; letter-spacing:4px; color:var(--text); line-height:1; text-shadow:0 2px 20px rgba(0,0,0,0.8); flex-shrink:0; min-width:220px; }
+.rf-band-info { display:flex; flex-direction:column; gap:5px; }
+.rf-band-count { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:3px; color:var(--gold); text-transform:uppercase; }
+.rf-band-years { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--text3); }
+.rf-band-tagline { font-family:"Crimson Pro",serif; font-size:15px; font-style:italic; color:var(--text2); max-width:480px; line-height:1.5; }
+.rf-band-browse { position:absolute; right:40px; top:50%; transform:translateY(-50%) translateX(20px); font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold3); padding:8px 16px; background:rgba(8,8,9,0.85); opacity:0; transition:all 0.3s; pointer-events:none; }
+.rf-season-band:hover .rf-band-browse { opacity:1; transform:translateY(-50%) translateX(0); }
+
+/* Episode cards */
+.rf-ep-card { position:relative; overflow:hidden; cursor:pointer; background:var(--surface); border:1px solid var(--border); transition:border-color 0.2s; aspect-ratio:16/9; }
+.rf-ep-card:hover { border-color:var(--border2); }
+.rf-ep-card img { width:100%; height:100%; object-fit:cover; display:block; }
+.rf-ep-card-overlay { position:absolute; inset:0; background:linear-gradient(to top, rgba(8,8,9,0.95) 0%, rgba(8,8,9,0.3) 50%, transparent 100%); pointer-events:none; }
+.rf-ep-card-title { position:absolute; bottom:8px; left:10px; right:10px; font-family:"DM Mono",monospace; font-size:9px; letter-spacing:1px; color:var(--text); line-height:1.4; z-index:1; }
+.rf-ep-card-placeholder { width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--surface2); }
+.rf-ep-card-placeholder-code { font-family:"DM Mono",monospace; font-size:11px; letter-spacing:2px; color:var(--text3); }
+.rf-ep-badge { position:absolute; top:6px; right:6px; display:flex; gap:3px; z-index:2; }
+.rf-ep-badge-item { font-family:"DM Mono",monospace; font-size:7px; letter-spacing:1px; padding:2px 5px; background:rgba(0,0,0,0.7); border:1px solid var(--border); color:var(--text2); }
+.rf-ep-badge-fav { color:var(--gold); border-color:var(--gold3); }
+.rf-ep-badge-angel { color:#ff9e4a; border-color:rgba(255,158,74,0.4); }
+.rf-ep-badge-two { color:#7cb3ff; border-color:rgba(124,179,255,0.4); }
+.rf-ep-badge-guest { color:#7cffc4; border-color:rgba(124,255,196,0.4); }
+
+/* Season view */
+.rf-season-view-hero { position:relative; height:340px; overflow:hidden; }
+.rf-season-view-hero-bg { position:absolute; inset:0; background-size:cover; background-position:center; filter:brightness(0.3) saturate(0.6); }
+.rf-season-view-overlay { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.2) 0%, var(--bg) 100%); }
+.rf-season-view-content { position:absolute; bottom:32px; left:48px; z-index:2; }
+.rf-season-view-back { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--text3); cursor:pointer; margin-bottom:16px; transition:color 0.2s; }
+.rf-season-view-back:hover { color:var(--gold); }
+.rf-season-view-eyebrow { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; color:var(--gold); text-transform:uppercase; }
+.rf-season-view-title { font-family:"Bebas Neue",sans-serif; font-size:72px; letter-spacing:3px; color:var(--text); line-height:0.9; margin-top:4px; }
+.rf-season-view-meta { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text2); margin-top:10px; }
+.rf-season-view-tagline { font-family:"Crimson Pro",serif; font-size:15px; color:var(--text2); font-style:italic; margin-top:8px; max-width:600px; line-height:1.5; }
+.rf-season-ep-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:10px; padding:24px 48px 60px; }
+
+/* Episode modal */
+.rf-modal-overlay { position:fixed; inset:0; background:rgba(8,8,9,0.92); z-index:9000; overflow-y:auto; display:none; padding:48px 40px 80px; }
+.rf-modal-overlay.open { display:flex; justify-content:center; align-items:flex-start; }
+.rf-modal-card { background:var(--surface); border:1px solid var(--border); max-width:1400px; width:100%; position:relative; }
+.rf-modal-close { position:absolute; top:16px; right:20px; font-size:28px; color:var(--text3); cursor:pointer; z-index:10; background:none; border:none; transition:color 0.2s; }
+.rf-modal-close:hover { color:var(--text); }
+.rf-modal-still { width:100%; height:460px; object-fit:cover; display:block; background:var(--surface2); }
+.rf-modal-still-placeholder { width:100%; height:460px; display:flex; align-items:center; justify-content:center; background:var(--surface2); }
+.rf-modal-still-placeholder-text { font-family:"DM Mono",monospace; font-size:14px; color:var(--text3); letter-spacing:3px; }
+.rf-modal-body { padding:24px 32px 16px; }
+.rf-modal-meta { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text3); display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.rf-modal-meta-dot { color:var(--gold); font-size:5px; }
+.rf-modal-title { font-family:"Bebas Neue",sans-serif; font-size:52px; letter-spacing:2px; color:var(--text); line-height:0.95; margin-top:8px; }
+.rf-modal-badges { display:flex; gap:6px; flex-wrap:wrap; margin-top:10px; }
+.rf-modal-badge { font-family:"DM Mono",monospace; font-size:8px; letter-spacing:2px; padding:4px 10px; border:1px solid var(--border); color:var(--text2); text-transform:uppercase; }
+.rf-modal-badge-fav { color:var(--gold); border-color:var(--gold3); }
+.rf-modal-badge-angel { color:#ff9e4a; border-color:rgba(255,158,74,0.4); }
+.rf-modal-badge-two { color:#7cb3ff; border-color:rgba(124,179,255,0.4); }
+.rf-modal-badge-guest { color:#7cffc4; border-color:rgba(124,255,196,0.4); }
+.rf-modal-section { padding:16px 32px; }
+.rf-modal-section-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:8px; }
+.rf-modal-desc { font-family:"Crimson Pro",serif; font-size:16px; color:var(--text2); line-height:1.75; }
+.rf-modal-answering { font-family:"Crimson Pro",serif; font-size:17px; color:var(--text); line-height:1.8; font-style:italic; padding:18px 24px; background:rgba(201,168,76,0.05); border-left:3px solid var(--gold3); }
+.rf-modal-guest-grid { display:flex; flex-wrap:wrap; gap:4px 16px; }
+.rf-modal-guest-item { font-family:"Crimson Pro",serif; font-size:15px; color:var(--text2); width:45%; }
+.rf-modal-nav { display:flex; justify-content:space-between; align-items:center; padding:16px 32px 24px; border-top:1px solid var(--border); margin-top:16px; }
+.rf-modal-nav-btn { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:8px 16px; border:1px solid var(--border); background:transparent; color:var(--text3); cursor:pointer; transition:all 0.2s; }
+.rf-modal-nav-btn:hover { color:var(--gold); border-color:var(--gold3); }
+.rf-modal-nav-code { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text3); }
+
+/* Guest star page */
+.rf-guest-overlay { position:fixed; inset:0; background:var(--bg); z-index:9500; overflow-y:auto; display:none; }
+.rf-guest-overlay.open { display:block; }
+.rf-guest-hero { position:relative; height:200px; overflow:hidden; background:var(--surface); }
+.rf-guest-hero-overlay { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.3) 0%, var(--bg) 100%); }
+.rf-guest-hero-content { position:absolute; bottom:24px; left:48px; z-index:2; }
+.rf-guest-back { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--text3); cursor:pointer; margin-bottom:12px; transition:color 0.2s; }
+.rf-guest-back:hover { color:var(--gold); }
+.rf-guest-title { font-family:"Bebas Neue",sans-serif; font-size:48px; letter-spacing:3px; color:var(--text); }
+.rf-guest-subtitle { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text3); margin-top:4px; }
+.rf-guest-controls { padding:16px 48px; display:flex; gap:12px; align-items:center; }
+.rf-guest-controls input { background:var(--surface); border:1px solid var(--border); color:var(--text); font-family:"Crimson Pro",serif; font-size:15px; padding:9px 16px; width:280px; outline:none; }
+.rf-guest-controls input:focus { border-color:var(--gold3); }
+.rf-guest-sort-btn { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:9px 14px; border:1px solid var(--border); background:transparent; color:var(--text3); cursor:pointer; transition:all 0.2s; }
+.rf-guest-sort-btn.active { color:var(--gold); border-color:var(--gold3); background:rgba(201,168,76,0.08); }
+.rf-guest-count { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--text3); margin-left:auto; }
+.rf-guest-list { padding:8px 48px 60px; }
+.rf-guest-row { display:flex; align-items:baseline; padding:10px 0; border-bottom:1px solid var(--border); gap:16px; }
+.rf-guest-name { font-family:"Bebas Neue",sans-serif; font-size:18px; letter-spacing:2px; color:var(--gold); min-width:200px; flex-shrink:0; }
+.rf-guest-roles { font-family:"Crimson Pro",serif; font-size:14px; color:var(--text2); font-style:italic; flex:1; }
+.rf-guest-eps { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--text3); flex-shrink:0; }
+
+/* Character bio modal */
+.rf-bio-overlay { position:fixed; inset:0; background:var(--bg); z-index:9500; overflow-y:auto; display:none; }
+.rf-bio-overlay.open { display:block; }
+.rf-bio-hero { position:relative; height:300px; overflow:hidden; }
+.rf-bio-hero-bg { position:absolute; inset:0; background-size:cover; background-position:center 30%; filter:brightness(0.3) saturate(0.7); }
+.rf-bio-hero-vignette { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.1) 0%, var(--bg) 100%); }
+.rf-bio-close { position:absolute; top:20px; right:24px; font-size:28px; color:var(--text3); cursor:pointer; z-index:10; background:none; border:none; }
+.rf-bio-close:hover { color:var(--text); }
+.rf-bio-content { max-width:900px; margin:0 auto; padding:0 48px 60px; position:relative; margin-top:-80px; z-index:2; }
+.rf-bio-portrait { width:140px; height:190px; overflow:hidden; border:2px solid var(--gold3); margin-bottom:16px; }
+.rf-bio-portrait img { width:100%; height:100%; object-fit:cover; }
+.rf-bio-name { font-family:"Bebas Neue",sans-serif; font-size:56px; letter-spacing:3px; color:var(--text); line-height:0.9; }
+.rf-bio-actor { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:2px; color:var(--text3); margin-top:8px; }
+.rf-bio-epithet { font-family:"Crimson Pro",serif; font-size:17px; color:var(--gold); font-style:italic; margin-top:6px; }
+.rf-bio-section { margin-top:28px; }
+.rf-bio-section-label { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:8px; }
+.rf-bio-body-text { font-family:"Crimson Pro",serif; font-size:16px; color:var(--text2); line-height:1.75; }
+
+/* Answering Machine page */
+.rf-am-overlay { position:fixed; inset:0; background:var(--bg); z-index:9500; overflow-y:auto; display:none; }
+.rf-am-overlay.open { display:block; }
+.rf-am-hero { position:relative; height:200px; overflow:hidden; background:var(--surface); }
+.rf-am-hero-overlay { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,8,9,0.3) 0%, var(--bg) 100%); }
+.rf-am-hero-content { position:absolute; bottom:24px; left:48px; z-index:2; }
+.rf-am-back { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--text3); cursor:pointer; margin-bottom:12px; }
+.rf-am-back:hover { color:var(--gold); }
+.rf-am-title { font-family:"Bebas Neue",sans-serif; font-size:48px; letter-spacing:3px; color:var(--text); }
+.rf-am-subtitle { font-family:"Crimson Pro",serif; font-size:16px; color:var(--text2); font-style:italic; margin-top:4px; }
+.rf-am-list { padding:16px 48px 60px; max-width:1000px; }
+.rf-am-item { padding:16px 0; border-bottom:1px solid var(--border); cursor:pointer; transition:background 0.2s; }
+.rf-am-item:hover { background:rgba(201,168,76,0.03); }
+.rf-am-item-code { font-family:"DM Mono",monospace; font-size:9px; letter-spacing:2px; color:var(--gold); }
+.rf-am-item-title { font-family:"DM Mono",monospace; font-size:10px; letter-spacing:1px; color:var(--text2); margin-left:12px; }
+.rf-am-item-msg { font-family:"Crimson Pro",serif; font-size:17px; color:var(--text); font-style:italic; margin-top:6px; line-height:1.7; }
+
+/* Responsive */
+@media (max-width:768px) {
+  .rf-hub-title { font-size:56px; }
+  .rf-hub-header-content, .rf-char-section, .rf-controls, .rf-seasons-section, .rf-results-section { padding-left:20px; padding-right:20px; }
+  .rf-firebird-band, .rf-guests-band { margin-left:20px; margin-right:20px; }
+  .rf-char-card { width:100px; }
+  .rf-char-img-wrap { width:100px; height:130px; }
+  .rf-modal-still { height:240px; }
+  .rf-modal-title { font-size:36px; }
+  .rf-modal-body, .rf-modal-section, .rf-modal-nav { padding-left:20px; padding-right:20px; }
+  .rf-season-ep-grid { padding:16px 20px 60px; }
+  .rf-guest-list, .rf-guest-controls, .rf-am-list { padding-left:20px; padding-right:20px; }
+}
+
 </style>
 </head>
 <body class="grid-view">
@@ -4821,11 +5213,13 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
     <button class="sp-filter-btn" data-filter="parody" onclick="spToggleFilter('parody')">&#127916; Parody</button>
     <button class="sp-filter-btn" data-filter="guest" onclick="spToggleFilter('guest')">&#11088; Guest Star</button>
     <div class="sp-ep-count" id="sp-ep-count"></div>
+    <button class="sp-filter-btn sp-clear-btn" id="sp-clear-filters" style="display:none" onclick="spClearAllFilters()">&#10005; Clear</button>
   </div>
 
   <div class="sp-char-section">
     <div class="sp-section-label">Browse by Character</div>
     <div class="sp-char-row" id="sp-char-row"></div>
+    <div class="sp-guest-spotlight" id="sp-guest-spotlight"></div>
   </div>
 
   <div class="sp-ghof-card" onclick="openSpGhof()">
@@ -4921,7 +5315,26 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
 
 
 
-<div id="mst-season-view"></div>
+<div id="mst-season-view">
+  <div class="mst-season-hero">
+    <div class="mst-season-hero-bg" id="mst-season-bg"></div>
+    <div class="mst-season-hero-vignette"></div>
+    <div class="mst-season-back" onclick="closeMSTSeason()">Back to MST3K</div>
+    <div class="mst-season-hero-content">
+      <div class="mst-season-eyebrow">Mystery Science Theater 3000</div>
+      <div class="mst-season-title" id="mst-season-label"></div>
+      <div class="mst-season-meta"><span id="mst-season-ep-count"></span> &nbsp;&middot;&nbsp; <span id="mst-season-network"></span></div>
+      <div class="mst-season-meta" id="mst-season-tagline" style="margin-top:8px;font-family:Crimson Pro,serif;font-size:15px;font-style:italic;color:var(--text2);max-width:600px;line-height:1.5;"></div>
+    </div>
+  </div>
+  <div class="mst-season-controls">
+    <div class="mst-season-search">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color:var(--text3);flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" placeholder="Search this season..." oninput="filterMSTSeason(this.value)">
+    </div>
+  </div>
+  <div class="mst-ep-grid" id="mst-ep-grid"></div>
+</div>
 <div id="mst-ep-modal"><div class="mst-ep-modal-inner" id="mst-ep-modal-inner"></div></div>
 <div id="lt-modal-overlay">
   <div class="lt-modal" id="lt-modal"></div>
@@ -5243,6 +5656,8 @@ function openShow(id) {
   if (show && show.id === 'laugh-in') { openLIHub(); return; }
   if (show && show.id === 'mystery-science-theater-3000') { openMSTHub(); return; }
   if (show && show.id === 'supernatural') { openSpnHub(); return; }
+  if (show && show.id === 'malcolm-in-the-middle') { openMitmHub(); return; }
+  if (show && show.id === 'rockford-files') { openRfHub(); return; }
   if (show && show.isMovie) { openMovieSpecial(show); return; }
   if (!show) return;
   clearInterval(heroTimer);
@@ -7958,7 +8373,7 @@ function filterMSTHub(query) {
       var shortMatch = !filterShort || ep.has_short;
 
       if (textMatch && hostMatch && shortMatch) {
-        matches.push({ season: season.num, ep: ep });
+        matches.push({ season: ep.season, ep: ep });
       }
   });
 
@@ -8014,7 +8429,7 @@ function openMSTSeason(seasonNum) {
   document.getElementById('mst-season-ep-count').textContent = eps.length + ' Episodes';
 
   var grid = document.getElementById('mst-ep-grid');
-  grid.innerHTML = eps.map(function(ep){ return buildMSTCard(ep.season, ep.episode); }).join('');
+  grid.innerHTML = eps.map(function(ep){ return buildMSTCard(ep.season, ep); }).join('');
 
   document.getElementById('mst-season-view').style.display = 'block';
   document.getElementById('mst-hub').style.overflow = 'hidden';
@@ -8024,6 +8439,7 @@ function openMSTSeason(seasonNum) {
 
 function closeMSTSeason() {
   document.getElementById('mst-season-view').style.display = 'none';
+  document.getElementById('mst-hub').style.overflow = 'auto';
   mstCurrentSeason = null;
 }
 
@@ -8038,7 +8454,7 @@ function filterMSTSeason(query) {
 // ── Episode card builder (shared by season view + search results) ──
 
 function buildMSTCard(seasonNum, ep, highlightQuery) {
-  var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(ep.num).padStart(2,'0');
+  var code = 'S' + String(seasonNum).padStart(2,'0') + 'E' + String(ep.episode).padStart(2,'0');
   var stillHtml = ep.still
     ? '<img class="mst-ep-still" src="' + ep.still + '" loading="lazy" alt="">'
     : '<div class="mst-ep-still-fallback">' + code + '</div>';
@@ -8047,7 +8463,7 @@ function buildMSTCard(seasonNum, ep, highlightQuery) {
     ? '<span class="mst-ep-short-badge">+ Short</span>'
     : '';
 
-  var movieTitle = ep.title || ('Episode ' + ep.num);
+  var movieTitle = ep.title || ('Episode ' + ep.episode);
   // Highlight search term in movie title if searching
   if (highlightQuery && movieTitle.toLowerCase().indexOf(highlightQuery) > -1) {
     var idx = movieTitle.toLowerCase().indexOf(highlightQuery);
@@ -8058,17 +8474,17 @@ function buildMSTCard(seasonNum, ep, highlightQuery) {
   }
 
   var searchStr = (
-    code + ' ' + ep.title + ' ' + ep.host + ' ' +
-    (ep.shorts || []).join(' ') + ' ' + ep.airdate + ' ' + (ep.desc || '')
+    code + ' ' + ep.title + ' ' + (ep.host||'') + ' ' +
+    (ep.shorts || []).join(' ') + ' ' + (ep.air_date||'') + ' ' + (ep.overview || '')
   ).toLowerCase();
 
-  return '<div class="mst-ep-card" data-search="' + searchStr.replace(/"/g,'') + '" onclick="openMSTEpisode(' + seasonNum + ',' + ep.num + ')">' +
+  return '<div class="mst-ep-card" data-search="' + searchStr.replace(/"/g,'') + '" onclick="openMSTEpisode(' + seasonNum + ',' + ep.episode + ')">' +
     stillHtml +
     '<div class="mst-ep-info">' +
       '<div class="mst-ep-code">' + code + '</div>' +
       '<div class="mst-ep-movie">' + movieTitle + '</div>' +
       '<div class="mst-ep-meta">' +
-        '<span class="mst-ep-host ' + ep.host.toLowerCase() + '">' + ep.host + '</span>' +
+        '<span class="mst-ep-host ' + (ep.host||'').toLowerCase() + '">' + (ep.host||'') + '</span>' +
         shortBadge +
       '</div>' +
     '</div>' +
@@ -8595,6 +9011,7 @@ function spApplyFilters(){
     resultsSection.style.display='none';
     erasSection.style.display='block';
     document.getElementById('sp-ep-count').textContent='';
+    var clrBtn=document.getElementById('sp-clear-filters'); if(clrBtn) clrBtn.style.display='none';
     SP_FILTERED_EPISODES=[];
     return;
   }
@@ -8652,10 +9069,26 @@ function spApplyFilters(){
   resultsSection.style.display='block';
   erasSection.style.display='none';
   document.getElementById('sp-ep-count').textContent=count+' episode'+(count!==1?'s':'');
+  var clrBtn=document.getElementById('sp-clear-filters'); if(clrBtn) clrBtn.style.display='inline-block';
   spUpdateCharCounts();
 }
 
 function spShowAllCards(){
+  document.getElementById('sp-results-section').style.display='none';
+  document.getElementById('sp-eras-section').style.display='block';
+  SP_FILTERED_EPISODES=[];
+}
+
+function spClearAllFilters(){
+  SP_ACTIVE_FILTERS.clear();
+  SP_ACTIVE_CHAR=null;
+  SP_ACTIVE_GUEST=null;
+  document.querySelectorAll('.sp-filter-btn').forEach(function(b){b.classList.remove('active');});
+  document.querySelectorAll('.sp-char-card').forEach(function(c){c.classList.remove('active');});
+  var si=document.getElementById('sp-search'); if(si) si.value='';
+  document.getElementById('sp-ep-count').textContent='';
+  var clrBtn=document.getElementById('sp-clear-filters'); if(clrBtn) clrBtn.style.display='none';
+  var gs=document.getElementById('sp-guest-spotlight'); if(gs) gs.classList.remove('open');
   document.getElementById('sp-results-section').style.display='none';
   document.getElementById('sp-eras-section').style.display='block';
   SP_FILTERED_EPISODES=[];
@@ -8800,6 +9233,8 @@ window.closeSpHub = closeSpHub;
 window.closeSpModal = closeSpModal;
 window.spCloseModalOverlay = spCloseModalOverlay;
 window.spToggleFilter = spToggleFilter;
+window.spClearAllFilters = spClearAllFilters;
+window.spShowAllCards = spShowAllCards;
 window.spApplyFilters = spApplyFilters;
 window.spToggleEra = spToggleEra;
 window.spToggleSeason = spToggleSeason;
@@ -9993,6 +10428,1019 @@ window.openSpnBio = openSpnBio;
 window.closeSpnBio = closeSpnBio;
 window.spnBioOpenEp = spnBioOpenEp;
 
+
+// ════════════════════════════════════════════════════════════════
+// MALCOLM IN THE MIDDLE HUB
+// ════════════════════════════════════════════════════════════════
+
+var mitmData = null;
+var MITM_ALL_EPISODES = [];
+var MITM_ACTIVE_FILTERS = new Set();
+var MITM_ACTIVE_CHAR = null;
+var MITM_ACTIVE_FRANCIS_ERA = null;
+var MITM_FILTERED_EPISODES = [];
+var MITM_MODAL_LIST = [];
+var MITM_MODAL_IDX = 0;
+var _mitmFrancisListenerAttached = false;
+
+// Character bio data — personality + key season beats
+var MITM_BIO_DATA = {
+  malcolm: {
+    name: "MALCOLM",
+    actor: "Frankie Muniz",
+    epithet: "The genius stuck in the middle.",
+    portrait: "./images/malcolm/char_malcolm.jpg",
+    text: "Malcolm Wilkerson is a genius trapped in a family and a neighborhood that have absolutely no use for genius. He breaks the fourth wall because he needs someone rational to talk to \u2014 and the audience is the closest thing available. He\u2019s smarter than everyone around him and deeply aware that this makes his life worse, not better. He doesn\u2019t want to be special. He wants to be normal. The show\u2019s cruelest joke is that he never gets to be either."
+  },
+  hal: {
+    name: "HAL",
+    actor: "Bryan Cranston",
+    epithet: "The lovable, reckless dad.",
+    portrait: "./images/malcolm/char_hal.jpg",
+    text: "Hal is a man who approaches every hobby, fixation, and minor household task with the intensity of someone defusing a bomb. Speed walking. Painting. Building a robot. Roller skating. He is spectacularly incompetent at adulting and spectacularly gifted at enthusiasm. Underneath the comedy is a man who genuinely loves his wife with his whole chest and would do anything for his kids \u2014 he just might accidentally set the garage on fire first. Bryan Cranston\u2019s performance is one of the great physical comedy turns in sitcom history."
+  },
+  lois: {
+    name: "LOIS",
+    actor: "Jane Kaczmarek",
+    epithet: "The iron fist of the household.",
+    portrait: "./images/malcolm/char_lois.jpg",
+    text: "Lois Wilkerson is the only thing standing between her family and complete anarchy, and she knows it. She yells because whispering doesn\u2019t work. She punishes because reason doesn\u2019t work. She is terrifying and exhausted and absolutely right most of the time. The show\u2019s secret is that Lois is not the villain the boys think she is \u2014 she\u2019s the only one who sees what her kids could become and refuses to let them settle for less. The finale proves it."
+  },
+  reese: {
+    name: "REESE",
+    actor: "Justin Berfield",
+    epithet: "The brawn to Malcolm\u2019s brains.",
+    portrait: "./images/malcolm/char_reese.jpg",
+    text: "Reese is the anti-Malcolm \u2014 no book smarts, no self-awareness, and absolutely no impulse control. He is the family\u2019s agent of chaos, the one who escalates every situation past the point of no return. But the show gives him surprising depth over time: his cooking talent, his brief military career, his genuine hurt when he realizes he\u2019s the dumb one. Reese is funnier than Malcolm and sadder than anyone gives him credit for."
+  },
+  dewey: {
+    name: "DEWEY",
+    actor: "Erik Per Sullivan",
+    epithet: "The quiet creative one.",
+    portrait: "./images/malcolm/char_dewey.jpg",
+    text: "Dewey starts the show as the little kid who gets dragged into his brothers\u2019 disasters. By the later seasons, he\u2019s emerged as potentially the most interesting Wilkerson \u2014 a genuine musical and creative talent who builds an entire opera, runs a class of misfit students, and navigates the family chaos with a surreal calm that suggests he understood things long before anyone else did. Dewey is the sleeper character of the entire series."
+  },
+  francis: {
+    name: "FRANCIS",
+    actor: "Christopher Kennedy Masterson",
+    epithet: "The exiled firstborn.",
+    portrait: "./images/malcolm/char_francis.jpg",
+    text: "Francis Wilkerson is the oldest brother, exiled to military school before the series begins and spending the entire show in a parallel storyline that barely intersects with the family. Military academy. Alaska. The ranch. An office job. Francis\u2019s journey is its own show-within-a-show \u2014 a picaresque adventure about a charming screw-up trying to become an adult while actively resisting every structure designed to help him do so."
+  }
+};
+
+// ── Data loading ──────────────────────────────────────────────────────────────
+function loadMitmData(cb) {
+  if (mitmData) { cb(mitmData); return; }
+  fetch("malcolm_data.json")
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      mitmData = d;
+      MITM_ALL_EPISODES = d.episodes || [];
+      cb(d);
+    })
+    .catch(function(e){ console.error("Failed to load malcolm_data.json", e); });
+}
+
+// ── Hub open / close ──────────────────────────────────────────────────────────
+function openMitmHub() {
+  clearInterval(window.heroTimer);
+  document.getElementById("home-page").style.display = "none";
+  loadMitmData(function(data) {
+    document.getElementById("mitm-hub-desc").textContent = data.series.description || "";
+    document.getElementById("mitm-total-count").textContent = data.episodes.length + " Episodes";
+    mitmBuildCharRow(data);
+    mitmBuildFrancisRow(data);
+    mitmBuildSeasonBands(data);
+    mitmAttachCharListener();
+    mitmAttachFrancisListener();
+    document.getElementById("mitm-hub").style.display = "block";
+    document.getElementById("mitm-hub").scrollTop = 0;
+  });
+}
+
+function closeMitmHub() {
+  document.getElementById("mitm-hub").style.display = "none";
+  MITM_ACTIVE_FILTERS.clear();
+  MITM_ACTIVE_CHAR = null;
+  MITM_ACTIVE_FRANCIS_ERA = null;
+  MITM_FILTERED_EPISODES = [];
+  document.querySelectorAll(".mitm-filter-btn").forEach(function(b){ b.classList.remove("active"); });
+  document.querySelectorAll(".mitm-family-card, .mitm-cast-card").forEach(function(c){ c.classList.remove("active"); });
+  document.querySelectorAll(".mitm-francis-era-card").forEach(function(c){ c.classList.remove("active"); });
+  var si = document.getElementById("mitm-search"); if (si) si.value = "";
+  document.getElementById("mitm-ep-count").textContent = "";
+  document.getElementById("mitm-results-section").style.display = "none";
+  document.getElementById("mitm-seasons-section").style.display = "block";
+  showHome();
+}
+
+// ── Unified character row (family larger + supporting smaller, one row) ───────
+function mitmCharImgErr(img) {
+  var init = img.parentNode.getAttribute("data-init") || "?";
+  img.parentNode.innerHTML = '<div class="mitm-cast-placeholder"><div class="mitm-cast-initials">' + init + '</div></div>';
+}
+
+function mitmBuildCharRow(data) {
+  var row = document.getElementById("mitm-char-row");
+  row.innerHTML = "";
+  var chars = data.characters || [];
+
+  // Pre-count supporting cast appearances in guest lists
+  var castCounts = {};
+  chars.forEach(function(c) {
+    if (!c.family && c.actor && c.actor !== "Various") {
+      var actorLower = c.actor.toLowerCase();
+      var count = 0;
+      MITM_ALL_EPISODES.forEach(function(ep) {
+        if ((ep.guests || []).some(function(g){ return g.toLowerCase().indexOf(actorLower) >= 0; })) count++;
+      });
+      castCounts[c.id] = count;
+    }
+  });
+
+  // Family cards first (larger, gold border)
+  chars.filter(function(c){ return c.family; }).forEach(function(c) {
+    var card = document.createElement("div");
+    card.className = "mitm-family-card";
+    card.dataset.charid = c.id;
+    card.dataset.isfamily = "1";
+    var init = c.name[0].toUpperCase();
+    card.innerHTML = '<div class="mitm-family-img-wrap" data-init="' + init + '">'
+      + '<img class="mitm-family-img" src="' + c.image + '" alt="' + c.name + '" loading="lazy" onerror="mitmCharImgErr(this)">'
+      + '</div>'
+      + '<div class="mitm-family-label">' + c.name + '</div>'
+      + '<div class="mitm-family-actor">' + c.actor + '</div>';
+    row.appendChild(card);
+  });
+
+  // Supporting cast (smaller, standard border, with episode count)
+  chars.filter(function(c){ return !c.family; }).forEach(function(c) {
+    var card = document.createElement("div");
+    card.className = "mitm-cast-card";
+    card.dataset.charid = c.id;
+    card.dataset.isfamily = "0";
+    card.dataset.actor = c.actor || "";
+    var words = c.name.split(" ");
+    var init = words.length === 1 ? words[0][0] : (words[0][0] + words[words.length-1][0]);
+    init = init.toUpperCase();
+    var countLabel = castCounts[c.id] ? castCounts[c.id] + " eps" : "";
+    card.innerHTML = '<div class="mitm-cast-img-wrap" data-init="' + init + '">'
+      + '<img class="mitm-cast-img" src="' + c.image + '" alt="' + c.name + '" loading="lazy" onerror="mitmCharImgErr(this)">'
+      + '</div>'
+      + '<div class="mitm-cast-label">' + c.name + '</div>'
+      + (countLabel ? '<div class="mitm-cast-count">' + countLabel + '</div>' : '');
+    row.appendChild(card);
+  });
+}
+
+var _mitmCharListenerAttached = false;
+function mitmAttachCharListener() {
+  if (_mitmCharListenerAttached) return;
+  _mitmCharListenerAttached = true;
+  document.getElementById("mitm-char-row").addEventListener("click", function(e) {
+    var card = e.target.closest(".mitm-family-card, .mitm-cast-card");
+    if (!card) return;
+    var id = card.dataset.charid;
+    var isFamily = card.dataset.isfamily === "1";
+
+    // Family cards with bios open the bio modal
+    if (isFamily && MITM_BIO_DATA[id]) {
+      openMitmBio(id);
+      return;
+    }
+
+    // Toggle character filter
+    if (MITM_ACTIVE_CHAR === id) {
+      MITM_ACTIVE_CHAR = null;
+      card.classList.remove("active");
+    } else {
+      document.querySelectorAll(".mitm-family-card, .mitm-cast-card").forEach(function(c){ c.classList.remove("active"); });
+      MITM_ACTIVE_CHAR = id;
+      card.classList.add("active");
+    }
+    MITM_ACTIVE_FRANCIS_ERA = null;
+    document.querySelectorAll(".mitm-francis-era-card").forEach(function(c){ c.classList.remove("active"); });
+    mitmApplyFilters();
+  });
+}
+
+// ── Francis's World ───────────────────────────────────────────────────────────
+function mitmBuildFrancisRow(data) {
+  var row = document.getElementById("mitm-francis-row");
+  row.innerHTML = "";
+  var francis = (data.characters || []).find(function(c){ return c.id === "francis"; });
+  if (!francis || !francis.francis_eras) return;
+  francis.francis_eras.forEach(function(era, idx) {
+    var card = document.createElement("div");
+    card.className = "mitm-francis-era-card";
+    card.dataset.eraidx = idx;
+    // Use a random still from those seasons as background
+    var seasonEps = MITM_ALL_EPISODES.filter(function(ep) {
+      return era.seasons.indexOf(ep.season) >= 0 && ep.still;
+    });
+    var bgStill = seasonEps.length > 0 ? seasonEps[Math.floor(Math.random() * seasonEps.length)].still : "";
+    var bgStyle = bgStill ? 'background-image:url(' + bgStill + ')' : '';
+    card.innerHTML = '<div class="mitm-francis-era-bg" style="' + bgStyle + '"></div>'
+      + '<div class="mitm-francis-era-content">'
+      + '<div class="mitm-francis-era-label">' + era.label + '</div>'
+      + '<div class="mitm-francis-era-seasons">Seasons ' + era.seasons.join(", ") + '</div>'
+      + '<div class="mitm-francis-era-setting">' + era.setting + '</div>'
+      + '</div>';
+    row.appendChild(card);
+  });
+}
+
+function mitmAttachFrancisListener() {
+  if (_mitmFrancisListenerAttached) return;
+  _mitmFrancisListenerAttached = true;
+  document.getElementById("mitm-francis-row").addEventListener("click", function(e) {
+    var card = e.target.closest(".mitm-francis-era-card");
+    if (!card) return;
+    var idx = parseInt(card.dataset.eraidx, 10);
+    if (MITM_ACTIVE_FRANCIS_ERA === idx) {
+      MITM_ACTIVE_FRANCIS_ERA = null;
+      card.classList.remove("active");
+    } else {
+      document.querySelectorAll(".mitm-francis-era-card").forEach(function(c){ c.classList.remove("active"); });
+      MITM_ACTIVE_FRANCIS_ERA = idx;
+      card.classList.add("active");
+    }
+    // Clear character filter when using Francis era
+    MITM_ACTIVE_CHAR = null;
+    document.querySelectorAll(".mitm-family-card, .mitm-cast-card").forEach(function(c){ c.classList.remove("active"); });
+    mitmApplyFilters();
+  });
+}
+
+// ── Season bands ──────────────────────────────────────────────────────────────
+function mitmBuildSeasonBands(data) {
+  var section = document.getElementById("mitm-seasons-section");
+  section.innerHTML = "";
+  var meta = data.season_meta || {};
+  var seasonNums = [];
+  MITM_ALL_EPISODES.forEach(function(ep) {
+    if (seasonNums.indexOf(ep.season) < 0) seasonNums.push(ep.season);
+  });
+  seasonNums.sort(function(a,b){ return a - b; });
+
+  seasonNums.forEach(function(sNum) {
+    var sm = meta[String(sNum)] || {};
+    var eps = MITM_ALL_EPISODES.filter(function(ep){ return ep.season === sNum; });
+    var count = eps.length;
+
+    // Build mosaic — doubled for seamless scroll
+    var stills = eps.filter(function(ep){ return ep.still; }).map(function(ep){ return ep.still; });
+    var dbl = stills.concat(stills);
+    var mosImgs = dbl.map(function(src){ return '<img class="mitm-band-still" src="' + src + '" loading="lazy" alt="">'; }).join("");
+
+    var band = document.createElement("div");
+    band.className = "mitm-season-band";
+    band.onclick = (function(sn){ return function(){ mitmOpenSeasonView(sn); }; })(sNum);
+    band.innerHTML = '<div class="mitm-band-mosaic">' + mosImgs + '</div>'
+      + '<div class="mitm-band-overlay"></div>'
+      + '<div class="mitm-band-content">'
+      + '<div class="mitm-band-season-num">SEASON ' + sNum + '</div>'
+      + '<div class="mitm-band-info">'
+      + '<div class="mitm-band-count">' + count + ' Episodes</div>'
+      + '<div class="mitm-band-years">' + (sm.year || "") + '</div>'
+      + '<div class="mitm-band-tagline">' + (sm.tagline || "") + '</div>'
+      + '</div></div>'
+      + '<div class="mitm-band-browse">Browse Season &#8594;</div>';
+    section.appendChild(band);
+  });
+}
+
+// ── Season view ───────────────────────────────────────────────────────────────
+function mitmOpenSeasonView(sNum) {
+  if (!mitmData) { loadMitmData(function(){ mitmOpenSeasonView(sNum); }); return; }
+  var meta = (mitmData.season_meta || {})[String(sNum)] || {};
+  var eps = MITM_ALL_EPISODES.filter(function(ep){ return ep.season === sNum; });
+  eps.sort(function(a,b){ return a.episode - b.episode; });
+
+  // Hero background — use first still with image
+  var bgStill = "";
+  for (var i = 0; i < eps.length; i++) { if (eps[i].still) { bgStill = eps[i].still; break; } }
+  document.getElementById("mitm-season-view-bg").style.backgroundImage = bgStill ? "url(" + bgStill + ")" : "none";
+  document.getElementById("mitm-season-view-title").textContent = "SEASON " + sNum;
+  document.getElementById("mitm-season-view-meta").textContent = eps.length + " Episodes \u00B7 " + (meta.year || "");
+  document.getElementById("mitm-season-view-tagline").textContent = meta.tagline || "";
+
+  // Episode grid
+  var grid = document.getElementById("mitm-season-ep-grid");
+  grid.innerHTML = eps.map(function(ep){ return mitmBuildEpCard(ep); }).join("");
+
+  document.getElementById("mitm-season-view").style.display = "block";
+  document.getElementById("mitm-hub").style.overflow = "hidden";
+  window.scrollTo(0, 0);
+  document.getElementById("mitm-season-view").scrollTop = 0;
+}
+
+function closeMitmSeasonView() {
+  document.getElementById("mitm-season-view").style.display = "none";
+  document.getElementById("mitm-hub").style.display = "block";
+  document.getElementById("mitm-hub").style.overflow = "auto";
+}
+
+// ── Episode card ──────────────────────────────────────────────────────────────
+function mitmEpCardImgErr(img) {
+  var code = img.getAttribute("data-code") || "???";
+  img.parentNode.innerHTML = '<div class="mitm-ep-card-placeholder"><div class="mitm-ep-card-placeholder-code">' + code + '</div></div>';
+}
+
+function mitmBuildEpCard(ep) {
+  var code = "S" + String(ep.season).padStart(2,"0") + "E" + String(ep.episode).padStart(2,"0");
+  var tags = ep.tags || [];
+  var badges = "";
+  if (tags.indexOf("FAN_FAVORITE") >= 0)  badges += '<span class="mitm-ep-badge-item mitm-ep-badge-fav">\u2605</span>';
+  if (tags.indexOf("HAL_SCHEME") >= 0)     badges += '<span class="mitm-ep-badge-item mitm-ep-badge-hal">HAL</span>';
+  if (tags.indexOf("LOIS_VS_BOYS") >= 0)   badges += '<span class="mitm-ep-badge-item mitm-ep-badge-lois">LOIS</span>';
+  if (tags.indexOf("FAMILY_CHAOS") >= 0)   badges += '<span class="mitm-ep-badge-item mitm-ep-badge-chaos">CHAOS</span>';
+  if (tags.indexOf("COLD_OPEN") >= 0)      badges += '<span class="mitm-ep-badge-item mitm-ep-badge-cold">COLD</span>';
+
+  var imgInner = ep.still
+    ? '<img src="' + ep.still + '" data-code="' + code + '" alt="' + code + '" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="mitmEpCardImgErr(this)">'
+    : '<div class="mitm-ep-card-placeholder"><div class="mitm-ep-card-placeholder-code">' + code + '</div></div>';
+
+  return '<div class="mitm-ep-card" data-season="' + ep.season + '" data-episode="' + ep.episode + '" onclick="mitmOpenModal(' + ep.season + ',' + ep.episode + ')">'
+    + imgInner
+    + '<div class="mitm-ep-card-overlay"></div>'
+    + (badges ? '<div class="mitm-ep-badge">' + badges + '</div>' : '')
+    + '<div class="mitm-ep-card-title">' + ep.title + '</div>'
+    + '</div>';
+}
+
+// ── Filters ───────────────────────────────────────────────────────────────────
+function mitmToggleFilter(f) {
+  var btn = document.querySelector('.mitm-filter-btn[data-filter="' + f + '"]');
+  if (MITM_ACTIVE_FILTERS.has(f)) {
+    MITM_ACTIVE_FILTERS.delete(f); if (btn) btn.classList.remove("active");
+  } else {
+    MITM_ACTIVE_FILTERS.add(f); if (btn) btn.classList.add("active");
+  }
+  mitmApplyFilters();
+}
+
+function mitmApplyFilters() {
+  var q = (document.getElementById("mitm-search").value || "").toLowerCase().trim();
+  var hasFilter = MITM_ACTIVE_FILTERS.size > 0 || MITM_ACTIVE_CHAR || MITM_ACTIVE_FRANCIS_ERA !== null || q;
+  var resultsSection = document.getElementById("mitm-results-section");
+  var seasonsSection = document.getElementById("mitm-seasons-section");
+
+  if (!hasFilter) {
+    resultsSection.style.display = "none";
+    seasonsSection.style.display = "block";
+    document.getElementById("mitm-ep-count").textContent = "";
+    MITM_FILTERED_EPISODES = [];
+    return;
+  }
+
+  if (!mitmData) { loadMitmData(function(){ mitmApplyFilters(); }); return; }
+
+  // Character filter — family uses season match, supporting uses guest-list actor match
+  var charFilter = null;
+  if (MITM_ACTIVE_CHAR) {
+    var charDef = (mitmData.characters || []).find(function(c){ return c.id === MITM_ACTIVE_CHAR; });
+    if (charDef) {
+      if (charDef.family) {
+        // Family: filter by seasons (they're in every ep of their seasons)
+        charFilter = { type: "season", seasons: charDef.seasons };
+      } else {
+        // Supporting: filter by actor name appearing in guest list
+        charFilter = { type: "guest", actor: charDef.actor.toLowerCase() };
+      }
+    }
+  }
+
+  // Francis era filter
+  var francisSeasons = null;
+  if (MITM_ACTIVE_FRANCIS_ERA !== null) {
+    var francis = (mitmData.characters || []).find(function(c){ return c.id === "francis"; });
+    if (francis && francis.francis_eras && francis.francis_eras[MITM_ACTIVE_FRANCIS_ERA]) {
+      francisSeasons = francis.francis_eras[MITM_ACTIVE_FRANCIS_ERA].seasons;
+    }
+  }
+
+  var filtered = MITM_ALL_EPISODES.filter(function(ep) {
+    var tags = ep.tags || [];
+    if (MITM_ACTIVE_FILTERS.has("FAN_FAVORITE")  && tags.indexOf("FAN_FAVORITE") < 0)  return false;
+    if (MITM_ACTIVE_FILTERS.has("HAL_SCHEME")     && tags.indexOf("HAL_SCHEME") < 0)     return false;
+    if (MITM_ACTIVE_FILTERS.has("LOIS_VS_BOYS")   && tags.indexOf("LOIS_VS_BOYS") < 0)   return false;
+    if (MITM_ACTIVE_FILTERS.has("FAMILY_CHAOS")   && tags.indexOf("FAMILY_CHAOS") < 0)   return false;
+    if (MITM_ACTIVE_FILTERS.has("COLD_OPEN")      && tags.indexOf("COLD_OPEN") < 0)      return false;
+    if (charFilter) {
+      if (charFilter.type === "season" && charFilter.seasons.indexOf(ep.season) < 0) return false;
+      if (charFilter.type === "guest") {
+        var guestMatch2 = (ep.guests || []).some(function(g){ return g.toLowerCase().indexOf(charFilter.actor) >= 0; });
+        if (!guestMatch2) return false;
+      }
+    }
+    if (francisSeasons && francisSeasons.indexOf(ep.season) < 0) return false;
+    if (q) {
+      var titleMatch = ep.title.toLowerCase().indexOf(q) >= 0;
+      var guestMatch = (ep.guests || []).some(function(g){ return g.toLowerCase().indexOf(q) >= 0; });
+      var descMatch  = ep.overview && ep.overview.toLowerCase().indexOf(q) >= 0;
+      if (!titleMatch && !guestMatch && !descMatch) return false;
+    }
+    return true;
+  });
+
+  MITM_FILTERED_EPISODES = filtered;
+  var count = filtered.length;
+  document.getElementById("mitm-results-label").textContent = count + " EPISODE" + (count !== 1 ? "S" : "") + " FOUND";
+  document.getElementById("mitm-results-grid").innerHTML = filtered.map(function(ep){ return mitmBuildEpCard(ep); }).join("");
+  resultsSection.style.display = "block";
+  seasonsSection.style.display = "none";
+  document.getElementById("mitm-ep-count").textContent = count + " episode" + (count !== 1 ? "s" : "");
+}
+
+// ── Episode modal ─────────────────────────────────────────────────────────────
+function mitmOpenModal(season, episode) {
+  if (!mitmData) { loadMitmData(function(){ mitmOpenModal(season, episode); }); return; }
+  var ep = MITM_ALL_EPISODES.find(function(e){ return e.season === season && e.episode === episode; });
+  if (!ep) return;
+  var list = MITM_FILTERED_EPISODES.length > 0 ? MITM_FILTERED_EPISODES : MITM_ALL_EPISODES;
+  MITM_MODAL_LIST = list;
+  MITM_MODAL_IDX = list.findIndex(function(e){ return e.season === season && e.episode === episode; });
+  if (MITM_MODAL_IDX < 0) { MITM_MODAL_LIST = MITM_ALL_EPISODES; MITM_MODAL_IDX = MITM_ALL_EPISODES.indexOf(ep); }
+  mitmRenderModal(ep);
+}
+
+function mitmRenderModal(ep) {
+  var code = "S" + String(ep.season).padStart(2,"0") + "E" + String(ep.episode).padStart(2,"0");
+  var tags = ep.tags || [];
+  var badges = "";
+  if (tags.indexOf("FAN_FAVORITE") >= 0)  badges += '<span class="mitm-modal-badge mitm-modal-badge-fav">\u2605 Fan Favorite</span>';
+  if (tags.indexOf("HAL_SCHEME") >= 0)     badges += '<span class="mitm-modal-badge mitm-modal-badge-hal">\uD83C\uDFA8 Hal Scheme</span>';
+  if (tags.indexOf("LOIS_VS_BOYS") >= 0)   badges += '<span class="mitm-modal-badge mitm-modal-badge-lois">\u26A1 Lois vs Boys</span>';
+  if (tags.indexOf("FAMILY_CHAOS") >= 0)   badges += '<span class="mitm-modal-badge mitm-modal-badge-chaos">\uD83D\uDCA5 Family Chaos</span>';
+  if (tags.indexOf("COLD_OPEN") >= 0)      badges += '<span class="mitm-modal-badge mitm-modal-badge-cold">\uD83C\uDFAC Cold Open</span>';
+
+  var stillHtml = ep.still
+    ? '<img class="mitm-modal-still" src="' + ep.still + '" alt="' + code + '">'
+    : '<div class="mitm-modal-still-placeholder"><div class="mitm-modal-still-placeholder-text">' + code + '</div></div>';
+
+  var overviewSection = ep.overview
+    ? '<div class="mitm-modal-section"><div class="mitm-modal-section-label">Overview</div><div class="mitm-modal-desc">' + ep.overview + '</div></div>'
+    : '';
+
+  var guestSection = "";
+  var guests = ep.guests || [];
+  if (guests.length > 0) {
+    var guestItems = guests.map(function(g) {
+      return '<div class="mitm-modal-guest-item"><strong>' + g + '</strong></div>';
+    }).join("");
+    guestSection = '<div class="mitm-modal-section"><div class="mitm-modal-section-label">Guest Stars</div><div class="mitm-modal-guest-grid">' + guestItems + '</div></div>';
+  }
+
+  var ratingHtml = ep.rating && ep.rating > 0
+    ? '<span class="mitm-modal-meta-dot">&middot;</span><span>\u2605 ' + ep.rating + '</span>'
+    : '';
+
+  var content = stillHtml
+    + '<div class="mitm-modal-body">'
+    + '<div class="mitm-modal-meta"><span>' + code + '</span><span class="mitm-modal-meta-dot">&middot;</span><span>' + (ep.air_date || '') + '</span>' + ratingHtml + '</div>'
+    + '<div class="mitm-modal-title">' + ep.title + '</div>'
+    + (badges ? '<div class="mitm-modal-badges">' + badges + '</div>' : '')
+    + '</div>'
+    + overviewSection
+    + guestSection;
+
+  document.getElementById("mitm-modal-content").innerHTML = content;
+  document.getElementById("mitm-modal-nav-code").textContent = code;
+  document.getElementById("mitm-modal-overlay").classList.add("open");
+  document.getElementById("mitm-modal-overlay").scrollTop = 0;
+}
+
+function closeMitmModal() {
+  document.getElementById("mitm-modal-overlay").classList.remove("open");
+}
+function mitmCloseModalOverlay(e) {
+  if (e.target === document.getElementById("mitm-modal-overlay")) closeMitmModal();
+}
+function mitmModalNav(dir) {
+  var newIdx = MITM_MODAL_IDX + dir;
+  if (newIdx < 0 || newIdx >= MITM_MODAL_LIST.length) return;
+  MITM_MODAL_IDX = newIdx;
+  mitmRenderModal(MITM_MODAL_LIST[MITM_MODAL_IDX]);
+  document.getElementById("mitm-modal-overlay").scrollTop = 0;
+}
+
+// ── Character bio modal ──────────────────────────────────────────────────────
+function openMitmBio(charId) {
+  var data = MITM_BIO_DATA[charId];
+  if (!data) return;
+
+  document.getElementById("mitm-bio-hero-bg").style.backgroundImage = "url(./images/malcolm/hero.jpg)";
+
+  var html = '<div class="mitm-bio-portrait"><img src="' + data.portrait + '" alt="' + data.name + '"></div>'
+    + '<div class="mitm-bio-name">' + data.name + '</div>'
+    + '<div class="mitm-bio-actor">' + data.actor + '</div>'
+    + '<div class="mitm-bio-epithet">' + data.epithet + '</div>'
+    + '<div class="mitm-bio-section">'
+    + '<div class="mitm-bio-section-label">Character</div>'
+    + '<div class="mitm-bio-body-text">' + data.text + '</div>'
+    + '</div>';
+
+  document.getElementById("mitm-bio-content").innerHTML = html;
+  document.getElementById("mitm-bio-overlay").classList.add("open");
+  document.getElementById("mitm-bio-overlay").scrollTop = 0;
+  document.getElementById("mitm-hub").style.overflow = "hidden";
+}
+
+function closeMitmBio() {
+  document.getElementById("mitm-bio-overlay").classList.remove("open");
+  document.getElementById("mitm-hub").style.display = "block";
+  document.getElementById("mitm-hub").style.overflow = "auto";
+}
+
+// ── Escape key handler ───────────────────────────────────────────────────────
+document.addEventListener("keydown", function(e) {
+  if (e.key !== "Escape") return;
+  if (document.getElementById("mitm-bio-overlay").classList.contains("open")) { closeMitmBio(); return; }
+  if (document.getElementById("mitm-modal-overlay").classList.contains("open")) { closeMitmModal(); return; }
+  if (document.getElementById("mitm-season-view").style.display !== "none") { closeMitmSeasonView(); return; }
+  if (document.getElementById("mitm-hub").style.display !== "none") { closeMitmHub(); return; }
+});
+
+// ── Window exports ───────────────────────────────────────────────────────────
+window.mitmCharImgErr = mitmCharImgErr;
+window.mitmEpCardImgErr = mitmEpCardImgErr;
+window.openMitmHub = openMitmHub;
+window.closeMitmHub = closeMitmHub;
+window.mitmToggleFilter = mitmToggleFilter;
+window.mitmApplyFilters = mitmApplyFilters;
+window.mitmOpenSeasonView = mitmOpenSeasonView;
+window.closeMitmSeasonView = closeMitmSeasonView;
+window.mitmOpenModal = mitmOpenModal;
+window.mitmModalNav = mitmModalNav;
+window.closeMitmModal = closeMitmModal;
+window.mitmCloseModalOverlay = mitmCloseModalOverlay;
+window.openMitmBio = openMitmBio;
+window.closeMitmBio = closeMitmBio;
+
+
+// ════════════════════════════════════════════════════════════════
+// THE ROCKFORD FILES HUB
+// ════════════════════════════════════════════════════════════════
+
+var rfData = null;
+var RF_ALL_EPISODES = [];
+var RF_ACTIVE_FILTERS = new Set();
+var RF_ACTIVE_CHAR = null;
+var RF_FILTERED_EPISODES = [];
+var RF_MODAL_LIST = [];
+var RF_MODAL_IDX = 0;
+var _rfCharListenerAttached = false;
+var RF_GUEST_SORT = "count";
+var RF_ALL_GUESTS = [];
+
+var RF_BIO_DATA = {
+  rockford: {
+    name: "JIM ROCKFORD",
+    actor: "James Garner",
+    epithet: "$200 a day plus expenses. If you can collect.",
+    portrait: "./images/rockford/char_rockford.jpg",
+    text: "Jim Rockford is the anti-detective \u2014 an ex-con who lives in a trailer on the beach, screens his calls through an answering machine, and charges $200 a day that he almost never collects. He doesn\u2019t carry a gun if he can help it, prefers a con to a confrontation, and will absolutely run from a fight if running is the smarter play. James Garner played Rockford as the most human private eye in television history: tired, funny, broke, and fundamentally decent in a world that punishes decency. The Firebird, the trailer, the answering machine, the taco stand \u2014 Rockford\u2019s world is the opposite of glamorous, and that\u2019s exactly why it works."
+  },
+  angel: {
+    name: "ANGEL MARTIN",
+    actor: "Stuart Margolin",
+    epithet: "Two-time Emmy winner. Full-time nuisance.",
+    portrait: "./images/rockford/char_angel.jpg",
+    text: "Evelyn \u201cAngel\u201d Martin is the friend Rockford can\u2019t get rid of \u2014 a small-time con artist, chronic liar, and coward who nevertheless keeps showing up at Jim\u2019s trailer with one more scheme, one more favor, one more disaster. Stuart Margolin won two consecutive Emmy Awards for the role and deserved both. Angel is pathetic and endearing in equal measure. He will sell Rockford out for pocket change and then be genuinely hurt when Jim gets angry about it. He is the comic engine of the show and one of the great recurring characters in television history."
+  }
+};
+
+function loadRfData(cb) {
+  if (rfData) { cb(rfData); return; }
+  fetch("rockford_data.json")
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      rfData = d;
+      RF_ALL_EPISODES = d.episodes || [];
+      // Build guest list
+      var gc = {};
+      RF_ALL_EPISODES.forEach(function(ep) {
+        (ep.guests || []).forEach(function(g) {
+          if (!gc[g]) gc[g] = { name: g, count: 0, episodes: [] };
+          gc[g].count++;
+          gc[g].episodes.push("S" + String(ep.season).padStart(2,"0") + "E" + String(ep.episode).padStart(2,"0"));
+        });
+      });
+      RF_ALL_GUESTS = Object.values(gc);
+      cb(d);
+    })
+    .catch(function(e){ console.error("Failed to load rockford_data.json", e); });
+}
+
+function openRfHub() {
+  clearInterval(window.heroTimer);
+  document.getElementById("home-page").style.display = "none";
+  loadRfData(function(data) {
+    document.getElementById("rf-hub-desc").textContent = data.series.description || "";
+    document.getElementById("rf-total-count").textContent = data.episodes.length + " Episodes";
+    document.getElementById("rf-guests-band-count").textContent = RF_ALL_GUESTS.length + " guest stars";
+    var amCount = RF_ALL_EPISODES.filter(function(ep){ return ep.answering_machine; }).length;
+    document.getElementById("rf-am-band-count").textContent = amCount + " messages";
+    rfBuildCharRow(data);
+    rfBuildSeasonBands(data);
+    rfAttachCharListener();
+    document.getElementById("rf-hub").style.display = "block";
+    document.getElementById("rf-hub").scrollTop = 0;
+  });
+}
+
+function closeRfHub() {
+  document.getElementById("rf-hub").style.display = "none";
+  RF_ACTIVE_FILTERS.clear();
+  RF_ACTIVE_CHAR = null;
+  RF_FILTERED_EPISODES = [];
+  document.querySelectorAll(".rf-filter-btn").forEach(function(b){ b.classList.remove("active"); });
+  document.querySelectorAll(".rf-char-card").forEach(function(c){ c.classList.remove("active"); });
+  var si = document.getElementById("rf-search"); if (si) si.value = "";
+  document.getElementById("rf-ep-count").textContent = "";
+  document.getElementById("rf-results-section").style.display = "none";
+  document.getElementById("rf-seasons-section").style.display = "block";
+  showHome();
+}
+
+function rfCharImgErr(img) {
+  var init = img.parentNode.getAttribute("data-init") || "?";
+  img.parentNode.innerHTML = '<div class="rf-char-placeholder"><div class="rf-char-initials">' + init + '</div></div>';
+}
+
+function rfBuildCharRow(data) {
+  var row = document.getElementById("rf-char-row");
+  row.innerHTML = "";
+  var chars = data.characters || [];
+  // Pre-count guest appearances
+  var castCounts = {};
+  chars.forEach(function(c) {
+    if (c.id !== "rockford") {
+      var actorLower = c.actor.toLowerCase();
+      var count = 0;
+      RF_ALL_EPISODES.forEach(function(ep) {
+        if ((ep.guests || []).some(function(g){ return g.toLowerCase().indexOf(actorLower) >= 0; })) count++;
+      });
+      castCounts[c.id] = count;
+    }
+  });
+  chars.forEach(function(c) {
+    var card = document.createElement("div");
+    card.className = "rf-char-card";
+    card.dataset.charid = c.id;
+    card.dataset.actor = c.actor || "";
+    var init = c.name.split(" ").map(function(w){ return w[0]; }).join("").toUpperCase();
+    var countLabel = castCounts[c.id] ? castCounts[c.id] + " eps" : "";
+    card.innerHTML = '<div class="rf-char-img-wrap" data-init="' + init + '">'
+      + '<img class="rf-char-img" src="' + c.image + '" alt="' + c.name + '" loading="lazy" onerror="rfCharImgErr(this)">'
+      + '</div>'
+      + '<div class="rf-char-label">' + c.name + '</div>'
+      + '<div class="rf-char-actor">' + c.actor + '</div>'
+      + (countLabel ? '<div class="rf-char-count">' + countLabel + '</div>' : '');
+    row.appendChild(card);
+  });
+}
+
+function rfAttachCharListener() {
+  if (_rfCharListenerAttached) return;
+  _rfCharListenerAttached = true;
+  document.getElementById("rf-char-row").addEventListener("click", function(e) {
+    var card = e.target.closest(".rf-char-card");
+    if (!card) return;
+    var id = card.dataset.charid;
+    if (RF_BIO_DATA[id]) { openRfBio(id); return; }
+    if (RF_ACTIVE_CHAR === id) {
+      RF_ACTIVE_CHAR = null; card.classList.remove("active");
+    } else {
+      document.querySelectorAll(".rf-char-card").forEach(function(c){ c.classList.remove("active"); });
+      RF_ACTIVE_CHAR = id; card.classList.add("active");
+    }
+    rfApplyFilters();
+  });
+}
+
+function rfBuildSeasonBands(data) {
+  var section = document.getElementById("rf-seasons-section");
+  section.innerHTML = "";
+  var meta = data.season_meta || {};
+  var seasonNums = [];
+  RF_ALL_EPISODES.forEach(function(ep) { if (seasonNums.indexOf(ep.season) < 0) seasonNums.push(ep.season); });
+  seasonNums.sort(function(a,b){ return a - b; });
+  seasonNums.forEach(function(sNum) {
+    var sm = meta[String(sNum)] || {};
+    var eps = RF_ALL_EPISODES.filter(function(ep){ return ep.season === sNum; });
+    var stills = eps.filter(function(ep){ return ep.still; }).map(function(ep){ return ep.still; });
+    var dbl = stills.concat(stills);
+    var mosImgs = dbl.map(function(src){ return '<img class="rf-band-still" src="' + src + '" loading="lazy" alt="">'; }).join("");
+    var band = document.createElement("div");
+    band.className = "rf-season-band";
+    band.onclick = (function(sn){ return function(){ rfOpenSeasonView(sn); }; })(sNum);
+    band.innerHTML = '<div class="rf-band-mosaic">' + mosImgs + '</div>'
+      + '<div class="rf-band-overlay"></div>'
+      + '<div class="rf-band-content">'
+      + '<div class="rf-band-season-num">SEASON ' + sNum + '</div>'
+      + '<div class="rf-band-info">'
+      + '<div class="rf-band-count">' + eps.length + ' Episodes</div>'
+      + '<div class="rf-band-years">' + (sm.year || "") + '</div>'
+      + '<div class="rf-band-tagline">' + (sm.tagline || "") + '</div>'
+      + '</div></div>'
+      + '<div class="rf-band-browse">Browse Season &#8594;</div>';
+    section.appendChild(band);
+  });
+}
+
+function rfOpenSeasonView(sNum) {
+  if (!rfData) { loadRfData(function(){ rfOpenSeasonView(sNum); }); return; }
+  var meta = (rfData.season_meta || {})[String(sNum)] || {};
+  var eps = RF_ALL_EPISODES.filter(function(ep){ return ep.season === sNum; });
+  eps.sort(function(a,b){ return a.episode - b.episode; });
+  var bgStill = "";
+  for (var i = 0; i < eps.length; i++) { if (eps[i].still) { bgStill = eps[i].still; break; } }
+  document.getElementById("rf-season-view-bg").style.backgroundImage = bgStill ? "url(" + bgStill + ")" : "none";
+  document.getElementById("rf-season-view-title").textContent = "SEASON " + sNum;
+  document.getElementById("rf-season-view-meta").textContent = eps.length + " Episodes \u00B7 " + (meta.year || "");
+  document.getElementById("rf-season-view-tagline").textContent = meta.tagline || "";
+  document.getElementById("rf-season-ep-grid").innerHTML = eps.map(function(ep){ return rfBuildEpCard(ep); }).join("");
+  document.getElementById("rf-season-view").style.display = "block";
+  document.getElementById("rf-hub").style.overflow = "hidden";
+  window.scrollTo(0, 0);
+  document.getElementById("rf-season-view").scrollTop = 0;
+}
+
+function closeRfSeasonView() {
+  document.getElementById("rf-season-view").style.display = "none";
+  document.getElementById("rf-hub").style.display = "block";
+  document.getElementById("rf-hub").style.overflow = "auto";
+}
+
+function rfEpCardImgErr(img) {
+  var code = img.getAttribute("data-code") || "???";
+  img.parentNode.innerHTML = '<div class="rf-ep-card-placeholder"><div class="rf-ep-card-placeholder-code">' + code + '</div></div>';
+}
+
+function rfBuildEpCard(ep) {
+  var code = "S" + String(ep.season).padStart(2,"0") + "E" + String(ep.episode).padStart(2,"0");
+  var tags = ep.tags || [];
+  var badges = "";
+  if (tags.indexOf("FAN_FAVORITE") >= 0)        badges += '<span class="rf-ep-badge-item rf-ep-badge-fav">\u2605</span>';
+  if (tags.indexOf("ANGEL_EPISODE") >= 0)        badges += '<span class="rf-ep-badge-item rf-ep-badge-angel">ANGEL</span>';
+  if (tags.indexOf("TWO_PARTER") >= 0)           badges += '<span class="rf-ep-badge-item rf-ep-badge-two">2-PT</span>';
+  if (tags.indexOf("GUEST_STAR_SPOTLIGHT") >= 0)  badges += '<span class="rf-ep-badge-item rf-ep-badge-guest">GUEST</span>';
+  var imgInner = ep.still
+    ? '<img src="' + ep.still + '" data-code="' + code + '" alt="' + code + '" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="rfEpCardImgErr(this)">'
+    : '<div class="rf-ep-card-placeholder"><div class="rf-ep-card-placeholder-code">' + code + '</div></div>';
+  return '<div class="rf-ep-card" onclick="rfOpenModal(' + ep.season + ',' + ep.episode + ')">'
+    + imgInner + '<div class="rf-ep-card-overlay"></div>'
+    + (badges ? '<div class="rf-ep-badge">' + badges + '</div>' : '')
+    + '<div class="rf-ep-card-title">' + ep.title + '</div></div>';
+}
+
+function rfToggleFilter(f) {
+  var btn = document.querySelector('.rf-filter-btn[data-filter="' + f + '"]');
+  if (RF_ACTIVE_FILTERS.has(f)) { RF_ACTIVE_FILTERS.delete(f); if (btn) btn.classList.remove("active"); }
+  else { RF_ACTIVE_FILTERS.add(f); if (btn) btn.classList.add("active"); }
+  rfApplyFilters();
+}
+
+function rfApplyFilters() {
+  var q = (document.getElementById("rf-search").value || "").toLowerCase().trim();
+  var hasFilter = RF_ACTIVE_FILTERS.size > 0 || RF_ACTIVE_CHAR || q;
+  var resultsSection = document.getElementById("rf-results-section");
+  var seasonsSection = document.getElementById("rf-seasons-section");
+  if (!hasFilter) {
+    resultsSection.style.display = "none"; seasonsSection.style.display = "block";
+    document.getElementById("rf-ep-count").textContent = ""; RF_FILTERED_EPISODES = []; return;
+  }
+  if (!rfData) { loadRfData(function(){ rfApplyFilters(); }); return; }
+  var charActor = null;
+  if (RF_ACTIVE_CHAR) {
+    var charDef = (rfData.characters || []).find(function(c){ return c.id === RF_ACTIVE_CHAR; });
+    if (charDef) charActor = charDef.actor.toLowerCase();
+  }
+  var filtered = RF_ALL_EPISODES.filter(function(ep) {
+    var tags = ep.tags || [];
+    if (RF_ACTIVE_FILTERS.has("FAN_FAVORITE") && tags.indexOf("FAN_FAVORITE") < 0) return false;
+    if (RF_ACTIVE_FILTERS.has("ANGEL_EPISODE") && tags.indexOf("ANGEL_EPISODE") < 0) return false;
+    if (RF_ACTIVE_FILTERS.has("TWO_PARTER") && tags.indexOf("TWO_PARTER") < 0) return false;
+    if (RF_ACTIVE_FILTERS.has("GUEST_STAR_SPOTLIGHT") && tags.indexOf("GUEST_STAR_SPOTLIGHT") < 0) return false;
+    if (charActor) {
+      var gm = (ep.guests || []).some(function(g){ return g.toLowerCase().indexOf(charActor) >= 0; });
+      if (!gm) return false;
+    }
+    if (q) {
+      var tm = ep.title.toLowerCase().indexOf(q) >= 0;
+      var gm2 = (ep.guests || []).some(function(g){ return g.toLowerCase().indexOf(q) >= 0; });
+      var dm = ep.overview && ep.overview.toLowerCase().indexOf(q) >= 0;
+      var am = ep.answering_machine && ep.answering_machine.toLowerCase().indexOf(q) >= 0;
+      if (!tm && !gm2 && !dm && !am) return false;
+    }
+    return true;
+  });
+  RF_FILTERED_EPISODES = filtered;
+  var count = filtered.length;
+  document.getElementById("rf-results-label").textContent = count + " EPISODE" + (count !== 1 ? "S" : "") + " FOUND";
+  document.getElementById("rf-results-grid").innerHTML = filtered.map(function(ep){ return rfBuildEpCard(ep); }).join("");
+  resultsSection.style.display = "block"; seasonsSection.style.display = "none";
+  document.getElementById("rf-ep-count").textContent = count + " episode" + (count !== 1 ? "s" : "");
+}
+
+function rfOpenModal(season, episode) {
+  if (!rfData) { loadRfData(function(){ rfOpenModal(season, episode); }); return; }
+  var ep = RF_ALL_EPISODES.find(function(e){ return e.season === season && e.episode === episode; });
+  if (!ep) return;
+  var list = RF_FILTERED_EPISODES.length > 0 ? RF_FILTERED_EPISODES : RF_ALL_EPISODES;
+  RF_MODAL_LIST = list;
+  RF_MODAL_IDX = list.findIndex(function(e){ return e.season === season && e.episode === episode; });
+  if (RF_MODAL_IDX < 0) { RF_MODAL_LIST = RF_ALL_EPISODES; RF_MODAL_IDX = RF_ALL_EPISODES.indexOf(ep); }
+  rfRenderModal(ep);
+}
+
+function rfRenderModal(ep) {
+  var code = "S" + String(ep.season).padStart(2,"0") + "E" + String(ep.episode).padStart(2,"0");
+  var tags = ep.tags || [];
+  var badges = "";
+  if (tags.indexOf("FAN_FAVORITE") >= 0)        badges += '<span class="rf-modal-badge rf-modal-badge-fav">\u2605 Fan Favorite</span>';
+  if (tags.indexOf("ANGEL_EPISODE") >= 0)        badges += '<span class="rf-modal-badge rf-modal-badge-angel">\uD83D\uDE08 Angel Episode</span>';
+  if (tags.indexOf("TWO_PARTER") >= 0)           badges += '<span class="rf-modal-badge rf-modal-badge-two">\u25B6 Two-Parter</span>';
+  if (tags.indexOf("GUEST_STAR_SPOTLIGHT") >= 0)  badges += '<span class="rf-modal-badge rf-modal-badge-guest">\uD83C\uDF1F Guest Star</span>';
+  var stillHtml = ep.still
+    ? '<img class="rf-modal-still" src="' + ep.still + '" alt="' + code + '">'
+    : '<div class="rf-modal-still-placeholder"><div class="rf-modal-still-placeholder-text">' + code + '</div></div>';
+  var ratingHtml = ep.rating && ep.rating > 0
+    ? '<span class="rf-modal-meta-dot">&middot;</span><span>\u2605 ' + ep.rating + '</span>' : '';
+  var amSection = "";
+  if (ep.answering_machine) {
+    amSection = '<div class="rf-modal-section"><div class="rf-modal-section-label">\uD83D\uDCDE Answering Machine</div><div class="rf-modal-answering">' + ep.answering_machine + '</div></div>';
+  }
+  var overviewSection = ep.overview
+    ? '<div class="rf-modal-section"><div class="rf-modal-section-label">Overview</div><div class="rf-modal-desc">' + ep.overview + '</div></div>' : '';
+  var guestSection = "";
+  var guests = ep.guests || [];
+  if (guests.length > 0) {
+    guestSection = '<div class="rf-modal-section"><div class="rf-modal-section-label">Guest Stars</div><div class="rf-modal-guest-grid">'
+      + guests.map(function(g){ return '<div class="rf-modal-guest-item"><strong>' + g + '</strong></div>'; }).join("")
+      + '</div></div>';
+  }
+  var content = stillHtml
+    + '<div class="rf-modal-body">'
+    + '<div class="rf-modal-meta"><span>' + code + '</span><span class="rf-modal-meta-dot">&middot;</span><span>' + (ep.air_date || '') + '</span>' + ratingHtml + '</div>'
+    + '<div class="rf-modal-title">' + ep.title + '</div>'
+    + (badges ? '<div class="rf-modal-badges">' + badges + '</div>' : '')
+    + '</div>'
+    + amSection + overviewSection + guestSection;
+  document.getElementById("rf-modal-content").innerHTML = content;
+  document.getElementById("rf-modal-nav-code").textContent = code;
+  document.getElementById("rf-modal-overlay").classList.add("open");
+  document.getElementById("rf-modal-overlay").scrollTop = 0;
+}
+
+function closeRfModal() { document.getElementById("rf-modal-overlay").classList.remove("open"); }
+function rfCloseModalOverlay(e) { if (e.target === document.getElementById("rf-modal-overlay")) closeRfModal(); }
+function rfModalNav(dir) {
+  var newIdx = RF_MODAL_IDX + dir;
+  if (newIdx < 0 || newIdx >= RF_MODAL_LIST.length) return;
+  RF_MODAL_IDX = newIdx;
+  rfRenderModal(RF_MODAL_LIST[RF_MODAL_IDX]);
+  document.getElementById("rf-modal-overlay").scrollTop = 0;
+}
+
+// ── Bio modal ────────────────────────────────────────────────────────────
+function openRfBio(charId) {
+  var data = RF_BIO_DATA[charId];
+  if (!data) return;
+  document.getElementById("rf-bio-hero-bg").style.backgroundImage = "url(./images/rockford/hero.jpg)";
+  var html = '<div class="rf-bio-portrait"><img src="' + data.portrait + '" alt="' + data.name + '"></div>'
+    + '<div class="rf-bio-name">' + data.name + '</div>'
+    + '<div class="rf-bio-actor">' + data.actor + '</div>'
+    + '<div class="rf-bio-epithet">' + data.epithet + '</div>'
+    + '<div class="rf-bio-section"><div class="rf-bio-section-label">Character</div><div class="rf-bio-body-text">' + data.text + '</div></div>';
+
+  // Add episode list for this character
+  var actorLower = data.actor.toLowerCase();
+  var charEps = RF_ALL_EPISODES.filter(function(ep) {
+    return (ep.guests || []).some(function(g){ return g.toLowerCase().indexOf(actorLower) >= 0; });
+  });
+  if (charEps.length > 0) {
+    html += '<div class="rf-bio-section"><div class="rf-bio-section-label">Episodes (' + charEps.length + ')</div>';
+    html += '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:0;margin-top:8px;">';
+    charEps.forEach(function(ep) {
+      var code = "S" + String(ep.season).padStart(2,"0") + "E" + String(ep.episode).padStart(2,"0");
+      html += '<div style="font-family:Crimson Pro,serif;font-size:14px;color:var(--text2);padding:8px 0;border-bottom:1px solid var(--border);cursor:pointer;" onclick="closeRfBio();rfOpenModal(' + ep.season + ',' + ep.episode + ')">'
+        + '<span style="font-family:DM Mono,monospace;font-size:9px;letter-spacing:2px;color:var(--gold);margin-right:8px;">' + code + '</span>'
+        + ep.title + '</div>';
+    });
+    html += '</div></div>';
+  }
+
+  document.getElementById("rf-bio-content").innerHTML = html;
+  document.getElementById("rf-bio-overlay").classList.add("open");
+  document.getElementById("rf-bio-overlay").scrollTop = 0;
+  document.getElementById("rf-hub").style.overflow = "hidden";
+}
+function closeRfBio() {
+  document.getElementById("rf-bio-overlay").classList.remove("open");
+  document.getElementById("rf-hub").style.display = "block";
+  document.getElementById("rf-hub").style.overflow = "auto";
+}
+
+// ── Guest star page ──────────────────────────────────────────────────────
+function openRfGuestPage() {
+  if (!rfData) { loadRfData(function(){ openRfGuestPage(); }); return; }
+  document.getElementById("rf-guest-subtitle").textContent = RF_ALL_GUESTS.length + " guest stars across " + RF_ALL_EPISODES.length + " episodes";
+  rfRenderGuestList();
+  document.getElementById("rf-guest-overlay").classList.add("open");
+  document.getElementById("rf-guest-overlay").scrollTop = 0;
+  document.getElementById("rf-hub").style.overflow = "hidden";
+}
+function closeRfGuestPage() {
+  document.getElementById("rf-guest-overlay").classList.remove("open");
+  document.getElementById("rf-hub").style.display = "block";
+  document.getElementById("rf-hub").style.overflow = "auto";
+}
+function rfSortGuests(mode) {
+  RF_GUEST_SORT = mode;
+  document.getElementById("rf-guest-sort-count").classList.toggle("active", mode === "count");
+  document.getElementById("rf-guest-sort-alpha").classList.toggle("active", mode === "alpha");
+  rfFilterGuests();
+}
+function rfFilterGuests() { rfRenderGuestList(); }
+function rfRenderGuestList() {
+  var q = (document.getElementById("rf-guest-search").value || "").toLowerCase().trim();
+  var list = RF_ALL_GUESTS.filter(function(g) {
+    if (!q) return true;
+    return g.name.toLowerCase().indexOf(q) >= 0;
+  });
+  if (RF_GUEST_SORT === "count") list.sort(function(a,b){ return b.count - a.count; });
+  else list.sort(function(a,b){ return a.name.localeCompare(b.name); });
+  document.getElementById("rf-guest-count").textContent = list.length + " GUESTS";
+  var html = list.map(function(g) {
+    return '<div class="rf-guest-row">'
+      + '<div class="rf-guest-name">' + g.name + '</div>'
+      + '<div class="rf-guest-roles">' + g.episodes.slice(0,8).join(", ") + (g.episodes.length > 8 ? " +" + (g.episodes.length - 8) : "") + '</div>'
+      + '<div class="rf-guest-eps">' + g.count + ' ep' + (g.count !== 1 ? 's' : '') + '</div>'
+      + '</div>';
+  }).join("");
+  document.getElementById("rf-guest-list").innerHTML = html;
+}
+
+// ── Escape key ───────────────────────────────────────────────────────────
+document.addEventListener("keydown", function(e) {
+  if (e.key !== "Escape") return;
+  if (document.getElementById("rf-am-overlay").classList.contains("open")) { closeRfAmPage(); return; }
+  if (document.getElementById("rf-guest-overlay").classList.contains("open")) { closeRfGuestPage(); return; }
+  if (document.getElementById("rf-bio-overlay").classList.contains("open")) { closeRfBio(); return; }
+  if (document.getElementById("rf-modal-overlay").classList.contains("open")) { closeRfModal(); return; }
+  if (document.getElementById("rf-season-view").style.display !== "none") { closeRfSeasonView(); return; }
+  if (document.getElementById("rf-hub").style.display !== "none") { closeRfHub(); return; }
+});
+
+// ── Answering machine page ───────────────────────────────────────────────
+function openRfAmPage() {
+  if (!rfData) { loadRfData(function(){ openRfAmPage(); }); return; }
+  var html = "";
+  RF_ALL_EPISODES.forEach(function(ep) {
+    if (!ep.answering_machine) return;
+    var code = "S" + String(ep.season).padStart(2,"0") + "E" + String(ep.episode).padStart(2,"0");
+    html += '<div class="rf-am-item" onclick="closeRfAmPage();rfOpenModal(' + ep.season + ',' + ep.episode + ')">'
+      + '<span class="rf-am-item-code">' + code + '</span>'
+      + '<span class="rf-am-item-title">' + ep.title + '</span>'
+      + '<div class="rf-am-item-msg">' + ep.answering_machine + '</div>'
+      + '</div>';
+  });
+  document.getElementById("rf-am-list").innerHTML = html;
+  document.getElementById("rf-am-overlay").classList.add("open");
+  document.getElementById("rf-am-overlay").scrollTop = 0;
+  document.getElementById("rf-hub").style.overflow = "hidden";
+}
+function closeRfAmPage() {
+  document.getElementById("rf-am-overlay").classList.remove("open");
+  document.getElementById("rf-hub").style.display = "block";
+  document.getElementById("rf-hub").style.overflow = "auto";
+}
+
+window.rfCharImgErr = rfCharImgErr;
+window.rfEpCardImgErr = rfEpCardImgErr;
+window.openRfHub = openRfHub;
+window.closeRfHub = closeRfHub;
+window.rfToggleFilter = rfToggleFilter;
+window.rfApplyFilters = rfApplyFilters;
+window.rfOpenSeasonView = rfOpenSeasonView;
+window.closeRfSeasonView = closeRfSeasonView;
+window.rfOpenModal = rfOpenModal;
+window.rfModalNav = rfModalNav;
+window.closeRfModal = closeRfModal;
+window.rfCloseModalOverlay = rfCloseModalOverlay;
+window.openRfBio = openRfBio;
+window.closeRfBio = closeRfBio;
+window.openRfGuestPage = openRfGuestPage;
+window.closeRfGuestPage = closeRfGuestPage;
+window.rfSortGuests = rfSortGuests;
+window.rfFilterGuests = rfFilterGuests;
+window.openRfAmPage = openRfAmPage;
+window.closeRfAmPage = closeRfAmPage;
+
 </script>
 
 <div id="sp-ghof-view">
@@ -10172,6 +11620,229 @@ window.spnBioOpenEp = spnBioOpenEp;
     </div>
   </div>
   <div class="spn-season-ep-grid" id="spn-season-ep-grid"></div>
+</div>
+
+
+<!-- ════════════════════ MALCOLM IN THE MIDDLE HUB ════════════════════ -->
+<div id="mitm-hub">
+  <div class="mitm-hub-header">
+    <div class="mitm-hub-header-bg" id="mitm-hub-bg" style="background-image:url('./images/malcolm/hero.jpg')"></div>
+    <div class="mitm-hub-header-vignette"></div>
+    <button class="mitm-back-btn" onclick="closeMitmHub()">&#8592; Back to Vault</button>
+    <div class="mitm-hub-header-content">
+      <div class="mitm-hub-eyebrow">Sitcom &middot; Collections</div>
+      <div class="mitm-hub-title">MALCOLM IN THE MIDDLE</div>
+      <div class="mitm-hub-meta">
+        <span>Fox</span><span class="mitm-hub-meta-dot">&middot;</span>
+        <span>2000&ndash;2006</span><span class="mitm-hub-meta-dot">&middot;</span>
+        <span>7 Seasons</span><span class="mitm-hub-meta-dot">&middot;</span>
+        <span id="mitm-total-count">151 Episodes</span>
+      </div>
+      <div class="mitm-hub-desc" id="mitm-hub-desc"></div>
+    </div>
+  </div>
+
+  <div class="mitm-controls">
+    <div class="mitm-search-wrap">
+      <input type="text" id="mitm-search" placeholder="Search episodes, guests..." oninput="mitmApplyFilters()">
+    </div>
+    <button class="mitm-filter-btn" data-filter="FAN_FAVORITE" onclick="mitmToggleFilter('FAN_FAVORITE')">&#9733; Fan Favorite</button>
+    <button class="mitm-filter-btn" data-filter="HAL_SCHEME" onclick="mitmToggleFilter('HAL_SCHEME')">&#127912; Hal Scheme</button>
+    <button class="mitm-filter-btn" data-filter="LOIS_VS_BOYS" onclick="mitmToggleFilter('LOIS_VS_BOYS')">&#9889; Lois vs Boys</button>
+    <button class="mitm-filter-btn" data-filter="FAMILY_CHAOS" onclick="mitmToggleFilter('FAMILY_CHAOS')">&#128165; Family Chaos</button>
+    <button class="mitm-filter-btn" data-filter="COLD_OPEN" onclick="mitmToggleFilter('COLD_OPEN')">&#127916; Cold Open</button>
+    <div class="mitm-ep-count" id="mitm-ep-count"></div>
+  </div>
+
+  <div class="mitm-char-section">
+    <div class="mitm-section-label">Browse by Character</div>
+    <div class="mitm-char-row" id="mitm-char-row"></div>
+  </div>
+
+  <div class="mitm-francis-section">
+    <div class="mitm-section-label">Francis&#39;s World</div>
+    <div class="mitm-francis-row" id="mitm-francis-row"></div>
+  </div>
+
+  <div class="mitm-results-section" id="mitm-results-section">
+    <div class="mitm-results-label" id="mitm-results-label"></div>
+    <div class="mitm-results-grid" id="mitm-results-grid"></div>
+  </div>
+
+  <div class="mitm-seasons-section" id="mitm-seasons-section"></div>
+</div>
+
+<div id="mitm-season-view">
+  <div class="mitm-season-view-hero">
+    <div class="mitm-season-view-hero-bg" id="mitm-season-view-bg"></div>
+    <div class="mitm-season-view-overlay"></div>
+    <div class="mitm-season-view-content">
+      <div class="mitm-season-view-back" onclick="closeMitmSeasonView()">&#8592; Back to Malcolm in the Middle</div>
+      <div class="mitm-season-view-eyebrow" id="mitm-season-view-eyebrow">Malcolm in the Middle</div>
+      <div class="mitm-season-view-title" id="mitm-season-view-title"></div>
+      <div class="mitm-season-view-meta" id="mitm-season-view-meta"></div>
+      <div class="mitm-season-view-tagline" id="mitm-season-view-tagline"></div>
+    </div>
+  </div>
+  <div class="mitm-season-ep-grid" id="mitm-season-ep-grid"></div>
+</div>
+
+<div class="mitm-modal-overlay" id="mitm-modal-overlay" onclick="mitmCloseModalOverlay(event)">
+  <div class="mitm-modal-card">
+    <button class="mitm-modal-close" onclick="closeMitmModal()">&times;</button>
+    <div id="mitm-modal-content"></div>
+    <div class="mitm-modal-nav">
+      <button class="mitm-modal-nav-btn" onclick="mitmModalNav(-1)">&#8592; Prev</button>
+      <span class="mitm-modal-nav-code" id="mitm-modal-nav-code"></span>
+      <button class="mitm-modal-nav-btn" onclick="mitmModalNav(1)">Next &#8594;</button>
+    </div>
+  </div>
+</div>
+
+<div class="mitm-bio-overlay" id="mitm-bio-overlay">
+  <div class="mitm-bio-hero">
+    <div class="mitm-bio-hero-bg" id="mitm-bio-hero-bg"></div>
+    <div class="mitm-bio-hero-vignette"></div>
+    <button class="mitm-bio-close" onclick="closeMitmBio()">&times;</button>
+  </div>
+  <div class="mitm-bio-content" id="mitm-bio-content"></div>
+</div>
+
+
+<!-- ════════════════════ THE ROCKFORD FILES HUB ════════════════════ -->
+<div id="rf-hub">
+  <div class="rf-hub-header">
+    <div class="rf-hub-header-bg" id="rf-hub-bg" style="background-image:url('./images/rockford/hero.jpg')"></div>
+    <div class="rf-hub-header-vignette"></div>
+    <button class="rf-back-btn" onclick="closeRfHub()">&#8592; Back to Vault</button>
+    <div class="rf-hub-header-content">
+      <div class="rf-hub-eyebrow">Drama &middot; Collections</div>
+      <div class="rf-hub-title">THE ROCKFORD FILES</div>
+      <div class="rf-hub-meta">
+        <span>NBC</span><span class="rf-hub-meta-dot">&middot;</span>
+        <span>1974&ndash;1980</span><span class="rf-hub-meta-dot">&middot;</span>
+        <span>6 Seasons</span><span class="rf-hub-meta-dot">&middot;</span>
+        <span id="rf-total-count">122 Episodes</span>
+      </div>
+      <div class="rf-hub-desc" id="rf-hub-desc"></div>
+    </div>
+  </div>
+
+  <div class="rf-controls">
+    <div class="rf-search-wrap">
+      <input type="text" id="rf-search" placeholder="Search episodes, guests..." oninput="rfApplyFilters()">
+    </div>
+    <button class="rf-filter-btn" data-filter="FAN_FAVORITE" onclick="rfToggleFilter('FAN_FAVORITE')">&#9733; Fan Favorite</button>
+    <button class="rf-filter-btn" data-filter="ANGEL_EPISODE" onclick="rfToggleFilter('ANGEL_EPISODE')">&#128520; Angel Episode</button>
+    <button class="rf-filter-btn" data-filter="TWO_PARTER" onclick="rfToggleFilter('TWO_PARTER')">&#9654; Two-Parter</button>
+    <button class="rf-filter-btn" data-filter="GUEST_STAR_SPOTLIGHT" onclick="rfToggleFilter('GUEST_STAR_SPOTLIGHT')">&#127775; Guest Star</button>
+    <div class="rf-ep-count" id="rf-ep-count"></div>
+  </div>
+
+  <div class="rf-firebird-band" id="rf-firebird-band">
+    <img class="rf-firebird-img" src="./images/rockford/firebird.jpg" alt="The Gold Pontiac Firebird">
+    <div class="rf-firebird-body">
+      <div class="rf-firebird-text">
+        <div class="rf-firebird-label">THE GOLD PONTIAC FIREBIRD</div>
+        <div class="rf-firebird-quote">Copper mist Esprit exterior, Formula performance underneath. A new model every year, 1974&ndash;1980. The car Rockford could afford &mdash; with the engine he needed.</div>
+      </div>
+      <div class="rf-firebird-plate">853 OKG</div>
+    </div>
+  </div>
+
+  <div class="rf-char-section">
+    <div class="rf-section-label">Cast</div>
+    <div class="rf-char-row" id="rf-char-row"></div>
+  </div>
+
+  <div class="rf-guests-band" onclick="openRfGuestPage()">
+    <div class="rf-guests-band-content">
+      <div><div class="rf-guests-band-eyebrow">The Gray Video Vault Presents</div><div class="rf-guests-band-title">FAMOUS GUEST STARS</div></div>
+      <div class="rf-guests-band-count" id="rf-guests-band-count"></div>
+      <div class="rf-guests-band-cta">View All &#8594;</div>
+    </div>
+  </div>
+
+  <div class="rf-guests-band" onclick="openRfAmPage()" style="margin-top:4px">
+    <div class="rf-guests-band-content">
+      <div><div class="rf-guests-band-eyebrow">&#9742; &ldquo;This is Jim Rockford&hellip;&rdquo;</div><div class="rf-guests-band-title">THE ANSWERING MACHINE</div></div>
+      <div class="rf-guests-band-count" id="rf-am-band-count"></div>
+      <div class="rf-guests-band-cta">View All &#8594;</div>
+    </div>
+  </div>
+
+  <div class="rf-results-section" id="rf-results-section">
+    <div class="rf-results-label" id="rf-results-label"></div>
+    <div class="rf-results-grid" id="rf-results-grid"></div>
+  </div>
+
+  <div class="rf-seasons-section" id="rf-seasons-section"></div>
+</div>
+
+<div id="rf-season-view">
+  <div class="rf-season-view-hero">
+    <div class="rf-season-view-hero-bg" id="rf-season-view-bg"></div>
+    <div class="rf-season-view-overlay"></div>
+    <div class="rf-season-view-content">
+      <div class="rf-season-view-back" onclick="closeRfSeasonView()">&#8592; Back to The Rockford Files</div>
+      <div class="rf-season-view-eyebrow" id="rf-season-view-eyebrow">The Rockford Files</div>
+      <div class="rf-season-view-title" id="rf-season-view-title"></div>
+      <div class="rf-season-view-meta" id="rf-season-view-meta"></div>
+      <div class="rf-season-view-tagline" id="rf-season-view-tagline"></div>
+    </div>
+  </div>
+  <div class="rf-season-ep-grid" id="rf-season-ep-grid"></div>
+</div>
+
+<div class="rf-modal-overlay" id="rf-modal-overlay" onclick="rfCloseModalOverlay(event)">
+  <div class="rf-modal-card">
+    <button class="rf-modal-close" onclick="closeRfModal()">&times;</button>
+    <div id="rf-modal-content"></div>
+    <div class="rf-modal-nav">
+      <button class="rf-modal-nav-btn" onclick="rfModalNav(-1)">&#8592; Prev</button>
+      <span class="rf-modal-nav-code" id="rf-modal-nav-code"></span>
+      <button class="rf-modal-nav-btn" onclick="rfModalNav(1)">Next &#8594;</button>
+    </div>
+  </div>
+</div>
+
+<div class="rf-bio-overlay" id="rf-bio-overlay">
+  <div class="rf-bio-hero">
+    <div class="rf-bio-hero-bg" id="rf-bio-hero-bg"></div>
+    <div class="rf-bio-hero-vignette"></div>
+    <button class="rf-bio-close" onclick="closeRfBio()">&times;</button>
+  </div>
+  <div class="rf-bio-content" id="rf-bio-content"></div>
+</div>
+
+<div class="rf-guest-overlay" id="rf-guest-overlay">
+  <div class="rf-guest-hero">
+    <div class="rf-guest-hero-overlay"></div>
+    <div class="rf-guest-hero-content">
+      <div class="rf-guest-back" onclick="closeRfGuestPage()">&#8592; Back to The Rockford Files</div>
+      <div class="rf-guest-title">FAMOUS GUEST STARS</div>
+      <div class="rf-guest-subtitle" id="rf-guest-subtitle"></div>
+    </div>
+  </div>
+  <div class="rf-guest-controls">
+    <input type="text" id="rf-guest-search" placeholder="Search actors or characters..." oninput="rfFilterGuests()">
+    <button class="rf-guest-sort-btn active" id="rf-guest-sort-count" onclick="rfSortGuests('count')">Most Appearances</button>
+    <button class="rf-guest-sort-btn" id="rf-guest-sort-alpha" onclick="rfSortGuests('alpha')">A &ndash; Z</button>
+    <div class="rf-guest-count" id="rf-guest-count"></div>
+  </div>
+  <div class="rf-guest-list" id="rf-guest-list"></div>
+</div>
+
+<div class="rf-am-overlay" id="rf-am-overlay">
+  <div class="rf-am-hero">
+    <div class="rf-am-hero-overlay"></div>
+    <div class="rf-am-hero-content">
+      <div class="rf-am-back" onclick="closeRfAmPage()">&#8592; Back to The Rockford Files</div>
+      <div class="rf-am-title">THE ANSWERING MACHINE</div>
+      <div class="rf-am-subtitle">&ldquo;This is Jim Rockford. At the tone, leave your name and message. I&#39;ll get back to you.&rdquo;</div>
+    </div>
+  </div>
+  <div class="rf-am-list" id="rf-am-list"></div>
 </div>
 
 </body>

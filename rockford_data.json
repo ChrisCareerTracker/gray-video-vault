@@ -1,0 +1,2886 @@
+{
+  "series": {
+    "title": "The Rockford Files",
+    "network": "NBC",
+    "years": "1974-1980",
+    "tmdb_id": 954,
+    "hero": "./images/rockford/hero.jpg",
+    "backdrop": "./images/rockford/backdrop.jpg",
+    "description": "Cranky but likable L.A. PI Jim Rockford pulls no punches (but takes plenty of them). An ex-con sent to the slammer for a crime he didn't commit, Rockford takes on cases others don't want, aided by his tough old man, his lawyer girlfriend and some shady associates from his past."
+  },
+  "season_meta": {
+    "1": {
+      "year": "1974-1975",
+      "tagline": "The formula is born. Jim Rockford pulls no punches, takes plenty of them, and charges $200 a day plus expenses.",
+      "poster": "./images/rockford/season_01_poster.jpg"
+    },
+    "2": {
+      "year": "1975-1976",
+      "tagline": "Angel gets comfortable. Beth gets complicated. Rockford gets stiffed. Peak 70s detective television.",
+      "poster": "./images/rockford/season_02_poster.jpg"
+    },
+    "3": {
+      "year": "1976-1977",
+      "tagline": "The show at its best. T.T. Flowers. The Becker Connection. Dirty Money. The writing has never been sharper.",
+      "poster": "./images/rockford/season_03_poster.jpg"
+    },
+    "4": {
+      "year": "1977-1978",
+      "tagline": "Tom Selleck arrives as Lance White. The cons get bigger, the answering machine messages get funnier.",
+      "poster": "./images/rockford/season_04_poster.jpg"
+    },
+    "5": {
+      "year": "1978-1979",
+      "tagline": "Still brilliant, but the cracks show. Garner's back problems worsen. The Jersey Bounce. Kill the Messenger.",
+      "poster": "./images/rockford/season_05_poster.jpg"
+    },
+    "6": {
+      "year": "1979-1980",
+      "tagline": "The final twelve. Garner's health forces an early end. Deadlock in Parma closes the book.",
+      "poster": "./images/rockford/season_06_poster.jpg"
+    }
+  },
+  "characters": [
+    {
+      "id": "rockford",
+      "name": "Jim Rockford",
+      "actor": "James Garner",
+      "epithet": "$200 a day plus expenses",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "./images/rockford/char_rockford.jpg"
+    },
+    {
+      "id": "rocky",
+      "name": "Rocky",
+      "actor": "Noah Beery Jr.",
+      "epithet": "The worried father",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "./images/rockford/char_rocky.jpg"
+    },
+    {
+      "id": "beth",
+      "name": "Beth Davenport",
+      "actor": "Gretchen Corbett",
+      "epithet": "Attorney and more-than-friend",
+      "seasons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "./images/rockford/char_beth.jpg"
+    },
+    {
+      "id": "becker",
+      "name": "Dennis Becker",
+      "actor": "Joe Santos",
+      "epithet": "The long-suffering cop buddy",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "./images/rockford/char_becker.jpg"
+    },
+    {
+      "id": "angel",
+      "name": "Angel Martin",
+      "actor": "Stuart Margolin",
+      "epithet": "Two-time Emmy winner. Full-time nuisance.",
+      "seasons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "./images/rockford/char_angel.jpg"
+    },
+    {
+      "id": "chapman",
+      "name": "Lt. Chapman",
+      "actor": "James Luisi",
+      "epithet": "The by-the-book antagonist",
+      "seasons": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "./images/rockford/char_chapman.jpg"
+    },
+    {
+      "id": "lance",
+      "name": "Lance White",
+      "actor": "Tom Selleck",
+      "epithet": "The annoyingly perfect rival PI",
+      "seasons": [
+        4,
+        5
+      ],
+      "image": "./images/rockford/char_lance.jpg"
+    },
+    {
+      "id": "gandy",
+      "name": "Gandolph Fitch",
+      "actor": "Isaac Hayes",
+      "epithet": "Former cellmate, reluctant ally",
+      "seasons": [
+        3,
+        4,
+        5
+      ],
+      "image": "./images/rockford/char_gandy.jpg"
+    },
+    {
+      "id": "richie",
+      "name": "Richie Brockelman",
+      "actor": "Dennis Dugan",
+      "epithet": "The eager young PI",
+      "seasons": [
+        3,
+        4
+      ],
+      "image": "./images/rockford/char_richie.jpg"
+    },
+    {
+      "id": "john_cooper",
+      "name": "John Cooper",
+      "actor": "Bo Hopkins",
+      "epithet": "Disbarred lawyer turned PI",
+      "seasons": [
+        5,
+        6
+      ],
+      "image": "./images/rockford/char_john_cooper.jpg"
+    },
+    {
+      "id": "rita_moreno",
+      "name": "Rita Capkovic",
+      "actor": "Rita Moreno",
+      "epithet": "The fiery client who keeps coming back",
+      "seasons": [
+        4,
+        5,
+        6
+      ],
+      "image": "./images/rockford/char_rita_moreno.jpg"
+    },
+    {
+      "id": "jack_kelly",
+      "name": "Ralph Steele",
+      "actor": "Jack Kelly",
+      "epithet": "Garner’s Maverick co-star rides again",
+      "seasons": [
+        3,
+        4
+      ],
+      "image": "./images/rockford/char_jack_kelly.jpg"
+    }
+  ],
+  "episodes": [
+    {
+      "season": 1,
+      "episode": 1,
+      "title": "The Kirkoff Case",
+      "air_date": "1974-09-13",
+      "overview": "Rockford is hired by Larry Kirkoff to find the identity of his parents killer. There are a number of possible suspects including Travis Buckman and Tawnia Baker who were lovers of Mrs. and Mr. Kirkoff respectively. The police actually suspect Larry of the crime, but, lack of evidence prevents them from making a case against him. Rockford's investigation runs him afoul of some pretty bad men who want everyone to go on thinking Larry killed them.",
+      "still": "./images/rockford/s01e01_still.jpg",
+      "rating": 8.7,
+      "guests": [
+        "James Woods",
+        "Roger Davis",
+        "Julie Sommars",
+        "Philip Kenneally",
+        "Milt Kogan",
+        "Abe Vigoda"
+      ],
+      "answering_machine": "\"It's Norma at the market. It bounced. You want me to tear it up, send it back, or put it with the others?\"",
+      "tags": [
+        "FAN_FAVORITE",
+        "GUEST_STAR_SPOTLIGHT"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 2,
+      "title": "The Dark and Bloody Ground",
+      "air_date": "1974-09-20",
+      "overview": "Jim reluctantly agrees to work for Beth Davenport. His job is to help her prove her client, Ann Calhoun, is innocent of the crime she is accused of; murdering her husband Kevin Calhoun. Jim's investigation takes him to the town of Parker, Arizona, where the Calhouns are from. He digs up info someone doesn't want found out and is almost killed trying to return to L.A. Socialites Clyde Russell and Elizabeth Gorman, who were throwing a party the Calhouns attended, are also investigated. Jim's investigation is making someone nervous as another attempt is made on his life.",
+      "still": "./images/rockford/s01e02_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Linden Chiles",
+        "Nancy Malone",
+        "Patricia Smith",
+        "Walter Brooke",
+        "Tom Bower",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hey Jim, this is Louie down at the fish market. You going to pick up these halibut or what?\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 3,
+      "title": "The Countess",
+      "air_date": "1974-09-27",
+      "overview": "Jim is helping a Countess avoid a blackmailer but is then charged for the Blackmailer murder...",
+      "still": "./images/rockford/s01e03_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Susan Strasberg",
+        "Art Lund",
+        "Richard Gautier",
+        "Harold J. Stone",
+        "James Cromwell",
+        "Florence Lake",
+        "Tom Atkins",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hey Rockford, very funny. I ain't laughing. You're gonna get yours.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 4,
+      "title": "Exit Prentiss Carr",
+      "air_date": "1974-10-04",
+      "overview": "Jim finds the murdered body of Prentiss Carr in his hotel room and after reporting the incident to the police learns it has been classified as suicide...",
+      "still": "./images/rockford/s01e04_still.jpg",
+      "rating": 6.0,
+      "guests": [
+        "Corinne Camacho",
+        "Warren J. Kemmerling",
+        "Mills Watson",
+        "Stephen McNally",
+        "Wallace Rooney"
+      ],
+      "answering_machine": "\"It's Morrie. Got a call from Davis at the IRS. You were right. They bounced your return. Call me.\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 5,
+      "title": "Tall Woman in Red Wagon",
+      "air_date": "1974-10-11",
+      "overview": "Jim helps a journalist trace the whereabouts of her friend and has to adopt a series of covers in order to obtain the information, as well as contend with a mobsters goons and a Treasury Agent...",
+      "still": "./images/rockford/s01e05_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Sian Barbara Allen",
+        "George DiCenzo",
+        "John Crawford",
+        "Susan Damante",
+        "Angus Duncan",
+        "Ryan MacDonald",
+        "James Murtaugh",
+        "Troy Melton"
+      ],
+      "answering_machine": "\"It's Laurie at the trailer park. A space opened up. Do you want me to save it or are the cops going to let you stay where you are?\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 6,
+      "title": "This Case Is Closed",
+      "air_date": "1974-10-18",
+      "overview": "While investigating the fiance of Warren Jamison's daughter, Jim experiences some strange events which include kidnapping by the mob and the FBI who are anxious to get a statement - it all relates back to Jim recent trip to Newark...",
+      "still": "./images/rockford/s01e06_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Sharon Gless",
+        "James McEachin",
+        "Joseph Cotten",
+        "Fred Sadoff",
+        "Joseph Della Sorte",
+        "Norman Bartold",
+        "Geoffrey Land",
+        "Tom Anfinsen"
+      ],
+      "answering_machine": "\"Really want Simbu in the seventh? C'mon, that nag couldn't go a mile in the back of a pickup truck. Call me.\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 7,
+      "title": "The Big Ripoff",
+      "air_date": "1974-10-25",
+      "overview": "Suspecting her ex-lover was killed by his wife, a woman hires Rockford to jet to Europe to compile evidence. After a fling with the widow, Rockford suspects Steve Nelson faked his death.",
+      "still": "./images/rockford/s01e07_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Jill Clayburgh",
+        "Norman Burton",
+        "Fred Beir",
+        "Bruce Kirby",
+        "Suzanne Somers",
+        "Warren Vanders",
+        "Basil Hoffman",
+        "Cosmo Sardo"
+      ],
+      "answering_machine": "\"It's Aundra. Remember last summer at Pat's? I've got a twelve hour layover before I go to Chicago. How about it?\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 8,
+      "title": "Find Me If You Can",
+      "air_date": "1974-11-01",
+      "overview": "Rockford reluctantly takes a unique assignment: a beautiful mystery woman wants him to find her, to see if someone she fears could also track her down. With a check poised to bounce, the ex-con PI needs the retainer to balance his always-challenged checking account. When Rockford checks with a local police department, he worms out a chilling piece of data: she's been dating Denver Mafia capo-regime, hot-tempered Ralph Correll. But the more Barbara Kelbaker strings along Jim Rockford, the more he's charmed into helping the desperate 30 something.",
+      "still": "./images/rockford/s01e08_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Joan Van Ark",
+        "Paul Michael Glaser",
+        "Richard Drout Miller",
+        "Joseph Stern",
+        "Jimmy Lydon"
+      ],
+      "answering_machine": "\"This is the blood bank. If you don't have malaria, hepatitis, or TB, we'd like to have a pint of your blood.\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 9,
+      "title": "In Pursuit of Carol Thorne",
+      "air_date": "1974-11-08",
+      "overview": "Jim tails a woman just released from prison. She was involved in a robbery of a Marine Payroll. The mastermind of the crime and his henchman follow her as well. They search for the remaining robber who wound up with the loot.",
+      "still": "./images/rockford/s01e09_still.jpg",
+      "rating": 8.5,
+      "guests": [
+        "Lynnette Mettey",
+        "Robert Symonds",
+        "Bill Fletcher",
+        "Jim Antonio"
+      ],
+      "answering_machine": "\"This is the message phone company. I see you're using our unit, now how about paying for it?\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 10,
+      "title": "The Dexter Crisis",
+      "air_date": "1974-11-15",
+      "overview": "Rockford ends up in the Nevada desert (starting with the bright lights of Las Vegas) searching for a rich guy's mistress and her suitcase of precious \"documents.\"",
+      "still": "./images/rockford/s01e10_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Lee Purcell",
+        "Linda Kelsey",
+        "Ron Soble",
+        "Tim O'Connor",
+        "Joyce Jameson",
+        "Bing Russell"
+      ],
+      "answering_machine": "\"I staked out that guy only it didn't work out like you said. Please call me. Room 234. County Hospital.\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 11,
+      "title": "Caledonia - It's Worth a Fortune!",
+      "air_date": "1974-12-06",
+      "overview": "When knowledge of a critically ill convict's hidden fortune comes to light, Rockford becomes involved in helping the con's wife find the treasure before his former partner arrives and demands his share.",
+      "still": "./images/rockford/s01e11_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Richard Schaal",
+        "Sid Haig",
+        "William Traylor",
+        "Shelley Fabares",
+        "Ramon Bieri",
+        "Robert Ginty",
+        "Robert Ellenstein"
+      ],
+      "answering_machine": "\"It's John Jones. What did you do to the hand, son? Three fractured knuckles! You hit somebody?\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 12,
+      "title": "Profit and Loss (1)",
+      "air_date": "1974-12-20",
+      "overview": "Jim investigates a large corporation when one of its executives is kidnapped and the wife of another executive claims the company murdered her husband.",
+      "still": "./images/rockford/s01e12_still.jpg",
+      "rating": 6.0,
+      "guests": [
+        "Paul Jenkins",
+        "Sharon Spelman",
+        "Ned Beatty",
+        "Joe E. Tata",
+        "Val Bisoglio",
+        "Michael Lerner",
+        "Gretchen Corbett",
+        "Priscilla Pointer",
+        "J. Jay Saunders",
+        "Stuart Margolin"
+      ],
+      "answering_machine": "\"Hey Jimmy, this here's Tida Skaret. Remember me? From the Army. I'm stuck here in town. How about I come over and bunk with you, buddy?\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 13,
+      "title": "Profit and Loss (2)",
+      "air_date": "1974-12-27",
+      "overview": "Rockford discovers the investment firm Fiscal Dynamics is a financial fraud and its president Leon Fielder will do anything to prevent him from destroying his company.",
+      "still": "./images/rockford/s01e13_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Albert Paulsen",
+        "Sharon Spelman",
+        "Ned Beatty",
+        "Michael Lerner",
+        "Tom Rosqui",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"This is Mrs. Moseley at the library. We billed you for your overdue book Karate Made Easy. We abuse our library, we don't get our cards renewed.\"",
+      "tags": [
+        "TWO_PARTER",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 14,
+      "title": "Aura Lee, Farewell",
+      "air_date": "1975-01-03",
+      "overview": "Jim's old friend Sara Butler hires him to find out the real reason her employee Aura Lee Benton died. The police believe it was a drug overdose but Sara is convinced she was murdered.",
+      "still": "./images/rockford/s01e14_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Lindsay Wagner",
+        "Greg Mullavey",
+        "Robert Webber",
+        "Kelly Lange",
+        "Bill Mumy",
+        "Melissa Greene",
+        "Henry Slate",
+        "Linda Dano"
+      ],
+      "answering_machine": "\"Mr. Rockford? You don't know me, but I'd like to hire you. Could you call me at...my name is, uh, never mind. Forget it.\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 15,
+      "title": "Sleight of Hand",
+      "air_date": "1975-01-17",
+      "overview": "Jim's girlfriend suddenly disappears with no clue as to how or why. Lt. Diel thinks Rockford is probably responsible for her disappearance and orders him to stay away from the case. But Jim can't stop until he finds out what happened.",
+      "still": "./images/rockford/s01e15_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Lara Parker",
+        "Pat Delaney",
+        "Allan Miller",
+        "John Steadman",
+        "Gerald McRaney",
+        "Tom Atkins"
+      ],
+      "answering_machine": "\"Rockford, this is Mr. Dow. If you think I'm going to pay to have your car repainted, you're nuts. You can take your expense bill and stuff it.\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 16,
+      "title": "Counter Gambit",
+      "air_date": "1975-01-24",
+      "overview": "Two former cons hire Rockford to find an old girlfriend. They actually want her valuable pearl necklace and implicate him as the thief. With Angel's help, he'll get the pearls back and square himself with the police.",
+      "still": "./images/rockford/s01e16_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Stuart Margolin",
+        "Mary Frann",
+        "Eddie Fontaine",
+        "Burr DeBenning",
+        "Ford Rainey",
+        "M. Emmet Walsh",
+        "Garry Walberg",
+        "Eric Server",
+        "Barbara Collentine"
+      ],
+      "answering_machine": "\"Jim, it's Jack. I'm at the airport. I'm going to Tokyo and I want to pay you the $500 I owe you. Catch you next year when I get back.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 17,
+      "title": "Claire",
+      "air_date": "1975-01-31",
+      "overview": "Jim's old girlfriend, Claire Prescott, phones, and asks him to help give her protection from 2 hoods chasing her. He soon discovers there's a missing undercover cop, which puts him up against an arrogant Cpt. Highland, as well.",
+      "still": "./images/rockford/s01e17_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Linda Evans",
+        "Lance LeGault",
+        "Jackie Cooper",
+        "Lane Smith",
+        "M.P. Murphy",
+        "Douglas Fowley"
+      ],
+      "answering_machine": "\"Mr. Rockford? This is the Thomas Crown School of Dance and Contemporary Etiquette. We aren't going to call again. Now, you want these free lessons, or what?\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 18,
+      "title": "Say Goodbye to Jennifer",
+      "air_date": "1975-02-07",
+      "overview": "John Micelli's an old war buddy of Jim', who's now a fashion photographer. He hires Jim to track down a beautiful fashion model, whom the authorities claim is dead; killed in a fiery multi-car accident, but, he thinks otherwise. As Jim starts to look into this, he runs into several intimidating figure who want to make certain she stays that way.",
+      "still": "./images/rockford/s01e18_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Héctor Elizondo",
+        "Pamela Hensley",
+        "Ken Swofford",
+        "Katherine Woodville",
+        "Thayer David",
+        "Regis Cordic",
+        "Len Lesser"
+      ],
+      "answering_machine": "\"This is Mrs. Lindis. Three time this month I came to clean and it always look like people been fighting in there. Furniture broke, things tipped over. I'm sorry, but I quit.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 19,
+      "title": "Charlie Harris at Large",
+      "air_date": "1975-02-14",
+      "overview": "Charlie Harris, Rockford's former cell mate, is suspected of murdering his rich wife and is on the run. He calls on Rockford to find his alibi witness, a mystery woman with whom he was having an affair.",
+      "still": "./images/rockford/s01e19_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Tony Musante",
+        "Warner Anderson",
+        "Diana Muldaur",
+        "David Spielberg",
+        "Eddie Firestone",
+        "Mel Stewart",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hey, Jim, it's me. Susan Ellis from the laundromat. You said you were going to call and it's been two weeks. What's wrong, you lose my number?\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 20,
+      "title": "The Four Pound Brick",
+      "air_date": "1975-02-21",
+      "overview": "A cop dies in an accident that his mother refuses to accept. Rocky offers Jim's services free of charge. After begrudgingly accepting the case he discovers that dirty cops might be involved which then pits him against a very angry Lt. Diel.",
+      "still": "./images/rockford/s01e20_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Stuart Margolin",
+        "Edith Atwater",
+        "William Watson",
+        "Jess Walton",
+        "Tom Atkins",
+        "Bruce Tuthill",
+        "Paul Carr",
+        "John Quade",
+        "Jack Knight",
+        "Frank Campanella"
+      ],
+      "answering_machine": "\"This is Shirley at the bank. The answers are: no, no, and yes. No, we won't loan you money. No, we won't accept any co-signers; and yes, your account's overdrawn. I get off at 4:30.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 1,
+      "episode": 21,
+      "title": "Just by Accident",
+      "air_date": "1975-02-28",
+      "overview": "A race car driver dies in an apparent accident that his mother, an old friend of Jim's, thinks was no accident. It turns out he was part of an insurance scam outfit and they soon have a similar plan for Rockford.",
+      "still": "./images/rockford/s01e21_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Neva Patterson",
+        "Steven Keats",
+        "David Spielberg",
+        "Fred Sadoff",
+        "Joey Aresco",
+        "Oliver Clark",
+        "Alan Bergmann",
+        "Millie Slavin",
+        "Beatrice Colen",
+        "E.J. Peaker"
+      ],
+      "answering_machine": "\"This is Thelma Sue Bigsley. It's about the research I called you about, family tree. Did you talk to your daddy? We may be kin.\"",
+      "tags": []
+    },
+    {
+      "season": 1,
+      "episode": 22,
+      "title": "Roundabout",
+      "air_date": "1975-03-07",
+      "overview": "An insurance company hires Rockford to locate a missing woman who is due an inheritance. He finds her in Las Vegas where she is an unwitting pawn in a money laundering operation.",
+      "still": "./images/rockford/s01e22_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Jesse Welles",
+        "Ron Rifkin",
+        "Mills Watson",
+        "Frank Michael Liu",
+        "Virginia Gregg",
+        "Joe E. Tata"
+      ],
+      "answering_machine": "This is Marilyn Reed, I want to talk to you...is this a machine? I don't talk to machines.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 1,
+      "title": "The Aaron Ironwood School of Success",
+      "air_date": "1975-09-12",
+      "overview": "Rockford's wealthy foster brother is wanted by the mob and the government.",
+      "still": "./images/rockford/s02e01_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "James Hampton",
+        "Ken Swofford",
+        "Jonathan Goldsmith",
+        "Jerome Guardino",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hi, Jim. We couldn't reach you, so we went ahead with the job and I know you're really going to dig it. But if you don't I suppose we can always tear it out.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 2,
+      "title": "The Farnsworth Stratagem",
+      "air_date": "1975-09-19",
+      "overview": "Becker and a young writer ask for Rockford's help after they purchase a share in a condominium and discover they only own part of the lobby.",
+      "still": "./images/rockford/s02e02_still.jpg",
+      "rating": 6.0,
+      "guests": [
+        "Stuart Margolin",
+        "Linda Evans",
+        "H.M. Wynant",
+        "Paul Jenkins",
+        "John Crawford",
+        "Eric Server",
+        "Gerald McRaney",
+        "Al Hansen",
+        "Gretchen Corbett",
+        "Pat Finley"
+      ],
+      "answering_machine": "\"Rockford, this is Tony. Now, your car's ready. Couldn't reach you, so I went ahead and put in the new pistons. The tab's $527.54. And this time we're talking cash.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 3,
+      "title": "Gearjammers (1)",
+      "air_date": "1975-09-26",
+      "overview": "Becker and Rockford investigate a hijacking scheme as killers pursue crime-witness Rocky.",
+      "still": "./images/rockford/s02e03_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Rosemary DeCamp",
+        "Ted Gehring",
+        "Peter Brocco",
+        "Charles Cooper",
+        "Scott Brady",
+        "Robert F. Hoy"
+      ],
+      "answering_machine": "\"Jimmy, it's Angel. Don't pay no attention to my other message. You're out of it. You're clean, no trouble at all. Just ignore the first message.\"",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 4,
+      "title": "Gearjammers (2)",
+      "air_date": "1975-10-03",
+      "overview": "Killers pursue Rocky, as Becker and Rockford investigate a hijacking operation.",
+      "still": "./images/rockford/s02e04_still.jpg",
+      "rating": 6.5,
+      "guests": [
+        "Jack Kruschen",
+        "Scott Brady",
+        "Joe E. Tata",
+        "Robert F. Hoy"
+      ],
+      "answering_machine": "\"Okay, pal, it's Harry. I just checked my car. You kept the battery charged all right, you also put 3500 miles on it.\"",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 5,
+      "title": "The Deep Blue Sleep",
+      "air_date": "1975-10-10",
+      "overview": "The trail of a missing model leads to murder and an underworld operation within a high-fashion studio.",
+      "still": "./images/rockford/s02e05_still.jpg",
+      "rating": 2.0,
+      "guests": [
+        "Robert Webber",
+        "Michael Conrad",
+        "Janet MacLachlan",
+        "Ric Mancini",
+        "Melendy Britt",
+        "Doria Cook-Nelson",
+        "Robert Hays",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hi, Jim. Thanks for the dinner invitation. I'd love to, but does it have to be the taco stand?\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 6,
+      "title": "The Great Blue Lake Land and Development Company",
+      "air_date": "1975-10-17",
+      "overview": "When a client's bail money disappears in a desert town, Rockford uncovers a major land swindle.",
+      "still": "./images/rockford/s02e06_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Richard B. Shull",
+        "Dennis Patrick",
+        "Dana Elcar",
+        "Mary Ann Chinn",
+        "Bob Hastings",
+        "Noble Willingham"
+      ],
+      "answering_machine": "\"Hello-Jim-Rockford's-machine. This-is-Larry-Doheny's-machine. Will-you-please-have-your-master-call-my-master-at-his-convenience? Thank-you. Thank-you. Thank-you.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 7,
+      "title": "The Real Easy Red Dog",
+      "air_date": "1975-10-31",
+      "overview": "A private investigator uses Rockford to divert police attention from her insurance case.",
+      "still": "./images/rockford/s02e07_still.jpg",
+      "rating": 8.3,
+      "guests": [
+        "Stefanie Powers",
+        "Bruce Kirby",
+        "Sherry Jackson",
+        "Wayne Grace",
+        "Tom Atkins"
+      ],
+      "answering_machine": "\"Jim? It's Shirley at the cleaners. You know that brown jacket, the one that I said looked so great on you? Your favorite. We lost it.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 8,
+      "title": "Resurrection in Black & White",
+      "air_date": "1975-11-07",
+      "overview": "A magazine writer seeks evidence to free a man she thinks was wrongly convicted of murder.",
+      "still": "./images/rockford/s02e08_still.jpg",
+      "rating": 7.3,
+      "guests": [
+        "Joan Van Ark",
+        "William Prince",
+        "Sandra Smith",
+        "Milton Selzer",
+        "John Lawlor",
+        "John Daheim"
+      ],
+      "answering_machine": "\"Hiya, Jimmy, it's cousin Lou. Going to be in town a coupla days. Know you won't mind putting us up. It's just me and Aunt Sissy and B.J. and the kids and little Freddie.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 9,
+      "title": "Chicken Little Is a Little Chicken",
+      "air_date": "1975-11-14",
+      "overview": "A good deed for Angel makes Rockford the target of a mobster.",
+      "still": "./images/rockford/s02e09_still.jpg",
+      "rating": 7.7,
+      "guests": [
+        "Stuart Margolin",
+        "Ray Danton",
+        "Frank Campanella",
+        "Angelo Gnazzo",
+        "Sandy Ward"
+      ],
+      "answering_machine": "\"Jim, it's Beth. You have the vet's number, the flea collar and extra litter. One thing I forgot, keep him away from the other cats. He's not very discriminating.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 10,
+      "title": "2 Into 5.56 Won't Go",
+      "air_date": "1975-11-21",
+      "overview": "While investigating the \"traffic\" death of his old Army commander, Rockford uncovers an arms-smuggling ring.",
+      "still": "./images/rockford/s02e10_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Jesse Welles",
+        "Charles Napier",
+        "Mitchell Ryan",
+        "Frank Maxwell",
+        "William Boyett",
+        "Harvey Gold",
+        "Carol Vogel",
+        "John Kerry",
+        "Kenneth Washington",
+        "Eddie Firestone"
+      ],
+      "answering_machine": "\"Jim, it's Maria over at the laundromat. There's a yellow dress in with your things. Is that a mistake, or special handling, or what?\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 11,
+      "title": "Pastoria Prime Pick",
+      "air_date": "1975-11-28",
+      "overview": "A farming hub has more business than it can handle, including giving Rockford the business. The PI's car breaks down near the boomtown, after a source Rockford contacts in a divorce case steers Rockford there. While his car is being worked on, Rockford is quickly entangled between an underage motel worker and her jealous cop boyfriend, and in a double-cross over a narcotics deal. Is it just another tricky day for unlucky Jim, or is bucolic New Pastoria a sunny sin city ?",
+      "still": "./images/rockford/s02e11_still.jpg",
+      "rating": 10.0,
+      "guests": [
+        "Warren J. Kemmerling",
+        "Richard Herd",
+        "William Lucking",
+        "Kathie Browne",
+        "Bruce Tuthill",
+        "Smith Wordes",
+        "Bill Zuckert",
+        "Don Billett",
+        "Bill Quinn",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hey, Jimbo, Dennis. Really appreciate the help on the income tax. Wanna help on the audit now?\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 12,
+      "title": "The Reincarnation of Angie",
+      "air_date": "1975-12-05",
+      "overview": "Hoods snatch a stockbroker, and his sister hires Rockford for $23.64, because Jim's in the yellow pages and her big brother instructed her not to dial the cops. Jim's protective of the naive 25 year old bookkeeper, despite the tiny fee, because he fears her brother is dead, and she can't accept that her only relative, who's always taken care of her, may be mixed up in a securities scam.",
+      "still": "./images/rockford/s02e12_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Elayne Heilveil",
+        "David Huddleston",
+        "Sharon Spelman",
+        "Eugene Peterson",
+        "Charles Siebert",
+        "George Skaff",
+        "Jenny O'Hara",
+        "Wayne Tippit"
+      ],
+      "answering_machine": "\"Hi, Jim, it's Jamie at the police impound. They picked up your car again. Lately, they've been driving it more than you have.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 13,
+      "title": "The Girl in the Bay City Boys Club",
+      "air_date": "1975-12-19",
+      "overview": "Jim goes undercover to expose an illegal gambling club and gets help from a young D.A.",
+      "still": "./images/rockford/s02e13_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Stuart Margolin",
+        "Blair Brown",
+        "Joel Fabiani",
+        "Stewart Moss",
+        "Paul Stevens",
+        "William Phipps",
+        "William Bryant",
+        "Stacy Keach, Sr.",
+        "Byron Morrow",
+        "Julio Medina",
+        "Bob Harks",
+        "Chuck Hicks"
+      ],
+      "answering_machine": "\"Hi, sonny, it's Rocky. I got the bill and I've been trying to figure out what everybody owes on L.J.'s birthday party. Tell me, did you have the Pink Lady?\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 14,
+      "title": "The Hammer of C Block",
+      "air_date": "1976-01-09",
+      "overview": "A friend (Isaac Hayes) from Jim's time in prison after getting out, needs help clearing himself from the crime he was put into prison for.",
+      "still": "./images/rockford/s02e14_still.jpg",
+      "rating": 5.0,
+      "guests": [
+        "James A. Watson, Jr",
+        "Annazette Chase",
+        "Jack Somack",
+        "Isaac Hayes",
+        "Lynn Hamilton",
+        "Allan Rich",
+        "Bill Walker"
+      ],
+      "answering_machine": "\"It's Jack. The check is in the mail. Sorry it's two years late. Sorry I misfigured my checking account and I'm overdrawn. Sorry I stopped payment on it. So, when it comes, tear it up. Sorry.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 15,
+      "title": "The No-Cut Contract",
+      "air_date": "1976-01-16",
+      "overview": "A minor league football player drags Jim into his troubles.",
+      "still": "./images/rockford/s02e15_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Stuart Margolin",
+        "Dick Butkus",
+        "Rob Reiner",
+        "Wayne Tippit",
+        "Milt Kogan",
+        "J. Jay Saunders",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Horas fantasticos. La unique opportunidad en su vida la frescia rosarios llantas realiades. Call toll free - cinco-cinco-cinco, tres-uno-dos-uno.\" (Readable English translation: \"Fantastic hours. A fresh, unique, lifetime opportunity from a chain of misfortunes in fact to lay in the shade. Call toll free - 555-3121.\")",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 16,
+      "title": "A Portrait of Elizabeth",
+      "air_date": "1976-01-23",
+      "overview": "A client of Beth's hires Jim misleadingly to check on his company.",
+      "still": "./images/rockford/s02e16_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "John Saxon",
+        "Cynthia Sikes",
+        "Katherine Woodville",
+        "Robert Riesel",
+        "Ned Wilson",
+        "James Murtaugh",
+        "Joe E. Tata",
+        "Tom Atkins",
+        "Wayne Tippit",
+        "Angus Duncan",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Jim, it's Harry. We've been waitin' on you for two hours at the Forbes'. Where's the forks? Lasagna ain't no finger food.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 17,
+      "title": "Joey Blue Eyes",
+      "air_date": "1976-01-29",
+      "overview": "Jim helps one of Beth's clients, who is being swindled out of his business.",
+      "still": "./images/rockford/s02e17_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "Michael Ansara",
+        "Suzanne Charny",
+        "Robert Yuro",
+        "James Luisi",
+        "Eddie Fontaine",
+        "Jimmy Lydon",
+        "Sandy Kenyon",
+        "Mike Lane",
+        "Norman Bartold",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Sorry, Jim, this is for Rocky. Hey, Rock...Stan. Top that redhead and her sister. 10:30, Stacy's Grill. **chuckle**\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 18,
+      "title": "In Hazard",
+      "air_date": "1976-02-05",
+      "overview": "Beth has trouble and is nearly killed by a client with tax trouble.",
+      "still": "./images/rockford/s02e18_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Joseph Campanella",
+        "Ben Frank",
+        "Richard Venture",
+        "Joe E. Tata",
+        "Bruce Tuthill",
+        "Frank Campanella",
+        "Melendy Britt",
+        "Skip Ward",
+        "Linda Dano",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Mr. Rockford, Miss Miller of the Bartlett Book Club. Great Detectives of America is not in stock, so we sent you Cooking Made Easy. Hope you enjoy it.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 2,
+      "episode": 19,
+      "title": "The Italian Bird Fiasco",
+      "air_date": "1976-02-12",
+      "overview": "Jim gets hired by a diamond smuggler posing as an art dealer causing trouble for Jim with LAPD and other smugglers.",
+      "still": "./images/rockford/s02e19_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "William Daniels",
+        "Camilla Sparv",
+        "William Jordan",
+        "Peter Palmer",
+        "Ron Silver",
+        "Ivor Barry",
+        "Dean Santoro",
+        "Eric Server",
+        "Karl Lukas",
+        "Marco López"
+      ],
+      "answering_machine": "\"Jim? Sally. Hey, I just found you were an Aries. Listen, if you have Virgo rising, give me a call.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 20,
+      "title": "Where's Houston?",
+      "air_date": "1976-02-20",
+      "overview": "Rocky's friend is killed thinking his Granddaughter was kidnapped leading Jim with the help of Rocky to untangle a crooked real estate deal.",
+      "still": "./images/rockford/s02e20_still.jpg",
+      "rating": 6.0,
+      "guests": [
+        "Lane Bradbury",
+        "Robert Mandan",
+        "Del Monroe",
+        "Dabbs Greer",
+        "Tom Atkins",
+        "Raymond O'Keefe",
+        "Murray MacLeod",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Jim? Nadine Arcala at the Zodiac Restaurant. You don't pay that dinner tab, we're gonna repo your birthday.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 21,
+      "title": "Foul on the First Play",
+      "air_date": "1976-03-12",
+      "overview": "Another detective tries to use Rockford to help a client obtain a basketball franchise.",
+      "still": "./images/rockford/s02e21_still.jpg",
+      "rating": 5.0,
+      "guests": [
+        "Louis Gossett Jr.",
+        "Richard Davalos",
+        "David White",
+        "Pepper Martin",
+        "James Ingersoll",
+        "Al Ruscio",
+        "John Mahon",
+        "Chuck Bowman"
+      ],
+      "answering_machine": "\"Jim, it's Eddie. You were right about Sweet Talk in the seventh. He breezed in, paid $72.50. But I didn't get your bet down.\"",
+      "tags": []
+    },
+    {
+      "season": 2,
+      "episode": 22,
+      "title": "A Bad Deal in the Valley",
+      "air_date": "1976-03-19",
+      "overview": "A real-estate agent has old flame Rockford deliver counterfeit money.",
+      "still": "./images/rockford/s02e22_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Susan Strasberg",
+        "Jack Colvin",
+        "Veronica Hamel",
+        "David Sabin",
+        "Rod Cameron",
+        "John Lupton",
+        "Gordon Jump",
+        "Russ McGinn",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Uncle Jim? It's Ralph. I got your letter, but I moved out here anyway. I really want those detective lessons.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 1,
+      "title": "The Fourth Man",
+      "air_date": "1976-09-24",
+      "overview": "Jim helps a friend who works in the airline industry, who's apparently being pursued by a hit man, and she's no idea why she's being targeted.",
+      "still": "./images/rockford/s03e01_still.jpg",
+      "rating": 7.5,
+      "guests": [
+        "Stuart Margolin",
+        "John McMartin",
+        "Sharon Gless",
+        "Michael Bell",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hi, just want to put your mind at rest. Found your address book in the theater last week. By the way, Carol's okay, but Linda...\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 2,
+      "title": "The Oracle Wore a Cashmere Suit",
+      "air_date": "1976-10-01",
+      "overview": "Rockford finds himself getting unwanted attention from the media and police, when a popular psychic fingers him as having important information on the disappearance of two people.",
+      "still": "./images/rockford/s03e02_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "James Luisi",
+        "Robert Webber",
+        "Pepe Serna",
+        "Robert Walden",
+        "James Hong",
+        "Bonnie Bartlett",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Teddy's Tree House. You've won free landscaping services for one full year. We'll mow your lawn, top your tree, mulch, seed, fertilize, and feed. Isn't that wonderful?\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 3,
+      "title": "The Family Hour",
+      "air_date": "1976-10-08",
+      "overview": "Jim and Rocky find an abandoned young girl that leads to Jim finding and helping her father.",
+      "still": "./images/rockford/s03e03_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Stuart Margolin",
+        "Burt Young",
+        "Ken Swofford",
+        "Kim Richards",
+        "Paul Koslo",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"Hey, Jim, it's Frank. Me and Ellie's down here for our convention. Can't wait to see you. Should be over at your place about 1 AM. Banzai, buddy.",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 4,
+      "title": "Feeding Frenzy",
+      "air_date": "1976-10-15",
+      "overview": "Jim helps a friend who wants to pay back money he stole three years earlier when his daughter then gets kidnapped leading to problems for Jim with the kidnappers and the police.",
+      "still": "./images/rockford/s03e04_still.jpg",
+      "rating": 6.0,
+      "guests": [
+        "Susan Howard",
+        "Eddie Firestone",
+        "Luke Askew",
+        "Pepper Martin",
+        "Richard LePore",
+        "William Phipps",
+        "Gretchen Corbett",
+        "George Wyner",
+        "Roger Aaron Brown",
+        "Carmen Argenziano",
+        "Jon Cedar",
+        "Joseph Della Sorte",
+        "John Dennis Johnston"
+      ],
+      "answering_machine": "\"Hi, this is the Happy Pet Clinic. Your father gave us this number when he left town. The calico stray had six kittens. Please come get them. Today!\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 5,
+      "title": "Drought at Indianhead River",
+      "air_date": "1976-11-05",
+      "overview": "Jim finds out there's a hit out on Angel and runs into trouble with the mob bailing him out.",
+      "still": "./images/rockford/s03e05_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Stuart Margolin",
+        "Robert Loggia",
+        "Vincent Baggetta",
+        "Gretchen Corbett",
+        "Antony Carbone",
+        "Ronda Copland",
+        "Nicholas Georgiade",
+        "Jerome Guardino",
+        "Laurence Haddon",
+        "Buddy Foster",
+        "Judith Searle"
+      ],
+      "answering_machine": "\"Jim, thanks for taking little Billy fishing, he had a great time. Turns out he really wasn't seasick. Um, have you ever had chicken pox?\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 6,
+      "title": "Coulter City Wildcat",
+      "air_date": "1976-11-12",
+      "overview": "Rocky is forced to sign oil lease rights he owns away, leading Jim to investigate who and why someone wanted Rocky's seemingly worthless leases so badly.",
+      "still": "./images/rockford/s03e06_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "John Anderson",
+        "Dennis Burkley",
+        "Patricia Stich",
+        "Noble Willingham",
+        "Jerry Hardin",
+        "Gretchen Corbett"
+      ],
+      "answering_machine": "\"It's Shirley at the Plant and Pot. There's just no easy way to tell you this, Jim. We did everything we could. Your fern died.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 7,
+      "title": "So Help Me God",
+      "air_date": "1976-11-19",
+      "overview": "Jim gets called before a grand jury where he promptly gets thrown into jail for contempt.",
+      "still": "./images/rockford/s03e07_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "William Daniels",
+        "Sandy Ward",
+        "Ted Gehring",
+        "Jason Wingreen",
+        "Gretchen Corbett",
+        "Vernon Weddle",
+        "Robert Sutton",
+        "John Lupton",
+        "Lieux Dressler",
+        "Cliff Carnell"
+      ],
+      "answering_machine": "\"Dr. Souter's office. This is the third time you've cancelled. Now, you have to have that root canal. A sore foot has nothing to do with your mouth.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 8,
+      "title": "Rattlers' Class of '63",
+      "air_date": "1976-11-26",
+      "overview": "Angel is working a con involving the sale of a landfill, and unknown to him or Jim, it happens to be the location of a dead body from an unsolved case from twelve years before. The people who put it there don't want it found.",
+      "still": "./images/rockford/s03e08_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Stuart Margolin",
+        "James Luisi",
+        "Elayne Heilveil",
+        "Avery Schreiber",
+        "Gerald McRaney",
+        "Gretchen Corbett",
+        "John Durren",
+        "James Wainwright",
+        "Rudy Ramos",
+        "Sandra Kerns",
+        "Stacy Keach, Sr.",
+        "Stanley Brock"
+      ],
+      "answering_machine": "\"Gene's 24 Hour Emergency Plumbing. Your water heater's blown? We'll have somebody out there Tuesday. Thursday at the latest.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 9,
+      "title": "Return to the 38th Parallel",
+      "air_date": "1976-12-10",
+      "overview": "Jim gets used by an old Army buddy in an insurance recovery case.",
+      "still": "./images/rockford/s03e09_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Ned Beatty",
+        "Veronica Hamel",
+        "Paul Stevens",
+        "Norman Burton",
+        "Robert Karnes",
+        "Chuck Wassil",
+        "James Congdon",
+        "Jeff David"
+      ],
+      "answering_machine": "\"Tompkins at Guaranteed Insurance. About your burglary claim. Major loss all right. Funny you remembered to file, but you didn't remember to pay your premium.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 10,
+      "title": "Piece Work",
+      "air_date": "1976-12-17",
+      "overview": "While investigating an insurance claim Jim accidentally stumbles into a gun smuggling operation.",
+      "still": "./images/rockford/s03e10_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "James Luisi",
+        "Michael Lerner",
+        "Ned Wilson",
+        "Simon Scott",
+        "Ben Frank",
+        "Frank Maxwell",
+        "Jack Bannon"
+      ],
+      "answering_machine": "\"This is Dr. Souter's office again, regarding that root canal. The doctor is in his office...waiting. He's beginning to dislike you.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 11,
+      "title": "The Trouble with Warren",
+      "air_date": "1976-12-24",
+      "overview": "Beth's nerdy cousin Warren drags Jim into his mounting troubles.",
+      "still": "./images/rockford/s03e11_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "James Luisi",
+        "Ron Rifkin",
+        "Paul Jenkins",
+        "Joe Maross",
+        "John Dullaghan",
+        "Tom Bower",
+        "Gretchen Corbett",
+        "Anne Randall"
+      ],
+      "answering_machine": "\"Jimmy, it's Phil in Puerto Rico. This is real important. Talked to Mr. [line noise], he'll pay $20,000. Call him at [line noise].\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 12,
+      "title": "There's One in Every Port",
+      "air_date": "1977-01-07",
+      "overview": "After being conned by friends Jim sets them up to settle the score and save himself.",
+      "still": "./images/rockford/s03e12_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Stuart Margolin",
+        "Joan Van Ark",
+        "John Dehner",
+        "Steve Landesberg",
+        "John Mahon",
+        "Jack Riley",
+        "George Memmoli",
+        "Michael Delano",
+        "Ric Mancini",
+        "Howard Duff",
+        "Byron Morrow",
+        "Kenneth Tobey"
+      ],
+      "answering_machine": "\"Bummer! I call up with some good vibes and some positive energies and I talk to a robot? Forget you, man!\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 13,
+      "title": "Sticks and Stones May Break Your Bones, But Waterbury Will Bury You",
+      "air_date": "1977-01-14",
+      "overview": "When several of Jim's fellow P.I.'s lose their licenses under circumstances that are suspiciously similar, he begins to suspect that someone is targeting independent investigators and systematically putting them out of business.",
+      "still": "./images/rockford/s03e13_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Cleavon Little",
+        "Val Bisoglio",
+        "Anthony Costello",
+        "Simon Oakland",
+        "Robert Riesel",
+        "James Karen",
+        "Jack Garner",
+        "Linda Dano",
+        "Brian Libby"
+      ],
+      "answering_machine": "\"This is the Department of the Army. Our records show that you are the \"Rockford, James\" who failed to turn in his service automatic in May 1953. Contact us at once.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 14,
+      "title": "The Trees, the Bees and T.T. Flowers: Part 1",
+      "air_date": "1977-01-21",
+      "overview": "Jim helps a friend (Strother Martin) of Rocky's who's being forced off his property.",
+      "still": "./images/rockford/s03e14_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Richard Venture",
+        "Karen Machon",
+        "Strother Martin",
+        "Scott Brady",
+        "Alex Rocco",
+        "Gretchen Corbett",
+        "Roy Jenson",
+        "Paul Sylvan",
+        "Bob Hastings",
+        "Allen Williams",
+        "Fred Stuthman",
+        "Jack Stauffer"
+      ],
+      "answering_machine": "\"Jimmy, old buddy, buddy. It's Angel! You know they allow you one phone call? Well, this is it.\"",
+      "tags": [
+        "TWO_PARTER",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 15,
+      "title": "The Trees, the Bees and T.T. Flowers: Part 2",
+      "air_date": "1977-01-28",
+      "overview": "Jim helps a friend of Rocky's who's being forced off his property.",
+      "still": "./images/rockford/s03e15_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Karen Machon",
+        "Strother Martin",
+        "Scott Brady",
+        "Robert DoQui",
+        "Alex Rocco",
+        "Gretchen Corbett",
+        "Roy Jenson",
+        "Tom Rosqui",
+        "Fred Stuthman",
+        "Jack Stauffer"
+      ],
+      "answering_machine": "\"Hello? Hello? Hello? Hello?\"",
+      "tags": [
+        "TWO_PARTER",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 16,
+      "title": "The Becker Connection",
+      "air_date": "1977-02-11",
+      "overview": "Rockford's newest case is to clear his friend Dennis Becker, who is suspected of selling drugs to deal with his financial problems.",
+      "still": "./images/rockford/s03e16_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Stuart Margolin",
+        "James Luisi",
+        "Jack Carter",
+        "Bert Kramer",
+        "William Jordan",
+        "Jack Kelly",
+        "James B. Sikking",
+        "Pat Finley"
+      ],
+      "answering_machine": "\"Hi, um, I'm confused. Is this Dial-A-Prayer? Well, should I call back when the reverend's in the office, or what?\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 17,
+      "title": "Just Another Polish Wedding",
+      "air_date": "1977-02-18",
+      "overview": "Jim gets Gandy (Isaac Hayes) a job with his P.I. buddy Marcus Hayes (Louis Gossett Jr.) who promptly then tries to steal the case.",
+      "still": "./images/rockford/s03e17_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Louis Gossett Jr.",
+        "Pepper Martin",
+        "Walter Brooke",
+        "Dennis Burkley",
+        "Isaac Hayes",
+        "Bruce Tuthill",
+        "Jack Collins",
+        "Raymond Singer",
+        "Bob Harks",
+        "Troy Melton",
+        "Ted White"
+      ],
+      "answering_machine": "\"George Devon, Malibu Space Watch. Had three sightings last week. You see anything unusual? Television reception interrupted? Call 555-1313.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 18,
+      "title": "New Life, Old Dragons",
+      "air_date": "1977-02-25",
+      "overview": "Jim is hired by a Vietnamese refugee to find her missing brother.",
+      "still": "./images/rockford/s03e18_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Kathleen Nolan",
+        "Irene Yah-Ling Sun",
+        "Charles Napier",
+        "Charles Siebert",
+        "Luke Askew",
+        "Bruce Tuthill",
+        "James T. Callahan",
+        "Clyde Kusatsu",
+        "Jim Ishida"
+      ],
+      "answering_machine": "\"It's Pete. Hope you enjoyed using the cabin last week. Only next time leave the trout in the refrigerator, huh? Not in the cupboard.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 19,
+      "title": "To Protect and Serve: Part 1",
+      "air_date": "1977-03-11",
+      "overview": "Rockford is hired to find a missing woman, only to discover that she is also being sought by a New York crime family.",
+      "still": "./images/rockford/s03e19_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "James Luisi",
+        "Joyce Van Patten",
+        "Leslie Charleson",
+        "Jon Cypher",
+        "Pat Finley"
+      ],
+      "answering_machine": "\"This is Dusty, your father's friend. So you helped me move, that's it? See if maybe I don't like the new place? See if maybe there's some painting to be done?\"",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 20,
+      "title": "To Protect and Serve: Part 2",
+      "air_date": "1977-03-18",
+      "overview": "Rockford tries to keep a woman on the run out of the hands of two Minette hoods (and her revenge minded ex-fiancé) but the bungling interference of a disturbed police groupie threatens to get them both killed.",
+      "still": "./images/rockford/s03e20_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James Luisi",
+        "Joyce Van Patten",
+        "Leslie Charleson",
+        "Jon Cypher",
+        "Lou Frizzell",
+        "Angus Duncan",
+        "Nick Dimitri"
+      ],
+      "answering_machine": "\"This is incredible. Do you know last night I had one of my dreams? I dreamed that if I called you, you wouldn't be home. And you're not.\"",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 3,
+      "episode": 21,
+      "title": "Crack Back",
+      "air_date": "1977-03-25",
+      "overview": "Beth turns to Jim for help when she finds herself being mentally harassed by a mysterious man while trying to win an important trial.",
+      "still": "./images/rockford/s03e21_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Joseph Mascolo",
+        "Howard McGillin",
+        "John Calvin",
+        "Sondra Blake",
+        "Conchata Ferrell",
+        "Gretchen Corbett",
+        "Robert Miller Driscoll",
+        "Jack Garner",
+        "Norman Bartold"
+      ],
+      "answering_machine": "\"This is Doctor Souter. My nurse tells me you've blown four root canal appointments. Well, you're finished in this office.\"",
+      "tags": []
+    },
+    {
+      "season": 3,
+      "episode": 22,
+      "title": "Dirty Money, Black Light",
+      "air_date": "1977-04-01",
+      "overview": "Jim becomes very concerned when Rocky starts receiving thousands of dollars through the mail.",
+      "still": "./images/rockford/s03e22_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Stuart Margolin",
+        "John P. Ryan",
+        "Wesley Addy",
+        "Roger E. Mosley",
+        "Joshua Bryant",
+        "John Chappell",
+        "Diana Ewing",
+        "Gretchen Corbett",
+        "Martin Kove",
+        "Victor Argo",
+        "Mike Lane",
+        "Craig Wasson"
+      ],
+      "answering_machine": "\"This is Toby. I forgot what I was calling for. Your recording is so boring. Spike it with some humor, some personality. Something.\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 1,
+      "title": "Beamer's Last Case",
+      "air_date": "1977-09-16",
+      "overview": "Rockford returns from vacation in Puerto Rico to discover someone has been using his identity, his trailer and totaled his Firebird. And that's just the beginning of his problems...",
+      "still": "./images/rockford/s04e01_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James Whitmore Jr.",
+        "Jack Kelly",
+        "Bibi Besch",
+        "Robert Loggia"
+      ],
+      "answering_machine": "[loud traffic noise in background] \"Jimmy, this is Angel. I've got this new pad, right over by the Hollywood Freeway, and some friends are coming. Borrow your record player?\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 2,
+      "title": "Trouble in Chapter 17",
+      "air_date": "1977-09-23",
+      "overview": "Jim is reluctantly drawn into being bodyguard for a famous author, who believes her popular book on the perfect wife is the cause of death threats against her.",
+      "still": "./images/rockford/s04e02_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Ed Nelson",
+        "Arthur Roberts",
+        "Claudette Nevins",
+        "Donna Baccala",
+        "Arlene Martel",
+        "Al Checco"
+      ],
+      "answering_machine": "[Noises from large dog in background] \"Jim, this is Donna. Boy, we've been swamped today. No, sit. We should be closing in about...sit. I'll meet you at...oh, get down.\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 3,
+      "title": "The Battle of Canoga Park",
+      "air_date": "1977-09-30",
+      "overview": "Jim finds himself in an explosive situation when the gun he hides in his cookie jar is used in a murder.",
+      "still": "./images/rockford/s04e03_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Nora Marlowe",
+        "Adrienne Marden",
+        "John Dennis Johnston",
+        "Tom Atkins",
+        "Bruce Tuthill",
+        "Gretchen Corbett",
+        "Elliott Street",
+        "Ted Gehring",
+        "John Perak",
+        "Brion James",
+        "Charles Hallahan"
+      ],
+      "answering_machine": "\"It's Betty from up the street. I'm phoning all the neighbors because Spotty is loose. If you see him, call me. Oh, don't wear musk cologne. Leopards have a thing about that.\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 4,
+      "title": "Second Chance",
+      "air_date": "1977-10-14",
+      "overview": "When the life of Gandy Fitch's (Isaac Hayes) girlfriend is in danger, he turns to Rockfish for help.",
+      "still": "./images/rockford/s04e04_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "Isaac Hayes",
+        "Malachi Throne",
+        "Tony Burton",
+        "Dionne Warwick",
+        "Sean Garrison",
+        "Rudy Diaz",
+        "Janet Dey"
+      ],
+      "answering_machine": "\"This is Globe Publications. Our records show you did not return your free volume of the Encyclopedia of Weather. So we'll be sending you the remaining twenty-nine volumes. You'll be billed accordingly.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 5,
+      "title": "The Dog and Pony Show",
+      "air_date": "1977-10-21",
+      "overview": "Helping a young woman with a history of mental illness leads Jim into crossing paths with the Mob and federal intelligence.",
+      "still": "./images/rockford/s04e05_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "Joanne Nail",
+        "Walter Brooke",
+        "George Loros",
+        "Michael Bell",
+        "Ed Lauter",
+        "Gary Crosby",
+        "Al Ruscio",
+        "Bill Quinn"
+      ],
+      "answering_machine": "\"Jimmy, Lou. You owe me five bucks. Matarozo's average in the '68 Series was .310 not .315. Oh...and...uh...Fran and I are getting divorced.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 6,
+      "title": "Requiem for a Funny Box",
+      "air_date": "1977-11-04",
+      "overview": "A washed-up comedian finds out about a Mob family member's secret, and gets Jim in trouble by framing him for a murder.",
+      "still": "./images/rockford/s04e06_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Chuck McCann",
+        "Robert Quarry",
+        "Jason Evers",
+        "Jodean Lawrence",
+        "Meredith MacRae",
+        "Tom Atkins",
+        "Gretchen Corbett",
+        "Gilbert Green"
+      ],
+      "answering_machine": "\"Mr. Rockford, Sue Ellen. Our class is that having crazy scavenger hunt I told you about. If you're wondering what happened to your trailer door, it's going to win me first prize.\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 7,
+      "title": "Quickie Nirvana",
+      "air_date": "1977-11-11",
+      "overview": "Rockford ends up regretting allowing an eccentric hippie woman to use his address temporarily, when her ex-boss sends a pair of thugs after her to retrieve some money he put in her care.",
+      "still": "./images/rockford/s04e07_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James Luisi",
+        "Valerie Curtin",
+        "Kip Gilman",
+        "Quinn K. Redeker",
+        "Dick Anthony Williams",
+        "Lawrence Cook",
+        "Patricia Pearcy",
+        "Carl W. Crudup"
+      ],
+      "answering_machine": "\"Hey, I saw your ad in the classified. Three African goats for sale. I keep calling and all I get is a machine. Is this a typo in the paper, or what?\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 8,
+      "title": "Irving the Explainer",
+      "air_date": "1977-11-18",
+      "overview": "Rockford gives himself a headache trying to solve the connection between a 30 year old murder, a valuable missing painting and Nazi Germany.",
+      "still": "./images/rockford/s04e08_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James Luisi",
+        "Barbara Babcock",
+        "Paul Stewart",
+        "Maurice Marsac",
+        "Irene Tsu",
+        "Byron Morrow",
+        "Lester Fletcher",
+        "Alex Rodine"
+      ],
+      "answering_machine": "\"So you put your machine on at night, huh? Just because I call you at 3 A.M.? You know how bad my insomnia is. Thanks a lot Jim.\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 9,
+      "title": "The Mayor's Committee from Deer Lick Falls",
+      "air_date": "1977-11-25",
+      "overview": "Jim is hired by some small-town businessmen to help them buy a fire engine; they really want him to assassinate someone who could bring the IRS down on them.",
+      "still": "./images/rockford/s04e09_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "James Luisi",
+        "Edward Binns",
+        "Richard O'Brien",
+        "Charles Aidman",
+        "Priscilla Barnes",
+        "Jerry Hardin",
+        "Clark Howat",
+        "Richard Sanders",
+        "Fritzi Burr"
+      ],
+      "answering_machine": "\"Jim? This is Manny down at Ralph's Bar. Some guy named Angel Martin just ran up a fifty buck bar tab. Now he wants to charge it to you. You gonna pay it?\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 10,
+      "title": "Hotel of Fear",
+      "air_date": "1977-12-02",
+      "overview": "Accidently witnessing a murder makes Angel Martin the police's prime witness in the trial of the murderer.",
+      "still": "./images/rockford/s04e10_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "James Luisi",
+        "Gerald McRaney",
+        "Frank De Kova",
+        "Vincent Baggetta",
+        "Madison Arnold",
+        "Eugene Peterson",
+        "Barry Atwater",
+        "Barbra Rae",
+        "Stephen Colt",
+        "James Whitworth"
+      ],
+      "answering_machine": "\"Hey, am I too late for those African goats? Haven't got the whole three hundred cash, but, like I've go a whole lot of homemade cheese. Maybe we should work something out.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 11,
+      "title": "Forced Retirement",
+      "air_date": "1977-12-07",
+      "overview": "Beth's old college friend is in trouble when her company that is developing an submersible robot explorer becomes the target of some shady businessmen. Jimmy Joe Meeker comes to her rescue.",
+      "still": "./images/rockford/s04e11_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "Larry Hagman",
+        "Margie Impert",
+        "Denny Miller",
+        "Ron Masak",
+        "Gretchen Corbett",
+        "William Joyce",
+        "Conrad Bachmann"
+      ],
+      "answering_machine": "*Beep* \"Hi, there. If you are interested in selling a product by a computerized telephone sales *beep* stay on the line and one of our repesentatives will speak with you.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 12,
+      "title": "The Queen of Peru",
+      "air_date": "1977-12-16",
+      "overview": "The RV family from hell decides to set up camp next door to Jim's trailer, just when he's got the recovery of a stolen diamond on his mind.",
+      "still": "./images/rockford/s04e12_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James Luisi",
+        "George Wyner",
+        "Ken Swofford",
+        "Christopher Cary",
+        "Joe E. Tata",
+        "Luke Andreas",
+        "Michael Morgan",
+        "Gretchen Corbett",
+        "Hunter von Leer"
+      ],
+      "answering_machine": "\"Jim, it's Grace, at the bank. I checked your Christmas Club account. You don't have $500. You have $50. Sorry, computer foul up.\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 13,
+      "title": "A Deadly Maze",
+      "air_date": "1977-12-23",
+      "overview": "Jim is unwittingly involved in a bizarre experiment when hired to find a man's missing wife.",
+      "still": "./images/rockford/s04e13_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Larry Linville",
+        "Corinne Camacho",
+        "J. Pat O'Malley",
+        "Lance LeGault",
+        "Johnny Seven",
+        "Cliff Carnell",
+        "Jack Collins"
+      ],
+      "answering_machine": "\"Hey, Jimmy, I tried to catch you before you left. Hey buddy, I was wrong. The rally in Mexico, it was yesterday.\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 14,
+      "title": "The Attractive Nuisance",
+      "air_date": "1978-01-06",
+      "overview": "An unexplained break-in at Rocky's new diner has connections with the FBI fifty years ago.",
+      "still": "./images/rockford/s04e14_still.jpg",
+      "rating": 7.0,
+      "guests": [
+        "Victor Jory",
+        "Ken Lynch",
+        "Dick Balduzzi",
+        "Rudy Bond",
+        "Gretchen Corbett",
+        "Hunter von Leer"
+      ],
+      "answering_machine": "\"Jimmy Scott? This is Aunt Bea from Tulsa. Cousin Randy just graduated from high school and wants to be a movie producer. Now you live out in Hollywood, you just do something.\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 15,
+      "title": "The Gang at Don's Drive-In",
+      "air_date": "1978-01-13",
+      "overview": "An author suffering from writers block tells Jim he thinks he has the next best seller in an old murder case from 1961.",
+      "still": "./images/rockford/s04e15_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Anthony Zerbe",
+        "Arlene Golonka",
+        "Mills Watson",
+        "Lawrence P. Casey",
+        "Bill Fletcher",
+        "Elaine Princi",
+        "Connie Sawyer",
+        "Paul Pepper",
+        "Richard Bakalyan",
+        "Jordan Rhodes",
+        "Chuck Hicks",
+        "Luis Delgado",
+        "Cosmo Sardo"
+      ],
+      "answering_machine": "\"Jim, I have finally finished twelve long years of psychotherapy and I'm now able to tell you just what I think of you. Would you please call me?\"",
+      "tags": []
+    },
+    {
+      "season": 4,
+      "episode": 16,
+      "title": "The Paper Palace",
+      "air_date": "1978-01-20",
+      "overview": "A prostitute (Rita Moreno) hires Jim to find out who has been sending her death threats.",
+      "still": "./images/rockford/s04e16_still.jpg",
+      "rating": 8.5,
+      "guests": [
+        "James Luisi",
+        "Bruce Kirby",
+        "David Lewis",
+        "Patricia Donahue",
+        "Rita Moreno",
+        "Pat Finley",
+        "René Assa",
+        "Shirley O'Hara"
+      ],
+      "answering_machine": "\"This is Mrs. Owens with the Association For A Better Malibu. Thanks for your contributions. We've made real strides, but it would help dear, if you could move your trailer.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 17,
+      "title": "Dwarf in a Helium Hat",
+      "air_date": "1978-01-27",
+      "overview": "A threat to the wrong phone number has Jim scrambling to find out who it was meant for.",
+      "still": "./images/rockford/s04e17_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "James Luisi",
+        "Rick Springfield",
+        "Marie Reynolds",
+        "John Pleshette",
+        "Rebecca Balding",
+        "Gianni Russo",
+        "Milton Selzer",
+        "Ted Markland"
+      ],
+      "answering_machine": "\"Here's the tally, Jimbo. You had Atlanta at even money, tough break. And you got bombed in the Duke-Wake Forest fiasco, and you split the Cornell at Hollypark. So you're in the book for $4.50. Anytime before Friday, huh, buddy?\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 18,
+      "title": "South by Southeast",
+      "air_date": "1978-02-03",
+      "overview": "Mistaken identity by federal agents has Jim being sent to South America to help them contact a heiress, who has been isolated by her possessive husband.",
+      "still": "./images/rockford/s04e18_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Dorrie Kavanaugh",
+        "Don Chastain",
+        "Carlos Romero",
+        "Don Diamond",
+        "Jim B. Smith",
+        "Ernesto Macias"
+      ],
+      "answering_machine": "\"Bill Skelly with ICO. I'd like to interest you in some new private detection, including the 44OA Telephonic Bug. We'll demonstrate it in a friend's home for one full week, at no charge.",
+      "tags": [
+        "FAN_FAVORITE",
+        "GUEST_STAR_SPOTLIGHT"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 19,
+      "title": "The Competitive Edge",
+      "air_date": "1978-02-10",
+      "overview": "Jim winds up in a funny farm when he gets too close to the truth about an elite health club.",
+      "still": "./images/rockford/s04e19_still.jpg",
+      "rating": 9.5,
+      "guests": [
+        "Stephen Elliott",
+        "Jim McMullan",
+        "Robert Hogan",
+        "John Fiedler",
+        "Neile Adams",
+        "George Murdock",
+        "Pepper Martin",
+        "Logan Ramsey",
+        "John Lupton",
+        "Harold Sakata",
+        "Angelo Rossitto"
+      ],
+      "answering_machine": "\"Okay, Jimbo, Dennis. I know you're in there. And I know you know it's ticket season again. Policeman's Ball and all that. So come to the door when I knock this time. I know you're in there.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 20,
+      "title": "The Prisoner of Rosemont Hall",
+      "air_date": "1978-02-17",
+      "overview": "When the son of an old friend goes missing, Jim goes to the young man's college to try and find out what happened.",
+      "still": "./images/rockford/s04e20_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Frances Lee McCain",
+        "Kenneth Tobey",
+        "Joyce Easton",
+        "Daniel Ades",
+        "Maurice Sherbanee"
+      ],
+      "answering_machine": "\"That number four you just picked up from Angelo's Pizza? Some scouring powder fell in there. Don't eat it. Hey, I hope you try your phone machine before dinner.\"",
+      "tags": [
+        "FAN_FAVORITE",
+        "GUEST_STAR_SPOTLIGHT"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 21,
+      "title": "The House on Willis Avenue (1)",
+      "air_date": "1978-02-24",
+      "overview": "When a fellow P.I. is killed on the Ventura freeway, Jim and Richie Brockelman team up to find out if it really was an accident.",
+      "still": "./images/rockford/s04e21_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Jackie Cooper",
+        "Howard Hesseman",
+        "Philip Sterling",
+        "Pernell Roberts",
+        "John van Dreelen",
+        "Simon Oakland",
+        "Tom Stovall",
+        "Robert Hogan",
+        "Dennis Dugan",
+        "Paul Fix",
+        "Russell Thorson",
+        "Troy Melton",
+        "Lou Krugman",
+        "Vince Howard",
+        "Nick Dimitri"
+      ],
+      "answering_machine": "\"Good morning, this is the telephone company. Due to repairs we're giving you advance notice that your service will be cut off indefinitely at 10 o'clock. That's two minutes from now.\" // Part 2: \"Sonny, this is Dad. Never mind giving that talk on your occupation to the Grey Power Club. Hap Dudley's son is a doctor and everybody'd sorta...well, rather hear from him, but thanks.\"",
+      "tags": [
+        "TWO_PARTER",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 4,
+      "episode": 22,
+      "title": "The House on Willis Avenue (2)",
+      "air_date": "1978-02-24",
+      "overview": "Part two of episode.  Originally aired as 1 2-hour episode.",
+      "still": "./images/rockford/s04e22_still.jpg",
+      "rating": 10.0,
+      "guests": [],
+      "answering_machine": "Sonny, this is Dad. Nevermind giving that talk on your occupation to the Grey Power Club. Hap Dudley's son is a doctor and everybody'd sorta...well, rather hear from him, but thanks.",
+      "tags": [
+        "TWO_PARTER",
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 1,
+      "title": "Heartaches of a Fool",
+      "air_date": "1978-09-22",
+      "overview": "Jim finds that a country music star, corrupt union boss and Chinese triad all have one thing in common with why Rocky ended in hospital after his rig was forced off the road: sausages.",
+      "still": "./images/rockford/s05e01_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Taylor Lacher",
+        "Lynne Marta",
+        "James Shigeta",
+        "Norman Alden",
+        "Joe E. Tata",
+        "Leo Gordon",
+        "Mark Roberts",
+        "Robert Phillips",
+        "Don 'Red' Barry",
+        "Herb Armstrong",
+        "George Cheung",
+        "Byron Chung"
+      ],
+      "answering_machine": "\"Say, I'm the one who hit your car at Fork City, I've got no insurance, I'm broke. But, I really wanted you to know how sorry I am. If it makes you feel any better I hurt my arm.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 2,
+      "title": "Rosendahl and Gilda Stern Are Dead",
+      "air_date": "1978-09-29",
+      "overview": "A doctor's murder has direct connections to the Mob, and Jim comes to the assistance of hooker friend Rita Capcovik (Rita Moreno) when she finds herself entangled in it.",
+      "still": "./images/rockford/s05e02_still.jpg",
+      "rating": 8.0,
+      "guests": [
+        "Abe Vigoda",
+        "Sharon Acker",
+        "Robin Gammell",
+        "John Karlen",
+        "Robert Loggia",
+        "Ron Gilbert",
+        "Rita Moreno",
+        "Jo Anne Meredith",
+        "William Joyce",
+        "Jason Wingreen"
+      ],
+      "answering_machine": "\"Hello? Are you the guy who lost a wallet in the Park Theater? Well, I'm kinda like into leather. So, I'll be returning the money, but I'm going to keep the wallet.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 3,
+      "title": "The Jersey Bounce",
+      "air_date": "1978-10-06",
+      "overview": "Wrongly accused of beating a man to death, Jim discovers the best legal advice he can find is from disbarred lawyer John Cooper.",
+      "still": "./images/rockford/s05e03_still.jpg",
+      "rating": 9.0,
+      "guests": [
+        "Sorrell Booke",
+        "Gene Davis",
+        "Luke Andreas",
+        "Bo Hopkins",
+        "Greg Antonacci"
+      ],
+      "answering_machine": "\"Jimmy, Angel. Here's a tip, but his handwriting's bad. Third Son in the fifth race at Bel Meadows. Wait a minute, could be Fifth Son in the third. Wait, this might be next week's race.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 4,
+      "title": "White on White and Nearly Perfect",
+      "air_date": "1978-10-20",
+      "overview": "Handsome, charmed PI Lance White (Tom Selleck) may speak lines that sound like they're from a 1940s B movie, but everyone is so attracted to him they hang on his every word. That is, everyone except Jim.",
+      "still": "./images/rockford/s05e04_still.jpg",
+      "rating": 9.5,
+      "guests": [
+        "James Luisi",
+        "Jason Evers",
+        "Frank Christi",
+        "Tom Selleck",
+        "Peter Brocco",
+        "Bill Quinn",
+        "Raynold Gideon",
+        "Karen Austin"
+      ],
+      "answering_machine": "\"Pacific view lots. Perpetual care by people who care. At an unbelievably low price. Call Montief and Snell, the full service mortuary. We won't rest easy, until you rest easy.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 5,
+      "title": "Kill the Messenger",
+      "air_date": "1978-10-27",
+      "overview": "When an already overly stressed Dennis Becker is lumped with the unwelcome task of finding out who murdered Deputy Chief Towne's unfaithful wife, Jim decides to lend a hand in the investigation.",
+      "still": "./images/rockford/s05e05_still.jpg",
+      "rating": 9.5,
+      "guests": [
+        "James Luisi",
+        "Byron Morrow",
+        "Alex Colon",
+        "Ed Harris",
+        "Pat Finley",
+        "Don Diamond",
+        "Frank McRae",
+        "W.K. Stratton"
+      ],
+      "answering_machine": "\"Jim, Chet, returning your call. Sorry I missed you, but I appreciate you calling back. And if you call again and I'm not in, just leave your message and I'll get back to you.\"",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 6,
+      "title": "The Empty Frame",
+      "air_date": "1978-11-03",
+      "overview": "At a swank party, attended by some of LA's high society and police dept. VIPs, in honor of Angel's brother-in-law, Aaron, being made Chief of Police, a robbery takes place, while Lt. Doug Chapman is in charge of security. Desperate to get back into good graces with his superiors, Chapman swallows his pride and asks Rockford to help him.",
+      "still": "./images/rockford/s05e06_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "James Luisi",
+        "Richard Seff",
+        "Paul Carr",
+        "Jonathan Goldsmith",
+        "Dale Robinette",
+        "Milt Kogan",
+        "Marianne Bunch",
+        "Troas Hayes"
+      ],
+      "answering_machine": "\"Jim, directions to the party. Left on Sagis, you'll se a rock. Left, left again, right, another left, there's kind of a hill--keep going you'll probably see a bunch of cars.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 7,
+      "title": "Three Day Affair with a Thirty Day Escrow",
+      "air_date": "1978-11-10",
+      "overview": "After being strong-armed by an Arab sheik and his goons, and getting no help from the police, Jim decides to track down the two people who caused his trouble: a soft-voiced gigolo and the sheik's naive daughter.",
+      "still": "./images/rockford/s05e07_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James Luisi",
+        "Richard Romanus",
+        "Robert Alda",
+        "Maria Grimm",
+        "Gilbert Green",
+        "Joshua Bryant",
+        "Janis Paige",
+        "Richard Moll",
+        "Andrew Masset"
+      ],
+      "answering_machine": "\"Rockford? Alice, Phil's Plumbing. We're still jammed up on a job, so we won't be able to make your place. Use the bathroom at the restaurant one more night.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 8,
+      "title": "A Good Clean Bust with Sequel Rights",
+      "air_date": "1978-11-17",
+      "overview": "Jim is forced to babysit Chicago ex-cop, now celebrity, \"Frank Falcone,\" who has a television show and toy line. Falcone isn't easy to babysit, and things get dicey when some old Chicago \"friends\" of Falcone show up to complicate things.",
+      "still": "./images/rockford/s05e08_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James B. Sikking",
+        "Nicolas Coster",
+        "James Murtaugh",
+        "Jerry Douglas",
+        "Héctor Elizondo",
+        "Louisa Moritz",
+        "Patricia Donahue",
+        "Joanna Lipari"
+      ],
+      "answering_machine": "\"Jim, I have to thank you for talking over my problems with me last Tuesday night. I love you for it, but can you have lunch tomorrow to talk about the divorce? I'm real bummed out.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 9,
+      "title": "Black Mirror: Part 1",
+      "air_date": "1978-11-24",
+      "overview": "A blind psychologist, who is being terrorized by an unknown stalker, turns to Jim for help.",
+      "still": "./images/rockford/s05e09_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "John Pleshette",
+        "Alan Manson",
+        "Carl Franklin",
+        "Allan Arbus",
+        "Leo Gordon",
+        "Denny Miller",
+        "John Howard",
+        "Kathryn Harrold"
+      ],
+      "answering_machine": "\"Jim, I leave London four o'clock, arrive L.A. nine. I guess that's London time. Yeah, four to nine is five, minus twelve flying... no, plus twelve. Ah, but then there's a time change.\" // Part 2: \"Rockford, Jake at the Sand Pebble. Sorry old buddy, but there have been gunshots around your place once too often. The neighborhood association wants to have a talk with you.\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 10,
+      "title": "Black Mirror: Part 2",
+      "air_date": "1978-11-24",
+      "overview": "Rockford's investigation of psychologist Megan Dougherty's stalker leads him to one of her patients who may have a split personality - one of which is a paid killer.",
+      "still": "./images/rockford/s05e10_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "John Pleshette",
+        "Alan Manson",
+        "Carl Franklin",
+        "Allan Arbus",
+        "Leo Gordon",
+        "Denny Miller",
+        "John Howard",
+        "Kathryn Harrold"
+      ],
+      "answering_machine": "\"Jim, you give Peg the two hundred for the painting. She owes me seventy and I owe you forty-six for the Christmas trees. Harry's still out sixty for the dinner, but at least it'll void that check.\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 11,
+      "title": "A Fast Count",
+      "air_date": "1978-12-01",
+      "overview": "Jim puts up his dukes and steps forward to help a boxing coach who has been framed with bribery and murder.",
+      "still": "./images/rockford/s05e11_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Mary Frann",
+        "Steven Bauer",
+        "Kenneth McMillan",
+        "Lawrence P. Casey",
+        "Len Wayland",
+        "Bert Kramer"
+      ],
+      "answering_machine": "\"Sonny, this message ain't for you, it's for me. I just want to pick up the ladder at the Paint Mart.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 12,
+      "title": "Local Man Eaten by Newspaper",
+      "air_date": "1978-12-08",
+      "overview": "Jim could use some saintly guidance when he goes undercover on a scandal rag that is getting confidential medical information on a doctor's famous, and infamous, patients.",
+      "still": "./images/rockford/s05e12_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Scott Marlowe",
+        "Rose Gregorio",
+        "Joseph Hindy",
+        "Gianni Russo",
+        "Kenneth Tigar",
+        "Joe E. Tata",
+        "Bo Hopkins",
+        "Scott Brady"
+      ],
+      "answering_machine": "\"Jim, Coop. I'm at the address you wrote down for the poker game tonight. This is a gas station, it's closed, there's no one around and my car is stalled. Now, you got to call me at 4-6-6-3-*click*.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 13,
+      "title": "With the French Heel Back, Can the Nehru Jacket Be Far Behind?",
+      "air_date": null,
+      "overview": "A fashion model friend of Jim is found dead on the ground below her balcony. The police believe it's suicide, but having gotten a desperate phone call from her, Jim believes it's murder.",
+      "still": "./images/rockford/s05e13_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "René Auberjonois",
+        "Erin Gray",
+        "Michael Des Barres",
+        "W.K. Stratton",
+        "Marisa Pavan",
+        "Howard Witt"
+      ],
+      "answering_machine": "\"Miss Hollroy, City Federal. Your lost check still hasn't arrived. It's impossible for us to lose checks, so unless we received full payment by noon today we'll foreclose.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 14,
+      "title": "The Battle-Ax and the Exploding Cigar",
+      "air_date": "1979-01-12",
+      "overview": "Ignorant that he's been driving a hot Cadillac with an illegal stash of guns in the trunk, leads Jim into rubbing shoulders with the FBI and the Company.",
+      "still": "./images/rockford/s05e14_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Glenn Corbett",
+        "Marge Redmond",
+        "Lane Smith",
+        "Sully Boyar",
+        "Charles Weldon",
+        "Lawrence P. Casey",
+        "Mitzi Hoag"
+      ],
+      "answering_machine": "\"Jimmy, Angel. Listen, Eddie Talliferro just gave me a hot tip on a class filly in the eighth at Holly Park. Only trouble is I need twenty.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 15,
+      "title": "Guilt",
+      "air_date": "1979-01-19",
+      "overview": "Jim finds his guilty conscience being manipulated by a former fiancee, who asks him to find out who is threatening her life.",
+      "still": "./images/rockford/s05e15_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Pat Crowley",
+        "Ted Shackelford",
+        "Rita Gam",
+        "Robert Quarry",
+        "Elisabeth Brooks",
+        "Eldon Quick",
+        "Timothy Wayne",
+        "James Carroll"
+      ],
+      "answering_machine": "\"Mr. Rockford, Arthur's Hi-Fi. Your stereo is ready, but since your warranty expired in the two months it was in our shop, you'll have to pay the $60 on the repair.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 16,
+      "title": "The Deuce",
+      "air_date": "1979-01-25",
+      "overview": "Having Jim doing jury duty leads to a mistrial and his being hired to investigate the case of pedestrian hit by a drunk-driver that brought the accused to court.",
+      "still": "./images/rockford/s05e16_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Mills Watson",
+        "Margaret Blye",
+        "Sharon Spelman",
+        "Richard Kelton",
+        "Robert Sampson",
+        "Joe Maross",
+        "James Karen"
+      ],
+      "answering_machine": "\"Mr. Rockford, you know what if you are attacked and killed? Ask for Albert Kimcee at grand opening of Happy Dawn School of Secret Arts. Win free lesson.\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 17,
+      "title": "The Man Who Saw the Alligators",
+      "air_date": "1979-02-10",
+      "overview": "If having the IRS wanting to do an audit isn't bad enough, a gangster Jim helped put in prison is out on parole and wants a pound of his flesh in revenge.",
+      "still": "./images/rockford/s05e17_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "George Loros",
+        "Luke Andreas",
+        "Sharon Acker",
+        "Joey Aresco",
+        "Joseph Sirola",
+        "William Bronder",
+        "Dehl Berti",
+        "Penny Santon",
+        "Joseph V. Perry"
+      ],
+      "answering_machine": "\"Jim, this is Florence Boyle, you worked for my husband last month in Glendale. You were so helpful then, and, well I have a problem of my own I'd like to discuss. Confidentially, of course.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 18,
+      "title": "The Return of the Black Shadow",
+      "air_date": "1979-02-17",
+      "overview": "A gang of bikers beat up Jim and assault John Cooper's sister, leading Coop to seek vengeance by returning to a darker period in his past when he was in a biker gang.",
+      "still": "./images/rockford/s05e18_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Paul Mace",
+        "Bo Hopkins",
+        "Jerry Ayres",
+        "Paul Koslo",
+        "Dennis Burkley",
+        "Joseph Burke"
+      ],
+      "answering_machine": "\"Jim, Joel Myers at Crowell, Finch, and Merriwether. We're going to court tomorrow with that Penrose fraud case, but steno misplaced your 200 page deposition. Could you come down tonight and give it again?\"",
+      "tags": []
+    },
+    {
+      "season": 5,
+      "episode": 19,
+      "title": "A Material Difference",
+      "air_date": "1979-02-24",
+      "overview": "Jim finds himself being dragged into a complicated situation when Angel's con job as a hit man for hire goes awry.",
+      "still": "./images/rockford/s05e19_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "James Luisi",
+        "Michael Alldredge",
+        "Michael McGuire",
+        "Joshua Bryant",
+        "David Tress"
+      ],
+      "answering_machine": "\"Mr. Rockford, Miss Collins from the Bureau of Licenses. We got your renewal before the extended deadline, but not your check. I'm sorry, but at midnight you're no longer licensed as an investigator.\" // Part 2: \"Jim, Denny from Denny's Pest Blasters. Got a great deal for ya. We'll rub out your rodents at a tremendously low cost. So call us, we're in the the Yellow Pages and we mean business.\"",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 20,
+      "title": "Never Send a Boy King to Do a Man's Job: Part 1",
+      "air_date": "1979-03-03",
+      "overview": "Richie's father has been swindled by a man named Coombs. Jim assembles together a disparate group of con-artists in a complicated scheme using Coombs' anxieties, and even the \"Curse\" of King Tut, to save Mr. Brockelman from ruin.",
+      "still": "./images/rockford/s05e20_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "Robert Webber",
+        "Trisha Noble",
+        "Pepper Martin",
+        "Gary Crosby",
+        "David Hooks",
+        "Harold Gould",
+        "Kim Hunter",
+        "Dennis Dugan",
+        "Jack Collins"
+      ],
+      "answering_machine": "\"Jim, this is Andrea at Todd's Food Mart. Listen, there's a guy down here by the name of Angel Martin whose charge $110 worth of groceries to your account. Is that okay with you?\"",
+      "tags": [
+        "ANGEL_EPISODE",
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 21,
+      "title": "Never Send a Boy King to Do a Man's Job: Part 2",
+      "air_date": "1979-03-03",
+      "overview": "The con continues and proves successful when one of the fellow con-artists appears to make of with the check.",
+      "still": "./images/rockford/s05e21_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Walter Brooke",
+        "Jesse Welles",
+        "Carmen Argenziano",
+        "John Considine",
+        "David S. Cass Sr.",
+        "Reni Santoni",
+        "Harlan Warde",
+        "Fritzi Burr"
+      ],
+      "answering_machine": "Jim, Denny from Denny's Pest Blasters. Got a great deal for ya. We'll rub out your rodents at a tremendously low cost. So call us, we're in the Yellow Pages and we mean business.",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 5,
+      "episode": 22,
+      "title": "A Different Drummer",
+      "air_date": "1979-04-13",
+      "overview": "While in hospital after a car accident, Jim stumbles across a black market for vital organs.",
+      "still": "./images/rockford/s05e22_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Joe Santos",
+        "Walter Brooke",
+        "Jesse Welles",
+        "Carmen Argenziano",
+        "John Considine",
+        "David S. Cass Sr.",
+        "Reni Santoni",
+        "Harlan Warde",
+        "Luis Delgado",
+        "Cosmo Sardo"
+      ],
+      "answering_machine": "Jim, this is Andrea at Todd's Food Mart. Listen, there's a guy down here by the name of Angel Martin whose charge $110 worth of groceries to your account. Is that okay with you?",
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 1,
+      "title": "Paradise Cove",
+      "air_date": "1979-09-28",
+      "overview": "Jim's Malibu neighborhood becomes the site of a treasure hunt for a stash of gold bullion, stolen fifty years earlier.",
+      "still": "./images/rockford/s06e01_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Joe Santos",
+        "Stuart Margolin",
+        "Mariette Hartley",
+        "Leif Erickson",
+        "Byron Morrow",
+        "Frederick Herrick",
+        "Christine Avila"
+      ],
+      "answering_machine": "Jim, this is Cal of the Leave The Whales Alone Club. Our protest cruise leaves from the pier Saturday at 3 AM. The whales need you, Jim.",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 2,
+      "title": "Lions, Tigers, Monkeys and Dogs (1)",
+      "air_date": "1979-10-12",
+      "overview": "Jim rubs shoulders with royalty when a princess hires him because she believes someone is trying to kill her friend (Lauren Bacall).",
+      "still": "./images/rockford/s06e02_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Joe Santos",
+        "Stuart Margolin",
+        "James Luisi",
+        "Lauren Bacall",
+        "Dana Wynter",
+        "Carmine Caridi",
+        "Ed Nelson",
+        "Michael Lombard",
+        "Leo Gordon",
+        "Christopher Thomas",
+        "Corinne Camacho"
+      ],
+      "answering_machine": "This is Betty Frenell. I don't know who to call, but I can't reach my Food-Aholics partner. I'm at Vito's on my second pizza with sausage and mushroom. Jim, come and get me.",
+      "tags": [
+        "ANGEL_EPISODE",
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 3,
+      "title": "Lions, Tigers, Monkeys and Dogs (2)",
+      "air_date": "1979-10-12",
+      "overview": "Jim traces a killer via a barman, florist and gangster in order to establish who ordered the Princess' friend killed…",
+      "still": "./images/rockford/s06e03_still.jpg",
+      "rating": 0.0,
+      "guests": [],
+      "answering_machine": "Jim, this is Janelle. I'm flying tonight so I can't make our date. But I've got to find a safe place for Daffy. He loves you, Jim. It's only two days and you'll see, Great Danes are no problem.",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 4,
+      "title": "Only Rock 'n Roll Will Never Die (1)",
+      "air_date": "1979-10-19",
+      "overview": "Jim senses something is out of tune while looking into the disappearance of a rock star's producer.",
+      "still": "./images/rockford/s06e04_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Marcia Strassman",
+        "Kristoffer Tabori",
+        "Jean-Paul Vignon",
+        "Michael Champion",
+        "Jesse Dizon"
+      ],
+      "answering_machine": "(sung) We're down at Hennesy's Bar, Jim, having a drink or two. You better get down here quick, Jim, or we'll probably take up your stool!",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 5,
+      "title": "Only Rock 'n Roll Will Never Die (2)",
+      "air_date": "1979-10-26",
+      "overview": "While consoling his morose love-lorn friend Eddie, Jim continues to look for the missing producer. He eventually finds his body but the presumed killer is not whom he had expected.",
+      "still": "./images/rockford/s06e05_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Marcia Strassman",
+        "Kristoffer Tabori",
+        "Jean-Paul Vignon"
+      ],
+      "answering_machine": "Jimmy, this is Dora. I'm gonna move in with the kids, but I'll sure miss you, dear. Thank you for taking out the garbage every week. I'll send you a card for your birthday.",
+      "tags": [
+        "TWO_PARTER"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 6,
+      "title": "Love Is the Word",
+      "air_date": "1979-11-19",
+      "overview": "Jim reconnects with Dr. Megan Dougherty and discovers she is engaged to another man. When she believes he is missing Jim agrees to help her, despite the fact he disapproves of her engagement and for his feelings for Megan.",
+      "still": "./images/rockford/s06e06_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Kathryn Harrold",
+        "David Carroll",
+        "Anthony Herrera",
+        "Van Williams",
+        "Richard Cox",
+        "Barbara Mandrell"
+      ],
+      "answering_machine": "This is Maria at Liberty Bail Bonds. Your client Todd Lehman skipped and his bail is forfeit. That's the pink slip on your '79 Firebird, I believe. Sorry, Jim, bring it on over.",
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 7,
+      "title": "Nice Guys Finish Dead",
+      "air_date": "1979-11-16",
+      "overview": "The special guest of a P.I. convention dinner is found murdered in the restroom, and Jim unhappily finds himself once more having to team up with flawless Lance White (Tom Selleck), while accident prone Freddie Beamer tags along.",
+      "still": "./images/rockford/s06e07_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "James Luisi",
+        "James Whitmore Jr.",
+        "Simon Oakland",
+        "Tom Selleck",
+        "Larry Manetti",
+        "Erica Hagen"
+      ],
+      "answering_machine": "Jim, Dwight. I put a new outlet in the kitchen. I lay in the cable and the box. Then I pull the breaker just like you said. And both of my tv sets start burning. What should I do now?",
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 8,
+      "title": "The Hawaiian Headache",
+      "air_date": "1979-11-23",
+      "overview": "Jim is tricked into believing he's won a trip to Hawaii, when it really turns out to be doing a favor for an old army pal in the CIA.",
+      "still": "./images/rockford/s06e08_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "Ken Swofford",
+        "W.K. Stratton",
+        "James Murtaugh",
+        "Christopher Cary"
+      ],
+      "answering_machine": "Billings, LAPD. You know Thursday is Chapman's twentieth year and we're giving a little surprise party at the captain's. I think you should come. By the way, we need five bucks for the present.",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 9,
+      "title": "No Fault Affair",
+      "air_date": "1979-11-30",
+      "overview": "Rita Capkovic (Rita Moreno) comes to Jim for help after her former pimp has beaten her up for refusing to work for him again. As Jim helps Rita recover she begins to see him as more than just as a friend, to the concern of everyone.",
+      "still": "./images/rockford/s06e09_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "Rita Moreno",
+        "Jerry Douglas",
+        "Corinne Camacho",
+        "Pat Finley",
+        "Jillian Kesner"
+      ],
+      "answering_machine": "Oh, I thought this was Dial-A-Joke. I'm going to a party and I need some icebreakers. But, uh, I guess that's...that.",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 10,
+      "title": "The Big Cheese",
+      "air_date": "1979-12-07",
+      "overview": "Rockford gets a phone call telling him to expect a package in the mail. Two hoods then murder the caller and go to Rockford's trailer to await the package's arrival. When the package is a wheel of cheese the mystery only gets deeper.",
+      "still": "./images/rockford/s06e10_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Stuart Margolin",
+        "James Luisi",
+        "Constance Towers",
+        "Alan Manson",
+        "Ben Andrews",
+        "Mark Lonow"
+      ],
+      "answering_machine": "This is The Baron. Angel Martin tells me you buy information. Okay, meet me at 1 A.M. behind the bus depot, bring $500, and come alone. I'm serious.",
+      "tags": [
+        "ANGEL_EPISODE"
+      ]
+    },
+    {
+      "season": 6,
+      "episode": 11,
+      "title": "Just a Coupla Guys",
+      "air_date": "1979-12-14",
+      "overview": "Rockford flies to Newark for a case and is robbed, leaving him stranded at the police station. Jim is caught in the middle of a mob war when 2 mooks, looking to make a name for themselves, get involved and complicate everything.",
+      "still": "./images/rockford/s06e11_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Greg Antonacci",
+        "Gene Davis",
+        "Gilbert Green",
+        "Antony Ponzini",
+        "Arch Johnson",
+        "Simon Oakland"
+      ],
+      "answering_machine": "Mr. Rockford, this is Betty-Jo Withers. I got four shirts of yours from the Bo Peep Cleaners by mistake. I don't know why they gave me men's shirts, but they're going back.",
+      "tags": []
+    },
+    {
+      "season": 6,
+      "episode": 12,
+      "title": "Deadlock in Parma",
+      "air_date": "1980-01-10",
+      "overview": "In the series finale, Jim Rockford drives off into a California sunset in his wounded Firebird, after being ensnared in a small-town council battle with big implications. While trout fishing in the mountains, the vacationing PI becomes the emergency proxy for a fellow angler, an environmentalist councilman, felled by appendicitis. But the seemingly-innocuous proposition for a Parma city park, attracts a trailer load of New Jersey mobsters who urge Rockford to keep his vote green, or sleep with the fishes. Meanwhile, this town council in the land of endless propositions, acts to force their temporary member Rockford to go fishing under the moonlight, but not in Parma.",
+      "still": "./images/rockford/s06e12_still.jpg",
+      "rating": 0.0,
+      "guests": [
+        "Sandra Kerns",
+        "Henry Beckman",
+        "Jerry Hardin",
+        "Joseph Sirola",
+        "Cynthia Windham"
+      ],
+      "answering_machine": "Because of where you live says so much about you, your home has been selected by Royal Imperial Roofing and Siding as our neighborhood showcase. A bonded representative will call on you.",
+      "tags": [
+        "FAN_FAVORITE"
+      ]
+    }
+  ]
+}
