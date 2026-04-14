@@ -5368,8 +5368,8 @@ var categoryOrder = ['Comedy','Sitcom','Drama','Westerns','Variety Series','Anim
 // Categories excluded from the hero banner rotation
 var heroExcludedCategories = ['Holiday Specials','Awards','Specials'];
 
-// Hero pool size -- drawn from across all eligible categories, weighted by episode count
-var HERO_POOL_SIZE = 14;
+// Hero pool -- ALL eligible shows, shuffled fresh each visit
+var HERO_POOL_SIZE = 9999;
 
 var heroPool = [];
 
@@ -5379,37 +5379,7 @@ function buildHeroPool() {
     return s.tmdbId && s.tmdbId !== 0 && heroExcludedCategories.indexOf(s.category) === -1;
   });
 
-  // Group by category
-  var byCat = {};
-  eligible.forEach(function(s) {
-    if (!byCat[s.category]) byCat[s.category] = [];
-    byCat[s.category].push(s);
-  });
-
-  var cats = Object.keys(byCat);
-  var selected = [];
-
-  // Round-robin across categories, picking the show with the most episodes from each
-  var remaining = cats.map(function(c) {
-    return byCat[c].slice().sort(function(a, b) {
-      var aEps = a.seasons.reduce(function(n,sn){ return n + sn.episodes.length; }, 0);
-      var bEps = b.seasons.reduce(function(n,sn){ return n + sn.episodes.length; }, 0);
-      return bEps - aEps;
-    });
-  });
-
-  var round = 0;
-  while (selected.length < HERO_POOL_SIZE) {
-    var added = 0;
-    for (var i = 0; i < remaining.length && selected.length < HERO_POOL_SIZE; i++) {
-      if (remaining[i][round]) {
-        selected.push(remaining[i][round]);
-        added++;
-      }
-    }
-    if (added === 0) break;
-    round++;
-  }
+  var selected = eligible.slice();
 
   // Add Major Artists with custom images as hero entries
   majorArtists.forEach(function(artist) {
@@ -5495,7 +5465,11 @@ function buildHero() {
   if (!heroPool.length) buildHeroPool();
   var heroList = heroPool;
   var dots = document.getElementById('heroDots');
-  dots.innerHTML = heroList.map(function(s,i){ return '<div class="hero-dot ' + (i===0?'active':'') + '" onclick="setHero(' + i + ')"></div>'; }).join('');
+  if (heroList.length <= 20) {
+    dots.innerHTML = heroList.map(function(s,i){ return '<div class="hero-dot ' + (i===0?'active':'') + '" onclick="setHero(' + i + ')"></div>'; }).join('');
+  } else {
+    dots.innerHTML = '';
+  }
   renderHero(0, heroList);
   clearInterval(heroTimer);
   heroTimer = window.heroTimer = setInterval(function(){
