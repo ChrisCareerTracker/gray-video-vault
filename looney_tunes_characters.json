@@ -4902,7 +4902,7 @@
         }
       ],
       "appearance_count": 7,
-      "image_url": "./images/characters/marvin-martian.jpg"
+      "image_url": "./images/characters/marvin-martian.png"
     },
     {
       "id": "tasmanian-devil",
@@ -4959,7 +4959,7 @@
         }
       ],
       "appearance_count": 5,
-      "image_url": "./images/characters/tasmanian-devil.jpg"
+      "image_url": "./images/characters/tasmanian-devil.png"
     },
     {
       "id": "gossamer",
@@ -6596,7 +6596,7 @@
         }
       ],
       "appearance_count": 8,
-      "image_url": "./images/characters/sylvester-junior.jpg"
+      "image_url": "./images/characters/sylvester-junior.png"
     },
     {
       "id": "penelope-pussycat",
