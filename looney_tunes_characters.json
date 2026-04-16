@@ -4902,7 +4902,7 @@
         }
       ],
       "appearance_count": 7,
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Marvin_the_Martian.svg/500px-Marvin_the_Martian.svg.png"
+      "image_url": "./images/characters/marvin-martian.jpg"
     },
     {
       "id": "tasmanian-devil",
@@ -6596,7 +6596,7 @@
         }
       ],
       "appearance_count": 8,
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Sylvester_Jr.svg/1280px-Sylvester_Jr.svg.png"
+      "image_url": "./images/characters/sylvester-junior.jpg"
     },
     {
       "id": "penelope-pussycat",
