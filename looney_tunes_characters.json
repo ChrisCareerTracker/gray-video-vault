@@ -1432,6 +1432,13 @@
           "poster": "/8IlQu1ftrU7T1s5eOhpFmpe1DPP.jpg"
         },
         {
+          "title": "Daffy Doodles",
+          "year": 1946,
+          "decade": "1940s",
+          "series": "LT",
+          "poster": ""
+        },
+        {
           "title": "Hollywood Daffy",
           "year": 1946,
           "decade": "1940s",
@@ -1481,18 +1488,18 @@
           "poster": "/hHqGEnNije1MpSmjem0na3nfIWT.jpg"
         },
         {
-          "title": "Daffy Duck Slept Here",
-          "year": 1948,
-          "decade": "1940s",
-          "series": "MM",
-          "poster": "/86q7pplqKmO5W83uLsQyAh7wWif.jpg"
-        },
-        {
           "title": "Daffy Dilly",
           "year": 1948,
           "decade": "1940s",
           "series": "MM",
           "poster": "/fQVdnxFH80tV6oWx6TAAMUPPWQc.jpg"
+        },
+        {
+          "title": "Daffy Duck Slept Here",
+          "year": 1948,
+          "decade": "1940s",
+          "series": "MM",
+          "poster": "/86q7pplqKmO5W83uLsQyAh7wWif.jpg"
         },
         {
           "title": "Riff Raffy Daffy",
@@ -1530,25 +1537,18 @@
           "poster": "/qv81X1vN1k8Q3ufSNBDPUXTbsab.jpg"
         },
         {
-          "title": "Drip-Along Daffy",
-          "year": 1950,
-          "decade": "1950s",
-          "series": "LT",
-          "poster": "/ieXPnGuEsRm7GE96iIANf5w9Rbb.jpg"
-        },
-        {
-          "title": "Thumb Fun",
-          "year": 1950,
-          "decade": "1950s",
-          "series": "LT",
-          "poster": "/8UMP1qmHj7wR3DFkki2Z7ia31ec.jpg"
-        },
-        {
           "title": "Boobs in the Woods",
           "year": 1950,
           "decade": "1950s",
           "series": "LT",
           "poster": "/1Yf7C7epvakiMJVN8ClBjzqSe3Z.jpg"
+        },
+        {
+          "title": "Drip-Along Daffy",
+          "year": 1950,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": "/ieXPnGuEsRm7GE96iIANf5w9Rbb.jpg"
         },
         {
           "title": "The Scarlet Pumpernickel",
@@ -1558,11 +1558,11 @@
           "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/xPQmzB9gohRPnxr1Wh8oacTq9ub.jpg"
         },
         {
-          "title": "Rabbit Fire",
-          "year": 1951,
+          "title": "Thumb Fun",
+          "year": 1950,
           "decade": "1950s",
           "series": "LT",
-          "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/2sK0wjqW9XtBNIsK16691MDTBkh.jpg"
+          "poster": "/8UMP1qmHj7wR3DFkki2Z7ia31ec.jpg"
         },
         {
           "title": "Fool Coverage",
@@ -1570,6 +1570,13 @@
           "decade": "1950s",
           "series": "LT",
           "poster": "/lZjdSgz5Vgb6hpuQtG7B6Gf6cgZ.jpg"
+        },
+        {
+          "title": "Rabbit Fire",
+          "year": 1951,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/2sK0wjqW9XtBNIsK16691MDTBkh.jpg"
         },
         {
           "title": "Rabbit Seasoning",
@@ -1586,6 +1593,13 @@
           "poster": "/aIlBT7h0z6o0sCS2LrBEW6Nk3yQ.jpg"
         },
         {
+          "title": "Cracked Quack",
+          "year": 1952,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": ""
+        },
+        {
           "title": "Duck Dodgers in the 24½th Century",
           "year": 1952,
           "decade": "1950s",
@@ -1600,18 +1614,18 @@
           "poster": "/tVMl5M3nUx3Sg294ShQ6dUYprTI.jpg"
         },
         {
-          "title": "Duck Amuck",
-          "year": 1953,
-          "decade": "1950s",
-          "series": "MM",
-          "poster": "/gRZYLCncLa2mzE59qY38McDlFdN.jpg"
-        },
-        {
           "title": "Design For Leaving",
           "year": 1953,
           "decade": "1950s",
           "series": "LT",
           "poster": "/zb1PGXsblV0CjmGPjXcbzguSOgW.jpg"
+        },
+        {
+          "title": "Duck Amuck",
+          "year": 1953,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": "/gRZYLCncLa2mzE59qY38McDlFdN.jpg"
         },
         {
           "title": "Muscle Tussle",
@@ -1754,6 +1768,13 @@
           "poster": "/fh49t15b1yrLs7S0ks3UHDiyjhs.jpg"
         },
         {
+          "title": "Good Noose",
+          "year": 1962,
+          "decade": "1960s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "The Million Hare",
           "year": 1962,
           "decade": "1960s",
@@ -1782,7 +1803,7 @@
           "poster": "/1aqywibLOgaDbrOxdUsmkKvCCHD.jpg"
         }
       ],
-      "appearance_count": 84,
+      "appearance_count": 87,
       "image_url": "./images/characters/daffy-duck.jpg"
     },
     {
@@ -2378,6 +2399,13 @@
           "poster": "/jn00uO7e88EihPIdftqO4LINNP1.jpg"
         },
         {
+          "title": "Daffy Doodles",
+          "year": 1946,
+          "decade": "1940s",
+          "series": "LT",
+          "poster": ""
+        },
+        {
           "title": "Kitty Kornered",
           "year": 1946,
           "decade": "1940s",
@@ -2476,6 +2504,13 @@
           "poster": "/3QCoZHvI6hacURtYL2ZzUcaGUkM.jpg"
         },
         {
+          "title": "Scaredy Cat",
+          "year": 1948,
+          "decade": "1940s",
+          "series": "LT",
+          "poster": ""
+        },
+        {
           "title": "Dog Collared",
           "year": 1949,
           "decade": "1940s",
@@ -2490,11 +2525,25 @@
           "poster": "/7KzyOcXhBs2AuKkymBdlJS1iovR.jpg"
         },
         {
+          "title": "Paying the Piper",
+          "year": 1949,
+          "decade": "1940s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "The Ducksters",
           "year": 1949,
           "decade": "1940s",
           "series": "LT",
           "poster": "/qv81X1vN1k8Q3ufSNBDPUXTbsab.jpg"
+        },
+        {
+          "title": "Boobs in the Woods",
+          "year": 1950,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": "/1Yf7C7epvakiMJVN8ClBjzqSe3Z.jpg"
         },
         {
           "title": "Drip-Along Daffy",
@@ -2518,18 +2567,25 @@
           "poster": "/8UMP1qmHj7wR3DFkki2Z7ia31ec.jpg"
         },
         {
-          "title": "Boobs in the Woods",
-          "year": 1950,
-          "decade": "1950s",
-          "series": "LT",
-          "poster": "/1Yf7C7epvakiMJVN8ClBjzqSe3Z.jpg"
-        },
-        {
           "title": "Fool Coverage",
           "year": 1951,
           "decade": "1950s",
           "series": "LT",
           "poster": "/lZjdSgz5Vgb6hpuQtG7B6Gf6cgZ.jpg"
+        },
+        {
+          "title": "The Prize Pest",
+          "year": 1951,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
+          "title": "Cracked Quack",
+          "year": 1952,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": ""
         },
         {
           "title": "Claws For Alarm",
@@ -2595,7 +2651,7 @@
           "poster": "/wYtfXpN73e0yvKqr9MQuSaFpT2S.jpg"
         }
       ],
-      "appearance_count": 113,
+      "appearance_count": 118,
       "image_url": "./images/characters/porky-pig.jpg"
     },
     {
@@ -3234,6 +3290,13 @@
           "poster": "/zJhaTrQMWxPEwZMh5OlKGUUo8wB.jpg"
         },
         {
+          "title": "Tweet and Sour",
+          "year": 1956,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "Tweet Zoo",
           "year": 1956,
           "decade": "1950s",
@@ -3276,7 +3339,7 @@
           "poster": "/vNTtwNEIcvbhN08QeyLJsyejjiR.jpg"
         }
       ],
-      "appearance_count": 34,
+      "appearance_count": 35,
       "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Tweety.svg/500px-Tweety.svg.png"
     },
     {
@@ -3347,6 +3410,13 @@
           "poster": "/jAIMv3pGy4GvctttZp8tA4HQWfq.jpg"
         },
         {
+          "title": "Doggone Cats",
+          "year": 1947,
+          "decade": "1940s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "Hop, Look and Listen",
           "year": 1947,
           "decade": "1940s",
@@ -3380,6 +3450,13 @@
           "decade": "1940s",
           "series": "MM",
           "poster": "/oGiYfVLoWaDeA00BtZ7l2cL8AwF.jpg"
+        },
+        {
+          "title": "Scaredy Cat",
+          "year": 1948,
+          "decade": "1940s",
+          "series": "LT",
+          "poster": ""
         },
         {
           "title": "All A-Bir-r-r-d",
@@ -3536,6 +3613,20 @@
           "poster": "/4iC77yXnZMT3p9mARfNu0mBAzxK.jpg"
         },
         {
+          "title": "Hoppy-Go-Lucky",
+          "year": 1952,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
+          "title": "A Peck O' Trouble",
+          "year": 1953,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "Bell Hoppy",
           "year": 1953,
           "decade": "1950s",
@@ -3683,6 +3774,13 @@
           "poster": "/zJhaTrQMWxPEwZMh5OlKGUUo8wB.jpg"
         },
         {
+          "title": "Tweet and Sour",
+          "year": 1956,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "Tweet Zoo",
           "year": 1956,
           "decade": "1950s",
@@ -3746,6 +3844,13 @@
           "poster": "/2DrVL8YRhAoDB7iIdVDhU8Fjmir.jpg"
         },
         {
+          "title": "Goldimouse and the Three Cats",
+          "year": 1960,
+          "decade": "1960s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "Rebel Without Claws",
           "year": 1961,
           "decade": "1960s",
@@ -3760,6 +3865,13 @@
           "poster": "/vNTtwNEIcvbhN08QeyLJsyejjiR.jpg"
         },
         {
+          "title": "Freudy Cat",
+          "year": 1964,
+          "decade": "1960s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "It's Nice to Have a Mouse Around the House",
           "year": 1964,
           "decade": "1960s",
@@ -3767,7 +3879,7 @@
           "poster": "/gcbGl5AL1nzcBGsjb5xtaVuJNGI.jpg"
         }
       ],
-      "appearance_count": 67,
+      "appearance_count": 74,
       "image_url": "https://chuckjones.com/wp-content/uploads/2020/11/slyvester-03.png"
     },
     {
@@ -4077,6 +4189,13 @@
           "poster": "/odj8L6vuXUyQpFc8P6H91shcTDF.jpg"
         },
         {
+          "title": "Leghorn Swoggled",
+          "year": 1951,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": ""
+        },
+        {
           "title": "Sock A Doodle Do",
           "year": 1952,
           "decade": "1950s",
@@ -4138,6 +4257,13 @@
           "decade": "1950s",
           "series": "MM",
           "poster": "/iiY81ZQuxrMTBrmroxEwe6hITmQ.jpg"
+        },
+        {
+          "title": "The Egg-Cited Rooster",
+          "year": 1955,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
         },
         {
           "title": "The High and the Flighty",
@@ -4203,7 +4329,7 @@
           "poster": "/rFhKrktOClfOMouHnH9MlGzg7nb.jpg"
         }
       ],
-      "appearance_count": 26,
+      "appearance_count": 28,
       "image_url": "./images/characters/foghorn-leghorn.jpg"
     },
     {
@@ -4373,6 +4499,13 @@
           "poster": "/4XlamhkpIDmaFRpicX2DHSMW2qF.jpg"
         },
         {
+          "title": "Going Going Gosh",
+          "year": 1952,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "Stop, Look and Hasten!",
           "year": 1953,
           "decade": "1950s",
@@ -4450,7 +4583,7 @@
           "poster": "/9NBOfRYiD5gtncs6LCkwCORiBNN.jpg"
         }
       ],
-      "appearance_count": 14,
+      "appearance_count": 15,
       "image_url": "./images/characters/road-runner.jpg"
     },
     {
@@ -4492,6 +4625,13 @@
           "decade": "1950s",
           "series": "LT",
           "poster": "/4XlamhkpIDmaFRpicX2DHSMW2qF.jpg"
+        },
+        {
+          "title": "Going Going Gosh",
+          "year": 1952,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
         },
         {
           "title": "Stop, Look and Hasten!",
@@ -4599,7 +4739,7 @@
           "poster": "/qEVZPPEHABZlcaw8Sid3s2Z6KPn.jpg"
         }
       ],
-      "appearance_count": 18
+      "appearance_count": 19
     },
     {
       "id": "speedy-gonzales",
@@ -4819,7 +4959,7 @@
         }
       ],
       "appearance_count": 5,
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Taz-Looney_Tunes.svg/960px-Taz-Looney_Tunes.svg.png"
+      "image_url": "./images/characters/tasmanian-devil.jpg"
     },
     {
       "id": "gossamer",
@@ -5073,6 +5213,13 @@
           "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/lokYHHDo6LFeFP3c9541G8Om9vh.jpg"
         },
         {
+          "title": "Leghorn Swoggled",
+          "year": 1951,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": ""
+        },
+        {
           "title": "All Fowled Up",
           "year": 1954,
           "decade": "1950s",
@@ -5087,7 +5234,7 @@
           "poster": "/iiY81ZQuxrMTBrmroxEwe6hITmQ.jpg"
         }
       ],
-      "appearance_count": 7,
+      "appearance_count": 8,
       "image_url": "./images/characters/henery-hawk.jpg"
     },
     {
@@ -5165,6 +5312,13 @@
           "poster": "/odj8L6vuXUyQpFc8P6H91shcTDF.jpg"
         },
         {
+          "title": "Leghorn Swoggled",
+          "year": 1951,
+          "decade": "1950s",
+          "series": "LT",
+          "poster": ""
+        },
+        {
           "title": "Sock A Doodle Do",
           "year": 1952,
           "decade": "1950s",
@@ -5198,6 +5352,13 @@
           "decade": "1950s",
           "series": "MM",
           "poster": "/iiY81ZQuxrMTBrmroxEwe6hITmQ.jpg"
+        },
+        {
+          "title": "The Egg-Cited Rooster",
+          "year": 1955,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
         },
         {
           "title": "The High and the Flighty",
@@ -5235,7 +5396,7 @@
           "poster": "/eyHcn7zETKbeptBy7W4oPjTDI3s.jpg"
         }
       ],
-      "appearance_count": 18,
+      "appearance_count": 20,
       "image_url": "./images/characters/barnyard-dawg.jpg"
     },
     {
@@ -5285,6 +5446,13 @@
           "poster": "/iHrp3VuR8QeXiWF1819VHGCZMv5.jpg"
         },
         {
+          "title": "Hoppy-Go-Lucky",
+          "year": 1952,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
           "title": "Bell Hoppy",
           "year": 1953,
           "decade": "1950s",
@@ -5325,9 +5493,16 @@
           "decade": "1950s",
           "series": "LT",
           "poster": "/dq1Bmrtkutz4DBwYoeFq3fhwEsG.jpg"
+        },
+        {
+          "title": "Freudy Cat",
+          "year": 1964,
+          "decade": "1960s",
+          "series": "MM",
+          "poster": ""
         }
       ],
-      "appearance_count": 10,
+      "appearance_count": 12,
       "image_url": "./images/characters/hippety-hopper.jpg"
     },
     {
@@ -5608,9 +5783,16 @@
           "decade": "1950s",
           "series": "MM",
           "poster": "/upRHhaTeuveMhnnBhUuvDCcI4Y9.jpg"
+        },
+        {
+          "title": "Kiss Me Cat",
+          "year": 1953,
+          "decade": "1950s",
+          "series": "MM",
+          "poster": ""
         }
       ],
-      "appearance_count": 2,
+      "appearance_count": 3,
       "image_url": "./images/characters/marc-antony-pussyfoot.jpg"
     },
     {
@@ -6397,9 +6579,23 @@
           "decade": "1950s",
           "series": "LT",
           "poster": "/dq1Bmrtkutz4DBwYoeFq3fhwEsG.jpg"
+        },
+        {
+          "title": "Goldimouse and the Three Cats",
+          "year": 1960,
+          "decade": "1960s",
+          "series": "MM",
+          "poster": ""
+        },
+        {
+          "title": "Freudy Cat",
+          "year": 1964,
+          "decade": "1960s",
+          "series": "MM",
+          "poster": ""
         }
       ],
-      "appearance_count": 6,
+      "appearance_count": 8,
       "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Sylvester_Jr.svg/1280px-Sylvester_Jr.svg.png"
     },
     {
