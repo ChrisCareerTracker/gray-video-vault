@@ -49190,5 +49190,13 @@
     "seasons": [],
     "localPoster": "./images/shows/The_Rise__Fall_of_the_Colosseum_poster.jpg",
     "localBackdrop": "./images/shows/The_Rise__Fall_of_the_Colosseum_backdrop.jpg"
+  },
+  {
+    "id": "the-haves-and-the-have-nots",
+    "title": "The Haves and the Have Nots",
+    "tmdbId": 46441,
+    "category": "Drama",
+    "localPoster": "./images/shows/The_Haves_and_the_Have_Nots_poster.jpg",
+    "localBackdrop": "./images/shows/The_Haves_and_the_Have_Nots_backdrop.jpg"
   }
 ]
