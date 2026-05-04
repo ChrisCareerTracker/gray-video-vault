@@ -49194,8 +49194,57 @@
   {
     "id": "the-haves-and-the-have-nots",
     "title": "The Haves and the Have Nots",
-    "tmdbId": 46441,
     "category": "Drama",
+    "network": "OWN",
+    "years": "2013-2021",
+    "collectionNote": "",
+    "tmdbId": 46441,
+    "stars": [
+      "Tika Sumpter",
+      "Tyler Lepley",
+      "Angela Robinson",
+      "John Schneider",
+      "Renee Lawless"
+    ],
+    "description": "Tyler Perry drama about the powerful Cryer family and the working-class Young family whose lives become entangled through scandal, betrayal, and dark secrets.",
+    "cast": [
+      {
+        "actor": "Tika Sumpter",
+        "character": "Candace Young"
+      },
+      {
+        "actor": "Tyler Lepley",
+        "character": "Benny Young"
+      },
+      {
+        "actor": "Angela Robinson",
+        "character": "Veronica Harrington"
+      },
+      {
+        "actor": "John Schneider",
+        "character": "Jim Cryer"
+      },
+      {
+        "actor": "Renee Lawless",
+        "character": "Katheryn Cryer"
+      },
+      {
+        "actor": "Crystal R. Fox",
+        "character": "Hanna Young"
+      },
+      {
+        "actor": "Peter Parros",
+        "character": "David Harrington"
+      },
+      {
+        "actor": "Gavin Houston",
+        "character": "Jeffery Harrington"
+      },
+      {
+        "actor": "Tyler Perry",
+        "character": "Mr. Cryer"
+      }
+    ],
     "localPoster": "./images/shows/The_Haves_and_the_Have_Nots_poster.jpg",
     "localBackdrop": "./images/shows/The_Haves_and_the_Have_Nots_backdrop.jpg"
   }
