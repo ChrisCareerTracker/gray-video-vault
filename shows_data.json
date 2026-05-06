@@ -47134,7 +47134,7 @@
   {
     "id": "stick",
     "title": "Stick",
-    "category": "Comedy",
+    "category": "Drama",
     "network": "Netflix",
     "years": "2025-Present",
     "tmdbId": 248830,
@@ -49194,58 +49194,70 @@
   {
     "id": "the-haves-and-the-have-nots",
     "title": "The Haves and the Have Nots",
-    "category": "Drama",
-    "network": "OWN",
-    "years": "2013-2021",
-    "collectionNote": "",
     "tmdbId": 46441,
-    "stars": [
-      "Tika Sumpter",
-      "Tyler Lepley",
-      "Angela Robinson",
-      "John Schneider",
-      "Renee Lawless"
-    ],
-    "description": "Tyler Perry drama about the powerful Cryer family and the working-class Young family whose lives become entangled through scandal, betrayal, and dark secrets.",
-    "cast": [
-      {
-        "actor": "Tika Sumpter",
-        "character": "Candace Young"
-      },
-      {
-        "actor": "Tyler Lepley",
-        "character": "Benny Young"
-      },
-      {
-        "actor": "Angela Robinson",
-        "character": "Veronica Harrington"
-      },
-      {
-        "actor": "John Schneider",
-        "character": "Jim Cryer"
-      },
-      {
-        "actor": "Renee Lawless",
-        "character": "Katheryn Cryer"
-      },
-      {
-        "actor": "Crystal R. Fox",
-        "character": "Hanna Young"
-      },
-      {
-        "actor": "Peter Parros",
-        "character": "David Harrington"
-      },
-      {
-        "actor": "Gavin Houston",
-        "character": "Jeffery Harrington"
-      },
-      {
-        "actor": "Tyler Perry",
-        "character": "Mr. Cryer"
-      }
-    ],
+    "category": "Drama",
     "localPoster": "./images/shows/The_Haves_and_the_Have_Nots_poster.jpg",
     "localBackdrop": "./images/shows/The_Haves_and_the_Have_Nots_backdrop.jpg"
+  },
+  {
+    "id": "dirk-gently",
+    "title": "Dirk Gently's Holistic Detective Agency",
+    "category": "Comedy",
+    "network": "BBC America",
+    "years": "2016-2017",
+    "collectionNote": "",
+    "tmdbId": 67773,
+    "stars": [
+      "Samuel Barnett",
+      "Elijah Wood",
+      "Hannah Marks",
+      "Jade Eshete",
+      "Fiona Dourif"
+    ],
+    "description": "Eccentric holistic detective Dirk Gently and his reluctant assistant Todd Brotzman investigate bizarre supernatural mysteries, operating on the principle that everything in the universe is interconnected. Based on the novels by Douglas Adams.",
+    "cast": [
+      {
+        "actor": "Samuel Barnett",
+        "character": "Dirk Gently"
+      },
+      {
+        "actor": "Elijah Wood",
+        "character": "Todd Brotzman"
+      },
+      {
+        "actor": "Hannah Marks",
+        "character": "Amanda Brotzman"
+      },
+      {
+        "actor": "Jade Eshete",
+        "character": "Farah Black"
+      },
+      {
+        "actor": "Fiona Dourif",
+        "character": "Bart Curlish"
+      },
+      {
+        "actor": "Mpho Koaho",
+        "character": "Ken Adams"
+      },
+      {
+        "actor": "Dustin Milligan",
+        "character": "Sergeant Hugo Friedkin"
+      },
+      {
+        "actor": "Michael Eklund",
+        "character": "Martin"
+      },
+      {
+        "actor": "Miguel Sandoval",
+        "character": "Colonel Scott Riggins"
+      },
+      {
+        "actor": "Aaron Douglas",
+        "character": "Gordon Rimmer"
+      }
+    ],
+    "localPoster": "./images/shows/Dirk_Gentlys_Holistic_Detective_Agency_poster.jpg",
+    "localBackdrop": "./images/shows/Dirk_Gentlys_Holistic_Detective_Agency_backdrop.jpg"
   }
 ]
