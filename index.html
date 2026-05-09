@@ -6094,11 +6094,11 @@ function renderHero(idx, heroList) {
       bg.style.backgroundImage = '';
       bg.style.background = 'linear-gradient(135deg,#0e0e1a,#080809)';
     }
-    var totalEps = item.seasons.reduce(function(a,s){ return a+s.episodes.length; }, 0);
+    var totalEps = (item.seasons||[]).reduce(function(a,s){ return a+(s.episodes||[]).length; }, 0);
     document.getElementById('heroContent').innerHTML =
       '<div class="hero-eyebrow">' + item.category + ' &nbsp;&middot;&nbsp; ' + item.network + '</div>' +
       '<div class="hero-title">' + item.title + '</div>' +
-      '<div class="hero-meta"><span>' + item.years + '</span><span class="hero-meta-dot">&bull;</span><span>' + item.seasons.length + ' Seasons</span><span class="hero-meta-dot">&bull;</span><span>' + totalEps + ' Episodes</span></div>' +
+      '<div class="hero-meta"><span>' + item.years + '</span><span class="hero-meta-dot">&bull;</span><span>' + (item.seasons||[]).length + ' Seasons</span><span class="hero-meta-dot">&bull;</span><span>' + totalEps + ' Episodes</span></div>' +
       '<div class="hero-desc">' + item.description.substring(0,160) + '...</div>' +
       '<div class="hero-actions"><button class="btn-hero-primary" onclick="openShow(\'' + item.id + '\')">Open Collection</button></div>';
   }
@@ -6419,7 +6419,7 @@ function applyEpisodeData(showId, seasons) {
   }
   var metaEl = document.querySelector('.detail-meta-row span:last-child');
   if (metaEl) {
-    var totalEps = seasons.reduce(function(a,s){ return a+s.episodes.length; },0);
+    var totalEps = (seasons||[]).reduce(function(a,s){ return a+(s.episodes||[]).length; },0);
     metaEl.textContent = seasons.length + ' Seasons - ' + totalEps + ' Episodes';
   }
 }
@@ -6839,7 +6839,7 @@ function handleSearch(val) {
   document.getElementById('detail-page').style.display = 'none';
   document.getElementById('search-results').style.display = 'block';
   var results = shows.filter(function(s){
-    return s.title.toLowerCase().includes(q) || s.network.toLowerCase().includes(q) ||
+    return s.title.toLowerCase().includes(q) ||
       (s.stars||[]).some(function(st){ return st.toLowerCase().includes(q); }) ||
       (s.seasons||[]).some(function(sn){ return (sn.episodes||[]).some(function(ep){ return ep.title.toLowerCase().includes(q); }); });
   });
