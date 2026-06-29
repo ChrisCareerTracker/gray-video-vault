@@ -50367,5 +50367,55 @@
     "seasons": [],
     "localPoster": "./images/shows/Wilfred_poster.jpg",
     "localBackdrop": "./images/shows/Wilfred_backdrop.jpg"
+  },
+  {
+    "id": "hacks",
+    "title": "Hacks",
+    "category": "Comedy",
+    "network": "Max",
+    "years": "2021-2026",
+    "collectionNote": "",
+    "tmdbId": 124101,
+    "stars": [
+      "Jean Smart",
+      "Hannah Einbinder",
+      "Carl Clemons-Hopkins",
+      "Paul W. Downs",
+      "Megan Stalter"
+    ],
+    "description": "Explore a dark mentorship that forms between Deborah Vance, a legendary Las Vegas comedian, and an entitled, outcast 25-year-old.",
+    "cast": [
+      {
+        "actor": "Jean Smart",
+        "character": "Deborah Vance"
+      },
+      {
+        "actor": "Hannah Einbinder",
+        "character": "Ava"
+      },
+      {
+        "actor": "Carl Clemons-Hopkins",
+        "character": "Marcus"
+      },
+      {
+        "actor": "Paul W. Downs",
+        "character": "Jimmy"
+      },
+      {
+        "actor": "Megan Stalter",
+        "character": "Kayla"
+      },
+      {
+        "actor": "Mark Indelicato",
+        "character": "Damien"
+      },
+      {
+        "actor": "Rose Abdoo",
+        "character": "Josefina"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Hacks_poster.jpg",
+    "localBackdrop": "./images/shows/Hacks_backdrop.jpg"
   }
 ]
