@@ -50317,5 +50317,55 @@
     "seasons": [],
     "localPoster": "./images/shows/Mad_Men_poster.jpg",
     "localBackdrop": "./images/shows/Mad_Men_backdrop.jpg"
+  },
+  {
+    "id": "wilfred",
+    "title": "Wilfred",
+    "category": "Comedy",
+    "network": "FX",
+    "years": "2011-2014",
+    "collectionNote": "",
+    "tmdbId": 39525,
+    "stars": [
+      "Elijah Wood",
+      "Jason Gann",
+      "Fiona Gubelmann",
+      "Dorian Brown",
+      "Chris Klein"
+    ],
+    "description": "Everyone else sees Wilfred as just a dog, but Ryan sees a crude and somewhat surly, yet irrepressibly brave and honest Australian bloke in a cheap dog suit. While leading him through a series of comedic and existential adventures, Wilfred the dog shows Ryan the man how to overcome his fears and joyfully embrace the unpredictability and insanity of the world around him.",
+    "cast": [
+      {
+        "actor": "Elijah Wood",
+        "character": "Ryan Newman"
+      },
+      {
+        "actor": "Jason Gann",
+        "character": "Wilfred"
+      },
+      {
+        "actor": "Fiona Gubelmann",
+        "character": "Jenna"
+      },
+      {
+        "actor": "Dorian Brown",
+        "character": "Kristen Newman"
+      },
+      {
+        "actor": "Chris Klein",
+        "character": "Drew"
+      },
+      {
+        "actor": "Gerry Bednob",
+        "character": "Mr. Patel"
+      },
+      {
+        "actor": "James Remar",
+        "character": "Ryan's Father"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Wilfred_poster.jpg",
+    "localBackdrop": "./images/shows/Wilfred_backdrop.jpg"
   }
 ]
