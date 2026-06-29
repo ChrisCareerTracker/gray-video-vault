@@ -503,7 +503,7 @@ body.grid-view .show-list{display:none;}
 .detail-meta-dot{color:var(--gold);font-size:5px;}
 .collection-badge{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:2px;color:var(--gold3);border:1px solid var(--gold3);padding:3px 8px;background:rgba(201,168,76,0.06);}
 .detail-body{padding:68px 48px 48px;}
-.detail-description{font-size:18px;line-height:1.85;color:#c0bcb0;font-style:italic;max-width:740px;margin-bottom:44px;padding-left:214px;position:relative;}
+.detail-description{font-size:20px;line-height:1.85;color:#c0bcb0;font-style:italic;max-width:1400px;margin-bottom:44px;padding-left:214px;position:relative;}
 .detail-description::before{content:'"';position:absolute;left:194px;top:-8px;font-family:'Playfair Display',serif;font-size:56px;color:var(--gold3);line-height:1;opacity:0.5;}
 .detail-sec-title{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:5px;color:var(--gold);margin-bottom:14px;margin-top:44px;display:flex;align-items:center;gap:16px;}
 .detail-sec-title::after{content:'';flex:1;height:1px;background:linear-gradient(to right,var(--border2),transparent);}
@@ -538,7 +538,7 @@ body.grid-view .show-list{display:none;}
 /* ============================================================
    NEW NON-HUB SHOW FORMAT — cast strip + episode stills
    ============================================================ */
-.nh-cast-strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:14px;margin-bottom:12px;max-width:1100px;}
+.nh-cast-strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:14px;margin-bottom:12px;max-width:1400px;}
 .nh-cast-card{display:flex;flex-direction:column;align-items:center;text-align:center;cursor:default;transition:transform 0.15s;}
 .nh-cast-card-img{width:100px;height:130px;border-radius:2px;background:var(--surface);overflow:hidden;margin-bottom:6px;border:1px solid var(--border);}
 .nh-cast-card-img img{width:100%;height:100%;object-fit:cover;display:block;}
@@ -6094,11 +6094,11 @@ function renderHero(idx, heroList) {
       bg.style.backgroundImage = '';
       bg.style.background = 'linear-gradient(135deg,#0e0e1a,#080809)';
     }
-    var totalEps = (item.seasons||[]).reduce(function(a,s){ return a+(s.episodes||[]).length; }, 0);
+    var totalEps = item.seasons.reduce(function(a,s){ return a+s.episodes.length; }, 0);
     document.getElementById('heroContent').innerHTML =
       '<div class="hero-eyebrow">' + item.category + ' &nbsp;&middot;&nbsp; ' + item.network + '</div>' +
       '<div class="hero-title">' + item.title + '</div>' +
-      '<div class="hero-meta"><span>' + item.years + '</span><span class="hero-meta-dot">&bull;</span><span>' + (item.seasons||[]).length + ' Seasons</span><span class="hero-meta-dot">&bull;</span><span>' + totalEps + ' Episodes</span></div>' +
+      '<div class="hero-meta"><span>' + item.years + '</span><span class="hero-meta-dot">&bull;</span><span>' + item.seasons.length + ' Seasons</span><span class="hero-meta-dot">&bull;</span><span>' + totalEps + ' Episodes</span></div>' +
       '<div class="hero-desc">' + item.description.substring(0,160) + '...</div>' +
       '<div class="hero-actions"><button class="btn-hero-primary" onclick="openShow(\'' + item.id + '\')">Open Collection</button></div>';
   }
@@ -6250,7 +6250,7 @@ function openShow(id) {
     fetchTMDBEpisodes(show.id);
   }
   // Fetch cast in background for non-hub shows (hubs build their own cast sections)
-  if (show.tmdbId && show.tmdbId !== 0 && !(show.cast && show.cast.length)) {
+  if (show.tmdbId && show.tmdbId !== 0) {
     fetchTMDBCast(show.id);
   }
 }
@@ -6258,10 +6258,19 @@ function openShow(id) {
 // Build the cast section HTML. If the show has a manually-curated cast array, use the
 // legacy cast-grid (text rows). Otherwise, leave a loading placeholder for the TMDB fetch.
 function buildCastSection(show) {
+  // Always render the photo-strip layout. If manual cast exists, render with fallback
+  // initials immediately, then fetchTMDBCast() fills in real profile photos.
   if (show.cast && show.cast.length) {
-    return '<div class="cast-grid">' +
+    return '<div class="nh-cast-strip">' +
       show.cast.map(function(c){
-        return '<div class="cast-item"><span class="cast-actor">' + (c.actor || '') + '</span><span class="cast-character">' + (c.character || '') + '</span></div>';
+        var name = c.actor || '';
+        var character = c.character || '';
+        var initial = name ? name.charAt(0).toUpperCase() : '?';
+        return '<div class="nh-cast-card">' +
+          '<div class="nh-cast-card-img"><div class="nh-cast-card-img-fallback">' + initial + '</div></div>' +
+          '<div class="nh-cast-actor">' + name + '</div>' +
+          (character ? '<div class="nh-cast-character">' + character + '</div>' : '') +
+        '</div>';
       }).join('') + '</div>';
   }
   return '<div class="nh-cast-loading">Loading cast...</div>';
@@ -6311,6 +6320,87 @@ function fetchTMDBCast(showId) {
 function renderTMDBCast(showId, cast) {
   var container = document.getElementById('cast-container-' + showId);
   if (!container) return;
+  var show = shows.find(function(s){ return s.id === showId; });
+  
+  // If show has manual cast in JSON, use those as the canonical list and merge in
+  // additional TMDB cast members up to 10 total. Manual cast stays first (preserves
+  // curated lead order). TMDB cast fills in the rest.
+  if (show && show.cast && show.cast.length) {
+    var photoMap = {};
+    var nameSet = {};
+    show.cast.forEach(function(c){ if (c.actor) nameSet[c.actor.toLowerCase()] = true; });
+    (cast || []).forEach(function(c){ if (c.name) photoMap[c.name.toLowerCase()] = c.profile_path; });
+    
+    // Start with manual cast (with profile_path lookup), then add TMDB cast not already in manual
+    var merged = show.cast.map(function(c){
+      return {
+        name: c.actor || '',
+        character: c.character || '',
+        profile_path: photoMap[(c.actor || '').toLowerCase()] || null,
+        fromManual: true
+      };
+    });
+    (cast || []).forEach(function(c){
+      if (merged.length >= 10) return;
+      if (!c.name) return;
+      if (nameSet[c.name.toLowerCase()]) return;
+      merged.push({
+        name: c.name,
+        character: c.character || '',
+        profile_path: c.profile_path || null,
+        fromManual: false
+      });
+    });
+    
+    container.innerHTML = '<div class="nh-cast-strip">' +
+      merged.map(function(c, idx){
+        var cardId = 'cast-card-' + showId + '-' + idx;
+        var img;
+        if (c.profile_path) {
+          img = '<img src="' + TMDB_IMG + 'w185' + c.profile_path + '" alt="">';
+        } else {
+          img = '<div class="nh-cast-card-img-fallback">' + (c.name ? c.name.charAt(0).toUpperCase() : '?') + '</div>';
+        }
+        return '<div class="nh-cast-card" id="' + cardId + '">' +
+          '<div class="nh-cast-card-img" id="' + cardId + '-img">' + img + '</div>' +
+          '<div class="nh-cast-actor">' + c.name + '</div>' +
+          (c.character ? '<div class="nh-cast-character">' + c.character + '</div>' : '') +
+        '</div>';
+      }).join('') + '</div>';
+    
+    // Fallback: for cast members still without a photo, search TMDB person endpoint
+    merged.forEach(function(c, idx){
+      if (!c.name || c.profile_path) return;
+      var cacheKey = 'gvv_person_' + c.name.toLowerCase();
+      try {
+        var raw = localStorage.getItem(cacheKey);
+        if (raw) {
+          var parsed = JSON.parse(raw);
+          if (parsed && parsed.ts && (Date.now() - parsed.ts) < 30*24*3600*1000) {
+            if (parsed.profile_path) {
+              var imgEl = document.getElementById('cast-card-' + showId + '-' + idx + '-img');
+              if (imgEl) imgEl.innerHTML = '<img src="' + TMDB_IMG + 'w185' + parsed.profile_path + '" alt="">';
+            }
+            return;
+          }
+        }
+      } catch(e) {}
+      fetch('https://api.themoviedb.org/3/search/person?api_key=' + TMDB_KEY + '&query=' + encodeURIComponent(c.name))
+        .then(function(r){ return r.json(); })
+        .then(function(d){
+          var profile = (d.results && d.results[0] && d.results[0].profile_path) ? d.results[0].profile_path : null;
+          try { localStorage.setItem(cacheKey, JSON.stringify({ ts: Date.now(), profile_path: profile })); } catch(e) {}
+          if (profile) {
+            var imgEl = document.getElementById('cast-card-' + showId + '-' + idx + '-img');
+            if (imgEl) imgEl.innerHTML = '<img src="' + TMDB_IMG + 'w185' + profile + '" alt="">';
+          }
+        })
+        .catch(function(){});
+    });
+    return;
+  }
+  
+  // No manual cast — use TMDB cast directly
   if (!cast || !cast.length) {
     container.innerHTML = '<div class="nh-cast-loading">No cast data available.</div>';
     return;
@@ -6419,7 +6509,7 @@ function applyEpisodeData(showId, seasons) {
   }
   var metaEl = document.querySelector('.detail-meta-row span:last-child');
   if (metaEl) {
-    var totalEps = (seasons||[]).reduce(function(a,s){ return a+(s.episodes||[]).length; },0);
+    var totalEps = seasons.reduce(function(a,s){ return a+s.episodes.length; },0);
     metaEl.textContent = seasons.length + ' Seasons - ' + totalEps + ' Episodes';
   }
 }
@@ -6839,7 +6929,7 @@ function handleSearch(val) {
   document.getElementById('detail-page').style.display = 'none';
   document.getElementById('search-results').style.display = 'block';
   var results = shows.filter(function(s){
-    return s.title.toLowerCase().includes(q) ||
+    return s.title.toLowerCase().includes(q) || (s.network||'').toLowerCase().includes(q) ||
       (s.stars||[]).some(function(st){ return st.toLowerCase().includes(q); }) ||
       (s.seasons||[]).some(function(sn){ return (sn.episodes||[]).some(function(ep){ return ep.title.toLowerCase().includes(q); }); });
   });

@@ -45784,14 +45784,47 @@
   {
     "id": "fall-rise-reggie-dinkins",
     "title": "The Fall and Rise of Reggie Dinkins",
-    "category": "Sitcom",
+    "category": "Comedy",
     "network": "NBC",
     "years": "2026-Present",
     "tmdbId": 291334,
     "description": "From Tina Fey and the team behind 30 Rock, Tracy Morgan stars as Reggie Dinkins, a disgraced ex-NFL star trying to rehabilitate his image with the help of an award-winning filmmaker played by Daniel Radcliffe. A mockumentary sports comedy that premiered as NBC's most-watched comedy debut in three years.",
     "seasons": [],
     "localPoster": "./images/shows/The_Fall_and_Rise_of_Reggie_Dinkins_poster.jpg",
-    "localBackdrop": "./images/shows/The_Fall_and_Rise_of_Reggie_Dinkins_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Fall_and_Rise_of_Reggie_Dinkins_backdrop.jpg",
+    "stars": [
+      "Tracy Morgan",
+      "Daniel Radcliffe",
+      "Erika Alexander",
+      "Bobby Moynihan",
+      "Precious Way"
+    ],
+    "cast": [
+      {
+        "actor": "Tracy Morgan",
+        "character": "Reggie Dinkins"
+      },
+      {
+        "actor": "Daniel Radcliffe",
+        "character": "Arthur Tobin"
+      },
+      {
+        "actor": "Erika Alexander",
+        "character": "Monica Reese-Dinkins"
+      },
+      {
+        "actor": "Bobby Moynihan",
+        "character": "Rusty Boyd"
+      },
+      {
+        "actor": "Precious Way",
+        "character": "Brina"
+      },
+      {
+        "actor": "Jalyn Hall",
+        "character": "Carmelo Dinkins"
+      }
+    ]
   },
   {
     "id": "maude",
@@ -49259,5 +49292,1030 @@
     ],
     "localPoster": "./images/shows/Dirk_Gentlys_Holistic_Detective_Agency_poster.jpg",
     "localBackdrop": "./images/shows/Dirk_Gentlys_Holistic_Detective_Agency_backdrop.jpg"
+  },
+  {
+    "id": "off-campus",
+    "title": "Off Campus",
+    "category": "Comedy",
+    "network": "Prime Video",
+    "years": "2026-PRESENT",
+    "collectionNote": "",
+    "tmdbId": 273240,
+    "stars": [
+      "Ella Bright",
+      "Belmont Cameli",
+      "Mika Abdalla",
+      "Stephen Kalyn",
+      "Jalen Thomas Brooks"
+    ],
+    "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
+    "cast": [
+      {
+        "actor": "Ella Bright",
+        "character": "Hannah Wells"
+      },
+      {
+        "actor": "Belmont Cameli",
+        "character": "Garrett Graham"
+      },
+      {
+        "actor": "Mika Abdalla",
+        "character": "Allie Hayes"
+      },
+      {
+        "actor": "Stephen Kalyn",
+        "character": "Dean Di Laurentis"
+      },
+      {
+        "actor": "Jalen Thomas Brooks",
+        "character": "John Tucker"
+      },
+      {
+        "actor": "Antonio Cipriano",
+        "character": "John Logan"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Off_Campus_poster.jpg",
+    "localBackdrop": "./images/shows/Off_Campus_backdrop.jpg"
+  },
+  {
+    "id": "life-larry-and-the-pursuit-of-unhappiness",
+    "title": "Life, Larry and the Pursuit of Unhappiness: An almost History of America",
+    "category": "Comedy",
+    "network": "HBO",
+    "years": "2026-PRESENT",
+    "collectionNote": "",
+    "tmdbId": 295780,
+    "stars": [
+      "Larry David"
+    ],
+    "description": "An improvised, comedic approach to major events in American history in celebration of the 250th anniversary of the founding of the United States.",
+    "cast": [
+      {
+        "actor": "Larry David",
+        "character": "Various Characters"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Life_Larry_and_the_Pursuit_of_Unhappiness_An_almost_History_of_America_poster.jpg",
+    "localBackdrop": "./images/shows/Life_Larry_and_the_Pursuit_of_Unhappiness_An_almost_History_of_America_backdrop.jpg"
+  },
+  {
+    "id": "the-four-seasons",
+    "title": "The Four Seasons",
+    "category": "Comedy",
+    "network": "Netflix",
+    "years": "2025-PRESENT",
+    "collectionNote": "",
+    "tmdbId": 243316,
+    "stars": [
+      "Tina Fey",
+      "Colman Domingo",
+      "Erika Henningsen",
+      "Kerri Kenney",
+      "Will Forte"
+    ],
+    "description": "The decades-long friendship between three married couples is tested when one divorces, complicating their tradition of quarterly weekend getaways.",
+    "cast": [
+      {
+        "actor": "Tina Fey",
+        "character": "Kate"
+      },
+      {
+        "actor": "Colman Domingo",
+        "character": "Danny"
+      },
+      {
+        "actor": "Erika Henningsen",
+        "character": "Ginny"
+      },
+      {
+        "actor": "Kerri Kenney",
+        "character": "Anne Pagano"
+      },
+      {
+        "actor": "Will Forte",
+        "character": "Jack"
+      },
+      {
+        "actor": "Marco Calvani",
+        "character": "Claude"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Four_Seasons_poster.jpg",
+    "localBackdrop": "./images/shows/The_Four_Seasons_backdrop.jpg"
+  },
+  {
+    "id": "muppets-tonight",
+    "title": "Muppets Tonight",
+    "category": "Variety Series",
+    "network": "ABC",
+    "years": "1996-1998",
+    "collectionNote": "",
+    "tmdbId": 6575,
+    "stars": [
+      "Kevin Clash",
+      "Steve Whitmire",
+      "Frank Oz",
+      "Dave Goelz",
+      "Brian Henson"
+    ],
+    "description": "Muppets Tonight is a live-action/puppet television series created by Jim Henson Productions and featuring The Muppets. Much like the \"MuppeTelevision\" segment of The Jim Henson Hour, Muppets Tonight was a continuation of The Muppet Show, set in a television studio, rather than a theater. It ran on ABC from 1996 to 1998 and reruns ran on Disney Channel from 1997 to 2002. As of 2013, it is the last television series to star The Muppets characters.",
+    "cast": [
+      {
+        "actor": "Kevin Clash",
+        "character": "Clifford / Mulch / Bad Polly / Craniac"
+      },
+      {
+        "actor": "Steve Whitmire",
+        "character": "Kermit / Rizzo / Andy / Beaker / Pighead / Poodlepants"
+      },
+      {
+        "actor": "Frank Oz",
+        "character": "Miss Piggy / Fozzie Bear / Animal / George the Janitor"
+      },
+      {
+        "actor": "Dave Goelz",
+        "character": "Gonzo / Dr. Bunsen / Waldorf / Randy / Beauregard / Bill"
+      },
+      {
+        "actor": "Brian Henson",
+        "character": "Sal Minella / Seymour / Dr. Phil Van Neuter"
+      },
+      {
+        "actor": "Bill Barretta",
+        "character": "Pepé / Bobo / Johnny Fiama / Clueless / Carl / Snookie / Howard"
+      },
+      {
+        "actor": "Leslie Carrara-Rudolph",
+        "character": "Floor Manager"
+      },
+      {
+        "actor": "Jerry Nelson",
+        "character": "Statler / Jowls / Mama Fiama"
+      },
+      {
+        "actor": "John Henson",
+        "character": "Sweetums"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Muppets_Tonight_poster.jpg",
+    "localBackdrop": "./images/shows/Muppets_Tonight_backdrop.jpg"
+  },
+  {
+    "id": "resident-alien",
+    "title": "Resident Alien",
+    "category": "Comedy",
+    "network": "USA Network",
+    "years": "2021-2025",
+    "collectionNote": "",
+    "tmdbId": 96580,
+    "stars": [
+      "Alan Tudyk",
+      "Sara Tomko",
+      "Corey Reynolds",
+      "Alice Wetterlund",
+      "Levi Fiehler"
+    ],
+    "description": "Crash-landed alien Harry takes on the identity of a small-town Colorado doctor. Arriving with a secret mission, he starts off living a simple life…but things get a bit rocky when he’s roped into solving a local murder and realizes he needs to assimilate into his new world. As he does, he begins to wrestle with the moral dilemma of his mission and asking the big life questions like: “Are human beings worth saving?” and “Why do they fold their pizza before eating it?”",
+    "cast": [
+      {
+        "actor": "Alan Tudyk",
+        "character": "Harry Vanderspeigle"
+      },
+      {
+        "actor": "Sara Tomko",
+        "character": "Asta Twelvetrees"
+      },
+      {
+        "actor": "Corey Reynolds",
+        "character": "Mike Thompson"
+      },
+      {
+        "actor": "Alice Wetterlund",
+        "character": "D'Arcy Bloom"
+      },
+      {
+        "actor": "Levi Fiehler",
+        "character": "Ben Hawthorne"
+      },
+      {
+        "actor": "Elizabeth Bowen",
+        "character": "Liv Baker"
+      },
+      {
+        "actor": "Meredith Garretson",
+        "character": "Kate Hawthorne"
+      },
+      {
+        "actor": "Judah Prehn",
+        "character": "Max Hawthorne"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Resident_Alien_poster.jpg",
+    "localBackdrop": "./images/shows/Resident_Alien_backdrop.jpg"
+  },
+  {
+    "id": "the-afterparty",
+    "title": "The Afterparty",
+    "category": "Comedy",
+    "network": "Apple TV",
+    "years": "2022-2023",
+    "collectionNote": "",
+    "tmdbId": 106454,
+    "stars": [
+      "Tiffany Haddish",
+      "Sam Richardson",
+      "Zoë Chao",
+      "John Cho",
+      "Paul Walter Hauser"
+    ],
+    "description": "Nothing is as it seems in this hilarious murder mystery where each suspect's story is told through a different film genre.",
+    "cast": [
+      {
+        "actor": "Tiffany Haddish",
+        "character": "Detective Danner"
+      },
+      {
+        "actor": "Sam Richardson",
+        "character": "Aniq"
+      },
+      {
+        "actor": "Zoë Chao",
+        "character": "Zoe"
+      },
+      {
+        "actor": "John Cho",
+        "character": "Ulysses"
+      },
+      {
+        "actor": "Paul Walter Hauser",
+        "character": "Travis"
+      },
+      {
+        "actor": "Ken Jeong",
+        "character": "Feng"
+      },
+      {
+        "actor": "Anna Konkle",
+        "character": "Hannah"
+      },
+      {
+        "actor": "Poppy Liu",
+        "character": "Grace"
+      },
+      {
+        "actor": "Elizabeth Perkins",
+        "character": "Isabel"
+      },
+      {
+        "actor": "Jack Whitehall",
+        "character": "Sebastian"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Afterparty_poster.jpg",
+    "localBackdrop": "./images/shows/The_Afterparty_backdrop.jpg"
+  },
+  {
+    "id": "the-ropers",
+    "title": "The Ropers",
+    "category": "Sitcom",
+    "network": "ABC",
+    "years": "1979-1980",
+    "collectionNote": "",
+    "tmdbId": 2905,
+    "stars": [
+      "Norman Fell",
+      "Audra Lindley",
+      "Jeffrey Tambor",
+      "Patty McCormack",
+      "Evan Cohen"
+    ],
+    "description": "A spin-off of Three's Company and based on the British sitcom George and Mildred, the series focuses on middle-aged couple Stanley and Helen Roper, who were landlords to Jack, Janet, and Chrissy on Three's Company.",
+    "cast": [
+      {
+        "actor": "Norman Fell",
+        "character": "Stanley Roper"
+      },
+      {
+        "actor": "Audra Lindley",
+        "character": "Helen Roper"
+      },
+      {
+        "actor": "Jeffrey Tambor",
+        "character": "Jeffrey P. Brookes III"
+      },
+      {
+        "actor": "Patty McCormack",
+        "character": "Anne Brookes"
+      },
+      {
+        "actor": "Evan Cohen",
+        "character": "David Brookes"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Ropers_poster.jpg",
+    "localBackdrop": "./images/shows/The_Ropers_backdrop.jpg"
+  },
+  {
+    "id": "house-of-cards",
+    "title": "House of Cards",
+    "category": "Drama",
+    "network": "Netflix",
+    "years": "2013-2018",
+    "collectionNote": "",
+    "tmdbId": 1425,
+    "stars": [
+      "Robin Wright",
+      "Michael Kelly",
+      "Constance Zimmer",
+      "Patricia Clarkson",
+      "Derek Cecil"
+    ],
+    "description": "Betrayed by the White House, Congressman Frank Underwood embarks on a ruthless rise to power. Blackmail, seduction and ambition are his weapons.",
+    "cast": [
+      {
+        "actor": "Robin Wright",
+        "character": "Claire Underwood"
+      },
+      {
+        "actor": "Michael Kelly",
+        "character": "Doug Stamper"
+      },
+      {
+        "actor": "Constance Zimmer",
+        "character": "Janine Skorsky"
+      },
+      {
+        "actor": "Patricia Clarkson",
+        "character": "Jane Davis"
+      },
+      {
+        "actor": "Derek Cecil",
+        "character": "Seth Grayson"
+      },
+      {
+        "actor": "Boris McGiver",
+        "character": "Tom Hammerschmidt"
+      },
+      {
+        "actor": "Lars Mikkelsen",
+        "character": "Viktor Petrov"
+      },
+      {
+        "actor": "Cody Fern",
+        "character": "Duncan Shepherd"
+      },
+      {
+        "actor": "Diane Lane",
+        "character": "Annette Shepherd"
+      },
+      {
+        "actor": "Greg Kinnear",
+        "character": "Bill Shepherd"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/House_of_Cards_poster.jpg",
+    "localBackdrop": "./images/shows/House_of_Cards_backdrop.jpg"
+  },
+  {
+    "id": "soap",
+    "title": "Soap",
+    "category": "Sitcom",
+    "network": "ABC",
+    "years": "1977-1981",
+    "collectionNote": "",
+    "tmdbId": 3295,
+    "stars": [
+      "Katherine Helmond",
+      "Cathryn Damon",
+      "Richard Mulligan",
+      "Robert Mandan",
+      "Billy Crystal"
+    ],
+    "description": "The antics of a wealthy family, the Tates, and a working-class family, the Campbells, in the fictional town of Dunn's River, Connecticut.",
+    "cast": [
+      {
+        "actor": "Katherine Helmond",
+        "character": "Jessica Tate"
+      },
+      {
+        "actor": "Cathryn Damon",
+        "character": "Mary Campbell"
+      },
+      {
+        "actor": "Richard Mulligan",
+        "character": "Burt Campbell"
+      },
+      {
+        "actor": "Robert Mandan",
+        "character": "Chester Tate"
+      },
+      {
+        "actor": "Billy Crystal",
+        "character": "Jodie Dallas"
+      },
+      {
+        "actor": "Ted Wass",
+        "character": "Danny Dallas"
+      },
+      {
+        "actor": "Diana Canova",
+        "character": "Corinne Tate"
+      },
+      {
+        "actor": "Jennifer Salt",
+        "character": "Eunice Tate"
+      },
+      {
+        "actor": "Jimmy Baio",
+        "character": "Billy Tate"
+      },
+      {
+        "actor": "Arthur Peterson",
+        "character": "The Major"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Soap_poster.jpg",
+    "localBackdrop": "./images/shows/Soap_backdrop.jpg"
+  },
+  {
+    "id": "warehouse-13",
+    "title": "Warehouse 13",
+    "category": "Drama",
+    "network": "Syfy",
+    "years": "2009-2014",
+    "collectionNote": "",
+    "tmdbId": 15819,
+    "stars": [
+      "Eddie McClintock",
+      "Joanne Kelly",
+      "Saul Rubinek",
+      "Allison Scagliotti",
+      "Aaron Ashmore"
+    ],
+    "description": "After saving the life of the President, two secret service agents - Myka Bering and Pete Lattimer - find themselves assigned to the top secret Warehouse 13. The Warehouse is a massive, top secret facility that houses dangerous and fantastical objects. Together, Pete and Myka along with fellow agents Claudia, Steve Jinks and Warehouse caretaker Artie, must recover artifacts from around the globe before they can cause catastrophic damage.",
+    "cast": [
+      {
+        "actor": "Eddie McClintock",
+        "character": "Pete Lattimer"
+      },
+      {
+        "actor": "Joanne Kelly",
+        "character": "Myka Bering"
+      },
+      {
+        "actor": "Saul Rubinek",
+        "character": "Arthur \"Artie\" Nielsen"
+      },
+      {
+        "actor": "Allison Scagliotti",
+        "character": "Claudia Donovan"
+      },
+      {
+        "actor": "Aaron Ashmore",
+        "character": "Steve Jinks"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Warehouse_13_poster.jpg",
+    "localBackdrop": "./images/shows/Warehouse_13_backdrop.jpg"
+  },
+  {
+    "id": "the-kominsky-method",
+    "title": "The Kominsky Method",
+    "category": "Comedy",
+    "network": "Netflix",
+    "years": "2018-2021",
+    "collectionNote": "",
+    "tmdbId": 81290,
+    "stars": [
+      "Michael Douglas",
+      "Sarah Baker",
+      "Nancy Travis",
+      "Kathleen Turner"
+    ],
+    "description": "Acting coach Sandy Kominsky and best friend Norman Newlander keep each other laughing as they navigate the ups and downs of getting older.",
+    "cast": [
+      {
+        "actor": "Michael Douglas",
+        "character": "Sandy Kominsky"
+      },
+      {
+        "actor": "Sarah Baker",
+        "character": "Mindy Kominsky"
+      },
+      {
+        "actor": "Nancy Travis",
+        "character": "Lisa"
+      },
+      {
+        "actor": "Kathleen Turner",
+        "character": "Roz"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Kominsky_Method_poster.jpg",
+    "localBackdrop": "./images/shows/The_Kominsky_Method_backdrop.jpg"
+  },
+  {
+    "id": "the-bear",
+    "title": "The Bear",
+    "category": "Drama",
+    "network": "Hulu",
+    "years": "2022-2026",
+    "collectionNote": "",
+    "tmdbId": 136315,
+    "stars": [
+      "Jeremy Allen White",
+      "Ebon Moss-Bachrach",
+      "Ayo Edebiri",
+      "Lionel Boyce",
+      "Abby Elliott"
+    ],
+    "description": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+    "cast": [
+      {
+        "actor": "Jeremy Allen White",
+        "character": "Carmen 'Carmy' Berzatto"
+      },
+      {
+        "actor": "Ebon Moss-Bachrach",
+        "character": "Richard 'Richie' Jerimovich"
+      },
+      {
+        "actor": "Ayo Edebiri",
+        "character": "Sydney Adamu"
+      },
+      {
+        "actor": "Lionel Boyce",
+        "character": "Marcus Brooks"
+      },
+      {
+        "actor": "Abby Elliott",
+        "character": "Natalie 'Sugar' Berzatto"
+      },
+      {
+        "actor": "Matty Matheson",
+        "character": "Neil Fak"
+      },
+      {
+        "actor": "Liza Colón-Zayas",
+        "character": "Bettina 'Tina' Marrero"
+      },
+      {
+        "actor": "Edwin Lee Gibson",
+        "character": "Ebraheim"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Bear_poster.jpg",
+    "localBackdrop": "./images/shows/The_Bear_backdrop.jpg"
+  },
+  {
+    "id": "alias-smith-and-jones",
+    "title": "Alias Smith and Jones",
+    "category": "Westerns",
+    "network": "ABC",
+    "years": "1971-1973",
+    "collectionNote": "",
+    "tmdbId": 3275,
+    "stars": [
+      "Ben Murphy",
+      "Roger Davis"
+    ],
+    "description": "Alias Smith and Jones is an American Western series that originally aired on ABC from 1971 to 1973. It stars Pete Duel as Hannibal Heyes and Ben Murphy as Jedediah \"Kid\" Curry, a pair of cousin outlaws trying to reform. The governor offers them a conditional amnesty, as he wants to keep the pact under wraps for political reasons. The condition is that they will still be wanted— until the governor can claim they have reformed and warrant clemency.",
+    "cast": [
+      {
+        "actor": "Ben Murphy",
+        "character": "Jed 'Kid' Curry (alias Thaddeus Jones)"
+      },
+      {
+        "actor": "Roger Davis",
+        "character": "Hannibal Heyes (alias Joshua Smith)"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Alias_Smith_and_Jones_poster.jpg",
+    "localBackdrop": "./images/shows/Alias_Smith_and_Jones_backdrop.jpg"
+  },
+  {
+    "id": "the-sopranos",
+    "title": "The Sopranos",
+    "category": "Drama",
+    "network": "HBO",
+    "years": "1999-2007",
+    "collectionNote": "",
+    "tmdbId": 1398,
+    "stars": [
+      "James Gandolfini",
+      "Edie Falco",
+      "Jamie-Lynn Sigler",
+      "Robert Iler",
+      "Lorraine Bracco"
+    ],
+    "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+    "cast": [
+      {
+        "actor": "James Gandolfini",
+        "character": "Tony Soprano"
+      },
+      {
+        "actor": "Edie Falco",
+        "character": "Carmela Soprano"
+      },
+      {
+        "actor": "Jamie-Lynn Sigler",
+        "character": "Meadow Soprano"
+      },
+      {
+        "actor": "Robert Iler",
+        "character": "A.J. Soprano"
+      },
+      {
+        "actor": "Lorraine Bracco",
+        "character": "Jennifer Melfi"
+      },
+      {
+        "actor": "Michael Imperioli",
+        "character": "Christopher Moltisanti"
+      },
+      {
+        "actor": "Steven Van Zandt",
+        "character": "Silvio Dante"
+      },
+      {
+        "actor": "Tony Sirico",
+        "character": "Paulie Gualtieri"
+      },
+      {
+        "actor": "Dominic Chianese",
+        "character": "Corrado 'Junior' Soprano"
+      },
+      {
+        "actor": "Aida Turturro",
+        "character": "Janice Soprano"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Sopranos_poster.jpg",
+    "localBackdrop": "./images/shows/The_Sopranos_backdrop.jpg"
+  },
+  {
+    "id": "nichols",
+    "title": "Nichols",
+    "category": "Westerns",
+    "network": "NBC",
+    "years": "1971-1972",
+    "collectionNote": "",
+    "tmdbId": 11548,
+    "stars": [
+      "Margot Kidder",
+      "James Garner",
+      "John Beck",
+      "Stuart Margolin",
+      "Neva Patterson"
+    ],
+    "description": "Nichols is an American Western television series starring James Garner broadcast in the United States on NBC during the 1971-72 season. Set the fictional town of Nichols, Arizona, in 1914, Nichols differed from traditional Western series of the era. The main character, a sheriff, rode on a motorcycle and in an automobile rather than on the traditional horse. The hero did not carry a firearm and was generally opposed to the use of violence to solve problems, preferring other means. Margot Kidder portrayed Ruth, the love interest/barmaid of Nichols.",
+    "cast": [
+      {
+        "actor": "Margot Kidder",
+        "character": "Ruth"
+      },
+      {
+        "actor": "James Garner",
+        "character": "Sheriff Frank Nichols"
+      },
+      {
+        "actor": "John Beck",
+        "character": "Ketcham"
+      },
+      {
+        "actor": "Stuart Margolin",
+        "character": "Deputy Sheriff Mitch Mitchell"
+      },
+      {
+        "actor": "Neva Patterson",
+        "character": "Sara \"Ma\" Ketcham"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Nichols_poster.jpg",
+    "localBackdrop": "./images/shows/Nichols_backdrop.jpg"
+  },
+  {
+    "id": "the-practice",
+    "title": "The Practice",
+    "category": "Drama",
+    "network": "NBC",
+    "years": "1976-1977",
+    "collectionNote": "",
+    "tmdbId": 28272,
+    "stars": [
+      "Danny Thomas",
+      "Didi Conn",
+      "Shelley Fabares",
+      "Dena Dietrich",
+      "David Spielberg"
+    ],
+    "description": "Sitcom about Jules Bedford, a crusty, sometimes grumpy, and somewhat absent-minded old-school doctor with a genuine concern for people.",
+    "cast": [
+      {
+        "actor": "Danny Thomas",
+        "character": "Dr. Jules Bedford"
+      },
+      {
+        "actor": "Didi Conn",
+        "character": "Helen"
+      },
+      {
+        "actor": "Shelley Fabares",
+        "character": "Jenny Bedford"
+      },
+      {
+        "actor": "Dena Dietrich",
+        "character": "Molly Gibbons"
+      },
+      {
+        "actor": "David Spielberg",
+        "character": "Dr. David Bedford"
+      },
+      {
+        "actor": "Natasha Gray",
+        "character": "Molly Gibbons"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Practice_poster.jpg"
+  },
+  {
+    "id": "action",
+    "title": "Action",
+    "category": "Sitcom",
+    "network": "FOX",
+    "years": "1999",
+    "collectionNote": "",
+    "tmdbId": 2812,
+    "stars": [
+      "Jay Mohr",
+      "Illeana Douglas",
+      "Jarrad Paul",
+      "Jack Plotnick",
+      "Lee Arenberg"
+    ],
+    "description": "Follow the life of Peter Dragon, an egotistic Hollywood movie producer who has built his career on the three pillars of sleazy show business - prostitution, nepotism and dishonesty.",
+    "cast": [
+      {
+        "actor": "Jay Mohr",
+        "character": "Peter Dragon"
+      },
+      {
+        "actor": "Illeana Douglas",
+        "character": "Wendy Ward"
+      },
+      {
+        "actor": "Jarrad Paul",
+        "character": "Adam Rafkin"
+      },
+      {
+        "actor": "Jack Plotnick",
+        "character": "Stuart Glazer"
+      },
+      {
+        "actor": "Lee Arenberg",
+        "character": "Bobby G."
+      },
+      {
+        "actor": "Buddy Hackett",
+        "character": "Uncle Lonnie"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Action_poster.jpg",
+    "localBackdrop": "./images/shows/Action_backdrop.jpg"
+  },
+  {
+    "id": "cpo-sharkey",
+    "title": "C.P.O. Sharkey",
+    "category": "Sitcom",
+    "network": "NBC",
+    "years": "1976-1978",
+    "collectionNote": "",
+    "tmdbId": 1609,
+    "stars": [
+      "Don Rickles",
+      "Elizabeth Allen",
+      "Harrison Page",
+      "Richard X. Slattery",
+      "David Landsberg"
+    ],
+    "description": "C.P.O. Sharkey is an American sitcom which aired from 1976 to 1978 on NBC.",
+    "cast": [
+      {
+        "actor": "Don Rickles",
+        "character": "C.P.O. Otto Sharkey"
+      },
+      {
+        "actor": "Elizabeth Allen",
+        "character": "Capt. Quinlan"
+      },
+      {
+        "actor": "Harrison Page",
+        "character": "Chief Robinson"
+      },
+      {
+        "actor": "Richard X. Slattery",
+        "character": "Captain Buckner"
+      },
+      {
+        "actor": "David Landsberg",
+        "character": "Recruit Skolnick"
+      },
+      {
+        "actor": "Barry Pearl",
+        "character": "Recruit Mignone"
+      },
+      {
+        "actor": "Peter Isacksen",
+        "character": "Seaman Pruitt"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/C.P.O._Sharkey_poster.jpg",
+    "localBackdrop": "./images/shows/C.P.O._Sharkey_backdrop.jpg"
+  },
+  {
+    "id": "emergency",
+    "title": "Emergency!",
+    "category": "Drama",
+    "network": "NBC",
+    "years": "1972-1979",
+    "collectionNote": "",
+    "tmdbId": 5375,
+    "stars": [
+      "Robert Fuller",
+      "Julie London",
+      "Bobby Troup",
+      "Randolph Mantooth",
+      "Kevin Tighe"
+    ],
+    "description": "The crew of Los Angeles County Fire Department Station 51, particularly the paramedic team, and Rampart Hospital respond to emergencies in their operating area.",
+    "cast": [
+      {
+        "actor": "Robert Fuller",
+        "character": "Kelly Brackett"
+      },
+      {
+        "actor": "Julie London",
+        "character": "Dixie McCall"
+      },
+      {
+        "actor": "Bobby Troup",
+        "character": "Joe Early"
+      },
+      {
+        "actor": "Randolph Mantooth",
+        "character": "John Gage"
+      },
+      {
+        "actor": "Kevin Tighe",
+        "character": "Roy DeSoto"
+      },
+      {
+        "actor": "Marco López",
+        "character": "Fireman Marco Lopez"
+      },
+      {
+        "actor": "Mike Stoker",
+        "character": "Fireman Mike Stoker"
+      },
+      {
+        "actor": "Tim Donnelly",
+        "character": "Fireman Chet Kelly"
+      },
+      {
+        "actor": "Michael Norell",
+        "character": "Capt. Hank Stanley"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Emergency_poster.jpg",
+    "localBackdrop": "./images/shows/Emergency_backdrop.jpg"
+  },
+  {
+    "id": "adam-12",
+    "title": "Adam-12",
+    "category": "Drama",
+    "network": "NBC",
+    "years": "1968-1975",
+    "collectionNote": "",
+    "tmdbId": 4660,
+    "stars": [
+      "Martin Milner",
+      "Kent McCord",
+      "William Boyett"
+    ],
+    "description": "Adam-12 is a television police drama that followed two police officers of the Los Angeles Police Department, Pete Malloy and Jim Reed, as they patrolled the streets of Los Angeles in their patrol unit, 1-Adam-12.",
+    "cast": [
+      {
+        "actor": "Martin Milner",
+        "character": "Officer Pete Malloy"
+      },
+      {
+        "actor": "Kent McCord",
+        "character": "Officer Jim Reed"
+      },
+      {
+        "actor": "William Boyett",
+        "character": "Sergeant MacDonald"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Adam-12_poster.jpg",
+    "localBackdrop": "./images/shows/Adam-12_backdrop.jpg"
+  },
+  {
+    "id": "the-hollywood-palace",
+    "title": "The Hollywood Palace",
+    "category": "Variety Series",
+    "network": "ABC",
+    "years": "1964-1970",
+    "collectionNote": "",
+    "tmdbId": 11142,
+    "stars": [],
+    "description": "The Hollywood Palace is an hour-long American television variety show that was broadcast weekly on ABC from January 4, 1964 to February 7, 1970. Originally titled The Saturday Night Hollywood Palace, it began as a mid-season replacement for The Jerry Lewis Show, another variety show which had lasted only three months. It was staged in Hollywood at the former Hollywood Playhouse on Vine Street, which was renamed The Hollywood Palace during the show's duration and is today known as Avalon Hollywood. A little-known starlet named Raquel Welch was cast during the first season as the \"Billboard Girl\", who placed the names of the acts on a placard.",
+    "cast": [],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Hollywood_Palace_poster.jpg"
+  },
+  {
+    "id": "mad-men",
+    "title": "Mad Men",
+    "category": "Drama",
+    "network": "AMC",
+    "years": "2007-2015",
+    "collectionNote": "",
+    "tmdbId": 1104,
+    "stars": [
+      "Jon Hamm",
+      "Elisabeth Moss",
+      "Vincent Kartheiser",
+      "January Jones",
+      "Christina Hendricks"
+    ],
+    "description": "Set in 1960-1970 New York, this sexy, stylized and provocative drama follows the lives of the ruthlessly competitive men and women of Madison Avenue advertising.",
+    "cast": [
+      {
+        "actor": "Jon Hamm",
+        "character": "Don Draper"
+      },
+      {
+        "actor": "Elisabeth Moss",
+        "character": "Peggy Olson"
+      },
+      {
+        "actor": "Vincent Kartheiser",
+        "character": "Pete Campbell"
+      },
+      {
+        "actor": "January Jones",
+        "character": "Betty Draper"
+      },
+      {
+        "actor": "Christina Hendricks",
+        "character": "Joan Holloway"
+      },
+      {
+        "actor": "Aaron Staton",
+        "character": "Ken Cosgrove"
+      },
+      {
+        "actor": "Rich Sommer",
+        "character": "Harry Crane"
+      },
+      {
+        "actor": "Kiernan Shipka",
+        "character": "Sally Draper"
+      },
+      {
+        "actor": "Kevin Rahm",
+        "character": "Ted Chaough"
+      },
+      {
+        "actor": "Christopher Stanley",
+        "character": "Henry Francis"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Mad_Men_poster.jpg",
+    "localBackdrop": "./images/shows/Mad_Men_backdrop.jpg"
   }
 ]
