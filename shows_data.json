@@ -48925,7 +48925,8 @@
     "description": "Ken Burns and Dayton Duncan's six-part, twelve-hour history of the U.S. national parks system, filmed over more than six years from Acadia to Yosemite, Yellowstone to the Grand Canyon. Narrated by Peter Coyote, with first-person voices including Tom Hanks, Andy Garcia, John Lithgow, and Sam Waterston.",
     "seasons": [],
     "localPoster": "./images/shows/The_National_Parks_Americas_Best_Idea_poster.jpg",
-    "localBackdrop": "./images/shows/The_National_Parks_Americas_Best_Idea_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_National_Parks_Americas_Best_Idea_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "ken-burns-the-west",
@@ -48937,7 +48938,8 @@
     "description": "Ken Burns presents Stephen Ives's nine-part, twelve-hour epic on the American Old West — a sweeping account of westward expansion from pre-Columbian times through the early 20th century. Narrated by Peter Coyote, with voices including Adam Arkin, Matthew Broderick, Ossie Davis, John Lithgow, Eli Wallach, and Arthur Miller.",
     "seasons": [],
     "localPoster": "./images/shows/The_West_poster.jpg",
-    "localBackdrop": "./images/shows/The_West_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_West_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "ken-burns-unforgivable-blackness",
@@ -48949,7 +48951,8 @@
     "description": "Ken Burns's two-part biography of Jack Johnson, the first African-American Heavyweight Champion of the World, whose dominance in the ring and defiance outside of it provoked race riots, federal prosecution, and an international manhunt. Narrated by Keith David with Samuel L. Jackson voicing Johnson; soundtrack by Wynton Marsalis.",
     "seasons": [],
     "localPoster": "./images/shows/Unforgivable_Blackness_The_Rise_and_Fall_of_Jack_Johnson_poster.jpg",
-    "localBackdrop": "./images/shows/Unforgivable_Blackness_The_Rise_and_Fall_of_Jack_Johnson_backdrop.jpg"
+    "localBackdrop": "./images/shows/Unforgivable_Blackness_The_Rise_and_Fall_of_Jack_Johnson_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "ric-burns-new-york",
@@ -48962,7 +48965,8 @@
     "movieTmdbId": 919289,
     "description": "Ric Burns's eight-part, 17.5-hour history of New York City, tracing nearly 400 years from the founding of New Amsterdam to the aftermath of September 11th. Narrated by David Ogden Stiers, with on-camera interviews from Mike Wallace, Robert Caro, Kenneth T. Jackson, and David Levering Lewis.",
     "seasons": [],
-    "localPoster": "./images/shows/New_York_A_Documentary_Film_poster.jpg"
+    "localPoster": "./images/shows/New_York_A_Documentary_Film_poster.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "the-michael-j-fox-show",
@@ -49010,7 +49014,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Michael_J._Fox_Show_poster.jpg",
-    "localBackdrop": "./images/shows/The_Michael_J._Fox_Show_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Michael_J._Fox_Show_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "ken-burns-brooklyn-bridge",
@@ -49024,7 +49029,8 @@
     "description": "Ken Burns's directorial debut and Academy Award-nominated documentary on the construction of the Brooklyn Bridge — a 14-year feat of engineering marked by caisson disease, political corruption, and the perseverance of the Roebling family. Narrated by historian David McCullough, whose 1972 book the film is based on. Inducted into the National Film Registry in 2025.",
     "seasons": [],
     "localPoster": "./images/shows/Brooklyn_Bridge_poster.jpg",
-    "localBackdrop": "./images/shows/Brooklyn_Bridge_backdrop.jpg"
+    "localBackdrop": "./images/shows/Brooklyn_Bridge_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-experience-jesse-james",
@@ -49041,7 +49047,8 @@
     "parentSeason": 18,
     "parentEpisode": 7,
     "localPoster": "./images/shows/Jesse_James_poster.jpg",
-    "localBackdrop": "./images/shows/Jesse_James_backdrop.jpg"
+    "localBackdrop": "./images/shows/Jesse_James_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-experience-bonnie-and-clyde",
@@ -49056,7 +49063,8 @@
     "seasons": [],
     "parentTmdbId": 1181,
     "localPoster": "./images/shows/Bonnie__Clyde_poster.jpg",
-    "localBackdrop": "./images/shows/Bonnie__Clyde_backdrop.jpg"
+    "localBackdrop": "./images/shows/Bonnie__Clyde_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-experience-the-perfect-crime",
@@ -49071,7 +49079,8 @@
     "seasons": [],
     "parentTmdbId": 1181,
     "localPoster": "./images/shows/The_Perfect_Crime_poster.jpg",
-    "localBackdrop": "./images/shows/The_Perfect_Crime_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Perfect_Crime_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-experience-triangle-fire",
@@ -49086,7 +49095,8 @@
     "seasons": [],
     "parentTmdbId": 1181,
     "localPoster": "./images/shows/Triangle_Fire_poster.jpg",
-    "localBackdrop": "./images/shows/Triangle_Fire_backdrop.jpg"
+    "localBackdrop": "./images/shows/Triangle_Fire_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-experience-mccarthy",
@@ -49101,7 +49111,8 @@
     "seasons": [],
     "parentTmdbId": 1181,
     "localPoster": "./images/shows/McCarthy_poster.jpg",
-    "localBackdrop": "./images/shows/McCarthy_backdrop.jpg"
+    "localBackdrop": "./images/shows/McCarthy_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-experience-lbj",
@@ -49116,7 +49127,8 @@
     "seasons": [],
     "parentTmdbId": 1181,
     "localPoster": "./images/shows/LBJ_poster.jpg",
-    "localBackdrop": "./images/shows/LBJ_backdrop.jpg"
+    "localBackdrop": "./images/shows/LBJ_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-experience-voice-of-freedom",
@@ -49131,7 +49143,8 @@
     "seasons": [],
     "parentTmdbId": 1181,
     "localPoster": "./images/shows/Voice_of_Freedom_poster.jpg",
-    "localBackdrop": "./images/shows/Voice_of_Freedom_backdrop.jpg"
+    "localBackdrop": "./images/shows/Voice_of_Freedom_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "american-masters-edgar-allan-poe-buried-alive",
@@ -49148,7 +49161,8 @@
     "description": "American Masters film on Edgar Allan Poe directed by Eric Stange, dismantling the long-standing caricature of the writer as a drug-addled madman — a portrait largely fabricated by his rival Rufus Griswold in a malicious obituary. Denis O'Hare stars as Poe with narration by Kathleen Turner and dramatic readings by Chris Sarandon and Ben Schnetzer.",
     "seasons": [],
     "localPoster": "./images/shows/Edgar_Allan_Poe_Buried_Alive_poster.jpg",
-    "localBackdrop": "./images/shows/Edgar_Allan_Poe_Buried_Alive_backdrop.jpg"
+    "localBackdrop": "./images/shows/Edgar_Allan_Poe_Buried_Alive_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "secrets-of-the-dead-abandoning-the-titanic",
@@ -49165,7 +49179,8 @@
     "parentSeason": 18,
     "parentEpisode": 5,
     "localPoster": "./images/shows/Abandoning_the_Titanic_poster.jpg",
-    "localBackdrop": "./images/shows/Abandoning_the_Titanic_backdrop.jpg"
+    "localBackdrop": "./images/shows/Abandoning_the_Titanic_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "the-day-the-60s-died",
@@ -49179,7 +49194,8 @@
     "description": "PBS documentary on May 1970 — the month four students were shot dead by Ohio National Guardsmen at Kent State University following Nixon's announcement that U.S. troops were invading Cambodia. Through firsthand accounts from students, guardsmen, soldiers, and Nixon White House staff, the film chronicles what has been called the most divisive moment in American life since the Civil War.",
     "seasons": [],
     "localPoster": "./images/shows/The_Day_the_60s_Died_poster.jpg",
-    "localBackdrop": "./images/shows/The_Day_the_60s_Died_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Day_the_60s_Died_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "blindsided",
@@ -49192,7 +49208,8 @@
     "movieTmdbId": 1205754,
     "description": "CNN FlashDocs documentary examining the Tuohy family's account of adopting Michael Oher — the story behind the film The Blind Side — in light of Oher's 2023 court filing that the relationship was a conservatorship, not an adoption, and that he received none of the film's profits despite the family earning millions.",
     "seasons": [],
-    "localPoster": "./images/shows/Blindsided_poster.jpg"
+    "localPoster": "./images/shows/Blindsided_poster.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "nova-rain-bombs",
@@ -49207,7 +49224,8 @@
     "description": "NOVA investigation into the deadly and growing global weather phenomenon of catastrophic downbursts — \"rain bombs\" that have sunk superyachts, brought down planes, and killed festival-goers. From high-tech simulations and drone expeditions into thunderclouds to possible links with climate change, scientists race to understand how these events form and how they might one day be predicted.",
     "seasons": [],
     "localPoster": "./images/shows/Rain_Bombs_poster.jpg",
-    "localBackdrop": "./images/shows/Rain_Bombs_backdrop.jpg"
+    "localBackdrop": "./images/shows/Rain_Bombs_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "secrets-of-the-dead-rise-and-fall-of-the-colosseum",
@@ -49222,7 +49240,8 @@
     "description": "Secrets of the Dead episode on Rome's Colosseum — the jewel of the ancient empire, a feat of engineering that wowed vast crowds with extraordinary battles, pushed the boundaries of technology, and exhibited Rome's wealth and power. Roman leaders spread the Colosseum's design throughout the empire, but just as the structure embodied Rome's power, it also contributed to its downfall.",
     "seasons": [],
     "localPoster": "./images/shows/The_Rise__Fall_of_the_Colosseum_poster.jpg",
-    "localBackdrop": "./images/shows/The_Rise__Fall_of_the_Colosseum_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Rise__Fall_of_the_Colosseum_backdrop.jpg",
+    "dateAdded": "2026-05-03"
   },
   {
     "id": "the-haves-and-the-have-nots",
@@ -49230,7 +49249,13 @@
     "tmdbId": 46441,
     "category": "Drama",
     "localPoster": "./images/shows/The_Haves_and_the_Have_Nots_poster.jpg",
-    "localBackdrop": "./images/shows/The_Haves_and_the_Have_Nots_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Haves_and_the_Have_Nots_backdrop.jpg",
+    "years": "",
+    "collectionNote": "",
+    "stars": [],
+    "description": "",
+    "cast": [],
+    "seasons": []
   },
   {
     "id": "dirk-gently",
@@ -49291,7 +49316,8 @@
       }
     ],
     "localPoster": "./images/shows/Dirk_Gentlys_Holistic_Detective_Agency_poster.jpg",
-    "localBackdrop": "./images/shows/Dirk_Gentlys_Holistic_Detective_Agency_backdrop.jpg"
+    "localBackdrop": "./images/shows/Dirk_Gentlys_Holistic_Detective_Agency_backdrop.jpg",
+    "seasons": []
   },
   {
     "id": "off-campus",
@@ -49337,7 +49363,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Off_Campus_poster.jpg",
-    "localBackdrop": "./images/shows/Off_Campus_backdrop.jpg"
+    "localBackdrop": "./images/shows/Off_Campus_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "life-larry-and-the-pursuit-of-unhappiness",
@@ -49359,7 +49386,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Life_Larry_and_the_Pursuit_of_Unhappiness_An_almost_History_of_America_poster.jpg",
-    "localBackdrop": "./images/shows/Life_Larry_and_the_Pursuit_of_Unhappiness_An_almost_History_of_America_backdrop.jpg"
+    "localBackdrop": "./images/shows/Life_Larry_and_the_Pursuit_of_Unhappiness_An_almost_History_of_America_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-four-seasons",
@@ -49405,7 +49433,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Four_Seasons_poster.jpg",
-    "localBackdrop": "./images/shows/The_Four_Seasons_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Four_Seasons_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "muppets-tonight",
@@ -49463,7 +49492,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Muppets_Tonight_poster.jpg",
-    "localBackdrop": "./images/shows/Muppets_Tonight_backdrop.jpg"
+    "localBackdrop": "./images/shows/Muppets_Tonight_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "resident-alien",
@@ -49517,7 +49547,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Resident_Alien_poster.jpg",
-    "localBackdrop": "./images/shows/Resident_Alien_backdrop.jpg"
+    "localBackdrop": "./images/shows/Resident_Alien_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-afterparty",
@@ -49579,7 +49610,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Afterparty_poster.jpg",
-    "localBackdrop": "./images/shows/The_Afterparty_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Afterparty_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-ropers",
@@ -49621,7 +49653,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Ropers_poster.jpg",
-    "localBackdrop": "./images/shows/The_Ropers_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Ropers_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "house-of-cards",
@@ -49683,7 +49716,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/House_of_Cards_poster.jpg",
-    "localBackdrop": "./images/shows/House_of_Cards_backdrop.jpg"
+    "localBackdrop": "./images/shows/House_of_Cards_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "soap",
@@ -49745,7 +49779,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Soap_poster.jpg",
-    "localBackdrop": "./images/shows/Soap_backdrop.jpg"
+    "localBackdrop": "./images/shows/Soap_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "warehouse-13",
@@ -49787,7 +49822,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Warehouse_13_poster.jpg",
-    "localBackdrop": "./images/shows/Warehouse_13_backdrop.jpg"
+    "localBackdrop": "./images/shows/Warehouse_13_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-kominsky-method",
@@ -49824,7 +49860,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Kominsky_Method_poster.jpg",
-    "localBackdrop": "./images/shows/The_Kominsky_Method_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Kominsky_Method_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-bear",
@@ -49878,7 +49915,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Bear_poster.jpg",
-    "localBackdrop": "./images/shows/The_Bear_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Bear_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "alias-smith-and-jones",
@@ -49905,7 +49943,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Alias_Smith_and_Jones_poster.jpg",
-    "localBackdrop": "./images/shows/Alias_Smith_and_Jones_backdrop.jpg"
+    "localBackdrop": "./images/shows/Alias_Smith_and_Jones_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-sopranos",
@@ -49967,7 +50006,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Sopranos_poster.jpg",
-    "localBackdrop": "./images/shows/The_Sopranos_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Sopranos_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "nichols",
@@ -50009,7 +50049,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Nichols_poster.jpg",
-    "localBackdrop": "./images/shows/Nichols_backdrop.jpg"
+    "localBackdrop": "./images/shows/Nichols_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-practice",
@@ -50054,7 +50095,8 @@
       }
     ],
     "seasons": [],
-    "localPoster": "./images/shows/The_Practice_poster.jpg"
+    "localPoster": "./images/shows/The_Practice_poster.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "action",
@@ -50100,7 +50142,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Action_poster.jpg",
-    "localBackdrop": "./images/shows/Action_backdrop.jpg"
+    "localBackdrop": "./images/shows/Action_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "cpo-sharkey",
@@ -50150,7 +50193,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/C.P.O._Sharkey_poster.jpg",
-    "localBackdrop": "./images/shows/C.P.O._Sharkey_backdrop.jpg"
+    "localBackdrop": "./images/shows/C.P.O._Sharkey_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "emergency",
@@ -50208,7 +50252,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Emergency_poster.jpg",
-    "localBackdrop": "./images/shows/Emergency_backdrop.jpg"
+    "localBackdrop": "./images/shows/Emergency_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "adam-12",
@@ -50240,7 +50285,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Adam-12_poster.jpg",
-    "localBackdrop": "./images/shows/Adam-12_backdrop.jpg"
+    "localBackdrop": "./images/shows/Adam-12_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "the-hollywood-palace",
@@ -50254,7 +50300,8 @@
     "description": "The Hollywood Palace is an hour-long American television variety show that was broadcast weekly on ABC from January 4, 1964 to February 7, 1970. Originally titled The Saturday Night Hollywood Palace, it began as a mid-season replacement for The Jerry Lewis Show, another variety show which had lasted only three months. It was staged in Hollywood at the former Hollywood Playhouse on Vine Street, which was renamed The Hollywood Palace during the show's duration and is today known as Avalon Hollywood. A little-known starlet named Raquel Welch was cast during the first season as the \"Billboard Girl\", who placed the names of the acts on a placard.",
     "cast": [],
     "seasons": [],
-    "localPoster": "./images/shows/The_Hollywood_Palace_poster.jpg"
+    "localPoster": "./images/shows/The_Hollywood_Palace_poster.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "mad-men",
@@ -50316,7 +50363,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Mad_Men_poster.jpg",
-    "localBackdrop": "./images/shows/Mad_Men_backdrop.jpg"
+    "localBackdrop": "./images/shows/Mad_Men_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "wilfred",
@@ -50366,7 +50414,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Wilfred_poster.jpg",
-    "localBackdrop": "./images/shows/Wilfred_backdrop.jpg"
+    "localBackdrop": "./images/shows/Wilfred_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "hacks",
@@ -50416,7 +50465,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Hacks_poster.jpg",
-    "localBackdrop": "./images/shows/Hacks_backdrop.jpg"
+    "localBackdrop": "./images/shows/Hacks_backdrop.jpg",
+    "dateAdded": "2026-06-29"
   },
   {
     "id": "barnaby-jones",
@@ -50448,7 +50498,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Barnaby_Jones_poster.jpg",
-    "localBackdrop": "./images/shows/Barnaby_Jones_backdrop.jpg"
+    "localBackdrop": "./images/shows/Barnaby_Jones_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "archie-bunkers-place",
@@ -50502,7 +50553,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Archie_Bunkers_Place_poster.jpg",
-    "localBackdrop": "./images/shows/Archie_Bunkers_Place_backdrop.jpg"
+    "localBackdrop": "./images/shows/Archie_Bunkers_Place_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "hazel",
@@ -50539,7 +50591,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Hazel_poster.jpg",
-    "localBackdrop": "./images/shows/Hazel_backdrop.jpg"
+    "localBackdrop": "./images/shows/Hazel_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "remember-wenn",
@@ -50601,7 +50654,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Remember_WENN_poster.jpg",
-    "localBackdrop": "./images/shows/Remember_WENN_backdrop.jpg"
+    "localBackdrop": "./images/shows/Remember_WENN_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "breaking-bad",
@@ -50655,7 +50709,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Breaking_Bad_poster.jpg",
-    "localBackdrop": "./images/shows/Breaking_Bad_backdrop.jpg"
+    "localBackdrop": "./images/shows/Breaking_Bad_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "southland",
@@ -50697,7 +50752,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Southland_poster.jpg",
-    "localBackdrop": "./images/shows/Southland_backdrop.jpg"
+    "localBackdrop": "./images/shows/Southland_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "beef",
@@ -50759,7 +50815,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/BEEF_poster.jpg",
-    "localBackdrop": "./images/shows/BEEF_backdrop.jpg"
+    "localBackdrop": "./images/shows/BEEF_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "men-at-work",
@@ -50801,7 +50858,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Men_at_Work_poster.jpg",
-    "localBackdrop": "./images/shows/Men_at_Work_backdrop.jpg"
+    "localBackdrop": "./images/shows/Men_at_Work_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "the-westies",
@@ -50863,7 +50921,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/The_Westies_poster.jpg",
-    "localBackdrop": "./images/shows/The_Westies_backdrop.jpg"
+    "localBackdrop": "./images/shows/The_Westies_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "gracepoint",
@@ -50925,7 +50984,8 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Gracepoint_poster.jpg",
-    "localBackdrop": "./images/shows/Gracepoint_backdrop.jpg"
+    "localBackdrop": "./images/shows/Gracepoint_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   },
   {
     "id": "broadchurch",
@@ -50987,6 +51047,7 @@
     ],
     "seasons": [],
     "localPoster": "./images/shows/Broadchurch_poster.jpg",
-    "localBackdrop": "./images/shows/Broadchurch_backdrop.jpg"
+    "localBackdrop": "./images/shows/Broadchurch_backdrop.jpg",
+    "dateAdded": "2026-07-19"
   }
 ]
