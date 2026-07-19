@@ -50417,5 +50417,576 @@
     "seasons": [],
     "localPoster": "./images/shows/Hacks_poster.jpg",
     "localBackdrop": "./images/shows/Hacks_backdrop.jpg"
+  },
+  {
+    "id": "barnaby-jones",
+    "title": "Barnaby Jones",
+    "category": "Drama",
+    "network": "CBS",
+    "years": "1973-1980",
+    "collectionNote": "",
+    "tmdbId": 587,
+    "stars": [
+      "Buddy Ebsen",
+      "Lee Meriwether",
+      "Mark Shera"
+    ],
+    "description": "Barnaby Jones is a television detective series starring Buddy Ebsen and Lee Meriwether as father- and daughter-in-law who run a private detective firm in Los Angeles. The show ran on CBS from January 28, 1973 to April 3, 1980, beginning as a midseason replacement. William Conrad guest starred as Frank Cannon of Cannon on the first episode of Barnaby Jones, \"Requiem for a Son\" and the two series had a two-part crossover episode in 1975, \"The Deadly Conspiracy\".",
+    "cast": [
+      {
+        "actor": "Buddy Ebsen",
+        "character": "Barnaby Jones"
+      },
+      {
+        "actor": "Lee Meriwether",
+        "character": "Betty Jones"
+      },
+      {
+        "actor": "Mark Shera",
+        "character": "JR Jones"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Barnaby_Jones_poster.jpg",
+    "localBackdrop": "./images/shows/Barnaby_Jones_backdrop.jpg"
+  },
+  {
+    "id": "archie-bunkers-place",
+    "title": "Archie Bunker's Place",
+    "category": "Sitcom",
+    "network": "CBS",
+    "years": "1979-1983",
+    "collectionNote": "",
+    "tmdbId": 4277,
+    "stars": [
+      "Carroll O'Connor",
+      "Danielle Brisebois",
+      "Allan Melvin",
+      "Barbara Meek",
+      "Denise Miller"
+    ],
+    "description": "Archie Bunker's Place is an American sitcom originally broadcast on the CBS network, conceived in 1979 as a spin-off and continuation of All in the Family. While not as popular as its predecessor, the show maintained a large enough audience to last for four seasons, until its cancellation in 1983. In its first season, the show performed so well that it knocked Mork & Mindy out of its new Sunday night time slot.",
+    "cast": [
+      {
+        "actor": "Carroll O'Connor",
+        "character": "Archie Bunker"
+      },
+      {
+        "actor": "Danielle Brisebois",
+        "character": "Stephanie Mills"
+      },
+      {
+        "actor": "Allan Melvin",
+        "character": "Barney Hefner"
+      },
+      {
+        "actor": "Barbara Meek",
+        "character": ""
+      },
+      {
+        "actor": "Denise Miller",
+        "character": "Billie Bunker"
+      },
+      {
+        "actor": "Jason Wingreen",
+        "character": "Harry Snowden"
+      },
+      {
+        "actor": "Bill Quinn",
+        "character": "Mr. Van Ranseleer"
+      },
+      {
+        "actor": "Barry Gordon",
+        "character": "Gary Rabinowitz"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Archie_Bunkers_Place_poster.jpg",
+    "localBackdrop": "./images/shows/Archie_Bunkers_Place_backdrop.jpg"
+  },
+  {
+    "id": "hazel",
+    "title": "Hazel",
+    "category": "Sitcom",
+    "network": "NBC",
+    "years": "1961-1966",
+    "collectionNote": "",
+    "tmdbId": 10492,
+    "stars": [
+      "Shirley Booth",
+      "Bobby Buntrock",
+      "Lynn Borden",
+      "Ray Fulmer"
+    ],
+    "description": "Hazel is an American sitcom about a fictional live-in maid named Hazel Burke and her employers, the Baxters. The five-season, 154-episode series aired in primetime from September 28, 1961 until April 11, 1966 and was produced by Screen Gems. The show aired on NBC for its first four seasons, and then on CBS for its final season. The first season, except for one color episode was in black and white, the remainder in color.\n\nThe show was based on the popular single-panel comic strip by cartoonist Ted Key, which appeared in the Saturday Evening Post.",
+    "cast": [
+      {
+        "actor": "Shirley Booth",
+        "character": "Hazel Burke"
+      },
+      {
+        "actor": "Bobby Buntrock",
+        "character": "Harold Baxter"
+      },
+      {
+        "actor": "Lynn Borden",
+        "character": "Barbara Baxter"
+      },
+      {
+        "actor": "Ray Fulmer",
+        "character": "Steve Baxter"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Hazel_poster.jpg",
+    "localBackdrop": "./images/shows/Hazel_backdrop.jpg"
+  },
+  {
+    "id": "remember-wenn",
+    "title": "Remember WENN",
+    "category": "Comedy",
+    "network": "AMC",
+    "years": "1996-1998",
+    "collectionNote": "",
+    "tmdbId": 10479,
+    "stars": [
+      "Tom Beckett",
+      "Carolee Carmello",
+      "George Hall",
+      "Margaret Hall",
+      "Melinda Mullins"
+    ],
+    "description": "The personal and professional lives of  the staff of fictional Pittsburgh radio station WENN in the early 1940s, before and during World War II.",
+    "cast": [
+      {
+        "actor": "Tom Beckett",
+        "character": "Mr. Foley"
+      },
+      {
+        "actor": "Carolee Carmello",
+        "character": "Maple LaMarsh"
+      },
+      {
+        "actor": "George Hall",
+        "character": "Tom Eldridge"
+      },
+      {
+        "actor": "Margaret Hall",
+        "character": "Gertie Reece"
+      },
+      {
+        "actor": "Melinda Mullins",
+        "character": "Hilary Booth"
+      },
+      {
+        "actor": "Christopher Murney",
+        "character": "Mackie Bloom"
+      },
+      {
+        "actor": "Amanda Naughton",
+        "character": "Betty Roberts"
+      },
+      {
+        "actor": "Hugh O'Gorman",
+        "character": "Jeff Singer"
+      },
+      {
+        "actor": "Kevin O'Rourke",
+        "character": "Scott Sherwood"
+      },
+      {
+        "actor": "Mary Stout",
+        "character": "Eugenia Bremer"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Remember_WENN_poster.jpg",
+    "localBackdrop": "./images/shows/Remember_WENN_backdrop.jpg"
+  },
+  {
+    "id": "breaking-bad",
+    "title": "Breaking Bad",
+    "category": "Drama",
+    "network": "AMC",
+    "years": "2008-2013",
+    "collectionNote": "",
+    "tmdbId": 1396,
+    "stars": [
+      "Bryan Cranston",
+      "Aaron Paul",
+      "Anna Gunn",
+      "RJ Mitte",
+      "Dean Norris"
+    ],
+    "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+    "cast": [
+      {
+        "actor": "Bryan Cranston",
+        "character": "Walter White"
+      },
+      {
+        "actor": "Aaron Paul",
+        "character": "Jesse Pinkman"
+      },
+      {
+        "actor": "Anna Gunn",
+        "character": "Skyler White"
+      },
+      {
+        "actor": "RJ Mitte",
+        "character": "Walter White Jr."
+      },
+      {
+        "actor": "Dean Norris",
+        "character": "Hank Schrader"
+      },
+      {
+        "actor": "Betsy Brandt",
+        "character": "Marie Schrader"
+      },
+      {
+        "actor": "Bob Odenkirk",
+        "character": "Saul Goodman"
+      },
+      {
+        "actor": "Jonathan Banks",
+        "character": "Mike Ehrmantraut"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Breaking_Bad_poster.jpg",
+    "localBackdrop": "./images/shows/Breaking_Bad_backdrop.jpg"
+  },
+  {
+    "id": "southland",
+    "title": "Southland",
+    "category": "Drama",
+    "network": "TNT",
+    "years": "2009-2013",
+    "collectionNote": "",
+    "tmdbId": 17611,
+    "stars": [
+      "Ben McKenzie",
+      "Michael Cudlitz",
+      "Regina King",
+      "Shawn Hatosy",
+      "C. Thomas Howell"
+    ],
+    "description": "A raw and authentic look into the Los Angeles crime scene, going far inside the lives of cops, criminals, victims and their families. The show centers on four main characters: Officer John Cooper, a seasoned cop who will have to prove himself again after recovering from surgery; Officer Ben Sherman, who still has much to learn after recently completing his training rotation; Detective Lydia Adams, whose unending caseload hits closer to home; and Sammy Bryant, a former detective who decided to go back to being a uniform cop after the traumatic death of his partner.",
+    "cast": [
+      {
+        "actor": "Ben McKenzie",
+        "character": "Ben Sherman"
+      },
+      {
+        "actor": "Michael Cudlitz",
+        "character": "Officer John Cooper"
+      },
+      {
+        "actor": "Regina King",
+        "character": "Detective Lydia Adams"
+      },
+      {
+        "actor": "Shawn Hatosy",
+        "character": "Officer Sammy Bryant"
+      },
+      {
+        "actor": "C. Thomas Howell",
+        "character": "Officer Dewey Dudek"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Southland_poster.jpg",
+    "localBackdrop": "./images/shows/Southland_backdrop.jpg"
+  },
+  {
+    "id": "beef",
+    "title": "BEEF",
+    "category": "Drama",
+    "network": "Netflix",
+    "years": "2023-PRESENT",
+    "collectionNote": "",
+    "tmdbId": 154385,
+    "stars": [
+      "Oscar Isaac",
+      "Carey Mulligan",
+      "Cailee Spaeny",
+      "Charles Melton",
+      "Youn Yuh-jung"
+    ],
+    "description": "A road rage incident between two strangers — a failing contractor and an unfulfilled entrepreneur — sparks a feud that brings out their darkest impulses.",
+    "cast": [
+      {
+        "actor": "Oscar Isaac",
+        "character": "Joshua Martín"
+      },
+      {
+        "actor": "Carey Mulligan",
+        "character": "Lindsay Crane-Martín"
+      },
+      {
+        "actor": "Cailee Spaeny",
+        "character": "Ashley Miller"
+      },
+      {
+        "actor": "Charles Melton",
+        "character": "Austin Davis"
+      },
+      {
+        "actor": "Youn Yuh-jung",
+        "character": "Chairwoman Park"
+      },
+      {
+        "actor": "Song Kang-ho",
+        "character": "Dr. Kim"
+      },
+      {
+        "actor": "Seoyeon Jang",
+        "character": "Eunice"
+      },
+      {
+        "actor": "William Fichtner",
+        "character": "Troy"
+      },
+      {
+        "actor": "BM",
+        "character": "Woosh"
+      },
+      {
+        "actor": "Mikaela Hoover",
+        "character": "Ava"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/BEEF_poster.jpg",
+    "localBackdrop": "./images/shows/BEEF_backdrop.jpg"
+  },
+  {
+    "id": "men-at-work",
+    "title": "Men at Work",
+    "category": "Comedy",
+    "network": "TBS",
+    "years": "2012-2014",
+    "collectionNote": "",
+    "tmdbId": 42548,
+    "stars": [
+      "James Lesure",
+      "Danny Masterson",
+      "Michael Cassidy",
+      "Adam Busch",
+      "Meredith Hagner"
+    ],
+    "description": "Men at Work is an American comedy series that airs on TBS. The series was created by Breckin Meyer and stars Danny Masterson, Michael Cassidy, Adam Busch, James Lesure and Meredith Hagner. The series premiered on May 24, 2012 at 10 pm. TBS second season premiered on April 4, 2013 with another 10 episode season.",
+    "cast": [
+      {
+        "actor": "James Lesure",
+        "character": "Gibbs"
+      },
+      {
+        "actor": "Danny Masterson",
+        "character": "Milo Foster"
+      },
+      {
+        "actor": "Michael Cassidy",
+        "character": "Tyler"
+      },
+      {
+        "actor": "Adam Busch",
+        "character": "Neal"
+      },
+      {
+        "actor": "Meredith Hagner",
+        "character": "Amy"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Men_at_Work_poster.jpg",
+    "localBackdrop": "./images/shows/Men_at_Work_backdrop.jpg"
+  },
+  {
+    "id": "the-westies",
+    "title": "The Westies",
+    "category": "Drama",
+    "network": "MGM+",
+    "years": "2026-PRESENT",
+    "collectionNote": "",
+    "tmdbId": 286709,
+    "stars": [
+      "J.K. Simmons",
+      "Titus Welliver",
+      "Tom Brittney",
+      "Stanley Morgan",
+      "Sarah Bolger"
+    ],
+    "description": "As the Javits Center construction project ignites a battle for profit in early 1980s Hell's Kitchen, a generational rift threatens the uneasy peace between violent Irish gang the Westies and the Mafia, and draws FBI heat.",
+    "cast": [
+      {
+        "actor": "J.K. Simmons",
+        "character": "Eamon Sweeney"
+      },
+      {
+        "actor": "Titus Welliver",
+        "character": "Glenn Keenan"
+      },
+      {
+        "actor": "Tom Brittney",
+        "character": "James 'Jimmy' Roarke"
+      },
+      {
+        "actor": "Stanley Morgan",
+        "character": "Mickey Flanagan"
+      },
+      {
+        "actor": "Sarah Bolger",
+        "character": "Bridget Walsh"
+      },
+      {
+        "actor": "Jessica Frances Dukes",
+        "character": "Agent Birdie Polk"
+      },
+      {
+        "actor": "Hamish Allan-Headley",
+        "character": "John Gotti"
+      },
+      {
+        "actor": "Vincent Walsh",
+        "character": "Eddie Breen"
+      },
+      {
+        "actor": "Allen Leech",
+        "character": "Brendan Cahill"
+      },
+      {
+        "actor": "Hilary McCormack",
+        "character": "Erin Malone"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/The_Westies_poster.jpg",
+    "localBackdrop": "./images/shows/The_Westies_backdrop.jpg"
+  },
+  {
+    "id": "gracepoint",
+    "title": "Gracepoint",
+    "category": "Drama",
+    "network": "FOX",
+    "years": "2014",
+    "collectionNote": "",
+    "tmdbId": 61405,
+    "stars": [
+      "David Tennant",
+      "Anna Gunn",
+      "Michael Peña",
+      "Virginia Kull",
+      "Jacki Weaver"
+    ],
+    "description": "When a young boy is found dead on an idyllic beach, a major police investigation gets underway in the small California seaside town where the tragedy occurred. Soon deemed a homicide, the case sparks a media frenzy, which throws the boy's family into further turmoil and upends the lives of all of the town's residents.",
+    "cast": [
+      {
+        "actor": "David Tennant",
+        "character": "Emmett Carver"
+      },
+      {
+        "actor": "Anna Gunn",
+        "character": "Ellie Miller"
+      },
+      {
+        "actor": "Michael Peña",
+        "character": "Mark Solano"
+      },
+      {
+        "actor": "Virginia Kull",
+        "character": "Beth Solano"
+      },
+      {
+        "actor": "Jacki Weaver",
+        "character": "Susan Wright"
+      },
+      {
+        "actor": "Josh Hamilton",
+        "character": "Joe Miller"
+      },
+      {
+        "actor": "Kevin Rankin",
+        "character": "Paul Coates"
+      },
+      {
+        "actor": "Kevin Zegers",
+        "character": "Owen Burke"
+      },
+      {
+        "actor": "Jessica Lucas",
+        "character": "Renee Clemons"
+      },
+      {
+        "actor": "Stephen Louis Grush",
+        "character": "Vince Novik"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Gracepoint_poster.jpg",
+    "localBackdrop": "./images/shows/Gracepoint_backdrop.jpg"
+  },
+  {
+    "id": "broadchurch",
+    "title": "Broadchurch",
+    "category": "Drama",
+    "network": "ITV",
+    "years": "2013-2017",
+    "collectionNote": "",
+    "tmdbId": 1427,
+    "stars": [
+      "David Tennant",
+      "Olivia Colman",
+      "Julie Hesmondhalgh",
+      "Mark Bazeley",
+      "Lenny Henry"
+    ],
+    "description": "The murder of a young boy in a small coastal town brings a media frenzy, which threatens to tear the community apart.",
+    "cast": [
+      {
+        "actor": "David Tennant",
+        "character": "DI Alec Hardy"
+      },
+      {
+        "actor": "Olivia Colman",
+        "character": "DS Ellie Miller"
+      },
+      {
+        "actor": "Julie Hesmondhalgh",
+        "character": "Trish Winterman"
+      },
+      {
+        "actor": "Mark Bazeley",
+        "character": "Jim Atwood"
+      },
+      {
+        "actor": "Lenny Henry",
+        "character": "Ed Burnett"
+      },
+      {
+        "actor": "Sebastian Armesto",
+        "character": "Clive Lucas"
+      },
+      {
+        "actor": "Georgina Campbell",
+        "character": "DC Katie Harford"
+      },
+      {
+        "actor": "Sarah Parish",
+        "character": "Cath Atwood"
+      },
+      {
+        "actor": "Jodie Whittaker",
+        "character": "Beth Latimer"
+      },
+      {
+        "actor": "Andrew Buchan",
+        "character": "Mark Latimer"
+      }
+    ],
+    "seasons": [],
+    "localPoster": "./images/shows/Broadchurch_poster.jpg",
+    "localBackdrop": "./images/shows/Broadchurch_backdrop.jpg"
   }
 ]
